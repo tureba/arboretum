@@ -7,7 +7,7 @@
  * The GBDI-ICMC-USP Software License Version 1.0
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
- * Ciências Matemáticas e de Computação, University of São Paulo -
+ * CiÃªncias MatemÃ¡ticas e de ComputaÃ§Ã£o, University of SÃ£o Paulo -
  * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
@@ -26,8 +26,8 @@
  * 3. The end-user documentation included with the redistribution,
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
- *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases
+ *        de Dados e Imagens, Instituto de CiÃªncias MatemÃ¡ticas e de
+ *        ComputaÃ§Ã£o, University of SÃ£o Paulo - Brazil (the Databases
  *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
@@ -65,7 +65,7 @@
 * This file defines the class stGHTree.
 * $Author: marcos $
 *
-* @author Ives Renê Venturini Pola (ives@icmc.usp.br)
+* @author Ives RenÃª Venturini Pola (ives@icmc.usp.br)
 * @author Marcos Rodrigues Vieira (mrvieira@icmc.usp.br)
 */
 // Copyright (c) 2004 GBDI-ICMC-USP
@@ -94,7 +94,7 @@
 * allows the build of automated test programs for other metric trees
 * implemented by this library.
 *
-* @author Ives Renê Venturini Pola (ives@icmc.usp.br)
+* @author Ives RenÃª Venturini Pola (ives@icmc.usp.br)
 * @author Marcos Rodrigues Vieira (mrvieira@icmc.usp.br)
 * @todo Finish the implementation (some queries).
 * @version 1.0

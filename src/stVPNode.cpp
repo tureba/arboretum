@@ -5,7 +5,7 @@
 *
 * @version 1.0
 * $Date: 2004/06/01 17:29:46 $
-* @author Ives Renê Venturini Pola (ives@icmc.usp.br)
+* @author Ives RenÃª Venturini Pola (ives@icmc.usp.br)
 */
 // Copyright (c) 2004 GBDI-ICMC-USP
 #include <arboretum/stVPNode.h>
