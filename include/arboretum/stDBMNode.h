@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -149,7 +149,7 @@ class stDBMNode{
          //stCount NEntries;
 
          /**
-         * Radius of the sub-tree. This attribute is stored within the object. 
+         * Radius of the sub-tree. This attribute is stored within the object.
          */
          //stDistance Radius;
 
@@ -382,7 +382,7 @@ class stDBMNode{
       * Returns the amount of the free space in this node.
       */
       stSize GetFree(){
-         return Page->GetPageSize() - this->GetUsed();      
+         return Page->GetPageSize() - this->GetUsed();
       }//end GetFree()
 
       /**
@@ -566,7 +566,7 @@ class stDBMMemNode{
 
          return Entries[idx].NEntries;
       }//end GetNEntries
- 
+
       /**
       * Sets the number of entries that this subtree has.
       *
@@ -715,7 +715,7 @@ class stDBMMemNode{
       * Entries of this node.
       */
       stDBMMemNodeEntry * Entries;
-      
+
       /**
       * Maximum size of the node in bytes.
       */
@@ -725,7 +725,7 @@ class stDBMMemNode{
 		* Used size of the node in bytes.
 		*/
 		stSize UsedSize;
-		
+
 		/**
 		* Resizes the entries vector to hold more entries. It will at 16
 		* positions to the capacity for each call.
@@ -767,7 +767,7 @@ class stDBMShrinkNode{
       * @warning This method will remove entries from node.
       */
       stDBMShrinkNode(stDBMNode * node);
-		
+
       /**
       * Creates a new stSlimMemLeafNode instance from a single object.
       *
@@ -877,7 +877,7 @@ class stDBMShrinkNode{
       }//end LastRadius
 
       /**
-      * Returns the distance of the last object from the 
+      * Returns the distance of the last object from the
       * representative of this node.
       */
       stDistance LastDistance(){
@@ -1028,7 +1028,7 @@ class stDBMShrinkNode{
 
          // Does it fit ?
          entrySize = obj->GetSerializedSize() + stDBMNode::GetEntryOverhead();
-         // for subtrees. 
+         // for subtrees.
          if (pageID){
             entrySize += sizeof(stDistance);  // Add the radius
             #ifdef __stDBMNENTRIES__
@@ -1109,12 +1109,12 @@ class stDBMShrinkNode{
       * Current capacity of this node.
       */
       stCount capacity;
-      
+
       /**
       * Entries of this node.
       */
       stDBMShrinkNodeEntry * Entries;
-      
+
       /**
       * Maximum size of the node in bytes.
       */
@@ -1124,11 +1124,11 @@ class stDBMShrinkNode{
       * Used size of the node in bytes.
       */
       stSize usedSize;
-		
+
       /**
       * Point to the source leafNode.
       */
-      stDBMNode * srcNode;	
+      stDBMNode * srcNode;
 
       /**
       * Returns the insert position for a given distance.
@@ -1138,14 +1138,14 @@ class stDBMShrinkNode{
       * @todo This code needs optimizations. I suggest a binary search
       * implementation.
       */
-      int InsertPosition(stDistance distance); 
-		
+      int InsertPosition(stDistance distance);
+
       /**
       * Resizes the entries vector to hold more entries. It will at 16
       * positions to the capacity for each call.
       */
       void Resize(stCount incSize = 16);
-      
+
 };//end stDBMShrinkNode
 
 // Include implementation

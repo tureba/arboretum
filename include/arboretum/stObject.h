@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -100,7 +100,7 @@ class stObject{
       * @note This constructor is required to fulfil the stObject interface.
       */
       stObject(){}
-   
+
       /**
       * This method must create a clone (copy) of this class. The new instance must have
       * the same behaviour of the original instance but can not keep any links to its creator
@@ -180,7 +180,7 @@ class stObject{
       * @note This method is required to fulfil the stObject interface.
       */
       virtual void Unserialize(const stByte * data, stSize datasize) = 0;
-      
+
       /**
       * This method must return something that identifies uniquely the
       * object.

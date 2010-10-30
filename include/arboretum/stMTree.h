@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -64,7 +64,7 @@
 * This file defines the class stMTree.
 *
 * @version 1.0
-* $Revision: 1.7 $                   
+* $Revision: 1.7 $
 * $Date: 2005/03/13 19:32:48 $
 * $Author: marcos $
 * @author Marcos Rodrigues Vieira (mrvieira@icmc.usp.br)
@@ -505,7 +505,7 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
          * is not implemented yet).
          */
          char Magic[4];
-      
+
          /**
          * Split method.
          */
@@ -520,12 +520,12 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
          * Choose method
          */
          int ChooseMethod;
-      
+
          /**
          * The root of the M-tree
          */
          stPageID Root;
-      
+
          /**
          * Minimum percentage of objects in a node.
          */
@@ -540,17 +540,17 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
          * The height of the tree
          */
          stCount Height;
-      
+
          /**
          * Total number of records
          */
          stCount ObjectCount;
-         
+
          /**
          * Total number of nodes.
          */
          stSize NodeCount;
-      }stMHeader;   
+      }stMHeader;
 
       /**
       * These constants are used to define the choose subtree method.
@@ -566,7 +566,7 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
          * Minimum overlap.
          */
          MIN_OVERLAP,
-         
+
          /**
          * ???
          */
@@ -1080,7 +1080,7 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
       * <P>This method is called by the destructor.
       */
       void FlushHeader();
-      
+
       /**
       * Creates a new empty page and updates the node counter.
       */
@@ -1088,7 +1088,7 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
          Header->NodeCount++;
          return this->myPageManager->GetNewPage();
       }//end NewPage
-      
+
       /**
       * Disposes a given page and updates the page counter.
       */
@@ -1263,7 +1263,7 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
       */
       void SplitIndex(stMIndexNode * oldNode, stMIndexNode * newNode,
             ObjectType * newObj1, stDistance newRadius1, stPageID newNodeID1,
-            ObjectType * newObj2, stDistance newRadius2, stPageID newNodeID2, 
+            ObjectType * newObj2, stDistance newRadius2, stPageID newNodeID2,
             ObjectType * prevRep,
             stSubtreeInfo & promo1, stSubtreeInfo & promo2);
 
@@ -1340,7 +1340,7 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
       */
       void ObjectIntersectionsRecursive(stPageID pageID, ObjectType * obj,
             int level, stTreeInformation * info);
-            
+
 };//end stMTree
 
 // Include implementation

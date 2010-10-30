@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -318,7 +318,7 @@ class stGenericEntry {
       * Link for the other Entry in the List.
       */
       stGenericEntry * Next;
-      
+
 };//end stGenericEntry
 
 
@@ -423,7 +423,7 @@ class stGenericPriorityQueue{
       stCount GetSize(){
          return this->Occupation;
       }//end GetSize
-      
+
       /**
       * Returns if this queue is empty.
       */
@@ -572,7 +572,7 @@ class stGenericPriorityHeap{
       int GetSize(){
          return Size;
       }//end GetSize
-      
+
    private:
 
       /**
@@ -650,7 +650,7 @@ class stGenericPriorityHeap{
       * Increment.
       */
       int Increment;
-      
+
       /**
       * Returns the id of the child which has the smaller key value.
       *
@@ -679,7 +679,7 @@ class stGenericPriorityHeap{
             return -1;
          }//end if
       }//end GetMinChild
-   
+
       /**
       * Expands the capacity of this heap when necessary by adding increment
       * entries to the current capacity.

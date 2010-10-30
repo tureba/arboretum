@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -115,7 +115,7 @@ stDFLeafNode * stDFMemLeafNode< ObjectType >::ReleaseNode(){
       obj = this->ObjectAt(idx);
       // insert this entry in srcLeafNode.
       insertIdx = this->srcLeafNode->AddEntry(obj->GetSerializedSize(), obj->Serialize());
-      
+
       // if there is some problem in insertion.
       #ifdef __stDEBUG__
          if (insertIdx < 0){

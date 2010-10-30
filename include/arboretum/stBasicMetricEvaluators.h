@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -595,7 +595,7 @@ class stBasicLEditMetricEvaluator: public stBasicMetricEvaluator < ObjectType > 
       * @copydoc stMetricEvaluator::GetDistance()
       */
       virtual stDistance GetDistance(ObjectType * o1, ObjectType * o2){
-         
+
          // Statistic support
          this->UpdateDistanceCount();
          return LEdit(*o2, *o1);
@@ -611,7 +611,7 @@ class stBasicLEditMetricEvaluator: public stBasicMetricEvaluator < ObjectType > 
 
          return d * d;
       }//end GetDistance2
-      
+
    private:
       /**
       * Type of the diff matrix.
@@ -621,7 +621,7 @@ class stBasicLEditMetricEvaluator: public stBasicMetricEvaluator < ObjectType > 
       /**
       * The diff matrix.
       */
-      tMatrix diff;      
+      tMatrix diff;
 
       /**
       * Returns the minimum value between 3 values.
@@ -654,7 +654,7 @@ class stBasicLEditMetricEvaluator: public stBasicMetricEvaluator < ObjectType > 
       * @return The distance beween wShort and wLong.
       */
       stDistance LEdit(ObjectType & si, ObjectType & sj);
-      
+
 };//end stBasicLEditMetricEvaluator
 
 // Include implementation

@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -151,7 +151,7 @@ bool stGHTree<ObjectType, EvaluatorType>::Add(tObject * obj){
    // There is a root node.
    // Allocate a new object.
    tmp = new tObject();
-         
+
    // Store the parent.
    ParentPage = NULL;
    ParentNode = NULL;
@@ -338,7 +338,7 @@ void stGHTree<ObjectType, EvaluatorType>::RangeQuery(stPageID pageID,
       delete currNode;
       this->myPageManager->ReleasePage(currPage);
    }//end if
-}//end stGHTree<ObjectType><EvaluatorType>::RangeQuery 
+}//end stGHTree<ObjectType><EvaluatorType>::RangeQuery
 
 //------------------------------------------------------------------------------
 template <class ObjectType, class EvaluatorType>

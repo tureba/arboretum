@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -352,7 +352,7 @@ void stGenericPriorityHeap<ObjectType>::Add(tObject * object, stPageID pageID,
    if (Size == MaxSize){
       Resize();
    }//end if
-   
+
    child = Size;
    parent = (child - 1) / 2;
    // Do not enable complete boolena evaluation or it will fail.
@@ -512,7 +512,7 @@ bool stGenericPriorityHeap<ObjectType>::Get(tObject * & object, stPageID & pageI
             child = GetMinChild(parent);
          }//end while
       }//end if
-      
+
       // Put it in place.
       Entries[parent].PageID = Entries[Size].PageID;
       Entries[parent].Object = Entries[Size].Object;
@@ -528,14 +528,14 @@ bool stGenericPriorityHeap<ObjectType>::Get(tObject * & object, stPageID & pageI
    }else{
       // Empty!
       return false;
-   }//end if         
+   }//end if
 }//end stGenericPriorityHeap::Get
 
 //----------------------------------------------------------------------------
 template < class ObjectType >
 void stGenericPriorityHeap<ObjectType>::Resize(){
    tGenericEntry * newEntries;
-   
+
    // New entry vector
    newEntries = new tGenericEntry[MaxSize + Increment];
    memcpy(newEntries, Entries, sizeof(tGenericEntry) * Size);

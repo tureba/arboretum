@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -114,7 +114,7 @@ stPage * stMemoryPageManager::GetHeaderPage(){
    }//end if
 
    // Update Counters
-   UpdateReadCounter(); 
+   UpdateReadCounter();
 
    // It will always be the first page.
    return Pages.at(0);
@@ -130,7 +130,7 @@ stPage * stMemoryPageManager::GetPage(stPageID pageid){
    #endif //__stDEBUG__
 
    // Update statistics
-   UpdateReadCounter(); 
+   UpdateReadCounter();
 
    return Pages.at(pageid);
 }//end stMemoryPageManager::GetPage
@@ -147,7 +147,7 @@ stPage * stMemoryPageManager::GetNewPage(){
    stPageID freepage;
 
    // Update Counters
-   UpdateWriteCounter(); 
+   UpdateWriteCounter();
 
    // Check stack
    if (FreePages.empty()){
@@ -169,7 +169,7 @@ stPage * stMemoryPageManager::GetNewPage(){
 void stMemoryPageManager::WritePage(stPage * page){
 
    // Update statistics
-   UpdateWriteCounter(); 
+   UpdateWriteCounter();
 }//end stMemoryPageManager::WritePage
 
 //------------------------------------------------------------------------------

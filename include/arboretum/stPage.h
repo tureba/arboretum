@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -193,7 +193,7 @@ class stPage{
       * The ID of this page.
       */
       stPageID PageID;
-      
+
 };//end stPage
 
 //----------------------------------------------------------------------------
@@ -332,7 +332,7 @@ class stLockablePage: public stPage{
       * Size of the locked segment.
       */
       stSize LockSize;
-      
+
 };//end stLockablePage
 
 //----------------------------------------------------------------------------
@@ -361,14 +361,14 @@ class stPageAllocator{
       stPageAllocator(stSize pageSize){
          this->pageSize = pageSize;
       }//end pageSize
-      
+
       /**
       * Creates new stPage instances.
       */
       stPage * Create(){
          return new stPage(pageSize, 0);
       }//end Create
-      
+
       /**
       * Disposes the given stPage instance.
       *
@@ -384,7 +384,7 @@ class stPageAllocator{
       * Size of the pages to be created.
       */
       stSize pageSize;
-        
+
 };//end stPageAllocator
 
 #endif //__STPAGE_H

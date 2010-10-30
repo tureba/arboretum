@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -123,7 +123,7 @@ class stPlainDiskPageManager: public stPageManager{
       * not a valid disk page manager file.
       */
       stPlainDiskPageManager(const char * fName);
-      
+
       /**
       * Disposes this page and free all allocated resources.
       */
@@ -239,11 +239,11 @@ class stPlainDiskPageManager: public stPageManager{
       /**
       * Returns the minimum size of a page. The size of the header page is
       * always ignored since it may be smaller than others.
-      */ 
+      */
       virtual stSize GetMinimumPageSize(){
          return header->PageSize;
       }//end GetMinimumPageSize
-      
+
       /**
       * This method allows users to enable/disable system I/O cache in certain
       * OS. If this operation is not supported, this implementation does nothing.
@@ -253,7 +253,7 @@ class stPlainDiskPageManager: public stPageManager{
       void SetSystemCache(bool enabled){
          // Nothing to do.. at least for now.
       }//end SetSystemCache
-      
+
    private:
       #pragma pack(1)
       /**
@@ -264,18 +264,18 @@ class stPlainDiskPageManager: public stPageManager{
          * Magic header. Always "DPM1".
          */
          char Magic[4];
-         
+
          /**
          * Size of each page in bytes.
          */
          stSize PageSize;
-         
+
          /**
          * Number of pages allocated including deleted ones and the header pages.
          * In other words, it is the id of last allocated page.
          */
          stSize PageCount;
-         
+
          /**
          * Number of used pages.
          */
@@ -284,11 +284,11 @@ class stPlainDiskPageManager: public stPageManager{
          /**
          * The page ID of the first available page. It is used
          * to manage the
-         */         
+         */
          stPageID Available;
       };//end tHeader
       #pragma pack()
-      
+
       /**
       * Type of the instance cache used by this disk page manager.
       */
@@ -299,12 +299,12 @@ class stPlainDiskPageManager: public stPageManager{
       * page will not use the cache because it has a different size.
       */
       stPageInstanceCache * pageInstanceCache;
-      
+
       /**
       * File descriptor.
       */
       int fd;
-      
+
       /**
       * The header of this instance. It points to the headerPage's
       * internal buffer.
@@ -315,7 +315,7 @@ class stPlainDiskPageManager: public stPageManager{
       * Header page cache. To make the comparison fair, this cache
       * is not used to avoid read/write operations. It is used to keep
       * the page manager's file header loaded.
-      */      
+      */
       stLockablePage * headerPage;
 
       /**
@@ -325,7 +325,7 @@ class stPlainDiskPageManager: public stPageManager{
       * @param pagesize the size of the page.
       */
       void NewHeader(tHeader * header, stSize pagesize);
-      
+
       /**
       * Validates a header.
       *
@@ -333,7 +333,7 @@ class stPlainDiskPageManager: public stPageManager{
       * @return True for a valid header of false otherwise.
       */
       bool IsValidHeader(tHeader * header);
-      
+
       /**
       * Converts a page ID to the file offset.
       *
@@ -343,7 +343,7 @@ class stPlainDiskPageManager: public stPageManager{
       stSize PageID2Offset(stPageID pageid){
          return pageid * header->PageSize;
       }//end PageID2Offset
-      
+
 };//end stPlainDiskPageManager
 
 #endif //__STPLAINDISKPAGEMANAGER_H

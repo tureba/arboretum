@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -302,7 +302,7 @@ class stMetricAccessMethod{
       EvaluatorType * GetMetricEvaluator(){
          return myMetricEvaluator;
       }//end GetMetricEvaluator
-      
+
       /**
       * This enumeration defines the common query hint types that all
       * metric trees must implement.
@@ -319,7 +319,7 @@ class stMetricAccessMethod{
          */
          QHT_NONE = 0
       };//end stQueryHintType
-      
+
       /**
       * Creates the proper query hint for a given operation type. A query hint instance
       * may be required to perform certain types of operations.
@@ -331,7 +331,7 @@ class stMetricAccessMethod{
       * @return An instance of the proper query hint of a given type for NULL for fail.
       * @see stCommonQueryHintType
       * @warning Each metric tree has its own implementation for each query hint type. DO NOT
-      * USE a hint created by a tree as a parameter for 
+      * USE a hint created by a tree as a parameter for
       */
       virtual stQueryHint * CreateQueryHint(int type){
          return NULL;
@@ -341,11 +341,11 @@ class stMetricAccessMethod{
       * The metric evaluator used by this metric tree.
       */
       tMetricEvaluator * myMetricEvaluator;
-      
+
       /**
       * Creates a new metric access method.
       *
-      * <p>The <i>eval</i> is the metric evaluator used by this class. 
+      * <p>The <i>eval</i> is the metric evaluator used by this class.
       * This class will not claim the ownership of the given evaluator
       * instance. In other words, it WILL NEVER BE DISPOSED by this class.
       *

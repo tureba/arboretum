@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -86,7 +86,7 @@ using namespace std;
 * This class defines the basic interface for all page caches used by page manager
 * implementations.
 *
-* <p>A cache is not suposed to destroy, create, read or write pages because it 
+* <p>A cache is not suposed to destroy, create, read or write pages because it
 * acts as an associative memory only. In other words, the hard work must be
 * performed by the page manager.
 *
@@ -102,7 +102,7 @@ using namespace std;
 class stPageCache{
    public:
       /**
-      * Returns a page with a given page id. 
+      * Returns a page with a given page id.
       *
       * @param pageID The given page id.
       * @return The desired page or NULL it the page could not be found.
@@ -110,7 +110,7 @@ class stPageCache{
       * be removed from the cache. Be aware of that.
       */
       virtual stPage * Get(stPageID pageID) = 0;
-      
+
       /**
       * Notifies the cache that a given page was modified. If the page is not
       * registered in the cache, this method does nothing.
@@ -122,7 +122,7 @@ class stPageCache{
       * that must be removed from the cache.
       */
       virtual stPage * Add(stPage * page, bool & modified) = 0;
-            
+
       /**
       * Removes a page from the cache. This method must be used by page managers
       * to flush all pages in the cache before its destruction.

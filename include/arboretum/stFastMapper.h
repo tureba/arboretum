@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -121,7 +121,7 @@ template <class T> T Euclidean2(const T * a, const T * b, int n){
 * @version 1.0
 * @ingroup fastmap
 * @warning This class template used by stFastMapper and should not be used by
-* other classes. 
+* other classes.
 */
 template <class ObjectType>
 class stFastMapImage{
@@ -145,7 +145,7 @@ class stFastMapImage{
 
       /**
       * Disposes this instance. The object associated with this image will
-      * be deleted if this instance owns it. 
+      * be deleted if this instance owns it.
       */
       virtual ~stFastMapImage(){
 
@@ -267,7 +267,7 @@ class stFastMapImage{
 //------------------------------------------------------------------------------
 /**
 * This class implements the FastMap algorithm as an object mapper. In other words,
-* it can calculate the map (FastMap image) of a single object according to a 
+* it can calculate the map (FastMap image) of a single object according to a
 * predefined set of pivots. The most common use of the stFastMapper can be resumed
 * as follows:
 *     - create an instance of stFastMapper;
@@ -362,7 +362,7 @@ class stFastMapper{
       int GetDimensions(){
          return Dim;
       }//end GetDimensions
-      
+
       /**
       * Chooses the fastmap pivos in a set of candidates. The number of candidates
       * must be at least (do not forget to put the value here).

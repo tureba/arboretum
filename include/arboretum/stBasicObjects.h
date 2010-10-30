@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -265,9 +265,9 @@ class stBasicArrayObject : public stObject{
       * @copydoc stObject::IsEqual()
       */
       bool IsEqual(stObject * obj);
-      
+
    private:
-   
+
       /**
       * Data array. It points to a position in the TrueData array.
       */
@@ -543,7 +543,7 @@ class stBasicStringObject{
       bool IsEqual(stBasicStringObject * obj);
 
    private:
-   
+
       /**
       * Data array. It points to a position in the TrueData array.
       */
@@ -557,7 +557,7 @@ class stBasicStringObject{
       /**
       * This is the true data array. Both OID and Data points
       * to positions in this array. It contains the OID and
-      * Data array. It is used for the Serialized method. 
+      * Data array. It is used for the Serialized method.
       */
       stByte * TrueData;
 
@@ -605,7 +605,7 @@ class stBasicStringObject{
             *OID = oldOid;
          }//end if
       }//end SetSize
-      
+
 };//end stBasicStringObject
 
 // Include implementation

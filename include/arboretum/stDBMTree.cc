@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -734,7 +734,7 @@ void stDBMLogicNode<ObjectType, EvaluatorType>::Distribute(
    // Get the index of representatives.
    idxRep0 = GetRepresentativeIndex(0);
    idxRep1 = GetRepresentativeIndex(1);
-   
+
    // Get the distance from the 2 representatives.
    distanceReps = DMat[idxRep0][idxRep1];
 
@@ -1578,7 +1578,7 @@ stCount stDBMMSTSplitter<ObjectType, EvaluatorType>::Distribute(
    #ifdef __stDBMHEIGHT__
       node1->GetEntry(idx).Height = Node->GetHeight(idxRep1);
    #endif //__stDBMHEIGHT__
-   
+
    // Distribute the others objects.
    for (i = 0; i < N; i++){
       if (!Node->IsRepresentative(i)){
@@ -2717,7 +2717,7 @@ stCount stDBMNSplitter<ObjectType, EvaluatorType>::PerformClusterRadiusTest(){
    // Update the number of clusters.
    NumberOfClusters = finalNumberOfClusters;
 
-   return finalNumberOfClusters;    
+   return finalNumberOfClusters;
 }//end stDBMNSplitter::PerformClusterRadiusTest
 
 //------------------------------------------------------------------------------
@@ -3014,7 +3014,7 @@ stDBMTree<ObjectType, EvaluatorType>::stDBMTree(stPageManager * pageman):
    if (this->IsReInsert()){
       this->reInsertCollection = new tDBMCollection();
    }else{
-      this->reInsertCollection = NULL; 
+      this->reInsertCollection = NULL;
    }//end if
 
 }//end stDBMTree::stDBMTree
@@ -3103,7 +3103,7 @@ template <class ObjectType, class EvaluatorType>
 bool stDBMTree<ObjectType, EvaluatorType>::Add(ObjectType * newObj){
    tSubtreeInfo * promo;
    tSubtreeInfo newSubTree;
-   tSubtreeInfo farthest;   
+   tSubtreeInfo farthest;
    stPage * rootPage;
    stDBMNode * rootNode;
    int idxReturn;
@@ -3209,7 +3209,7 @@ bool stDBMTree<ObjectType, EvaluatorType>::Add(ObjectType * newObj){
    UpdateObjectCounter(1);
    // Write Header!
    HeaderUpdate = true;
-   
+
    return true;
 }//end stDBMTree::Add
 
@@ -3235,7 +3235,7 @@ int stDBMTree<ObjectType, EvaluatorType>::InsertRecursive(
    // Read node...
    currPage = this->myPageManager->GetPage(currNodeID);
    currNode = new stDBMNode(currPage);
-   
+
    // Where do I add it?
    subTree = ChooseSubTree(currNode, newSubTree);
 
@@ -3417,7 +3417,7 @@ int stDBMTree<ObjectType, EvaluatorType>::InsertRecursive(
                   // Now try to insert the others objets in this node, if there is some
                   // Test if the node have a minimum space to store all objects.
                   if (this->returnCollection->GetUsedSpace() < currNode->GetFree()){
-                     // Test if there are objects in returnCollection. 
+                     // Test if there are objects in returnCollection.
                      stop = (idxReturn == 0);
                      // Get the free entries and try to insert here.
                      while (!stop){
@@ -3459,7 +3459,7 @@ int stDBMTree<ObjectType, EvaluatorType>::InsertRecursive(
 
                      // return the action.
                      result = PROMOTION; //Report split.
-                     
+
                   }else{
                      // All the objects in returnCollection were added.
                      // Is it the root node?
@@ -3625,7 +3625,7 @@ int stDBMTree<ObjectType, EvaluatorType>::InsertRecursive(
                         // The return object is in newSubTree.
                         result = REMOVE_FARTHEST;
                      }//end if
-                     delete insertFarthest.Rep;                  
+                     delete insertFarthest.Rep;
                   }else{
                      promo[0].Rep = insertFarthest.Rep;
                      promo[0].RootID = insertFarthest.RootID;
@@ -3649,7 +3649,7 @@ int stDBMTree<ObjectType, EvaluatorType>::InsertRecursive(
 
          }//end switch
          delete subRep;
-         
+
       }else{
          // No. There is not a subtree. This entry is a free object.
          // Create a new node and grown down the tree, with the new object.
@@ -4038,7 +4038,7 @@ bool stDBMTree<ObjectType, EvaluatorType>::RemoveFarthest(stDBMNode * node,
                      finalSize += sizeof(stCount);  // Add the number of entries.
                   #endif //__stDBMNENTRIES__
                }//end if
-               farthestSize = node->GetObjectSize(farthestIdx); 
+               farthestSize = node->GetObjectSize(farthestIdx);
                if (node->GetEntry(farthestIdx).PageID){
                   farthestSize += sizeof(stDistance);  // Add the radius.
                   #ifdef __stDBMNENTRIES__
@@ -4087,7 +4087,7 @@ bool stDBMTree<ObjectType, EvaluatorType>::RemoveFarthest(stDBMNode * node,
                                                               farthest.NEntries,
                                                            #endif //__stDBMNENTRIES__
                                                            farthest.Radius);
-                        // Now the owner is reInsertCollection.  
+                        // Now the owner is reInsertCollection.
                         farthest.Rep = NULL;
                      }//end if
                      // Report the success.
@@ -4453,7 +4453,7 @@ void stDBMTree<ObjectType, EvaluatorType>::Split(stDBMNode * oldNode,
    stCount TotalNumOfEntries, retCollNumberOfEntries;
    stDistance prevRadius;
    int idx, idxInsert;
-   stCount idxRep; 
+   stCount idxRep;
    ObjectType * repObj;
    stDistance finalRadius;
    stPage * newPage;
@@ -4466,7 +4466,7 @@ void stDBMTree<ObjectType, EvaluatorType>::Split(stDBMNode * oldNode,
 
    // To use in MST_DB
    retCollNumberOfEntries = this->returnCollection->GetNumberOfEntries();
-   
+
    // Calculate the total number of entries that will be use in logicNode.
    TotalNumOfEntries = oldNode->GetNumberOfEntries() + retCollNumberOfEntries;
 
@@ -4507,7 +4507,7 @@ void stDBMTree<ObjectType, EvaluatorType>::Split(stDBMNode * oldNode,
                                 , promo[idx].Height
                              #endif //__stDBMHEIGHT__
                              );
-         promo[idx].Rep = NULL;                             
+         promo[idx].Rep = NULL;
       }//end if
    }//end for
 
@@ -5147,7 +5147,7 @@ stDistance stDBMTree<ObjectType, EvaluatorType>::GetGreaterEstimatedDistance(){
                distance = distanceTemp;
          }//end for
       }//end for
-      
+
       //cleaning...
       for (idx = 0; idx < size; idx++){
          delete objects[idx];
@@ -5326,13 +5326,13 @@ void stDBMTree<ObjectType, EvaluatorType>::RangeQuery(
    stCount idx, numberOfEntries;
    #ifdef __stMAMVIEW__
       stMessageString comment;
-   #endif //__stMAMVIEW__   
+   #endif //__stMAMVIEW__
 
    // Visualization support
    #ifdef __stMAMVIEW__
       MAMViewer->LevelUp();
    #endif //__stMAMVIEW__
-   
+
    // Read node...
    currPage = this->myPageManager->GetPage(pageID);
    currNode = new stDBMNode(currPage);
@@ -5348,7 +5348,7 @@ void stDBMTree<ObjectType, EvaluatorType>::RangeQuery(
       comment.Append((int) MAMViewer->GetLevel());
       MAMViewer->BeginFrame(comment.GetStr());
       MAMViewer->EnableNode(pageID);
-         
+
       // for each entry...
       for (idx = 0; idx < numberOfEntries; idx++) {
          if (currNode->GetEntry(idx).PageID){
@@ -5488,7 +5488,7 @@ stResult<ObjectType> * stDBMTree<ObjectType, EvaluatorType>::NearestQuery(
          pqCurrValue.Parent = -1;
          pqCurrValue.Level = 0;
       #endif //__stMAMVIEW__
-      
+
       // Create the Global Priority Queue.
       queue = new tDynamicPriorityQueue(STARTVALUEQUEUE, INCREMENTVALUEQUEUE);
 
@@ -5551,7 +5551,7 @@ stResult<ObjectType> * stDBMTree<ObjectType, EvaluatorType>::NearestQuery(
 	               }else{
 	                  distance = distanceRepres;
 	               }//end if
-	
+
 	               if (distance <= rangeK){
 	                  // No, there is not a subtree. But this object qualifies.
 	                  // Add the object.
@@ -5563,7 +5563,7 @@ stResult<ObjectType> * stDBMTree<ObjectType, EvaluatorType>::NearestQuery(
 	                     //may I use this for performance?
 	                     rangeK = result->GetMaximumDistance();
 	                  }//end if
-	
+
 	                  #ifdef __stMAMVIEW__
 	                     comment.Clear();
 	                     comment.Append("Object from root node added.");
@@ -5620,7 +5620,7 @@ stResult<ObjectType> * stDBMTree<ObjectType, EvaluatorType>::NearestQuery(
                   #ifdef __stMAMVIEW__
                      pqTmpValue.Parent = pqCurrValue.Parent;
                      pqTmpValue.Level = pqCurrValue.Level + 1;
-                  #endif //__stMAMVIEW__                     
+                  #endif //__stMAMVIEW__
                   // this is a subtree, put in the queue.
                   queue->Add(distance, pqTmpValue);
                }//end if
@@ -5738,7 +5738,7 @@ void stDBMTree<ObjectType, EvaluatorType>::NearestQuery(tResult * result,
 	               }else{
 	                  distance = distanceRepres;
 	               }//end if
-	
+
 	               if (distance <= rangeK){
 	                  // No, there is not a subtree. But this object qualifies.
 	                  // Add the object.
@@ -5750,7 +5750,7 @@ void stDBMTree<ObjectType, EvaluatorType>::NearestQuery(tResult * result,
 	                     //may I use this for performance?
 	                     rangeK = result->GetMaximumDistance();
 	                  }//end if
-	
+
 	                  #ifdef __stMAMVIEW__
 	                     comment.Clear();
 	                     comment.Append("Object from node ");
@@ -5764,7 +5764,7 @@ void stDBMTree<ObjectType, EvaluatorType>::NearestQuery(tResult * result,
 	                     MAMViewer->SetResult(sample, result);
 	                     MAMViewer->EndFrame();
 	                  #endif //__stMAMVIEW__
-	
+
 	               }//end if
                }//end if
             }//end if
@@ -5811,7 +5811,7 @@ void stDBMTree<ObjectType, EvaluatorType>::NearestQuery(tResult * result,
                   #ifdef __stMAMVIEW__
                      pqTmpValue.Parent = pqCurrValue.Parent;
                      pqTmpValue.Level = pqCurrValue.Level + 1;
-                  #endif //__stMAMVIEW__                     
+                  #endif //__stMAMVIEW__
                   // this is a subtree, put in the queue.
                   queue->Add(distance, pqTmpValue);
                }//end if
@@ -5843,7 +5843,7 @@ void stDBMTree<ObjectType, EvaluatorType>::NearestQuery(tResult * result,
          }//end if
       }while (!stop);
    }// end while
-   
+
 }//end stDBMTree::NearestQuery
 
 //------------------------------------------------------------------------------
@@ -5887,7 +5887,7 @@ stResult<ObjectType> * stDBMTree<ObjectType, EvaluatorType>::NearestQueryPriorit
          pqCurrValue.Parent = -1;
          pqCurrValue.Level = 0;
       #endif //__stMAMVIEW__
-      
+
       // Create the Global Priority Queue.
       queue = new tDynamicPriorityQueue(STARTVALUEQUEUE, INCREMENTVALUEQUEUE);
 
@@ -5902,7 +5902,7 @@ stResult<ObjectType> * stDBMTree<ObjectType, EvaluatorType>::NearestQueryPriorit
       // Evaluate the distance.
       distanceRepres = this->myMetricEvaluator->GetDistance(&tmpObj, sample);
 
-      numberOfFreeObjects = currNode->GetNumberOfFreeObjects();                      
+      numberOfFreeObjects = currNode->GetNumberOfFreeObjects();
 
       // Visualization support
       #ifdef __stMAMVIEW__
@@ -5957,7 +5957,7 @@ stResult<ObjectType> * stDBMTree<ObjectType, EvaluatorType>::NearestQueryPriorit
 
          // Sorting by distance...
          sort(distanceIndex, distanceIndex + numberOfFreeObjects);
-      
+
          // Now do it all free objects.
          for (idx = 0; idx < numberOfFreeObjects; idx++) {
             // use of the triangle inequality to cut a subtree
@@ -6042,7 +6042,7 @@ stResult<ObjectType> * stDBMTree<ObjectType, EvaluatorType>::NearestQueryPriorit
                   #ifdef __stMAMVIEW__
                      pqTmpValue.Parent = pqCurrValue.Parent;
                      pqTmpValue.Level = pqCurrValue.Level + 1;
-                  #endif //__stMAMVIEW__                     
+                  #endif //__stMAMVIEW__
                   // this is a subtree, put in the queue.
                   queue->Add(distance, pqTmpValue);
                }//end if
@@ -6169,7 +6169,7 @@ void stDBMTree<ObjectType, EvaluatorType>::NearestQueryPriorityQueue(tResult * r
 
          // Sorting by distance...
          sort(distanceIndex, distanceIndex + numberOfFreeObjects);
-      
+
          // Now do it all free objects.
          for (idx = 0; idx < numberOfFreeObjects; idx++) {
             // use of the triangle inequality to cut a subtree
@@ -6256,7 +6256,7 @@ void stDBMTree<ObjectType, EvaluatorType>::NearestQueryPriorityQueue(tResult * r
                   #ifdef __stMAMVIEW__
                      pqTmpValue.Parent = pqCurrValue.Parent;
                      pqTmpValue.Level = pqCurrValue.Level + 1;
-                  #endif //__stMAMVIEW__                     
+                  #endif //__stMAMVIEW__
                   // this is a subtree, put in the queue.
                   queue->Add(distance, pqTmpValue);
                }//end if
@@ -6288,7 +6288,7 @@ void stDBMTree<ObjectType, EvaluatorType>::NearestQueryPriorityQueue(tResult * r
          }//end if
       }while (!stop);
    }// end while
-   
+
    // Clean the free object queue.
    delete[] distanceIndex;
 }//end stDBMTree::NearestQueryPriorityQueue
@@ -6316,7 +6316,7 @@ stResult<ObjectType> * stDBMTree<ObjectType, EvaluatorType>::PointQuery(
    if (this->GetRoot() != 0){
       // Create the Global Priority Queue
       queue = new tDynamicPriorityQueue(STARTVALUEQUEUE, INCREMENTVALUEQUEUE);
-      
+
       // Read node...
       currPage = this->myPageManager->GetPage(this->GetRoot());
       currNode = new stDBMNode(currPage);
@@ -6366,7 +6366,7 @@ stResult<ObjectType> * stDBMTree<ObjectType, EvaluatorType>::PointQuery(
       // Free it all
       delete currNode;
       this->myPageManager->ReleasePage(currPage);
-      
+
       // If the element has not found, call the recursive PointQuery.
       if (!find){
          this->PointQuery(result, sample, queue);
@@ -7301,7 +7301,7 @@ stPageID stDBMTree<ObjectType, EvaluatorType>::DeleteUniqueNodes(stPageID pageID
    }//end if
 
    // Return the pageID.
-   return retPageID;   
+   return retPageID;
 }//end stDBMTree::DeleteUniqueNodes
 
 //-----------------------------------------------------------------------------
@@ -7330,7 +7330,7 @@ stDistance stDBMTree<ObjectType, EvaluatorType>::ShrinkRecursive(stPageID pageID
       currNode = new stDBMNode(currPage);
       // Get the radius.
       radius = currNode->GetMinimumRadius();
-      
+
       // Are there subtrees?
       if (currNode->GetNumberOfEntries() != currNode->GetNumberOfFreeObjects()){
          // Move on...

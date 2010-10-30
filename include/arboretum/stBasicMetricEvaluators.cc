@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -135,7 +135,7 @@ stDistance stBasicManhatanMetricEvaluator< ObjectType >:: GetDistance(
       tmp = fabs(o1->Get(i) - o2->Get(i));
       d = d + tmp;
    }//end for
-         
+
    // Statistic support
    this->UpdateDistanceCount();
 
@@ -159,7 +159,7 @@ stDistance stBasicCanberraMetricEvaluator< ObjectType >:: GetDistance(
       tmpDenominator = fabs(o1->Get(i)) + fabs(o2->Get(i));
       d = d + (tmpNumerator/tmpDenominator);
    }//end for
-         
+
    // Statistic support
    this->UpdateDistanceCount();
 
@@ -183,7 +183,7 @@ stDistance stBasicBrayCurtisMetricEvaluator< ObjectType >:: GetDistance(
       tmpDenominator =     o1->Get(i)  +  o2->Get(i);
       d = d + (tmpNumerator/tmpDenominator);
    }//end for
-         
+
    // Statistic support
    this->UpdateDistanceCount();
 
@@ -205,7 +205,7 @@ stDistance stBasicSquaredChordMetricEvaluator< ObjectType >:: GetDistance(
       tmp = sqrt(o1->Get(i)) - sqrt(o2->Get(i));
       d = d + (tmp*tmp);
    }//end for
-         
+
    // Statistic support
    this->UpdateDistanceCount();
 
@@ -229,7 +229,7 @@ stDistance stBasicBasicSquareChiSquaredMetricEvaluator< ObjectType >:: GetDistan
       tmpDenominator = o1->Get(i) + o2->Get(i);
       d = d + (tmpNumerator/tmpDenominator);
    }//end for
-         
+
    // Statistic support
    this->UpdateDistanceCount();
 

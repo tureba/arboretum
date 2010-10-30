@@ -146,9 +146,9 @@ void stGHNode::RemoveEntry(stCount idx){
    // Update counter...
    Header->Occupation--;
 }//end stGHNode::RemoveEntry
-                        
+
 //------------------------------------------------------------------------------
-stSize stGHNode::GetFree(){                                                     
+stSize stGHNode::GetFree(){
    stSize usedSize;
 
    // Fixed size

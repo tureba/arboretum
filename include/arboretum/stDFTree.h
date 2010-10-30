@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,7 +27,7 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
+ *        Computação, University of São Paulo - Brazil (the Databases
  *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
@@ -543,7 +543,7 @@ class stDFLogicNode{
       * @param metricEvaluator The metric evaluator to be used.
       */
       int UpdateDistances(EvaluatorType * metricEvaluator);
-      
+
 };//end stDFLogicNode
 
 //=============================================================================
@@ -743,7 +743,7 @@ class stDFMSTSplitter{
       * @param cluster2 Cluster 2.
       */
       void JoinClusters(int cluster1, int cluster2);
-      
+
 };//end stDFMSTSplitter
 
 
@@ -926,7 +926,7 @@ class stDFTree: public stMetricTree< ObjectType, EvaluatorType>{
       /**
       * Creates a new metric tree using a given page manager. This instance
       * will not claim the ownership of the given page manager. It means
-      * that the application must dispose the page manager when it is no 
+      * that the application must dispose the page manager when it is no
       * loger necessary.
       *
       * @param pageman The page manager to be used by this metric tree.
@@ -1194,7 +1194,7 @@ class stDFTree: public stMetricTree< ObjectType, EvaluatorType>{
       void ForceUpdateAllFieldDistance();
 
    private:
-   
+
       /**
       * This type defines the logic node for this class.
       */
@@ -1315,7 +1315,7 @@ class stDFTree: public stMetricTree< ObjectType, EvaluatorType>{
       * <P>This method is called by the destructor.
       */
       void FlushHeader();
-      
+
       /**
       * Creates a new empty page and updates the node counter.
       */
@@ -1323,7 +1323,7 @@ class stDFTree: public stMetricTree< ObjectType, EvaluatorType>{
          Header->NodeCount++;
          return this->myPageManager->GetNewPage();
       }//end NewPage
-      
+
       /**
       * Disposes a given page and updates the page counter.
       */

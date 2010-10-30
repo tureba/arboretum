@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -455,7 +455,7 @@ inline bool TriangularInequality(stDistance ab, stDistance ac,
 *
 * <p>NEVER USE THIS CLASS when the exact maximum size of the queue can not be
 * predicted before the creation of an instance of this class. If unsure, use
-* stDynamicRPriorityQueue instead of this class to avoid potential buffer 
+* stDynamicRPriorityQueue instead of this class to avoid potential buffer
 * overflows.
 *
 * @author Fabio Jun Takada Chino (chino@icmc.usp.br)
@@ -489,7 +489,7 @@ class stRPriorityQueue{
             delete[] entries;
          }//end if
       }//end ~stRPriorityQueue
-      
+
       /**
       * Gets the next pair key/value with the minimum key value. This pair
       * is removed from the queue.
@@ -499,7 +499,7 @@ class stRPriorityQueue{
       * @return True for success or false it the queue is empty.
       */
       bool Get(TKey & key, TValue & value);
-   
+
       /**
       * Adds a new entry to the queue. This method will fail if the number of
       * objects exceeds the maximum number of positions.
@@ -509,8 +509,8 @@ class stRPriorityQueue{
       * @warning Due to optmization issues, this method does not report memory
       * overflows unless __stDEBUG__ macro is defined.
       */
-      void Add(const TKey & key, const TValue & value);  
-      
+      void Add(const TKey & key, const TValue & value);
+
       /**
       * Returns the size of this queue.
       */
@@ -536,17 +536,17 @@ class stRPriorityQueue{
       * The entries' array.
       */
       tEntry * entries;
-      
+
       /**
       * Maximum size of this queue.
       */
       int maxSize;
-      
+
       /**
       * Current size of this queue.
       */
-      int size;      
-      
+      int size;
+
       /**
       * Returns the id of the child which has the smaller key value.
       *
@@ -555,7 +555,7 @@ class stRPriorityQueue{
       */
       int GetMinChild(int parent){
          int c = (parent * 2) + 1;
-         
+
          if ((c + 1 < size) && (entries[c + 1].key < entries[c].key)){
             return c + 1;
          }else{
@@ -563,7 +563,7 @@ class stRPriorityQueue{
                return c;
             }else{
                return -1;
-            }//end if            
+            }//end if
          }//end if
       }//end GetMinChild
 };//end stRPriorityQueue
@@ -582,7 +582,7 @@ class stRPriorityQueue{
 * <p>This class template is a variation of the class template stRPriorityQueue,
 * which can grow dynamically when required. This adds a little overhead which
 * degrades the performance of the original stRPriorityQueue implementation. So,
-* when the maximum capacity of the queue is known before its creation, use 
+* when the maximum capacity of the queue is known before its creation, use
 * stRPriorityQueue instead of this dynamic version.
 *
 * @author Fabio Jun Takada Chino (chino@icmc.usp.br)
@@ -643,7 +643,7 @@ class stDynamicRPriorityQueue{
       * @return True for success or false it the queue is empty.
       */
       bool Get(TKey & key, TValue & value);
-   
+
       /**
       * Adds a new entry to the queue. This method will fail if the number of
       * objects exceeds the maximum number of positions.
@@ -651,8 +651,8 @@ class stDynamicRPriorityQueue{
       * @param key The key to be inserted.
       * @param value The value to be inserted.
       */
-      void Add(const TKey & key, const TValue & value);  
-      
+      void Add(const TKey & key, const TValue & value);
+
       /**
       * Returns the size of this queue.
       */
@@ -678,12 +678,12 @@ class stDynamicRPriorityQueue{
       * The entries' array.
       */
       tEntry * entries;
-      
+
       /**
       * Maximum size of this queue.
       */
       int maxSize;
-      
+
       /**
       * Current size of this queue.
       */
@@ -693,7 +693,7 @@ class stDynamicRPriorityQueue{
       * Increment.
       */
       int increment;
-      
+
       /**
       * Returns the id of the child which has the smaller key value.
       *
@@ -702,7 +702,7 @@ class stDynamicRPriorityQueue{
       */
       int GetMinChild(int parent){
          int c = (parent * 2) + 1;
-         
+
          if ((c + 1 < size) && (entries[c + 1].key < entries[c].key)){
             return c + 1;
          }else{
@@ -710,16 +710,16 @@ class stDynamicRPriorityQueue{
                return c;
             }else{
                return -1;
-            }//end if            
+            }//end if
          }//end if
       }//end GetMinChild
-   
+
       /**
       * Expands the capacity of this heap when necessary by adding increment
       * entries to the current capacity.
       */
       void Resize();
-      
+
 };//end stDynamicRPriorityQueue
 
 //----------------------------------------------------------------------------
@@ -736,7 +736,7 @@ class stDynamicRPriorityQueue{
 * <p>This class template is a variation of the class template stRPriorityQueue,
 * which can grow dynamically when required. This adds a little overhead which
 * degrades the performance of the original stRPriorityQueue implementation. So,
-* when the maximum capacity of the queue is known before its creation, use 
+* when the maximum capacity of the queue is known before its creation, use
 * stRPriorityQueue instead of this dynamic version.
 *
 * @author Marcos Rodrigues Vieira (mrvieira@icmc.usp.br)
@@ -796,7 +796,7 @@ class stDynamicRReversedPriorityQueue{
       * @return True for success or false it the queue is empty.
       */
       bool Get(TKey & key, TValue & value);
-   
+
       /**
       * Adds a new entry to the queue. This method will fail if the number of
       * objects exceeds the maximum number of positions.
@@ -804,15 +804,15 @@ class stDynamicRReversedPriorityQueue{
       * @param key The key to be inserted.
       * @param value The value to be inserted.
       */
-      void Add(const TKey & key, const TValue & value);  
-      
+      void Add(const TKey & key, const TValue & value);
+
       /**
       * Returns the size of this queue.
       */
       int GetSize(){
          return size;
       }//end GetSize
-      
+
    private:
       /**
       * This structure is used to store a key/value pair.
@@ -832,12 +832,12 @@ class stDynamicRReversedPriorityQueue{
       * The entries' array.
       */
       tEntry * entries;
-      
+
       /**
       * Maximum size of this queue.
       */
       int maxSize;
-      
+
       /**
       * Current size of this queue.
       */
@@ -847,7 +847,7 @@ class stDynamicRReversedPriorityQueue{
       * Increment.
       */
       int increment;
-      
+
       /**
       * Returns the id of the child which has the greater key value.
       *
@@ -856,7 +856,7 @@ class stDynamicRReversedPriorityQueue{
       */
       int GetMinChild(int parent){
          int c = (parent * 2) + 1;
-         
+
          if ((c + 1 < size) && (entries[c + 1].key > entries[c].key)){
             return c + 1;
          }else{
@@ -864,16 +864,16 @@ class stDynamicRReversedPriorityQueue{
                return c;
             }else{
                return -1;
-            }//end if            
+            }//end if
          }//end if
       }//end GetMinChild
-   
+
       /**
       * Expands the capacity of this heap when necessary by adding increment
       * entries to the current capacity.
       */
       void Resize();
-      
+
 };//end stDynamicRReversedPriorityQueue
 
 //----------------------------------------------------------------------------
@@ -896,31 +896,31 @@ typedef struct stQueryPriorityQueueValue{
    * ID of the node.
    */
    stPageID PageID;
-   
+
    /**
    * Radius of the node.
    */
    stDistance Radius;
-   
+
    #ifdef __stMAMVIEW__
       /**
       * Parent of this node.
       */
       stPageID Parent;
-   
+
       /**
       * Level of this node.
       */
-      int Level;  
+      int Level;
    #endif //__stMAMVIEW__
-   
+
    /**
-   * Operator = . 
+   * Operator = .
    *
    * @param v Another instance of this class.
    */
    const stQueryPriorityQueueValue & operator = (const stQueryPriorityQueueValue & v){
-      
+
       this->PageID = v.PageID;
       this->Radius = v.Radius;
       #ifdef __stMAMVIEW__
@@ -972,7 +972,7 @@ typedef struct stQueryPriorityQueueValue{
 //----------------------------------------------------------------------------
 // File manipulation constants and functions.
 //----------------------------------------------------------------------------
-#ifdef __WIN32__  
+#ifdef __WIN32__
    /**
    * This macro is used to define the system directory separator.
    *
@@ -1014,7 +1014,7 @@ template < class ClassType> class stInstanceAllocator{
       ClassType * Create(){
          return new ClassType();
       }//end Create
-      
+
       /**
       * Disposes a given instance of the ClassType using the operator delete.
       */
@@ -1068,12 +1068,12 @@ template < class ClassType, class AllocatorType> class stInstanceCache{
          this->instances = new ClassType * [capacity];
          this->size = 0;
       }//end stInstance
-      
+
       /**
       * Disposes this cache and all cached instances. The allocator is also disposed.
       */
       ~stInstanceCache();
-   
+
       /**
       * Gets ans instance from the cache.
       */
@@ -1090,7 +1090,7 @@ template < class ClassType, class AllocatorType> class stInstanceCache{
       * Puts an instance back into this cache.
       *
       * @param instance The instance to be put back in the cache.
-      */    
+      */
       void Put(ClassType * instance){
          if (size < capacity){
             instances[size] = instance;
@@ -1098,7 +1098,7 @@ template < class ClassType, class AllocatorType> class stInstanceCache{
          }else{
             allocator->Dispose(instance);
          }//end if
-      }//end Put     
+      }//end Put
 
    private:
 
@@ -1106,22 +1106,22 @@ template < class ClassType, class AllocatorType> class stInstanceCache{
       * The stack of available instances.
       */
       ClassType ** instances;
-      
+
       /**
       * Current number of instances in Instances.
       */
       int size;
-      
+
       /**
       * Maximum capacity of Instances.
       */
-      int capacity;   
-      
+      int capacity;
+
       /**
       * The allocator of ClassType.
       */
       AllocatorType * allocator;
-      
+
 };//end stInstanceCache
 
 //----------------------------------------------------------------------------

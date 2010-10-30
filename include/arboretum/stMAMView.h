@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -154,13 +154,13 @@ class stMAMViewObjectSample{
       * @param total Total number of objects.
       */
       stMAMViewObjectSample(stSize size, stSize total){
-         // Calculate the acceptance an object. 
+         // Calculate the acceptance an object.
          P = ((double)size)/((double)total);
          MaxSize = size;
          Size = 0;
          Objs = new ObjectType *[MaxSize];
       }//end stMAMViewObjectSample
-      
+
       /**
       * @todo Implement it later or you will have a veeeerrryyy good memory leak.
       */
@@ -183,7 +183,7 @@ class stMAMViewObjectSample{
             return false;
          }//end if
       }//end AddThis
-   
+
       /**
       * Adds a new object to the set.
       *
@@ -196,7 +196,7 @@ class stMAMViewObjectSample{
             Size++;
          }//end if
       }//end Add
-      
+
       /**
       * Returns the array of objects. This method is suitable for
       * stFastMapper::ChoosePivots().
@@ -204,14 +204,14 @@ class stMAMViewObjectSample{
       ObjectType ** GetObjects(){
          return Objs;
       }//end GetObjects
-      
+
       /**
       * Returns the number of objects in this set.
       */
       stSize GetSize(){
          return Size;
       }//end GetSize
-      
+
       /**
       * Returns the desired size of the set.
       */
@@ -223,17 +223,17 @@ class stMAMViewObjectSample{
       * The probability of acceptance of an object.
       */
       double P;
-      
+
       /**
       * Current size.
       */
       stSize Size;
-      
+
       /**
       * Maximum size.
       */
       stSize MaxSize;
-      
+
       /**
       * Vector of objects.
       */
@@ -270,7 +270,7 @@ class stMAMViewExtractor{
          // First state.
          StateStack.push(ST_DISABLE);
       }//end EvaluatorType
-      
+
       virtual ~stMAMViewExtractor();
 
       /**
@@ -348,9 +348,9 @@ class stMAMViewExtractor{
 
       /**
       * Changes the state of a node to enabled. The node must exists or the command
-      * will not produce any result. 
+      * will not produce any result.
       *
-      * @param nodeID The ID of the node. 
+      * @param nodeID The ID of the node.
       * @warning This command is not allowed outside a frame.
       */
       void EnableNode(stPageID nodeID);
@@ -394,7 +394,7 @@ class stMAMViewExtractor{
       void SetResult(ObjectType * queryObj, stResult <ObjectType> * result){
          SetResult(queryObj, result, K, Radius);
       }//end SetResult
-      
+
       /**
       * Declares a result with only the sample object. It may be used to declare
       * the input object of an add operation.
@@ -408,7 +408,7 @@ class stMAMViewExtractor{
       /**
       * Sets the default values to k and radius of a query. Useful when both
       * values do not change during an animation. This method is used in
-      * combination with SetResult(ObjectType,stResult<ObjectType>) method. 
+      * combination with SetResult(ObjectType,stResult<ObjectType>) method.
       *
       * @param k Desired k or 0 if it is not important.
       * @param radius Desired radius or 0 if it is not important.
@@ -519,12 +519,12 @@ class stMAMViewExtractor{
       tMapper * Mapper;
 
       /**
-      * The state stack. It is used to track report errors. 
+      * The state stack. It is used to track report errors.
       */
       stack <int> StateStack;
 
       /**
-      * The XML output stream. 
+      * The XML output stream.
       */
       ostream * Output;
 
@@ -584,7 +584,7 @@ class stMAMViewExtractor{
       * @param map The xyz coordinates.
       * @warning The Output must not be NULL.
       */
-      void WriteXYZ(double * map);      
+      void WriteXYZ(double * map);
 };//end stMAMViewExtractor
 
 #include <arboretum/stMAMView.cc>

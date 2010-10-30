@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -98,19 +98,19 @@ stPlainDiskPageManager::stPlainDiskPageManager(const char * fName, stSize pagesi
 
    // Page cache
    pageInstanceCache = new stPageInstanceCache(STDISKPAGEMANAGER_INSTANCECACHESIZE,
-         new stPageAllocator(pagesize));      
+         new stPageAllocator(pagesize));
 }//end stPlainDiskPageManager::stPlainDiskPageManager
 //------------------------------------------------------------------------------
 
 stPlainDiskPageManager::stPlainDiskPageManager(const char * fName){
    tHeader tmpHeader;
-   
+
    // Open file
    fd = open(fName, O_RDWR|O_BINARY); // Open file
    if (fd < 0){
       throw io_error("Unable to open file.");
    }//end if
-   
+
    // Validate file
    if ((read(fd, &tmpHeader, sizeof(tmpHeader)) != sizeof(tmpHeader)) ||
          (!IsValidHeader(&tmpHeader))){
@@ -119,7 +119,7 @@ stPlainDiskPageManager::stPlainDiskPageManager(const char * fName){
 
    // WARNING!!! If you don't undertand what is going on here, see the
    // stLockablePage documentation for further info.
-      
+
    // Ok, now I must reload the header again. I can not use
    this->headerPage = new stLockablePage(tmpHeader.PageSize, sizeof(tHeader), 0);
    this->header = (tHeader *)(this->headerPage->GetTrueData());
@@ -133,14 +133,14 @@ stPlainDiskPageManager::stPlainDiskPageManager(const char * fName){
       throw io_error("invalid file.");
    }//end if
 
-   // Page cache   
+   // Page cache
    pageInstanceCache = new stPageInstanceCache(STDISKPAGEMANAGER_INSTANCECACHESIZE,
-         new stPageAllocator(header->PageSize));      
+         new stPageAllocator(header->PageSize));
 }//end stPlainDiskPageManager::stPlainDiskPageManager
 
 //------------------------------------------------------------------------------
 stPlainDiskPageManager::~stPlainDiskPageManager(){
-   
+
    // Free resources
    delete pageInstanceCache;
    // Save header page info.
@@ -153,20 +153,20 @@ stPlainDiskPageManager::~stPlainDiskPageManager(){
 
 //------------------------------------------------------------------------------
 bool stPlainDiskPageManager::IsEmpty(){
-   
+
    return header->UsedPages == 0;
 }//end stPlainDiskPageManager::IsEmpty
 //------------------------------------------------------------------------------
 
 stPage * stPlainDiskPageManager::GetHeaderPage(){
-   
+
    // Update read count
    UpdateReadCounter();
-   
+
    // Effective read
-   lseek(fd, 0, SEEK_SET);  
+   lseek(fd, 0, SEEK_SET);
    read(fd, (void *)this->headerPage->GetTrueData(), header->PageSize);
-    
+
    return this->headerPage;
 }//end stPlainDiskPageManager::GetheaderPage
 
@@ -176,15 +176,15 @@ stPage * stPlainDiskPageManager::GetPage(stPageID pageid){
 
    // Do not allow users to load header page from this file.
    if ((pageid != 0) && (pageid <= header->PageCount)){
-      
+
       // Get from cache
       myPage = pageInstanceCache->Get();
-      
+
       // Read data...
       lseek(fd, PageID2Offset(pageid), SEEK_SET);
       read(fd, myPage->GetData(), header->PageSize);
       myPage->SetPageID(pageid);
-   
+
       // Update Counters
       UpdateReadCounter();
       return myPage;
@@ -200,7 +200,7 @@ stPage * stPlainDiskPageManager::GetPage(stPageID pageid){
 
 //------------------------------------------------------------------------------
 void stPlainDiskPageManager::ReleasePage(stPage * page){
-   
+
    // Put it back
    if (page->GetPageSize() == header->PageSize){
       pageInstanceCache->Put(page);
@@ -208,18 +208,18 @@ void stPlainDiskPageManager::ReleasePage(stPage * page){
       delete page;
    //}else{
       // Do nothing because it is the header page.
-   }//end if      
+   }//end if
 }//end stPlainDiskPageManager::ReleasePage
 
 //------------------------------------------------------------------------------
 stPage * stPlainDiskPageManager::GetNewPage(){
    stPageID * next;
    stPage * page;
-   
+
    if (header->Available == 0){
       // Get instance from cache
       page = pageInstanceCache->Get();
-      
+
       // Creating the new page
       header->PageCount++;
       page->SetPageID(header->PageCount);
@@ -229,12 +229,12 @@ stPage * stPlainDiskPageManager::GetNewPage(){
       next = (stPageID *)(page->GetData());
       header->Available = * next;
    }//end if
-   
+
    // Update header
    header->UsedPages++;
    WriteHeaderPage(headerPage);
-   
-   return page;   
+
+   return page;
 }//end stPlainDiskPageManager::GetNewPage
 
 //------------------------------------------------------------------------------
@@ -247,19 +247,19 @@ void stPlainDiskPageManager::WritePage(stPage * page){
    #endif //__stDEBUG__
 
    lseek(fd, PageID2Offset(page->GetPageID()), SEEK_SET);
-   write(fd, page->GetData(), header->PageSize);      
+   write(fd, page->GetData(), header->PageSize);
    UpdateWriteCounter();
 }//end stPlainDiskPageManager::WritePage
 
 //------------------------------------------------------------------------------
 void stPlainDiskPageManager::WriteHeaderPage(stPage * headerpage){
-   
+
    #ifdef __stDEBUG__
    if (headerpage->GetPageID() != 0){
       throw invalid_argument("Do not use WriteHeaderPage to write standard pages.");
    }//end if
    #endif //__stDEBUG__
-   
+
    lseek(fd, 0, SEEK_SET);
    write(fd, this->headerPage->GetTrueData(), header->PageSize);
    UpdateWriteCounter();
@@ -268,24 +268,24 @@ void stPlainDiskPageManager::WriteHeaderPage(stPage * headerpage){
 //------------------------------------------------------------------------------
 void stPlainDiskPageManager::DisposePage(stPage * page){
    stPageID * next;
-   
+
    // Append to free list
    next = (stPageID *)page->GetData();
    *next = header->Available;
    header->Available = page->GetPageID();
    WritePage(page);
 
-   // Update header   
+   // Update header
    header->UsedPages--;
    WriteHeaderPage(headerPage);
-   
+
    // Free resources
    ReleasePage(page);
 }//end stPlainDiskPageManager::DisposePage
 
 //------------------------------------------------------------------------------
 void stPlainDiskPageManager::NewHeader(tHeader * header, stSize pagesize){
-   
+
    // Magic header. Always "DPM1".
    header->Magic[0] = 'D';
    header->Magic[1] = 'P';
@@ -294,7 +294,7 @@ void stPlainDiskPageManager::NewHeader(tHeader * header, stSize pagesize){
 
    // Organization
    header->PageSize = pagesize;
-   
+
    // Page control
    header->PageCount = 0;
    header->UsedPages = 0;
@@ -303,10 +303,10 @@ void stPlainDiskPageManager::NewHeader(tHeader * header, stSize pagesize){
 
 //------------------------------------------------------------------------------
 bool stPlainDiskPageManager::IsValidHeader(tHeader * header){
-   
+
    return (header->Magic[0] == 'D') &&
          (header->Magic[1] == 'P') &&
          (header->Magic[2] == 'M') &&
-         (header->Magic[3] == '1'); 
+         (header->Magic[3] == '1');
 }//end stPlainDiskPageManager::IsValidHeader
 //------------------------------------------------------------------------------

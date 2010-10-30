@@ -885,7 +885,7 @@ tmpl_stDFTree::stDFTree(stPageManager * pageman, stCount nFocus,
    }//end if
 
    // GR Part.
-   GR = new tGR(nFocus, pThreshold, myMetricEvaluator);   
+   GR = new tGR(nFocus, pThreshold, myMetricEvaluator);
 }//end stDFTree::stDFTree
 
 //------------------------------------------------------------------------------
@@ -2057,7 +2057,7 @@ void tmpl_stDFTree::RangeQuery(stPageID pageID, tResult * result,
                                ObjectType * sample, stDistance range,
                                stDistance distanceRepres,
                                stDistance * DistQueryFocus){
-                               
+
    stPage * currPage;
    stDFNode * currNode;
    ObjectType tmpObj;
@@ -2136,7 +2136,7 @@ void tmpl_stDFTree::RangeQuery(stPageID pageID, tResult * result,
 template <class ObjectType, class EvaluatorType>
 stResult<ObjectType> * stDFTree<ObjectType, EvaluatorType>::NearestQuery(
       ObjectType * sample, stCount k, bool tie){
-      
+
    tResult * result = new tResult();  // Create result
 
    // Set information for this query
@@ -2767,8 +2767,8 @@ template <class ObjectType, class EvaluatorType>
 void stDFGlobalRep<ObjectType, EvaluatorType>::CheckUpdate(
       stPageManager * pageman, stPageID rootPageID,
       stDistance * fieldDistance){
-      
-   int i;   stDistance aux;   vector <ObjectType *> CandidateSet;
+
+   int i;   stDistance aux;   vector <ObjectType *> CandidateSet;
    // Calculate if object is circumbscribed
    aux = 1.0;
    for (i = 0; i < STFOCUS; i++){

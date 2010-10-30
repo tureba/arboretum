@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -249,7 +249,7 @@ class stSlimNode{
       static stSize GetGlobalOverhead(){
          return sizeof(stSlimNodeHeader);
       }//end GetGlobalOverhead()
-      
+
    protected:
       /**
       * This is the structure of the Header of a SlimTree node.
@@ -464,7 +464,7 @@ class stSlimIndexNode: public stSlimNode{
       * Returns the total number of objects in the subtree.
       */
       virtual stCount GetTotalObjectCount();
-      
+
       /**
       * Returns the overhead of each index node entry in bytes.
       */
@@ -650,14 +650,14 @@ class stSlimLeafNode: public stSlimNode{
       virtual stCount GetTotalObjectCount(){
          return (stCount)GetNumberOfEntries();
       }//end GetTotalObjectCount()
-      
+
       /**
       * Returns the overhead of each leaf node entry in bytes.
       */
       static stSize GetLeafEntryOverhead(){
          return sizeof(stSlimLeafEntry);
       }//end GetLeafEntryOverhead()
-      
+
    private:
       /**
       * Entry pointer
@@ -703,7 +703,7 @@ class stSlimMemLeafNode{
       * @warning This method will remove entries from leafNode.
       */
       stSlimMemLeafNode(stSlimLeafNode * leafNode);
-      
+
       /**
       * Release the resources of this class template and construct a new
       * slimLeafNode that has all entries in this instance.
@@ -713,7 +713,7 @@ class stSlimMemLeafNode{
       * @return A new instance of stSlimLeafNode.
       */
       stSlimLeafNode * ReleaseNode();
-   
+
       /**
       * Adds an object to this node.
       *
@@ -830,7 +830,7 @@ class stSlimMemLeafNode{
       */
       stDistance GetMinimumRadius(){
          return Entries[this->numEntries-1].Distance;
-      }//end GetMinimumRadius                    
+      }//end GetMinimumRadius
 
       /**
       * Returns the free space of this node.
@@ -861,31 +861,31 @@ class stSlimMemLeafNode{
       * Number of entries in this node.
       */
       stCount numEntries;
-      
+
       /**
       * Current capacity of this node.
       */
       stCount capacity;
-      
+
       /**
       * Entries of this node.
       */
       stSlimMemNodeEntry * Entries;
-      
+
       /**
       * Maximum size of the node in bytes.
       */
       stSize maximumSize;
-      
+
       /**
       * Used size of the node in bytes.
       */
       stSize usedSize;
-      
+
       /**
       * Point to the source leafNode.
       */
-      stSlimLeafNode * srcLeafNode; 
+      stSlimLeafNode * srcLeafNode;
 
       /**
       * Returns the insert position for a given distance.
@@ -895,14 +895,14 @@ class stSlimMemLeafNode{
       * @todo This code needs optimizations. I suggest a binary search
       * implementation.
       */
-      int InsertPosition(stDistance distance); 
-      
+      int InsertPosition(stDistance distance);
+
       /**
       * Resizes the entries vector to hold more entries. It will at 16
       * positions to the capacity for each call.
       */
       void Resize(stCount incSize = 16);
-      
+
 };//end stSlimMemLeafNode
 
 // Include implementation

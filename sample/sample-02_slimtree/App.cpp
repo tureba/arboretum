@@ -35,7 +35,7 @@ void __fastcall TForm1::Exit1Click(TObject *Sender)
       delete queryCities[i];
    }//end if
 
-   // Terminate the application.      
+   // Terminate the application.
    Application->Terminate();
 }
 //---------------------------------------------------------------------------
@@ -233,7 +233,7 @@ void __fastcall TForm1::About1Click(TObject *Sender)
 
 void __fastcall TForm1::BClearClick(TObject *Sender)
 {
-   MResult->Lines->Clear();   
+   MResult->Lines->Clear();
 }
 //---------------------------------------------------------------------------
 

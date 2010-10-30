@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -107,7 +107,7 @@ void stGenericMatrix<Type>::SetSize(int cols, int rows){
       PRows[i] = PRows[i - 1] + cols;
    }//end for
 }//end stGenericMatrix<Type>::SetSize
-   
+
 //----------------------------------------------------------------------------
 // Class template stGenericMatrix
 //----------------------------------------------------------------------------
@@ -157,32 +157,32 @@ template < class TKey, class TValue >
 bool stRPriorityQueue < TKey, TValue >::Get(TKey & key, TValue & value){
    int child;
    int parent;
-   
+
    if (size > 0){
       // Remove first
       key = entries[0].key;
       value = entries[0].value;
       size --;
-      
+
       // Reinsert last.
       parent = 0;
       child = GetMinChild(parent);
       // Do not enable complete boolena evaluation or it will fail.
       while ((child >= 0) && (entries[size].key > entries[child].key)){
          // Move child up
-         entries[parent].key = entries[child].key; 
+         entries[parent].key = entries[child].key;
          entries[parent].value = entries[child].value;
          parent = child;
          child = GetMinChild(parent);
       }//end while
       // Put it in place.
-      entries[parent].key = entries[size].key; 
-      entries[parent].value = entries[size].value;          
+      entries[parent].key = entries[size].key;
+      entries[parent].value = entries[size].value;
       return true;
    }else{
       // Empty!
       return false;
-   }//end if         
+   }//end if
 }//end stRPriorityQueue::Get
 
 //----------------------------------------------------------------------------
@@ -190,23 +190,23 @@ template < class TKey, class TValue >
 void stRPriorityQueue < TKey, TValue >::Add(const TKey & key, const TValue & value){
    int child;
    int parent;
-   
+
    // No error checking when __stDEBUG__ is not defined!
    #ifdef __stDEBUG__
    if (size < maxSize){
-   #endif //__stDEBUG__    
+   #endif //__stDEBUG__
       child = size;
       parent = (child - 1) / 2;
       // Do not enable complete boolena evaluation or it will fail.
       while ((child > 0) && (entries[parent].key > key)){
          // Move parent down.
-         entries[child].key = entries[parent].key; 
+         entries[child].key = entries[parent].key;
          entries[child].value = entries[parent].value;
          // Next...
          child = parent;
          parent = (child - 1) / 2;
       }//end while
-      
+
       // Add in the proper position
       entries[child].key = key;
       entries[child].value = value;
@@ -214,10 +214,10 @@ void stRPriorityQueue < TKey, TValue >::Add(const TKey & key, const TValue & val
    #ifdef __stDEBUG__
    }else{
       throw logic_error("Unable to add more entries.");
-   }//end if         
+   }//end if
    #endif //__stDEBUG__
 }//end stRPriorityQueue::Add
-      
+
 //----------------------------------------------------------------------------
 // template class stDynamicRPriorityQueue
 //----------------------------------------------------------------------------
@@ -226,32 +226,32 @@ bool stDynamicRPriorityQueue < TKey, TValue>::Get(
    TKey & key, TValue & value){
    int child;
    int parent;
-   
+
    if (size > 0){
       // Remove first
       key = entries[0].key;
       value = entries[0].value;
       size--;
-      
+
       // Reinsert last.
       parent = 0;
       child = GetMinChild(parent);
       // Do not enable complete boolena evaluation or it will fail.
       while ((child >= 0) && (entries[size].key > entries[child].key)){
          // Move child up
-         entries[parent].key = entries[child].key; 
+         entries[parent].key = entries[child].key;
          entries[parent].value = entries[child].value;
          parent = child;
          child = GetMinChild(parent);
       }//end while
       // Put it in place.
-      entries[parent].key = entries[size].key; 
+      entries[parent].key = entries[size].key;
       entries[parent].value = entries[size].value;
       return true;
    }else{
       // Empty!
       return false;
-   }//end if         
+   }//end if
 }//end stDynamicRPriorityQueue::Get
 
 //----------------------------------------------------------------------------
@@ -265,19 +265,19 @@ void stDynamicRPriorityQueue < TKey, TValue>::Add(
    if (size == maxSize){
       Resize();
    }//end if
-   
+
    child = size;
    parent = (child - 1) / 2;
    // Do not enable complete boolena evaluation or it will fail.
    while ((child > 0) && (entries[parent].key > key)){
       // Move parent down.
-      entries[child].key = entries[parent].key; 
+      entries[child].key = entries[parent].key;
       entries[child].value = entries[parent].value;
       // Next...
       child = parent;
       parent = (child - 1) / 2;
    }//end while
-   
+
    // Add in the proper position
    entries[child].key = key;
    entries[child].value = value;
@@ -288,11 +288,11 @@ void stDynamicRPriorityQueue < TKey, TValue>::Add(
 template < class TKey, class TValue >
 void stDynamicRPriorityQueue < TKey, TValue >::Resize(){
    tEntry * newEntries;
-   
+
    // New entry vector
    newEntries = new tEntry[maxSize + increment];
    memcpy(newEntries, entries, sizeof(tEntry) * size);
-   
+
    // Delete old vector
    delete[] entries;
    entries = newEntries;
@@ -307,13 +307,13 @@ bool stDynamicRReversedPriorityQueue < TKey, TValue>::Get(
    TKey & key, TValue & value){
    int child;
    int parent;
-   
+
    if (size > 0){
       // Remove first
       key = entries[0].key;
       value = entries[0].value;
       size--;
-      
+
       // Reinsert last.
       parent = 0;
       child = GetMinChild(parent);
@@ -326,13 +326,13 @@ bool stDynamicRReversedPriorityQueue < TKey, TValue>::Get(
          child = GetMinChild(parent);
       }//end while
       // Put it in place.
-      entries[parent].key = entries[size].key; 
+      entries[parent].key = entries[size].key;
       entries[parent].value = entries[size].value;
       return true;
    }else{
       // Empty!
       return false;
-   }//end if         
+   }//end if
 }//end stDynamicRReversedPriorityQueue::Get
 
 //----------------------------------------------------------------------------
@@ -346,19 +346,19 @@ void stDynamicRReversedPriorityQueue < TKey, TValue>::Add(
    if (size == maxSize){
       Resize();
    }//end if
-   
+
    child = size;
    parent = (child - 1) / 2;
    // Do not enable complete boolena evaluation or it will fail.
    while ((child > 0) && (entries[parent].key < key)){
       // Move parent down.
-      entries[child].key = entries[parent].key; 
+      entries[child].key = entries[parent].key;
       entries[child].value = entries[parent].value;
       // Next...
       child = parent;
       parent = (child - 1) / 2;
    }//end while
-   
+
    // Add in the proper position
    entries[child].key = key;
    entries[child].value = value;
@@ -369,11 +369,11 @@ void stDynamicRReversedPriorityQueue < TKey, TValue>::Add(
 template < class TKey, class TValue >
 void stDynamicRReversedPriorityQueue < TKey, TValue >::Resize(){
    tEntry * newEntries;
-   
+
    // New entry vector
    newEntries = new tEntry[maxSize + increment];
    memcpy(newEntries, entries, sizeof(tEntry) * size);
-   
+
    // Delete old vector
    delete[] entries;
    entries = newEntries;

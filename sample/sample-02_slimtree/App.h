@@ -59,7 +59,7 @@ class TForm1 : public TForm
       void __fastcall About1Click(TObject *Sender);
       void __fastcall BClearClick(TObject *Sender);
       void __fastcall FormClose(TObject *Sender, TCloseAction &Action);
-      
+
    private:	// User declarations
 
          /**
@@ -99,7 +99,7 @@ class TForm1 : public TForm
          void LoadSample(char * fileName);
 
    public:		// User declarations
-   
+
       __fastcall TForm1(TComponent* Owner);
 };
 //---------------------------------------------------------------------------

@@ -2,7 +2,7 @@
 // Implementation of the application.
 //
 // Author: Fabio Jun Takada Chino (chino@icmc.sc.usp.br)
-// 
+//
 // Copyright (c) 2002-2004 GBDI-ICMC-USP
 //---------------------------------------------------------------------------
 #include <stdlib.h>
@@ -25,7 +25,7 @@ void TApp::Init(){
 void TApp::Run(){
 
    // Lets load the tree with a few values.
-   LoadTree();                                                             
+   LoadTree();
    // Lets do a query
    PerformQuery();
 }//end TApp::Run
@@ -63,10 +63,10 @@ void TApp::CreateTree(){
 //---------------------------------------------------------------------------
 void TApp::RandomObject(myObject * obj){
 	int w;
-	
+
 	for (w = 0; w < obj->GetSize(); w++){
 		(*obj)[w] = rand();
-	}//end for	
+	}//end for
 }//end TApp::RandomObject
 
 //---------------------------------------------------------------------------
@@ -74,19 +74,19 @@ void TApp::LoadTree(){
 	myObject obj(DIM);
    myResult * r;
 	int w;
-	
+
 	for (w = 0; w < N; w++){
 		RandomObject(&obj);
 		SlimTree->Add(&obj);
 	}//end for
-	
+
 	#ifdef __stMAMVIEW__
 		// Configure MAMView
 		SlimTree->MAMViewSetOutputDir(".");
-		
+
 		// Initialize MAMView
 		SlimTree->MAMViewInit();
-		
+
 		// Create a dump for a k-Nearest Neighbor query
 		RandomObject(&obj);
       r = SlimTree->NearestQuery(&obj, 15);
@@ -100,7 +100,7 @@ void TApp::LoadTree(){
 		// Create a dump
 		SlimTree->MAMViewDumpTree();
 	#endif //__stMAMVIEW__
-	
+
 }//end TApp::LoadTree
 
 //---------------------------------------------------------------------------

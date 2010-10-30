@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -100,58 +100,58 @@ class stTreeInfoResult{
       * Diposes this instance an release all allocated resources.
       */
       virtual ~stTreeInfoResult(){}
-      
+
       /**
       * Returns the maximum height of the tree.
       */
       virtual int GetHeight() = 0;
-      
+
       /**
       * Returns the minimum height of the tree.
       */
       virtual int GetMinHeight() = 0;
-      
+
       /**
       * Returns the optimal height of the tree.
       * The result of this method is meanless if HasOptimalTree() returned false.
       */
       virtual int GetOptimalHeight() = 0;
-      
+
       /**
       * Returns the number of objects indexed by the tree.
       */
       virtual int GetObjectCount() = 0;
-      
+
       /**
       * Returns the FatFactor for a given level.
       *
       * @param level The level number.
       */
       virtual double GetLocalFatFactor(int level) = 0;
-      
+
       /**
       * Returns the global FatFactor.
       */
       virtual double GetGlobalFatFactor() = 0;
-      
+
       /**
       * Returns the mean size of the objects stored in the tree. This value is useful
       * to help tree developers to calculate the optimal tree.
       */
       virtual double GetMeanObjectSize() = 0;
-      
+
       /**
-      * Returns the absolute FatFactor for this tree.       
+      * Returns the absolute FatFactor for this tree.
       * The result of this method is meanless if HasOptimalTree() returned false.
-      */    
+      */
       virtual double GetAbsoluteFatFactor() = 0;
-      
+
       /**
       * This method invalidates the current calculated FatFactor data. These
       * data will be recalculated again when required.
       */
       virtual void Invalidate() = 0;
-      
+
       /**
       * Returns true if this information includes the optimal tree data.
       */
@@ -178,26 +178,26 @@ class stTreeInformation: public stTreeInfoResult{
       * @warning For tree use only.
       */
       stTreeInformation(int height, int objectCount);
-      
+
       /**
       * Disposes this FatFactor result.
       */
-      virtual ~stTreeInformation();    
-   
+      virtual ~stTreeInformation();
+
       /**
       * Returns the maximum height of the tree.
       */
       virtual int GetHeight(){
          return height;
       }//end GetHeight
-      
+
       /**
       * Returns the minimum height of the tree.
       */
       virtual int GetMinHeight(){
          return minHeight;
       }//end GetMinHeight
-      
+
       /**
       * Returns the optimal height of the tree.
       * The result of this method is meanless if HasOptimalTree() returned false.
@@ -205,14 +205,14 @@ class stTreeInformation: public stTreeInfoResult{
       virtual int GetOptimalHeight(){
          return optimalHeight;
       }//end GetOptimalHeight
-      
+
       /**
       * Returns the number of objects indexed by the tree.
       */
       virtual int GetObjectCount(){
          return objectCount;
       }//end GetObjectCount
-      
+
       /**
       * Returns the FatFactor for a given level.
       *
@@ -222,7 +222,7 @@ class stTreeInformation: public stTreeInfoResult{
          Validate();
          return levelData[level].FatFactor;
       }//end GetLocalFatFactor
-      
+
       /**
       * Returns the global FatFactor.
       */
@@ -230,7 +230,7 @@ class stTreeInformation: public stTreeInfoResult{
          Validate();
          return fatFactor;
       }//end GetGlobalFatFactor
-      
+
       /**
       * Returns the mean size of the objects stored in the tree. This value is useful
       * to help tree developers to calculate the optimal tree.
@@ -238,24 +238,24 @@ class stTreeInformation: public stTreeInfoResult{
       virtual double GetMeanObjectSize(){
          return double(objectSizeSum) / double(objectSizeCount);
       }//end GetMeanObjectSize
-      
+
       /**
-      * Returns the absolute FatFactor for this tree.       
+      * Returns the absolute FatFactor for this tree.
       * The result of this method is meanless if HasOptimalTree() returned false.
-      */    
+      */
       virtual double GetAbsoluteFatFactor(){
          Validate();
          return bloatFactor;
       }//end GetAbsoluteFatFactor
-      
+
       /**
       * This method invalidates the current calculated FatFactor data. These
       * data will be recalculated again when required.
       */
       virtual void Invalidate(){
          ready = false;
-      }//end Invalidate    
-      
+      }//end Invalidate
+
       /**
       * Updates the number of intersections of a given level.
       *
@@ -267,7 +267,7 @@ class stTreeInformation: public stTreeInfoResult{
          Invalidate();
          levelData[level].Intersections += n;
       }//end UpdateIntersections
-      
+
       /**
       * Updates the number of nodes of a given level.
       *
@@ -279,7 +279,7 @@ class stTreeInformation: public stTreeInfoResult{
          Invalidate();
          levelData[level].NodeCount += n;
       }//end UpdateNodeCount
-   
+
       /**
       * Updates the number of objects of a given level.
       *
@@ -291,7 +291,7 @@ class stTreeInformation: public stTreeInfoResult{
          Invalidate();
          levelData[level].ObjectCount += n;
       }//end UpdateObjectCount
-      
+
       /**
       * Updates the mean size of the object by adding a new object entry.
       * To make this computation more accurate, avoid to add a given object
@@ -304,7 +304,7 @@ class stTreeInformation: public stTreeInfoResult{
          objectSizeSum += size;
          objectSizeCount++;
       }//end UpdateMeanObjectSize
-      
+
       /**
       * Updates the minimum height of the tree. If the minimum height is constant,
       * this method may be avoided.
@@ -315,16 +315,16 @@ class stTreeInformation: public stTreeInfoResult{
       void UpdateMinHeight(int height){
          if (height < minHeight){
             minHeight = height;
-         }//end if         
+         }//end if
       }//end UpdateHeight
-      
+
       /**
       * Returns true if this information includes the optimal tree data.
       */
       virtual bool HasOptimalTree(){
          return optimalLevelData != NULL;
       }//end HasOptimalTree
-      
+
       /**
       * Sets the information obout the optimal tree. This information is used to calculate
       * some of the tree's statistics.
@@ -336,7 +336,7 @@ class stTreeInformation: public stTreeInfoResult{
       * @warning For tree use only.
       */
       void SetOptimalTreeInfo(int height, int * objectCount, int * nodeCount);
-      
+
       /**
       * This method calculates the optimal tree info based on the same rules
       * used to calculate the best M-Tree and Slim-Tree configuration.  It
@@ -352,7 +352,7 @@ class stTreeInformation: public stTreeInfoResult{
       * @warning For tree use only.
       */
       void CalculateOptimalTreeInfo(int occupation);
-      
+
       /**
       * Returns a clone of this instance.
       *
@@ -381,7 +381,7 @@ class stTreeInformation: public stTreeInfoResult{
          */
          double FatFactor;
       };//end stLevelInfo
-   
+
       /**
       * This struct stores the information about a given level of the
       * optimal tree.
@@ -401,7 +401,7 @@ class stTreeInformation: public stTreeInfoResult{
          */
          double BloatFactor;
       };//end stOptimalLevelInfo
-      
+
       /**
       * Height of the tree.
       */
@@ -411,57 +411,57 @@ class stTreeInformation: public stTreeInfoResult{
       * Minimum height.
       */
       int minHeight;
-                  
+
       /**
       * Value of the global FatFactor.
       */
       double fatFactor;
-      
+
       /**
       * Value of the BloatFactor (the absolute FatFactor ?).
       */
       double bloatFactor;
-      
+
       /**
       * Number of objects indexed by the tree.
       */
       int objectCount;
-      
+
       /**
       * Total object size used to compute the mean object size.
       */
       stSize objectSizeSum;
-      
+
       /**
       * Number of objects used to compute the mean object size.
-      */    
+      */
       stSize objectSizeCount;
-      
+
       /**
       * Information about each level.
       */
       stLevelInfo * levelData;
-      
+
       /**
       * Information about each level of the optmal tree.
       */
       stOptimalLevelInfo * optimalLevelData;
-      
+
       /**
       * The height of the optmal tree.
       */
       int optimalHeight;
-      
+
       /**
       * This flag is used to determine the availability of the FatFactor
       * information. If this flag is false, it is necessary to call Calculate()
       * to make the information ready to use.
-      * 
+      *
       * @see Validate()
       * @see Invalidate()
       */
       bool ready;
-      
+
       /**
       * Updates the FatFactor data when required. It must be called once before
       * all FatFactor returning method to assure the consistency of data.
@@ -473,13 +473,13 @@ class stTreeInformation: public stTreeInfoResult{
             Calculate();
          }//end if
       }//end Validate
-      
+
       /**
       * Resets all data acquired from the tree. All fields are set to
       * 0.
       */
       void ResetData();
-      
+
       /**
       * This method uses the information available to calculate the FatFactor.
       *

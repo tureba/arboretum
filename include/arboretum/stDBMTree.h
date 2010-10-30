@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,7 +27,7 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
+ *        Computação, University of São Paulo - Brazil (the Databases
  *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
@@ -479,7 +479,7 @@ class stDBMLogicNode{
          * Object.
          */
          ObjectType * Object;
-   		
+
          #ifdef __stDBMHEIGHT__
             /**
             * Height of the tree.
@@ -760,7 +760,7 @@ class stDBMMSTSplitter{
       * @param cluster2 Cluster 2.
       */
       void JoinClusters(int cluster1, int cluster2);
-      
+
 };//end stDBMMSTSplitter
 
 
@@ -979,7 +979,7 @@ class stDBMNSplitter{
       bool TestIntersection(stDistance finalRadius, int cluster1, int cluster2);
 
       void SetRepresentative(int idx, int rep);
-      
+
 };//end stDBMNSplitter
 
 
@@ -1111,7 +1111,7 @@ class stDBMTree: public stMetricTree <ObjectType, EvaluatorType> {
       enum tChooseMethod{
 
          /**
-         * Choose the nearest subtree to the new object without 
+         * Choose the nearest subtree to the new object without
          * increments the radius of the subtree.
          */
          cmMINDIST,
@@ -1122,7 +1122,7 @@ class stDBMTree: public stMetricTree <ObjectType, EvaluatorType> {
          * the cover area.
          */
          cmMINDISTWITHCOVER,
-         
+
          /**
          * Choose the nearest subtree that covers the new object. It
          * is possible to increments the radius of the subtree but does not
@@ -1599,7 +1599,7 @@ class stDBMTree: public stMetricTree <ObjectType, EvaluatorType> {
 
       /*
       * Set of objects to be insert in the upper levels.
-      */                                       
+      */
       tDBMCollection * returnCollection;
 
       /*
@@ -1753,7 +1753,7 @@ class stDBMTree: public stMetricTree <ObjectType, EvaluatorType> {
          Header->NodeCount++;
          return this->myPageManager->GetNewPage();
       }//end NewPage
-      
+
       #ifndef __stDEBUG__
       /**
       * Get root page id.
@@ -2084,7 +2084,7 @@ class stDBMTree: public stMetricTree <ObjectType, EvaluatorType> {
       * @param pageID Root of this sub-tree.
       */
       stCount GetRealObjectsCount(stPageID pageID);
-      
+
       /**
       * This method travels through the tree gathering information about the
       * height of the tree.
@@ -2120,7 +2120,7 @@ class stDBMTree: public stMetricTree <ObjectType, EvaluatorType> {
       * starts from the root traveling through the tree in post order. Every
       * time it reaches an index node in the second level from bottom (the
       * index node above the leafs) it calls the method Shrink() to perform
-      * a local slim down. The radius of each subtree is updated during the 
+      * a local slim down. The radius of each subtree is updated during the
       * proccess to keep the tree consistent.
       *
       * @param pageID Root of the subtree.
@@ -2173,9 +2173,9 @@ class stDBMTree: public stMetricTree <ObjectType, EvaluatorType> {
       * @param src Source node.
       * @param dst Destination node.
       * @retval distance Distance from the last object of src to the
-      * representative of dst. 
+      * representative of dst.
       * @return True if it can be swapped of false otherwise.
-      * @warning The occupation of src is never tested. 
+      * @warning The occupation of src is never tested.
       */
       bool ShrinkCanSwap(tDBMShrinkNode * src, tDBMShrinkNode * dst,
             stDistance & distance);

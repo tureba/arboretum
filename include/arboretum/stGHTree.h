@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -115,7 +115,7 @@ class stGHTree: public stMetricTree<ObjectType, EvaluatorType>{
          * is not implemented yet).
          */
          char Magic[4];
-      
+
          /**
          * The root.
          */
@@ -162,11 +162,11 @@ class stGHTree: public stMetricTree<ObjectType, EvaluatorType>{
       /**
       * Disposes this tree and releases all associated resources.
       */
-      virtual ~stGHTree(){     
+      virtual ~stGHTree(){
          // Flus header page.
          FlushHeader();
-      }//end ~stGHTree                                  
-      
+      }//end ~stGHTree
+
       #ifdef __stDEBUG__
          /**
          * Get root page id.
@@ -297,7 +297,7 @@ class stGHTree: public stMetricTree<ObjectType, EvaluatorType>{
             this->myPageManager->ReleasePage(HeaderPage);
          }//end if
       }//end FlushHeader
-      
+
       /**
       * Creates a new empty page and updates the node counter.
       */

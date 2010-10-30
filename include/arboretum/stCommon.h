@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -70,7 +70,7 @@
 * $Author: marcos $
 * @author Fabio Jun Takada Chino (chino@icmc.usp.br)
 * @author Marcos Rodrigues Vieira (mrvieira@icmc.usp.br)
-*/                                                               
+*/
 // Copyright (c) 2002-2003 GBDI-ICMC-USP
 #ifndef __STCOMMON_H
 #define __STCOMMON_H
@@ -81,10 +81,10 @@
 // GNU GCC
 #ifdef __GNUG__
    #include <string.h> // malloc & cia
-   
+
    // This is an useful function extracted from Windows C Runtime library.
    #define random(x) ((int)((((double)rand()) / ((double)RAND_MAX)) * (x)))
-   
+
 	// Mingw does not provide these values so, here they are.
 	#ifdef __MINGW32_VERSION
 	   #define MAXSHORT    0x7fff
@@ -96,7 +96,7 @@
 	   #define MINFLOAT    1.17549435E-38F
 	   #define MAXLDOUBLE  1.1897314953572317649E+4932L
 	   #define MINLDOUBLE  3.362103143112094E-4917L
-	#else	
+	#else
 		#ifdef __CYGWIN__
 	   	#define MAXSHORT    0x7fff
 	   	#define MAXINT      0x7fffffff

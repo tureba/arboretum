@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,7 +27,7 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
+ *        Computação, University of São Paulo - Brazil (the Databases
  *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
@@ -103,10 +103,10 @@ stDiskPageManager::stDiskPageManager(const string & fName):fileName(fName){
    this->myStorage = new CStorage();
    this->myStorage->Open(fileName.c_str());
    this->pageSize =  myStorage->GetPageSize();
-   
-      // Instance cache with 
+
+      // Instance cache with
    pageInstanceCache = new stPageInstanceCache(STDISKPAGEMANAGER_INSTANCECACHESIZE,
-         new stPageAllocator(pageSize));   
+         new stPageAllocator(pageSize));
 }//end stDiskPageManager::stDiskPageManager
 
 //------------------------------------------------------------------------------
@@ -118,7 +118,7 @@ stDiskPageManager::~stDiskPageManager(){
          myStorage->Close();
       }//end if
    }//end if
-   
+
    delete pageInstanceCache;
 }//end stDiskPageManager::~stDiskPageManager
 
@@ -148,10 +148,10 @@ stPage * stDiskPageManager::GetPage(stPageID pageid){
    if ((int)pageid <= myStorage->GetTotalPagesIncludingDisposed()){
       // Get from cache
       myPage = pageInstanceCache->Get();
-      
+
       myStorage->ReadPage(pageid-1, myPage->GetData());
       myPage->SetPageID(pageid);
-   
+
       // Update Counters
       UpdateReadCounter();
       return myPage;
@@ -169,16 +169,16 @@ void stDiskPageManager::ReleasePage(stPage * page){
       pageInstanceCache->Put(page);
    }else{
       delete page;
-   }//end if   
+   }//end if
 }//end stDiskPageManager::ReleasePage()
 
 //------------------------------------------------------------------------------
 stPage * stDiskPageManager::GetNewPage(){
    stPage * currentPage;
-   
+
    // Get from cache
    currentPage = pageInstanceCache->Get();
-   
+
    stPageID newID = myStorage->InsertNewPage((void *)currentPage->GetData())+1;
    currentPage->SetPageID(newID);
 
@@ -224,7 +224,7 @@ void stDiskPageManager::Create(const char *fName, int pagesize, int userHeaderSi
    myStorage->Create(fName, pageSize, userHeaderSize, cacheNPages);
    ResetStatistics();
 
-   // Instance cache with 
+   // Instance cache with
    pageInstanceCache = new stPageInstanceCache(STDISKPAGEMANAGER_INSTANCECACHESIZE,
          new stPageAllocator(pageSize));
 }//end stDiskPageManager::Create()

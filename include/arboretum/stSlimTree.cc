@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -804,7 +804,7 @@ int stSlimMSTSplitter<ObjectType, EvaluatorType>::Distribute(
    // Representatives
    rep0 = Node->BuyObject(Node->GetRepresentativeIndex(0));
    rep1 = Node->BuyObject(Node->GetRepresentativeIndex(1));
-   
+
    return dCount;
 }//end stSlimMSTSplitter<ObjectType, EvaluatorType>::Distribute
 
@@ -1111,7 +1111,7 @@ int tmpl_stSlimTree::ChooseSubTree(
             // Get out the object from IndexNode.
             objectType->Unserialize(slimIndexNode->GetObject(idx),
                                     slimIndexNode->GetObjectSize(idx));
-            // Calculate the distance.                                    
+            // Calculate the distance.
             distance = this->myMetricEvaluator->GetDistance(objectType, obj);
             if ((distance < slimIndexNode->GetIndexEntry(idx).Radius) && (distance < minDistance)) {
                minDistance = distance;
@@ -1309,7 +1309,7 @@ int tmpl_stSlimTree::InsertRecursive(
                   if (repObj != NULL){
                      // Distance from representative is...
                      indexNode->GetIndexEntry(insertIdx).Distance =
-                           this->myMetricEvaluator->GetDistance(repObj, 
+                           this->myMetricEvaluator->GetDistance(repObj,
                                                                 promo1.Rep);
                   }else{
                      // It is the root!
@@ -1362,7 +1362,7 @@ int tmpl_stSlimTree::InsertRecursive(
                   if (repObj != NULL){
                      // Distance from representative is...
                      indexNode->GetIndexEntry(insertIdx).Distance =
-                           this->myMetricEvaluator->GetDistance(repObj, 
+                           this->myMetricEvaluator->GetDistance(repObj,
                                                                 promo2.Rep);
                   }else{
                      // It is the root!
@@ -1583,7 +1583,7 @@ void tmpl_stSlimTree::RandomPromote(tLogicNode * node) {
 
    stCount idx1, idx2;
    stCount numberOfEntries = node->GetNumberOfEntries();
-   
+
    // generate a number between 0 to numberOfEntries-1 fo idx1
    idx1 = random(numberOfEntries - 1);
    // while idx2 == idx1, do the random for idx2
@@ -2297,7 +2297,7 @@ stResult<ObjectType> * tmpl_stSlimTree::RangeQuery(
                                 sample, range, distance);
             }//end if
          }//end for
-         
+
       }else{
          // No, it is a leaf node. Get it.
          stSlimLeafNode * leafNode = (stSlimLeafNode *)currNode;
@@ -2316,7 +2316,7 @@ stResult<ObjectType> * tmpl_stSlimTree::RangeQuery(
             }//end for
             MAMViewer->EndFrame();
          #endif //__stMAMVIEW__
-         
+
          // For each entry...
          for (idx = 0; idx < numberOfEntries; idx++) {
             // Rebuild the object
@@ -2456,7 +2456,7 @@ void tmpl_stSlimTree::RangeQuery(
             }//end for
             MAMViewer->EndFrame();
          #endif //__stMAMVIEW__
-         
+
          // for each entry...
          for (idx = 0; idx < numberOfEntries; idx++) {
             // use of the triangle inequality.
@@ -2693,7 +2693,7 @@ stResult<ObjectType> * tmpl_stSlimTree::LocalNearestQuery(
          // Release queue.
          delete queue;
 
-      }else{  
+      }else{
          // No, it is a leaf node. Get it.
          stSlimLeafNode * leafNode = (stSlimLeafNode *)rootNode;
          numberOfEntries = leafNode->GetNumberOfEntries();
@@ -2783,8 +2783,8 @@ void tmpl_stSlimTree::LocalNearestQuery(
 
          // Release queue.
          delete queue;
-         
-      }else{  
+
+      }else{
          // No, it is a leaf node. Get it.
          stSlimLeafNode * leafNode = (stSlimLeafNode *)currNode;
          numberOfEntries = leafNode->GetNumberOfEntries();
@@ -3046,7 +3046,7 @@ void stSlimTree<ObjectType, EvaluatorType>::NearestQuery(tResult * result,
    bool stop;
    #ifdef __stMAMVIEW__
       stMessageString comment;
-   #endif //__stMAMVIEW__   
+   #endif //__stMAMVIEW__
 
    // Root node
    pqCurrValue.PageID = this->GetRoot();
@@ -3054,8 +3054,8 @@ void stSlimTree<ObjectType, EvaluatorType>::NearestQuery(tResult * result,
    #ifdef __stMAMVIEW__
       pqCurrValue.Parent = -1;
       pqCurrValue.Level = 0;
-   #endif //__stMAMVIEW__   
-   
+   #endif //__stMAMVIEW__
+
    // Create the Global Priority Queue
    queue = new tDynamicPriorityQueue(STARTVALUEQUEUE, INCREMENTVALUEQUEUE);
 
@@ -3076,7 +3076,7 @@ void stSlimTree<ObjectType, EvaluatorType>::NearestQuery(tResult * result,
             comment.Append("Entering in the index node ");
             comment.Append((int) pqCurrValue.PageID);
             comment.Append(" at level ");
-            comment.Append((int) pqCurrValue.Level);            
+            comment.Append((int) pqCurrValue.Level);
             MAMViewer->SetLevel( pqCurrValue.Level + 1);
             MAMViewer->BeginFrame(comment.GetStr());
             MAMViewer->EnableNode(pqCurrValue.PageID);
@@ -3092,7 +3092,7 @@ void stSlimTree<ObjectType, EvaluatorType>::NearestQuery(tResult * result,
             MAMViewer->SetResult(sample, result);
             MAMViewer->EndFrame();
          #endif //__stMAMVIEW__
-         
+
          // for each entry...
          for (idx = 0; idx < numberOfEntries; idx++) {
             // try to cut this subtree with the triangle inequality.
@@ -3111,12 +3111,12 @@ void stSlimTree<ObjectType, EvaluatorType>::NearestQuery(tResult * result,
                   #ifdef __stMAMVIEW__
                      pqTmpValue.Parent = pqCurrValue.Parent;
                      pqTmpValue.Level = pqCurrValue.Level + 1;
-                  #endif //__stMAMVIEW__                     
+                  #endif //__stMAMVIEW__
                   queue->Add(distance, pqTmpValue);
                }//end if
             }//end if
          }//end for
-      }else{ 
+      }else{
          // No, it is a leaf node. Get it.
          stSlimLeafNode * leafNode = (stSlimLeafNode *)currNode;
          numberOfEntries = leafNode->GetNumberOfEntries();
@@ -3127,7 +3127,7 @@ void stSlimTree<ObjectType, EvaluatorType>::NearestQuery(tResult * result,
             comment.Append((int) pqCurrValue.PageID);
             comment.Append(" at level ");
             comment.Append((int) pqCurrValue.Level);
-            
+
             MAMViewer->BeginFrame(comment.GetStr());
             MAMViewer->EnableNode(pqCurrValue.PageID);
             // for each entry...
@@ -3248,7 +3248,7 @@ void stSlimTree<ObjectType, EvaluatorType>::FarthestQuery(tResult * result,
    // Root node
    pqCurrValue.PageID = this->GetRoot();
    pqCurrValue.Radius = 0;
-   
+
    // Create the Global Priority Queue
    queue = new tDynamicReversedPriorityQueue(STARTVALUEQUEUE, INCREMENTVALUEQUEUE);
 
@@ -3380,7 +3380,7 @@ void stSlimTree<ObjectType, EvaluatorType>::PointQuery(
    // Root node
    pqCurrValue.PageID = this->GetRoot();
    pqCurrValue.Radius = 0;
-   
+
    // Create the Global Priority Queue
    queue = new tDynamicPriorityQueue(STARTVALUEQUEUE, INCREMENTVALUEQUEUE);
 
@@ -3389,7 +3389,7 @@ void stSlimTree<ObjectType, EvaluatorType>::PointQuery(
       // Read node...
       currPage = this->myPageManager->GetPage(pqCurrValue.PageID);
       currNode = stSlimNode::CreateNode(currPage);
-      // Is it a Index node?        
+      // Is it a Index node?
       if (currNode->GetNodeType() == stSlimNode::INDEX) {
          // Get Index node
          stSlimIndexNode * indexNode = (stSlimIndexNode *)currNode;
@@ -3413,7 +3413,7 @@ void stSlimTree<ObjectType, EvaluatorType>::PointQuery(
                }//end if
             }//end if
          }//end for
-      }else{ 
+      }else{
          // No, it is a leaf node. Get it.
          stSlimLeafNode * leafNode = (stSlimLeafNode *)currNode;
          numberOfEntries = leafNode->GetNumberOfEntries();
@@ -3540,7 +3540,7 @@ void tmpl_stSlimTree::KAndRangeQuery(
             }//end if
          }//end for
 
-      }else{ 
+      }else{
          // No, it is a leaf node. Get it.
          stSlimLeafNode * leafNode = (stSlimLeafNode *)currNode;
          numberOfEntries = leafNode->GetNumberOfEntries();
@@ -3628,7 +3628,7 @@ stResult<ObjectType> * tmpl_stSlimTree::KOrRangeQuery(
 template <class ObjectType, class EvaluatorType>
 void tmpl_stSlimTree::KOrRangeQuery(
       tResult * result, ObjectType * sample, stDistance range, stCount k){
-      
+
    tDynamicPriorityQueue * queue;
    stCount idx;
    stPage * currPage;
@@ -3645,7 +3645,7 @@ void tmpl_stSlimTree::KOrRangeQuery(
    // Root node
    pqCurrValue.PageID = this->GetRoot();
    pqCurrValue.Radius = 0;
-   
+
    // Create the Global Priority Queue
    queue = new tDynamicPriorityQueue(STARTVALUEQUEUE, INCREMENTVALUEQUEUE);
 
@@ -3679,7 +3679,7 @@ void tmpl_stSlimTree::KOrRangeQuery(
             }//end if
          }//end for
 
-      }else{ 
+      }else{
          // No, it is a leaf node. Get it.
          stSlimLeafNode * leafNode = (stSlimLeafNode *)currNode;
          numberOfEntries = leafNode->GetNumberOfEntries();
@@ -3830,7 +3830,7 @@ void tmpl_stSlimTree::RingQuery(
          // Release queue.
          delete queue;
 
-      }else{ 
+      }else{
          // No, it is a leaf node. Get it.
          stSlimLeafNode * leafNode = (stSlimLeafNode *)currNode;
          numberOfEntries = leafNode->GetNumberOfEntries();
@@ -3950,7 +3950,7 @@ void tmpl_stSlimTree::LocalKRingQuery(
          // Release queue.
          delete queue;
 
-      }else{ 
+      }else{
          // No, it is a leaf node. Get it.
          stSlimLeafNode * leafNode = (stSlimLeafNode *)currNode;
          numberOfEntries = leafNode->GetNumberOfEntries();
@@ -4035,7 +4035,7 @@ void stSlimTree<ObjectType, EvaluatorType>::KRingQuery(
    // Root node.
    pqCurrValue.PageID = this->GetRoot();
    pqCurrValue.Radius = 0;
-   
+
    // Create the Global Priority Queue
    queue = new tDynamicPriorityQueue(STARTVALUEQUEUE, INCREMENTVALUEQUEUE);
 
@@ -4070,7 +4070,7 @@ void stSlimTree<ObjectType, EvaluatorType>::KRingQuery(
             }//end if
          }//end for
 
-      }else{ 
+      }else{
          // No, it is a leaf node. Get it.
          stSlimLeafNode * leafNode = (stSlimLeafNode *)currNode;
          numberOfEntries = leafNode->GetNumberOfEntries();
@@ -4191,7 +4191,7 @@ void stSlimTree<ObjectType, EvaluatorType>::InitializeIncrementalNearestQuery(
             globalQueue->Add(tmpObj.Clone(), indexNode->GetIndexEntry(idx).PageID, distance,
                              indexNode->GetIndexEntry(idx).Radius, tGenericEntry::NODE);
          }//end for
-      }else{ 
+      }else{
          // No, it is a leaf node. Get it.
          stSlimLeafNode * leafNode = (stSlimLeafNode *)rootNode;
          numberOfEntries = leafNode->GetNumberOfEntries();
@@ -4211,7 +4211,7 @@ void stSlimTree<ObjectType, EvaluatorType>::InitializeIncrementalNearestQuery(
       delete rootNode;
       this->myPageManager->ReleasePage(rootPage);
    }//end if
-   
+
 }//end stSlimTree<ObjectType, EvaluatorType>::InitializeIncrementalNearestQuery
 
 //------------------------------------------------------------------------------
@@ -4271,13 +4271,13 @@ void stSlimTree<ObjectType, EvaluatorType>::IncrementalNearestQuery(
             distance = this->myMetricEvaluator->GetDistance(entryNode->GetObject(), sample);
             globalQueue->Add(entryNode->GetObject(), entryNode->GetPageID(), distance,
                              entryNode->GetRadius(), tGenericEntry::NODE);
-            //this entry does not has the object! 
+            //this entry does not has the object!
             entryNode->SetMine(false);
             break;
          case tGenericEntry::APPROXIMATEOBJECT :
             distance = this->myMetricEvaluator->GetDistance(entryNode->GetObject(), sample);
             globalQueue->Add(entryNode->GetObject(), distance, tGenericEntry::OBJECT);
-            //this entry does not has the object! 
+            //this entry does not has the object!
             entryNode->SetMine(false);
             break;
          case tGenericEntry::OBJECT :
@@ -4353,10 +4353,10 @@ void stSlimTree<ObjectType, EvaluatorType>::InitializeIncrementalNearestQuery(
             distance = this->myMetricEvaluator->GetDistance(&tmpObj, sample);
             // Put the Node in the Queue.
             globalQueue->Add(tmpObj.Clone(), indexNode->GetIndexEntry(idx).PageID,
-                             distance, 0, 0, 
+                             distance, 0, 0,
                              indexNode->GetIndexEntry(idx).Radius, 0, tPGenericHeap::NODE);
          }//end for
-      }else{ 
+      }else{
          // No, it is a leaf node. Get it.
          stSlimLeafNode * leafNode = (stSlimLeafNode *)rootNode;
          numberOfEntries = leafNode->GetNumberOfEntries();
@@ -4377,7 +4377,7 @@ void stSlimTree<ObjectType, EvaluatorType>::InitializeIncrementalNearestQuery(
       delete rootNode;
       this->myPageManager->ReleasePage(rootPage);
    }//end if
-   
+
 }//end stSlimTree<ObjectType, EvaluatorType>::InitializeIncrementalNearestQuery
 
 //------------------------------------------------------------------------------
@@ -4423,7 +4423,7 @@ void stSlimTree<ObjectType, EvaluatorType>::IncrementalNearestQuery(
                                      indexNode->GetObjectSize(idx));
 
                   globalQueue->Add(tmpObj.Clone(), indexNode->GetIndexEntry(idx).PageID,
-                                   0, indexNode->GetIndexEntry(idx).Distance, distanceQuery, 
+                                   0, indexNode->GetIndexEntry(idx).Distance, distanceQuery,
                                    indexNode->GetIndexEntry(idx).Radius, height+1, tPGenericHeap::APPROXIMATENODE);
                }//end for
             }else{
@@ -4467,7 +4467,7 @@ void stSlimTree<ObjectType, EvaluatorType>::IncrementalNearestQuery(
             break;//end
       }//end switch
    }//end do
-   
+
 }//end stSlimTree<ObjectType, EvaluatorType>::IncrementalNearestQuery
 
 //------------------------------------------------------------------------------
@@ -4910,7 +4910,7 @@ stDistance tmpl_stSlimTree::SlimDownRecursive(stPageID pageID, int level){
                   indexNode->GetIndexEntry(i).PageID, level + 1);
          }//end for
       }//end if
-      
+
       // Update my radius.
       radius = indexNode->GetMinimumRadius();
 
@@ -5080,12 +5080,12 @@ void tmpl_stSlimTree::LocalSlimDown(
                   }//end if
                }//end if
             }//end for
-   
+
             // Swap!
             if (dst != -1){
                // Update swap count
                localSwapCount++;
-   
+
                // Swap!
                memLeafNodes[dst]->Add(memLeafNodes[src]->PopObject(), minDist);
             }//end if
@@ -5106,7 +5106,7 @@ bool tmpl_stSlimTree::SlimDownCanSwap(
       tmpl_stSlimTree::tMemLeafNode * src, tmpl_stSlimTree::tMemLeafNode * dst,
       stDistance & distance){
 
-   // Check to see if destination is empty         
+   // Check to see if destination is empty
    if (dst->GetNumberOfEntries() == 0){
       return false;
    }//end if

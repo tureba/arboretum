@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -485,7 +485,7 @@ class stSlimLogicNode{
       * @param metricEvaluator The metric evaluator to be used.
       */
       stCount UpdateDistances(EvaluatorType * metricEvaluator);
-      
+
 };//end stSlimLogicNode
 
 //=============================================================================
@@ -540,7 +540,7 @@ class stSlimMSTSplitter{
       int Distribute(stSlimLeafNode * node0, ObjectType * & rep0,
                      stSlimLeafNode * node1, ObjectType * & rep1,
                      EvaluatorType * metricEvaluator);
-                     
+
    protected:
       /**
       * Distance matrix type.
@@ -693,27 +693,27 @@ class stSlimTree: public stMetricTree <ObjectType, EvaluatorType> {
          * is not implemented yet).
          */
          char Magic[4];
-      
+
          /**
          * Split method.
          */
          int SplitMethod;
-      
+
          /**
          * Choose method
          */
          int ChooseMethod;
-      
+
          /**
          * Correct method.
          */
          int CorrectMethod;
-      
+
          /**
          * The root of the Slim-tree
          */
          stPageID Root;
-      
+
          /**
          * Minimum percentage of objects in a node.
          */
@@ -733,12 +733,12 @@ class stSlimTree: public stMetricTree <ObjectType, EvaluatorType> {
          * Total number of objects.
          */
          stCount ObjectCount;
-         
+
          /**
          * Total number of nodes.
          */
          stSize NodeCount;
-      }stSlimHeader;   
+      }stSlimHeader;
 
       /**
       * These constants are used to define the choose sub tree method.
@@ -1210,7 +1210,7 @@ class stSlimTree: public stMetricTree <ObjectType, EvaluatorType> {
       * possible to get k+1 object after retrieve the k's objects.
       *
       * <P>This is possible because the global priority is not delete and
-      * the subtrees are not pruned. 
+      * the subtrees are not pruned.
       *
       * @param sample The sample object.
       * @param k The number of neighbors.
@@ -1233,7 +1233,7 @@ class stSlimTree: public stMetricTree <ObjectType, EvaluatorType> {
       * possible to get k+1 object after retrieve the k's objects.
       *
       * <P>This is possible because the global priority is not delete and
-      * the subtrees are not pruned. 
+      * the subtrees are not pruned.
       *
       * @param sample The sample object.
       * @param k The number of neighbors.
@@ -1255,7 +1255,7 @@ class stSlimTree: public stMetricTree <ObjectType, EvaluatorType> {
       * possible to get k+1 object after retrieve the k's objects.
       *
       * <P>This is possible because the global priority is not delete and
-      * the subtrees are not pruned. 
+      * the subtrees are not pruned.
       *
       * @param sample The sample object.
       * @param k The number of neighbors.
@@ -1278,7 +1278,7 @@ class stSlimTree: public stMetricTree <ObjectType, EvaluatorType> {
       * possible to get k+1 object after retrieve the k's objects.
       *
       * <P>This is possible because the global priority is not delete and
-      * the subtrees are not pruned. 
+      * the subtrees are not pruned.
       *
       * @param sample The sample object.
       * @param k The number of neighbors.
@@ -1335,7 +1335,7 @@ class stSlimTree: public stMetricTree <ObjectType, EvaluatorType> {
       /**
       * This method will perform the disjunctive complex similarity query between
       * range and k-nearest neighbor operator. However, in this method, this is
-      * done through of range queries.  
+      * done through of range queries.
       *
       * <P>This query is a combination of the standard range query and the standard
       * K-Nearest Neighbor Query. All objects which matches with one of two conditions
@@ -1495,7 +1495,7 @@ class stSlimTree: public stMetricTree <ObjectType, EvaluatorType> {
       * This type defines the MST splitter for this class.
       */
       typedef stSlimMSTSplitter < ObjectType, EvaluatorType > tMSTSplitter;
-      
+
       /**
       * This type is used by the priority key.
       */
@@ -1626,7 +1626,7 @@ class stSlimTree: public stMetricTree <ObjectType, EvaluatorType> {
       * <P>This method is called by the destructor.
       */
       void FlushHeader();
-      
+
       /**
       * Creates a new empty page and updates the node counter.
       */
@@ -1634,7 +1634,7 @@ class stSlimTree: public stMetricTree <ObjectType, EvaluatorType> {
          Header->NodeCount++;
          return this->myPageManager->GetNewPage();
       }//end NewPage
-      
+
       /**
       * Disposes a given page and updates the page counter.
       */
@@ -1896,7 +1896,7 @@ class stSlimTree: public stMetricTree <ObjectType, EvaluatorType> {
       * @param globalQueue The global priority queue.
       * @see tResult * NearestQuery
       */
-      void ListNearestQuery(tResult * result, ObjectType * sample, 
+      void ListNearestQuery(tResult * result, ObjectType * sample,
                             stDistance rangeK, stCount k);
 
       /**
@@ -2090,7 +2090,7 @@ class stSlimTree: public stMetricTree <ObjectType, EvaluatorType> {
          */
          void MAMViewDumpTreeRecursive(stPageID pageID, ObjectType * rep,
                                        stDistance radius, stPageID parent);
-                                       
+
       #endif //__stMAMVIEW__
 
       /**
@@ -2114,7 +2114,7 @@ class stSlimTree: public stMetricTree <ObjectType, EvaluatorType> {
       */
       void ObjectIntersectionsRecursive(stPageID pageID, ObjectType * obj,
                                         int level, stTreeInformation * info);
-            
+
 
       // Slimdown implementaion
       /**
@@ -2136,7 +2136,7 @@ class stSlimTree: public stMetricTree <ObjectType, EvaluatorType> {
       *
       * @param pageID The subtree root.
       * @return The new radius of the subtree.
-      */      
+      */
       stDistance SlimDown(stPageID pageID);
 
       /**
@@ -2156,13 +2156,13 @@ class stSlimTree: public stMetricTree <ObjectType, EvaluatorType> {
       * @param src Source node.
       * @param dst Destination node.
       * @retval distance Distance from the last object of src to the
-      * representative of dst. 
+      * representative of dst.
       * @return True if it can be swapped of false otherwise.
-      * @warning The occupation of src is never tested. 
+      * @warning The occupation of src is never tested.
       */
       bool SlimDownCanSwap(tMemLeafNode * src, tMemLeafNode * dst,
                            stDistance & distance);
-                           
+
 };//end stSlimTree
 
 // Include implementation

@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -67,8 +67,8 @@
 * @author Ives Renê Venturini Pola (ives@icmc.usp.br)
 * @author Marcos Rodrigues Vieira (mrvieira@icmc.usp.br)
 */
-// Copyright (c) 2004 GBDI-ICMC-USP                       
-                                                                       
+// Copyright (c) 2004 GBDI-ICMC-USP
+
 //------------------------------------------------------------------------------
 template <class ObjectType, class EvaluatorType>
 stVPTree<ObjectType, EvaluatorType>::stVPTree(stPageManager * pageman):
@@ -362,7 +362,7 @@ long stVPTree<ObjectType, EvaluatorType>::SelectVP(tObject ** objects,
       // Clean.
       delete[] sample2;
    }//end for
-   
+
    // Return the best vp.
    return bestVP;
 }//end stVPTree<ObjectType, EvaluatorType>::SelectVP
@@ -379,7 +379,7 @@ long stVPTree<ObjectType, EvaluatorType>::GetMedian(tObject ** objects,
    // Calculate the distances.
    for (i = 0; i < sampleSize; i++){
       sample[i].Distance =
-         this->myMetricEvaluator->GetDistance(objects[vantage], 
+         this->myMetricEvaluator->GetDistance(objects[vantage],
                                               objects[sample[i].Index]);
    }//end for
    // Sort them.
@@ -482,7 +482,7 @@ stResult<ObjectType> * stVPTree<ObjectType, EvaluatorType>::RangeQuery(
    // Return the result set.
    return result;
 }//end stMMTree<ObjectType><EvaluatorType>::RangeQuery
-                                           
+
 //------------------------------------------------------------------------------
 template <class ObjectType, class EvaluatorType>
 void stVPTree<ObjectType, EvaluatorType>::RangeQuery(tObject * sample,

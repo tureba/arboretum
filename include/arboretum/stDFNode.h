@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,7 +27,7 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
+ *        Computação, University of São Paulo - Brazil (the Databases
  *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
@@ -250,7 +250,7 @@ class stDFNode{
       static stSize GetGlobalOverhead(){
          return sizeof(stDFNodeHeader);
       }//end GetGlobalOverhead()
-      
+
    protected:
       /**
       * This is the structure of the Header of a DFTree node.
@@ -690,9 +690,9 @@ class stDFLeafNode: public stDFNode{
       * Returns the amount of the free space in this node.
       */
       stSize GetFree();
-      
+
 };//end stDFLeafNode
-                   
+
 //-----------------------------------------------------------------------------
 // Class stDFMemLeafNode
 //-----------------------------------------------------------------------------
@@ -851,7 +851,7 @@ class stDFMemLeafNode{
       */
       stDistance GetMinimumRadius(){
          return Entries[this->numEntries-1].Distance;
-      }//end GetMinimumRadius                    
+      }//end GetMinimumRadius
 
       /**
       * Returns the free space of this node.
@@ -863,7 +863,7 @@ class stDFMemLeafNode{
       }//end GetFreeSize
 
    private:
-   
+
       /**
       * This struct holds all information required to store an leaf node entry.
       */
@@ -883,31 +883,31 @@ class stDFMemLeafNode{
       * Number of entries in this node.
       */
       stCount NumEntries;
-      
+
       /**
       * Current capacity of this node.
       */
       stCount Capacity;
-      
+
       /**
       * Entries of this node.
       */
       stDFMemNodeEntry * Entries;
-      
+
       /**
       * Maximum size of the node in bytes.
       */
       stSize MaximumSize;
-      
+
       /**
       * Used size of the node in bytes.
       */
       stSize UsedSize;
-      
+
       /**
       * Point to the source leafNode.
       */
-      stDFLeafNode * SrcLeafNode; 
+      stDFLeafNode * SrcLeafNode;
 
       /**
       * Returns the insert position for a given distance.
@@ -917,14 +917,14 @@ class stDFMemLeafNode{
       * @todo This code needs optimizations. I suggest a binary search
       * implementation.
       */
-      int InsertPosition(stDistance distance); 
-      
+      int InsertPosition(stDistance distance);
+
       /**
       * Resizes the entries vector to hold more entries. It will at 16
       * positions to the capacity for each call.
       */
       void Resize(stCount incSize = 16);
-      
+
 };//end stDFMemLeafNode
 
 // Include implementation

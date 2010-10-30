@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -562,7 +562,7 @@ int tmpl_stMTree::ChooseSubTree(
             // Get out the object from IndexNode.
             objectType->Unserialize(slimIndexNode->GetObject(idx),
                                     slimIndexNode->GetObjectSize(idx));
-            // Calculate the distance.                                    
+            // Calculate the distance.
             distance = this->myMetricEvaluator->GetDistance(objectType, obj);
             if ((distance < slimIndexNode->GetIndexEntry(idx).Radius) && (distance < minDistance)) {
                minDistance = distance;
@@ -901,7 +901,7 @@ int tmpl_stMTree::InsertRecursive(
                   // Split!
                   SplitIndex(indexNode, newIndexNode,
                         promo1.Rep, promo1.Radius, promo1.RootID,
-                        promo2.Rep, promo2.Radius, promo2.RootID, 
+                        promo2.Rep, promo2.Radius, promo2.RootID,
                         repObj, promo1, promo2);
 
                   // Write nodes
@@ -1068,7 +1068,7 @@ void tmpl_stMTree::SplitLeaf(
    // Create the new tLogicNode
    logicNode = new tLogicNode(numberOfEntries + 1);
 
-   // Choose the way the split will occur. 
+   // Choose the way the split will occur.
    if ((GetSplitStrategyMethod() == BAL_G_HYPERPL) ||
        (GetSplitStrategyMethod() == BALANCED)){
       logicNode->SetMinOccupation(floor((numberOfEntries + 1)/2));
@@ -1076,7 +1076,7 @@ void tmpl_stMTree::SplitLeaf(
       // it is G_HYPERPL.
       logicNode->SetMinOccupation(GetMinOccupation() * (numberOfEntries + 1));
    }//end if
-   
+
    logicNode->SetNodeType(stMNode::LEAF);
 
    // update the maximum number of entries.
@@ -1378,7 +1378,7 @@ stResult<ObjectType> * tmpl_stMTree::RangeQuery(
                                 sample, range, distance);
             }//end if
          }//end for
-         
+
       }else{
          // No, it is a leaf node. Get it.
          stMLeafNode * leafNode = (stMLeafNode *)currNode;
@@ -1545,7 +1545,7 @@ void stMTree<ObjectType, EvaluatorType>::NearestQuery(tResult * result,
                }//end if
             }//end if
          }//end for
-      }else{ 
+      }else{
          // No, it is a leaf node. Get it.
          stMLeafNode * leafNode = (stMLeafNode *)currNode;
          numberOfEntries = leafNode->GetNumberOfEntries();
@@ -1642,7 +1642,7 @@ void stMTree<ObjectType, EvaluatorType>::PointQuery(
    // Root node
    pqCurrValue.PageID = this->GetRoot();
    pqCurrValue.Radius = 0;
-   
+
    // Create the Global Priority Queue
    queue = new tDynamicPriorityQueue(STARTVALUEQUEUE, INCREMENTVALUEQUEUE);
 
@@ -1651,7 +1651,7 @@ void stMTree<ObjectType, EvaluatorType>::PointQuery(
       // Read node...
       currPage = this->myPageManager->GetPage(pqCurrValue.PageID);
       currNode = stMNode::CreateNode(currPage);
-      // Is it a Index node?        
+      // Is it a Index node?
       if (currNode->GetNodeType() == stMNode::INDEX) {
          // Get Index node
          stMIndexNode * indexNode = (stMIndexNode *)currNode;
@@ -1674,7 +1674,7 @@ void stMTree<ObjectType, EvaluatorType>::PointQuery(
                }//end if
             }//end if
          }//end for
-      }else { 
+      }else {
          // No, it is a leaf node. Get it.
          stMLeafNode * leafNode = (stMLeafNode *)currNode;
          numberOfEntries = leafNode->GetNumberOfEntries();

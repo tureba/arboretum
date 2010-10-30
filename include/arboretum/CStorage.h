@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -299,7 +299,7 @@ class CStorage // Naming: csto
       // Statistics Related - When activated.
       //---------------------------------------------
       #ifdef CSTORAGE_STATISTICS
-      
+
       /**
       * Type of counters for statistics.
       */
@@ -329,19 +329,19 @@ class CStorage // Naming: csto
          * New page counter.
          */
          long newPage;
-        
+
          /**
          * pageRead + pageWrite
          */
-         long totalPageAccess; // 
-        
+         long totalPageAccess; //
+
          /**
-         * Read disk counter. 
+         * Read disk counter.
          * This counter is incremented only when a cache fault occurs
          * its value reflects the actual number of accessed pages. If
          * pageSize > pageSize, it will count the number of pages accessed to
          * retrieve an entire page. To measure the cache efficiency, these
-         * counters must be compared with the relativeTotalDiskAccess counter.         
+         * counters must be compared with the relativeTotalDiskAccess counter.
          */
          long diskRead;
 
@@ -351,11 +351,11 @@ class CStorage // Naming: csto
          * its value reflects the actual number of accessed pages. If
          * pageSize > pageSize, it will count the number of pages accessed to
          * retrieve an entire page. To measure the cache efficiency, these
-         * counters must be compared with the relativeTotalDiskAccess counter.         
+         * counters must be compared with the relativeTotalDiskAccess counter.
          */
          long diskWrite;
       };
-      
+
       /**
       * Counter data.
       */
@@ -415,12 +415,12 @@ class CStorage // Naming: csto
       * Header.
       */
       tFileHeader fileHeader;
-    
+
       /**
       * Position on disk of the first page. It is used to calculate other pages addresses.
       */
       long firstPageDiskAddress;
-    
+
       /**
       * The cache pointer.
       */
@@ -496,7 +496,7 @@ class CStorage // Naming: csto
       * Initalize all variables with zero or NULL.
       */
       void Reset();
-      
+
 };//end CStorage
 
 //------------------------------------------------------------------------------

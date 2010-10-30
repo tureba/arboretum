@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -93,7 +93,7 @@ stFastMapper<ObjectType, EvaluatorType>::~stFastMapper(){
    if (Pivots != NULL){
       DisposeImageVector(Pivots, Dim * 2);
    }//end if
-   
+
    delete[] PivotDist;
    delete[] PivotDist2;
 }//end stFastMapper<ObjectType, EvaluatorType>::~stFastMapper
@@ -251,7 +251,7 @@ double stFastMapper<ObjectType, EvaluatorType>::GetStress(
 
             // Real Distance sum
             realdist += dist2;
-            
+
             // Difference between image and real distance
             tmp = sqrt(Euclidean2(m1, m2, Dim)) - sqrt(dist2);
             imgdiff += tmp * tmp;

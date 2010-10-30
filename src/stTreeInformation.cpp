@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -83,26 +83,26 @@
 // Class stTreeInformation
 //------------------------------------------------------------------------------
 stTreeInformation::stTreeInformation(int height, int objectCount):stTreeInfoResult(){
-   
+
    // Creating resources.
    this->height = height;
    minHeight = height;
    levelData = new stLevelInfo[height];
-   
+
    // Optimal tree
    optimalLevelData = NULL;
-   
+
    // Initialize data
-   ResetData();   
+   ResetData();
    Invalidate();
    this->objectCount = objectCount;
 }//end stTreeInformation::stTreeInformation
 
 //------------------------------------------------------------------------------
 stTreeInformation::~stTreeInformation(){
-   
+
    delete[] levelData;
-   
+
    if (optimalLevelData != NULL){
       delete[] optimalLevelData;
    }//end if
@@ -110,11 +110,11 @@ stTreeInformation::~stTreeInformation(){
 
 //------------------------------------------------------------------------------
 void stTreeInformation::ResetData(){
-   
+
    // Set all fields to 0.
    memset(levelData, 0, sizeof(stLevelInfo) * height);
-   
-   // Mean object size  
+
+   // Mean object size
    objectSizeSum = 0;
    objectSizeCount = 0;
 }//end stTreeInformation::ResetData
@@ -150,14 +150,14 @@ void stTreeInformation::Calculate(){
             double(levelData[i].NodeCount);
       // levelData[height].BloatFactor = ...;
    }//end for
-   
+
    // The FatFactor is...
    // The original is:
    // fat=(TotIntersect-double(SlT->height+1.)*double(numobjects))/
    //    (double(numobjects)*double(SlT->pagecount-(SlT->height+1.)));
    fatFactor = (double(numIntersections) - double(height + 1) * double(objectCount)) /
          (double(objectCount) * double(numNodes - height - 1));
-   
+
    // The BloatFactor is...
    if (optimalLevelData != NULL){
       // Totals
@@ -172,7 +172,7 @@ void stTreeInformation::Calculate(){
       bloatFactor = (numIntersections - double(optimalHeight + 1) * double(objectCount))/
             (double(objectCount) * double(optNumNodes) - (optimalHeight + 1));
    }//end if
-   
+
    // Mark data as ready to use.
    ready = true;
 }//end stTreeInformation::Calculate
@@ -189,8 +189,8 @@ void stTreeInformation::SetOptimalTreeInfo(int height, int * objectCount, int * 
       optimalLevelData[i].NodeCount = nodeCount[i];
       optimalLevelData[i].ObjectCount = objectCount[i];
    }//end for
-   
-   Invalidate();  
+
+   Invalidate();
 }//end stTreeInformation::SetOptimalTreeInfo
 
 //------------------------------------------------------------------------------
@@ -230,10 +230,10 @@ void stTreeInformation::CalculateOptimalTreeInfo(int occupation){
 //------------------------------------------------------------------------------
 stTreeInformation * stTreeInformation::Clone(){
    stTreeInformation * clone;
-   
+
    // Create the new instance.
    clone = new stTreeInformation(height, objectCount);
-   
+
    // Fill data
    clone->minHeight = minHeight;
    clone->fatFactor = fatFactor;
@@ -247,7 +247,7 @@ stTreeInformation * stTreeInformation::Clone(){
       clone->optimalLevelData = new stOptimalLevelInfo[optimalHeight];
       memcpy(clone->optimalLevelData, optimalLevelData, sizeof(stOptimalLevelInfo) * optimalHeight);
    }//end if
-   
+
    return clone;
 }//end stTreeInformation::Clone
 //------------------------------------------------------------------------------

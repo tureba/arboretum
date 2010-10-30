@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -247,7 +247,7 @@ class stPageManager{
       long int GetWriteCount(){
          return this->WriteCount;
       }//end GetWriteCount
-      
+
       /**
       * Returns the total page access. This value is the sum of the
       * read count and write count.
@@ -255,11 +255,11 @@ class stPageManager{
       long int GetAccessCount(){
          return this->ReadCount + this->WriteCount;
       }//end GetAccessCount
-      
+
       /**
       * Returns the minimum size of a page. The size of the header page is
       * always ignored since it may be smaller than others.
-      */ 
+      */
       virtual stSize GetMinimumPageSize() = 0;
 
    protected:
@@ -272,7 +272,7 @@ class stPageManager{
       void UpdateReadCounter(unsigned long count = 1){
          ReadCount += count;
       }//end UpdateReadCounter
-      
+
       /**
       * This method updates the write counter.
       *
@@ -301,7 +301,7 @@ class stPageManager{
       * necessary.
       */
       long int WriteCount;
-      
+
 };//end stPageManager
 
 #endif //__STPAGEMANAGER_H

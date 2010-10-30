@@ -9,7 +9,7 @@
 
 #pragma argsused
 int main(int argc, char* argv[]){
-   TApp app;                                         
+   TApp app;
 
    // Init application.
    app.Init();

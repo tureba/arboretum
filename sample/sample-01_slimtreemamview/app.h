@@ -52,8 +52,8 @@ class TApp{
    	/**
    	* Evaluator type.
    	*/
-   	typedef stBasicEuclideanMetricEvaluator <myObject> myEvaluator;   	   
-   
+   	typedef stBasicEuclideanMetricEvaluator <myObject> myEvaluator;
+
       /**
       * This is the type used by the result.
       */
@@ -115,7 +115,7 @@ class TApp{
       * a PageManager.
       */
       void CreateTree();
-      
+
       /**
       * Generates a ramdom object.
       *
@@ -131,7 +131,7 @@ class TApp{
       /**
       * Performs a query and outputs its results.
       */
-      void PerformQuery();      
+      void PerformQuery();
 
       /**
       * Prints the result set to the standard output.

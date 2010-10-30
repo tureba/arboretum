@@ -8,7 +8,7 @@
  *
  * Copyright (c) 2004 Grupo de Bases de Dados e Imagens, Instituto de
  * Ciências Matemáticas e de Computação, University of São Paulo -
- * Brazil (the Databases and Image Group - Intitute of Matematical and 
+ * Brazil (the Databases and Image Group - Intitute of Matematical and
  * Computer Sciences).  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,8 +27,8 @@
  *    if any, must include the following acknowledgment:
  *       "This product includes software developed by Grupo de Bases
  *        de Dados e Imagens, Instituto de Ciências Matemáticas e de
- *        Computação, University of São Paulo - Brazil (the Databases 
- *        and Image Group - Intitute of Matematical and Computer 
+ *        Computação, University of São Paulo - Brazil (the Databases
+ *        and Image Group - Intitute of Matematical and Computer
  *        Sciences)"
  *
  *    Alternately, this acknowledgment may appear in the software itself,
@@ -96,14 +96,14 @@ class stDistanceCache{
       * @param n Number of entries.
       */
       stDistanceCache(int n);
-      
+
       /**
       * Disposes this instance and releases all associated resources.
       */
       virtual ~stDistanceCache(){
          delete[] distances;
       }//end ~stDistanceCache
-   
+
       /**
       * Returns the distance between object i and j.
       *
@@ -118,9 +118,9 @@ class stDistanceCache{
             return distances[GetOffset(j, i)];
          }else{
             return 0;
-         }//end if           
+         }//end if
       }//end GetDistance
-      
+
       /**
       * Sets the distance between objects i and j.
       *
@@ -141,14 +141,14 @@ class stDistanceCache{
             distances[GetOffset(j, i)] = d;
          //}else{
             // Do nothing
-         }//end if           
+         }//end if
       }//end SetDistance
    private:
       /**
       * Distance cache.
       */
       stDistance * distances;
-      
+
       /**
       * Returns the offset of the given position. The value of
       * i must be always greater then j.
