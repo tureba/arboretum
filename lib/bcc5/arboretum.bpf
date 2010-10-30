@@ -1,0 +1,25 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+USEUNIT("..\..\src\stUtil.cpp");
+USEUNIT("..\..\src\stDiskPageManager.cpp");
+USEUNIT("..\..\src\stMemoryPageManager.cpp");
+USEUNIT("..\..\src\stPage.cpp");
+USEUNIT("..\..\src\stPlainDiskPageManager.cpp");
+USEUNIT("..\..\src\stResult.cpp");
+USEUNIT("..\..\src\stSlimNode.cpp");
+USEUNIT("..\..\src\stTreeInformation.cpp");
+USEUNIT("..\..\src\CStorage.cpp");
+USEUNIT("..\..\src\stDBMNode.cpp");
+USEUNIT("..\..\src\stMNode.cpp");
+USEUNIT("..\..\src\stDummyNode.cpp");
+USEUNIT("..\..\src\stVPNode.cpp");
+USEUNIT("..\..\src\stGHNode.cpp");
+USEUNIT("..\..\src\stDFNode.cpp");
+USEUNIT("..\..\src\stListPriorityQueue.cpp");
+//---------------------------------------------------------------------------
+#define Library
+
+// To add a file to the library use the Project menu 'Add to Project'.
+

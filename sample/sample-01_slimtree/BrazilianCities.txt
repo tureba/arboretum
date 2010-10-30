@@ -1,0 +1,5507 @@
+São João do Polêsine-RS	-29.61	53.45
+Campinorte-GO	-14.31	49.15
+São José do Goiabal-MG	-19.93	42.71
+Nova Odessa-SP	-22.78	47.3
+Trindade-PE	-7.76	40.27
+São Miguel de Taipu-PB	-7.25	35.21
+Martins-RN	-6.09	37.91
+Santana de Mangueira-PB	-7.56	38.33
+Ribeira do Amparo-BA	-11.05	38.43
+Bocaina do Sul-SC	-27.74	49.94
+Bertópolis-MG	-17.06	40.57
+Cocal dos Alves-PI	-3.73	41.45
+Pedra Branca-PB	-7.43	38.07
+São Geraldo da Piedade-MG	-18.84	42.29
+Quarto Centenário-PR	-24.28	53.08
+Ipixuna do Pará-PA	-2.56	47.5
+Faxinal dos Guedes-SC	-26.85	52.26
+Paraipaba-CE	-3.44	39.15
+Dona Francisca-RS	-29.62	53.36
+Bananeiras-PB	-6.75	35.63
+Cachoeira Dourada-GO	-18.49	49.48
+Curimatá-PI	-10.04	44.31
+Monção-MA	-3.49	45.25
+Santa Rita-MA	-3.14	44.33
+Cascalho Rico-MG	-18.58	47.88
+Senador Rui Palmeira-AL	-9.47	37.46
+São Gabriel-BA	-11.23	41.91
+Belo Monte-AL	-9.83	37.28
+Santo Antônio da Patrulha-RS	-29.82	50.52
+Soledade-RS	-28.82	52.51
+Virgem da Lapa-MG	-16.8	42.34
+Teodoro Sampaio-SP	-22.53	52.17
+Itupiranga-PA	-5.13	49.33
+Faria Lemos-MG	-20.81	42.03
+Alto Rio Doce-MG	-21.03	43.41
+Jaú do Tocantins-TO	-12.66	48.59
+Japaratuba-SE	-10.59	36.94
+Canápolis-BA	-13.07	44.2
+Bacabeira-MA	-2.97	44.32
+Monte Alegre do Sul-SP	-22.68	46.68
+Porto-PI	-3.89	42.71
+Santa Mercedes-SP	-21.35	51.76
+Coluna-MG	-18.23	42.84
+Poço Redondo-SE	-9.81	37.68
+Cachoeira do Piriá-PA	-1.76	46.55
+Barcelona-RN	-5.95	35.93
+Jaborandi-BA	-13.62	44.43
+Presidente Sarney-MA	-2.59	45.36
+Pojuca-BA	-12.43	38.33
+Eugenópolis-MG	-21.1	42.19
+Caturité-PB	-7.42	36.03
+Jacareacanga-PA	-6.22	57.75
+Atilio Vivacqua-ES	-20.91	41.2
+Salinas da Margarida-BA	-12.87	38.76
+Curionópolis-PA	-6.1	49.6
+Quatis-RJ	-22.41	44.26
+Bom Jesus-PI	-9.07	44.36
+Fortuna-MA	-5.73	44.16
+Amontada-CE	-3.49	39.58
+Uberlândia-MG	-18.92	48.28
+Nísia Floresta-RN	-6.09	35.21
+Maracaí-SP	-22.61	50.67
+Guarapari-ES	-20.67	40.5
+Uiraúna-PB	-6.52	38.41
+Quilombo-SC	-26.73	52.72
+Perobal-PR	-23.9	53.41
+Divinésia-MG	-20.99	43
+Igreja Nova-AL	-10.13	36.66
+Santana-BA	-12.98	44.05
+Campos dos Goytacazes-RJ	-21.75	41.32
+São José do Alegre-MG	-22.33	45.53
+Jaraguari-MS	-20.14	54.4
+Miradouro-MG	-20.89	42.34
+São Miguel do Tocantins-TO	-5.56	47.58
+Potiraguá-BA	-15.59	39.88
+Vacaria-RS	-28.51	50.93
+Carneiros-AL	-9.48	37.38
+Aratiba-RS	-27.39	52.3
+Tijucas-SC	-27.24	48.63
+Barão-RS	-29.38	51.5
+Nazareno-MG	-21.22	44.61
+Remígio-PB	-7.82	38.15
+Conceição do Jacuípe-BA	-12.32	38.77
+Engenheiro Paulo de Frontin-RJ	-22.55	43.68
+Casimiro de Abreu-RJ	-22.48	42.2
+Uruana de Minas-MG	-16.06	46.25
+Modelo-SC	-26.78	53.06
+Belo Campo-BA	-15.04	41.26
+Ruy Barbosa-BA	-12.28	40.49
+Cruzmaltina-PR	-24.01	51.46
+Medeiros-MG	-20	46.23
+Rio Real-BA	-11.48	37.93
+Novo Planalto-GO	-13.24	49.5
+Santos Dumont-MG	-21.46	43.55
+Lajedo-PE	-8.66	36.32
+Terra Boa-PR	-23.77	52.44
+Pelotas-RS	-31.77	52.34
+Alto do Rodrigues-RN	-5.29	36.76
+Eldorado do Sul-RS	-30.08	51.62
+Boa Ventura de São Roque-PR	-24.87	51.63
+Caieiras-SP	-23.36	46.74
+Eldorado dos Carajás-PA	-6.1	49.36
+Seabra-BA	-12.42	41.77
+Lagoa Formosa-MG	-18.78	46.41
+Palmas-TO	-10.21	48.36
+Moiporá-GO	-16.55	50.74
+Palmeira dos Índios-AL	-9.41	36.63
+Itapicuru-BA	-11.32	38.23
+Caputira-MG	-20.17	42.27
+Cruzeiro-SP	-22.58	44.96
+Bom Jesus do Sul-PR	-26.19	53.6
+Ubiratã-PR	-24.55	52.99
+Jaborandi-SP	-20.69	48.41
+Urucuia-MG	-16.13	45.74
+Itaquaquecetuba-SP	-23.49	46.35
+São Roque de Minas-MG	-20.25	46.37
+Lençóis-BA	-12.56	41.39
+Rio Novo-MG	-21.46	43.13
+Serro-MG	-18.6	43.38
+Campo Erê-SC	-26.39	53.08
+Centro Novo do Maranhão-MA	-2.11	46.13
+Alto Longá-PI	-5.25	42.21
+Nova Crixás-GO	-14.1	50.33
+Alcântaras-CE	-3.59	40.55
+Rio Negrinho-SC	-26.25	49.52
+Januária-MG	-15.49	44.36
+Castanheira-MT	-11.13	58.6
+Quixelô-CE	-6.25	39.2
+Nova Pádua-RS	-29.03	51.31
+Igrapiúna-BA	-13.83	39.14
+Luís Correia-PI	-2.88	41.67
+Itatira-CE	-4.53	39.62
+Ferros-MG	-19.23	43.02
+Planalto-SP	-21.03	49.93
+Alfredo Vasconcelos-MG	-21.15	43.78
+Iporã-PR	-24	53.7
+Imaruí-SC	-28.34	48.82
+Tocantínia-TO	-9.56	48.38
+Goiabeira-MG	-18.98	41.22
+Princesa-SC	-26.44	53.6
+Posse-GO	-14.09	46.37
+Cariri do Tocantins-TO	-11.89	49.16
+Santo André-PB	-7.22	36.63
+Chapadão do Sul-MS	-18.79	52.62
+Tufilândia-MA	-3.73	45.55
+Rio Claro-RJ	-22.72	44.14
+Progresso-RS	-29.24	52.31
+Olinda Nova do Maranhão-MA	-3	45
+Santa Cecília-SC	-26.96	50.43
+Fátima-TO	-10.76	48.91
+Rio Claro-SP	-22.41	47.56
+Manduri-SP	-23	49.32
+Mombuca-SP	-22.93	47.57
+Guapimirim-RJ	-22.54	42.98
+Alta Floresta-MT	-9.88	56.09
+Serra Dourada-BA	-12.76	43.95
+Diamantina-MG	-18.25	43.6
+Jitaúna-BA	-14.02	39.89
+Mar de Espanha-MG	-21.87	43.01
+Nova Esperança do Sul-RS	-29.41	54.83
+Araras-SP	-22.36	47.38
+Anchieta-ES	-20.81	40.65
+Buritis-RO	-10.21	63.83
+Crisólita-MG	-17.24	40.91
+Arco-Íris-SP	-21.77	50.47
+Frei Rogério-SC	-27.17	50.8
+Capela-AL	-9.41	36.07
+Areal-RJ	-22.23	43.11
+Fortim-CE	-4.45	37.8
+Palestina do Pará-PA	-5.74	48.32
+Pontes Gestal-SP	-20.17	49.7
+Santa Rita-PB	-7.11	34.98
+Fraiburgo-SC	-27.03	50.92
+Carnaubais-RN	-5.35	36.83
+Sítio Novo-RN	-6.1	35.91
+Araçu-GO	-16.36	49.68
+Santa Carmem-MT	-11.91	55.23
+Caracol-PI	-9.28	43.33
+Presidente Castelo Branco-SC	-27.22	51.81
+Barro Alto-BA	-11.76	41.91
+Pindoba-AL	-9.48	36.29
+Canavieiras-BA	-15.68	38.95
+Suzano-SP	-23.54	46.31
+Itarema-CE	-2.92	39.92
+Alto Alegre dos Parecis-RO	-12.13	61.85
+Francisco Badaró-MG	-16.99	42.35
+Aveiro-PA	-3.61	55.33
+Morro Reuter-RS	-29.54	51.08
+Pacaembu-SP	-21.56	51.26
+Eusébio-CE	-3.89	38.45
+Mirassol-SP	-20.82	49.52
+Mococa-SP	-21.47	47
+São Ludgero-SC	-28.33	49.18
+Santa Teresa-ES	-19.94	40.6
+Alvorada-TO	-12.48	49.12
+Santana do Deserto-MG	-21.95	43.17
+Campinaçu-GO	-13.79	48.57
+Cruz Alta-RS	-28.64	53.61
+Belém do Brejo do Cruz-PB	-6.19	37.54
+Avaré-SP	-23.1	48.93
+São José do Bonfim-PB	-7.16	37.31
+Ibatiba-ES	-20.23	41.51
+Senador Alexandre Costa-MA	-5.26	44.06
+Vera Cruz-RS	-29.71	52.51
+Avaí-SP	-22.15	49.33
+Cabo de Santo Agostinho-PE	-8.29	35.03
+Petrolândia-SC	-27.54	49.7
+Santana dos Garrotes-PB	-7.38	37.99
+Padre Carvalho-MG	-16.36	42.52
+São José da Boa Vista-PR	-23.92	49.65
+Paty do Alferes-RJ	-22.43	43.42
+Marabá-PA	-5.37	49.12
+Novo Horizonte do Norte-MT	-11.41	57.35
+Teolândia-BA	-13.6	39.49
+Pedra-PE	-8.5	36.94
+Carmo da Cachoeira-MG	-21.46	45.22
+Pirapora-MG	-17.35	44.94
+Pongaí-SP	-21.74	49.37
+Nipoã-SP	-20.91	49.78
+Bom Sucesso-MG	-21.03	44.76
+Santa Terezinha de Itaipu-PR	-25.36	54.49
+Alvorada do Norte-GO	-14.48	46.49
+Santiago-RS	-29.19	54.87
+Carapicuíba-SP	-23.52	46.84
+Nova Olinda do Maranhão-MA	-2.85	45.69
+Wanderley-BA	-12.12	43.89
+Cubatão-SP	-23.9	46.43
+Planalto-RS	-27.33	53.06
+São João da Mata-MG	-21.93	45.93
+Calçado-PE	-8.74	36.33
+Berilo-MG	-16.95	42.47
+Bom Jesus-SC	-26.73	52.39
+Matutina-MG	-19.22	45.97
+Ipojuca-PE	-8.4	35.06
+Macieira-SC	-26.86	51.38
+Ivaí-PR	-25.01	50.86
+Adolfo-SP	-21.24	49.64
+Paulo Afonso-BA	-9.41	38.21
+Caldas-MG	-21.92	46.39
+Belém de Maria-PE	-8.63	35.83
+Jataúba-PE	-7.99	36.5
+Tasso Fragoso-MA	-8.48	45.74
+Central-BA	-11.14	42.11
+União do Sul-MT	-11.53	54.35
+Rio Casca-MG	-20.23	42.65
+Entre Rios do Sul-RS	-27.53	52.73
+Maracás-BA	-13.44	40.43
+Castilho-SP	-20.87	51.49
+Lagoa Nova-RN	-6.12	35.48
+Jaraguá-GO	-15.76	49.33
+Serrolândia-BA	-11.42	40.3
+Ritápolis-MG	-21.02	44.32
+Muzambinho-MG	-21.38	46.53
+Riacho dos Machados-MG	-16.01	43.05
+Custódia-PE	-8.09	37.64
+Cedro de São João-SE	-10.25	36.88
+São Simão-SP	-21.48	47.55
+Porto Amazonas-PR	-25.54	49.89
+Iracema-CE	-5.81	38.31
+Patos-PB	-7.02	37.28
+Iraí-RS	-27.19	53.25
+Itapirapuã-GO	-15.82	50.61
+Galiléia-MG	-19	41.54
+Cardoso Moreira-RJ	-21.49	41.62
+Nova Granada-SP	-20.53	49.31
+Boa Vista-PB	-7.26	36.24
+Conceição do Castelo-ES	-20.37	41.24
+Xambrê-PR	-23.74	53.49
+Parobé-RS	-29.63	50.83
+Chuí-RS	-33.69	53.46
+Paracambi-RJ	-22.61	43.71
+Carneirinho-MG	-19.7	50.69
+Conceição da Feira-BA	-12.51	39
+Amapá-AP	2.05	50.79
+Guaraqueçaba-PR	-25.31	48.33
+São Pedro do Butiá-RS	-28.12	54.89
+Cachoeiro de Itapemirim-ES	-20.85	41.11
+Piracuruca-PI	-3.93	41.71
+Marianópolis do Tocantins-TO	-9.8	49.65
+Paraíso-SC	-26.61	53.67
+Ibaiti-PR	-23.85	50.19
+Campo Novo-RS	-27.68	53.8
+Restinga-SP	-20.6	47.48
+Iracema-RR	2.18	61.04
+Perdigão-MG	-19.95	45.08
+Rodeio Bonito-RS	-27.47	53.17
+Taiúva-SP	-21.12	48.45
+Colombo-PR	-25.29	49.22
+Calçoene-AP	2.5	50.95
+Arapoti-PR	-24.16	49.83
+Passos Maia-SC	-26.78	52.06
+Porto Ferreira-SP	-21.85	47.48
+Baianópolis-BA	-12.31	44.53
+Pariquera-Açu-SP	-24.72	47.88
+Itapipoca-CE	-3.36	39.83
+São Sebastião do Oeste-MG	-20.28	45.01
+Juiz de Fora-MG	-21.76	43.35
+Gália-SP	-22.29	49.55
+Cocos-BA	-14.18	44.53
+Paudalho-PE	-7.9	35.18
+Ribeirão do Pinhal-PR	-23.41	50.36
+Governador Nunes Freire-MA	-2.13	45.89
+Mirante-BA	-14.24	40.78
+Fernando de Noronha-PE	-3.84	32.41
+São Lourenço do Piauí-PI	-9.17	42.54
+Santa Bárbara do Sul-RS	-28.36	53.25
+Frederico Westphalen-RS	-27.36	53.39
+Feliz-RS	-29.45	51.31
+Nova Serrana-MG	-19.88	44.98
+Arauá-SE	-11.26	37.62
+Baraúna-PB	-6.64	36.25
+Peixe-TO	-12.03	48.54
+Catuípe-RS	-28.25	54.01
+Barra do Corda-MA	-5.51	45.24
+Sarandi-RS	-27.94	52.92
+Bady Bassitt-SP	-20.92	49.45
+Divinolândia-SP	-21.66	46.74
+Rio Fortuna-SC	-28.13	49.11
+Japaratinga-AL	-9.09	35.26
+Cajazeirinhas-PB	-6.96	37.81
+São João de Meriti-RJ	-22.8	43.37
+Tamboara-PR	-23.2	52.47
+Josenópolis-MG	-16.55	42.52
+Barcarena-PA	-1.51	48.63
+Governador Luiz Rocha-MA	-5.47	44.07
+Felício dos Santos-MG	-18.08	43.25
+Santo Antônio das Missões-RS	-28.51	55.23
+Alto Jequitibá-MG	-20.42	41.97
+Jangada-MT	-15.24	56.49
+Poção-PE	-8.19	36.71
+Turiúba-SP	-20.93	50.11
+Paraopeba-MG	-19.27	44.4
+Jaguaré-ES	-18.91	40.08
+Bonito-PE	-8.47	35.73
+Ibirarema-SP	-22.82	50.07
+Ibiá-MG	-19.48	46.54
+Aperibé-RJ	-21.62	42.1
+Várzea Paulista-SP	-23.21	46.83
+Itapecerica-MG	-20.47	45.13
+Ipira-SC	-27.4	51.77
+Boa Vista das Missões-RS	-27.66	53.31
+Taciba-SP	-22.39	51.28
+Ribeirão das Neves-MG	-19.77	44.09
+Lago Verde-MA	-4.04	44.93
+Coromandel-MG	-18.47	47.2
+Betânia-PE	-8.27	38.03
+Roque Gonzales-RS	-28.13	55.03
+São Francisco do Brejão-MA	-5.12	47.39
+Ponto Belo-ES	-18.12	40.54
+Nova Aliança do Ivaí-PR	-23.18	52.6
+São José dos Quatro Marcos-MT	-15.62	58.18
+Cláudia-MT	-11.52	54.89
+Minas do Leão-RS	-30.13	52.05
+Tiradentes-MG	-21.11	44.18
+Atibaia-SP	-23.12	46.55
+Joaquim Felício-MG	-17.76	44.17
+São Félix do Xingu-PA	-6.64	52
+Brasilândia do Sul-PR	-24.2	53.52
+São Bento Abade-MG	-21.58	45.08
+Vespasiano Correa-RS	-29.07	51.86
+Ubatuba-SP	-23.43	45.07
+Virginópolis-MG	-18.82	42.7
+Boa Esperança-MG	-21.09	45.57
+Oriente-SP	-22.15	50.09
+Nova Fátima-PR	-23.43	50.56
+Rolim de Moura-RO	-11.8	61.8
+Novo Itacolomi-PR	-23.76	51.51
+Coimbra-MG	-20.86	42.8
+Riqueza-SC	-27.07	53.32
+Niterói-RJ	-22.88	43.1
+Rio Rufino-SC	-27.86	49.78
+Formiga-MG	-20.46	45.43
+Goianésia do Pará-PA	-3.84	49.1
+Pontalina-GO	-17.53	49.45
+Capão Bonito-SP	-24.01	48.35
+Loreto-MA	-7.08	45.14
+Amarante-PI	-6.24	42.85
+Lapa-PR	-25.77	49.72
+Cruzeiro do Iguaçu-PR	-25.62	53.13
+Santa Rosa de Goiás-GO	-16.09	49.49
+Jaicós-PI	-7.36	41.14
+Rio Pardo de Minas-MG	-15.61	42.54
+Barra do Chapéu-SP	-24.47	49.02
+Angical-BA	-12.01	44.69
+Ribeiro Gonçalves-PI	-7.56	45.24
+Dom Bosco-MG	-16.65	46.27
+Coronel Xavier Chaves-MG	-21.02	44.22
+Papanduva-SC	-26.37	50.14
+Aquidabã-SE	-10.28	37.02
+Flor do Sertão-SC	-26.78	53.35
+Barão de Antonina-SP	-23.63	49.56
+Barra Bonita-SP	-22.49	48.56
+Jequeri-MG	-20.46	42.67
+Nova Fátima-BA	-11.61	39.63
+Mato Castelhano-RS	-28.28	52.19
+São Gonçalo do Rio Abaixo-MG	-19.83	43.36
+Pavão-MG	-17.43	41
+Barra de Santo Antônio-AL	-9.4	35.51
+Céu Azul-PR	-25.15	53.85
+Piraí-RJ	-22.63	43.9
+Vila Lângaro-RS	-28.11	52.14
+Maraú-BA	-14.1	39.01
+Poconé-MT	-16.26	56.62
+Vereda-BA	-17.22	40.09
+Bacuri-MA	-1.7	45.13
+Itiúba-BA	-10.69	39.85
+Campestre-MG	-21.71	46.25
+Sítio do Mato-BA	-13.08	43.47
+São Gonçalo dos Campos-BA	-12.43	38.97
+Iperó-SP	-23.35	47.69
+Catas Altas-MG	-20.07	43.41
+Itu-SP	-23.26	47.3
+Passo de Camaragibe-AL	-9.24	35.49
+Moreilândia-PE	-7.63	39.55
+Cavalcante-GO	-13.8	47.46
+Sapeaçu-BA	-12.73	39.18
+Vista Alegre-RS	-27.37	53.49
+Lindoeste-PR	-25.26	53.58
+São Félix-BA	-12.6	38.97
+Mariana-MG	-20.38	43.42
+Caraguatatuba-SP	-23.62	45.41
+Serra Talhada-PE	-7.99	38.3
+São João do Cariri-PB	-7.39	36.53
+Nova Era-MG	-19.75	43.04
+Rio Branco-MT	-15.24	58.12
+Ponta Grossa-PR	-25.1	50.16
+Águas de São Pedro-SP	-22.6	47.88
+Russas-CE	-4.94	37.98
+Frei Gaspar-MG	-18.07	41.43
+Presidente Lucena-RS	-29.52	51.18
+Altônia-PR	-23.87	53.9
+Pilões-RN	-6.27	38.04
+Limoeiro-PE	-7.87	35.45
+São João das Duas Pontes-SP	-20.39	50.38
+Baixa Grande-BA	-11.96	40.17
+Piratini-RS	-31.45	53.1
+União de Minas-MG	-19.53	50.34
+Cerro Grande do Sul-RS	-30.6	51.75
+Santa Cruz de Minas-MG	-21.12	44.22
+Combinado-TO	-12.79	46.54
+Santana do Maranhão-MA	-3.12	42.41
+Nova Olinda do Norte-AM	-3.89	59.09
+João Dourado-BA	-11.35	41.66
+Ibema-PR	-25.11	53.01
+Santo Antônio do Jacinto-MG	-16.53	40.18
+Santa Helena de Goiás-GO	-17.81	50.6
+Albertina-MG	-22.2	46.62
+Marechal Thaumaturgo-AC	-8.94	72.79
+Eugênio de Castro-RS	-28.53	54.15
+Bom Jesus do Itabapoana-RJ	-21.13	41.68
+Porto Real-RJ	-22.42	44.29
+Silvianópolis-MG	-22.03	45.84
+Paraíso do Sul-RS	-29.67	53.15
+Miravânia-MG	-14.74	44.4
+Marcelino Ramos-RS	-27.46	51.91
+Serranos-MG	-21.89	44.51
+Itaporanga d'Ajuda-SE	-11	37.31
+Campos Lindos-TO	-7.99	46.87
+Cristiano Otoni-MG	-20.83	43.81
+Ubaporanga-MG	-19.64	42.11
+Vila Flores-RS	-28.86	51.53
+Canutama-AM	-6.53	64.38
+Camaragibe-PE	-8.02	34.98
+Naque-MG	-19.23	42.33
+Jardim do Seridó-RN	-6.58	36.77
+Doutor Camargo-PR	-23.56	52.22
+Itaguara-MG	-20.39	44.49
+Eunápolis-BA	-16.38	39.58
+Jesúpolis-GO	-15.95	49.37
+Joselândia-MA	-4.93	44.68
+Nova Andradina-MS	-22.23	53.34
+Olímpio Noronha-MG	-22.07	45.26
+Iúna-ES	-20.35	41.54
+São Patrício-GO	-15.35	49.82
+Guarantã-SP	-21.9	49.59
+Bonópolis-GO	-13.64	49.81
+Quitandinha-PR	-25.87	49.5
+Gongogi-BA	-14.32	39.46
+Penápolis-SP	-21.42	50.08
+Caibi-SC	-27.07	53.25
+Montes Claros-MG	-16.74	43.86
+Itajuípe-BA	-14.68	39.38
+Santo Amaro da Imperatriz-SC	-27.69	48.78
+Israelândia-GO	-16.32	50.91
+Pardinho-SP	-23.08	48.37
+Ivaiporã-PR	-24.25	51.68
+Luiziânia-SP	-21.68	50.33
+Sussuapara-PI	-7.04	41.38
+Santa Leopoldina-ES	-20.1	40.53
+Nanuque-MG	-17.84	40.35
+Serrano do Maranhão-MA	-1.86	45.12
+Umburatiba-MG	-17.26	40.57
+Divinópolis-MG	-20.14	44.88
+Maraã-AM	-1.86	65.58
+Caeté-MG	-19.88	43.67
+Quatro Barras-PR	-25.37	49.08
+Toledo-MG	-22.74	46.37
+Vila Rica-MT	-10.01	51.12
+Nova Ipixuna-PA	-4.92	49.08
+Pedrinhas-SE	-11.19	37.67
+Bom Jesus do Norte-ES	-21.13	41.68
+Brasil Novo-PA	-3.3	53.54
+Chapadinha-MA	-3.74	43.36
+Verê-PR	-25.88	52.91
+Campo Grande-AL	-9.96	36.79
+Cerro Grande-RS	-27.61	53.17
+Itaverava-MG	-20.68	43.61
+Conceição-PB	-7.56	38.51
+Nova Prata do Iguaçu-PR	-25.63	53.35
+Santa Fé de Minas-MG	-16.69	45.41
+Campo Bom-RS	-29.68	51.05
+Boa Esperança do Sul-SP	-21.99	48.39
+Jeceaba-MG	-20.54	43.98
+Vista Gaúcha-RS	-27.48	53.52
+Capetinga-MG	-20.62	47.05
+Dumont-SP	-21.24	47.97
+Fortaleza do Tabocão-TO	-9.06	48.52
+Taipas do Tocantins-TO	-12.19	46.99
+Irajuba-BA	-13.25	40.08
+Nova Veneza-SC	-28.64	49.5
+São João do Manhuaçu-MG	-20.39	42.15
+Guarapuava-PR	-25.4	51.46
+Campo Novo do Parecis-MT	-13.68	57.89
+Água Nova-RN	-6.21	38.3
+Camalaú-PB	-7.89	36.82
+Viçosa-AL	-9.37	36.24
+Severiano de Almeida-RS	-27.43	52.12
+São José do Rio Pardo-SP	-21.6	46.89
+Jucurutu-RN	-6.03	37.02
+Arapuã-PR	-24.32	51.79
+Juara-MT	-11.26	57.52
+Doutor Maurício Cardoso-RS	-27.51	54.36
+Florínia-SP	-22.9	50.74
+Capão do Leão-RS	-31.76	52.48
+Serraria-PB	-6.83	35.63
+São José da Lagoa Tapada-PB	-6.94	38.16
+Bom Jesus da Serra-BA	-14.37	40.51
+São Mateus-ES	-18.72	39.86
+Coronel Pacheco-MG	-21.59	43.27
+Castanheiras-RO	-11.42	61.94
+São Joaquim-SC	-28.29	49.93
+Edéia-GO	-17.34	49.93
+Reserva-PR	-24.65	50.85
+Diamante D'Oeste-PR	-24.94	54.1
+São João da Ponta-PA	-0.85	47.92
+Salgadinho-PB	-7.1	36.85
+Santo André-SP	-23.66	46.54
+Formoso do Araguaia-TO	-11.8	49.53
+Banabuiú-CE	-5.31	38.92
+Paraí-RS	-28.59	51.79
+Cruz-CE	-2.92	40.17
+Comendador Levy Gasparian-RJ	-22.03	43.21
+Miguel Leão-PI	-5.68	42.74
+Nazarezinho-PB	-6.92	38.32
+Bom Princípio do Piauí-PI	-3.19	41.64
+Caiçara do Norte-RN	-5.06	36.06
+Lagoa de Velhos-RN	-6	35.87
+Pinhal de São Bento-PR	-26.03	53.48
+Cacimbas-PB	-7.21	37.06
+Rio Quente-GO	-17.77	48.77
+Moeda-MG	-20.33	44.05
+Lavras-MG	-21.25	45
+Xapuri-AC	-10.65	68.5
+Quinze de Novembro-RS	-28.75	53.09
+Boa Viagem-CE	-5.13	39.73
+Anastácio-MS	-20.48	55.81
+Bom Sucesso do Sul-PR	-26.08	52.83
+Salgueiro-PE	-8.07	39.12
+Piracaia-SP	-23.05	46.36
+Piatã-BA	-13.15	41.77
+Ribeirão Vermelho-MG	-21.19	45.06
+São João-PR	-25.83	52.73
+Catolé do Rocha-PB	-6.34	37.75
+Ubajara-CE	-3.85	40.92
+São Sebastião do Alto-RJ	-21.96	42.13
+Xexéu-PE	-8.8	35.63
+Bilac-SP	-21.4	50.47
+Sítio do Quinto-BA	-10.35	38.22
+Goioerê-PR	-24.18	53.03
+Nova Xavantina-MT	-14.67	52.35
+Carlos Gomes-RS	-27.72	51.91
+São Domingos do Cariri-PB	-7.64	36.43
+Emilianópolis-SP	-21.83	51.48
+São Pedro dos Crentes-MA	-6.83	46.53
+Bonito de Minas-MG	-15.32	44.75
+Agricolândia-PI	-5.8	42.67
+Manaus-AM	-3.1	60.03
+Santa Rita de Caldas-MG	-22.03	46.34
+Rodolfo Fernandes-RN	-5.79	38.06
+Manoel Viana-RS	-29.59	55.48
+Teodoro Sampaio-BA	-12.29	38.63
+Palmácia-CE	-4.15	38.85
+Muritiba-BA	-12.63	38.99
+Brasília-DF	-15.78	47.93
+Mesquita-MG	-19.22	42.61
+Encruzilhada do Sul-RS	-30.54	52.52
+Tanque Novo-BA	-13.55	42.49
+Granja-CE	-3.12	40.83
+Novo Progresso-PA	-7.15	55.38
+Caém-BA	-11.09	40.44
+Foz do Iguaçu-PR	-25.55	54.59
+Anori-AM	-3.77	61.64
+Lindóia-SP	-22.52	46.65
+Novo Cabrais-RS	-29.74	52.95
+Cacequi-RS	-29.88	54.83
+Brejo de Areia-MA	-4.11	45.5
+Matinha-MA	-3.1	45.03
+Mirandiba-PE	-8.12	38.73
+São Jerônimo da Serra-PR	-23.73	50.74
+São Miguel do Tapuio-PI	-5.5	41.32
+Santa Amélia-PR	-23.27	50.42
+Guarani d'Oeste-SP	-20.07	50.34
+Palmeira das Missões-RS	-27.9	53.31
+Vera Cruz-SP	-22.22	49.82
+Vitória-ES	-20.32	40.34
+Campanha-MG	-21.84	45.4
+Senador Cortes-MG	-21.8	42.95
+Salto do Itararé-PR	-23.6	49.63
+Agrolândia-SC	-27.41	49.83
+Dezesseis de Novembro-RS	-28.23	55.05
+Guiratinga-MT	-16.35	53.76
+São João do Carú-MA	-3.55	46.26
+Miranda-MS	-20.24	56.38
+Serranópolis-GO	-18.31	51.96
+Augusto de Lima-MG	-18.11	44.27
+Vitória Brasil-SP	-20.2	50.48
+Coruripe-AL	-10.13	36.18
+Rubiataba-GO	-15.16	49.8
+Santa Terezinha do Tocantins-TO	-6.43	47.67
+Conceição do Rio Verde-MG	-21.88	45.09
+Itirapuã-SP	-20.64	47.22
+Parnarama-MA	-5.68	43.09
+Araguainha-MT	-16.86	53.03
+Novo Triunfo-BA	-10.32	38.41
+Santa Luzia-PB	-6.87	36.92
+São João da Boa Vista-SP	-21.97	46.8
+Floresta-PR	-23.6	52.08
+Canoas-RS	-29.92	51.18
+Cacimbinhas-AL	-9.4	36.99
+Bom Jesus-RN	-5.98	35.58
+Piraí do Sul-PR	-24.53	49.95
+Porto Velho-RO	-8.76	63.9
+Tapurah-MT	-12.79	56.54
+Santana do Manhuaçu-MG	-20.11	41.93
+Leopoldina-MG	-21.53	42.64
+Nova Brasilândia-MT	-14.96	54.97
+Virgolândia-MG	-18.48	42.31
+Águas Belas-PE	-9.11	37.12
+Morro Agudo de Goiás-GO	-15.32	50.06
+Deputado Irapuan Pinheiro-CE	-5.92	39.27
+Manaquiri-AM	-3.43	60.46
+Iguatu-CE	-6.36	39.3
+Cachoeirinha-PE	-8.49	36.23
+Pio XII-MA	-3.83	45.15
+Pontalinda-SP	-20.44	50.52
+São Miguel de Touros-RN	-5.12	35.64
+Piçarra-PA	-6.44	48.87
+Quixeré-CE	-5.07	37.99
+Coari-AM	-4.09	63.14
+Lorena-SP	-22.73	45.12
+Mangaratiba-RJ	-22.96	44.04
+Italva-RJ	-21.42	41.69
+Canaã dos Carajás-PA	-6.5	49.88
+Segredo-RS	-29.34	52.98
+Nova Mamoré-RO	-10.4	65.33
+Ubirajara-SP	-22.53	49.66
+São Bento-PB	-6.49	37.45
+Paramirim-BA	-13.44	42.24
+Charqueada-SP	-22.51	47.78
+São José do Vale do Rio Preto-RJ	-22.15	42.92
+Cachoeira Paulista-SP	-22.67	45.01
+Barra do Mendes-BA	-11.81	42.06
+Jaguarão-RS	-32.57	53.38
+Taquarana-AL	-9.65	36.5
+Presidente Juscelino-MA	-2.93	44.07
+Narandiba-SP	-22.41	51.52
+Filadélfia-BA	-10.74	40.13
+Utinga-BA	-12.08	41.09
+Sete Barras-SP	-24.39	47.93
+Manfrinópolis-PR	-26.14	53.31
+Nova Glória-GO	-15.14	49.57
+Palmeirândia-MA	-2.65	44.9
+Inhumas-GO	-16.36	49.5
+Tejupá-SP	-23.34	49.38
+Gastão Vidigal-SP	-20.8	50.19
+Brumado-BA	-14.2	41.67
+Jampruca-MG	-18.46	41.8
+Cafezal do Sul-PR	-23.9	53.51
+Riacho de Santana-BA	-13.61	42.94
+São Brás do Suaçuí-MG	-20.63	43.95
+Araucária-PR	-25.59	49.41
+Guarujá-SP	-23.99	46.26
+Pilão Arcado-BA	-10	42.5
+Colorado do Oeste-RO	-13.12	60.54
+Nova Hartz-RS	-29.58	50.9
+Camacho-MG	-20.63	45.16
+São Bento-MA	-2.7	44.82
+Engenheiro Caldas-MG	-19.22	42.05
+Campo Mourão-PR	-24.05	52.38
+Bonito-PA	-1.36	47.31
+Morro do Pilar-MG	-19.22	43.38
+Nova Palmeira-PB	-6.68	36.42
+Penalva-MA	-3.29	45.17
+Andradina-SP	-20.9	51.38
+Lago da Pedra-MA	-4.55	45.12
+Lagoa do Mato-MA	-6.05	43.53
+Santa Luzia do Norte-AL	-9.6	35.82
+Nova União-MG	-19.69	43.58
+Santo Antônio do Sudoeste-PR	-26.07	53.73
+Poços de Caldas-MG	-21.79	46.56
+Rio Negro-PR	-26.11	49.8
+Jatobá do Piauí-PI	-4.77	41.82
+Maripá-PR	-24.42	53.83
+Passo do Sobrado-RS	-29.75	52.27
+Bueno Brandão-MG	-22.44	46.35
+Aguiar-PB	-7.09	38.17
+Acreúna-GO	-17.4	50.38
+Acará-PA	-1.96	48.2
+Canguaretama-RN	-6.38	35.13
+Bom Repouso-MG	-22.47	46.15
+Ouriçangas-BA	-12.02	38.62
+Onda Verde-SP	-20.6	49.3
+Campos Novos Paulista-SP	-22.6	50
+Igaratá-SP	-23.2	46.16
+Oliveira dos Brejinhos-BA	-12.32	42.9
+Gravataí-RS	-29.94	50.99
+Nova Olímpia-MT	-14.8	57.29
+Águas Lindas de Goiás-GO	-15.76	48.28
+Canhoba-SE	-10.14	36.98
+Itambé-PE	-7.41	35.11
+Breu Branco-PA	-4.07	49.64
+Irani-SC	-27.02	51.9
+Santana do Piauí-PI	-6.95	41.52
+Matos Costa-SC	-26.47	51.15
+Paulino Neves-MA	-2.72	42.53
+Vertentes-PE	-7.9	35.99
+Bela Vista da Caroba-PR	-25.88	53.66
+Aurora-SC	-27.32	49.64
+Tracunhaém-PE	-7.8	35.24
+Santa Lúcia-PR	-25.41	53.57
+Viamão-RS	-30.08	51.02
+Itaú de Minas-MG	-20.74	46.75
+Uruguaiana-RS	-29.75	57.09
+Novo Gama-GO	-16.06	48.04
+Candiba-BA	-14.41	42.87
+Santo Antônio dos Milagres-PI	-6.05	42.71
+Indiavaí-MT	-15.49	58.57
+Iaras-SP	-22.87	49.16
+Taquaral de Goiás-GO	-16.05	49.61
+Reriutaba-CE	-4.14	40.58
+Nova Santa Bárbara-PR	-23.59	50.59
+São Pedro da Cipa-MT	-16	54.92
+Faxinalzinho-RS	-27.42	52.67
+Ribeira do Pombal-BA	-10.83	38.54
+Belterra-PA	-2.64	54.94
+Alvorada-RS	-29.99	51.08
+Conceição da Barra-ES	-18.59	39.73
+Alvorada D'Oeste-RO	-11.34	62.29
+Esperança Nova-PR	-23.72	53.81
+Caracaraí-RR	1.82	61.13
+Riacho de Santo Antônio-PB	-7.69	36.16
+Itainópolis-PI	-7.45	41.48
+Antônio Cardoso-BA	-12.44	39.12
+Mulungu-PB	-7.02	35.46
+Brazabrantes-GO	-16.43	49.39
+Cerro Negro-SC	-27.8	50.88
+Araporã-MG	-18.44	49.19
+Bom Jardim-PE	-7.8	35.59
+Cândido Rodrigues-SP	-21.33	48.63
+Gramado dos Loureiros-RS	-27.44	52.92
+Salitre-CE	-7.28	40.46
+Rio Bonito-RJ	-22.71	42.61
+Canas-SP	-22.7	45.06
+Carvalhópolis-MG	-21.78	45.84
+Camamu-BA	-13.94	39.1
+Oliveira Fortes-MG	-21.34	43.46
+Cruzeiro do Sul-RS	-29.51	51.99
+Congonhal-MG	-22.15	46.04
+Bom Sucesso-PR	-23.71	51.76
+Congonhinhas-PR	-23.55	50.55
+Agrestina-PE	-8.46	35.94
+Pedra Bonita-MG	-20.52	42.33
+Floresta do Piauí-PI	-7.47	41.79
+Balneário Camboriú-SC	-26.99	48.63
+Salto Grande-SP	-22.89	49.99
+Itatim-BA	-12.71	39.7
+Landri Sales-PI	-7.27	43.93
+Serra Redonda-PB	-7.18	35.68
+Anapu-PA	-3.47	51.2
+Ibiporã-PR	-23.27	51.05
+Pium-TO	-10.44	49.18
+Guaraciaba do Norte-CE	-4.17	40.75
+Uruburetama-CE	-3.63	39.51
+Mandirituba-PR	-25.78	49.33
+Carlinda-MT	-9.96	55.83
+Protásio Alves-RS	-28.76	51.47
+Chupinguaia-RO	-12.55	60.9
+Ingá-PB	-7.28	35.6
+Igarapava-SP	-20.04	47.75
+Palhoça-SC	-27.65	48.67
+Muriaé-MG	-21.13	42.37
+Bonfim-RR	3.36	59.83
+Couto de Magalhães-TO	-8.28	49.25
+Cocal de Telha-PI	-4.56	41.97
+Colorado-RS	-28.52	52.99
+Embu-Guaçu-SP	-23.83	46.81
+Amparo de São Francisco-SE	-10.13	36.93
+São Pedro da Água Branca-MA	-5.09	48.43
+Guaribas-PI	-9.4	43.69
+Pedro Teixeira-MG	-21.71	43.75
+Várzea da Palma-MG	-17.6	44.73
+Tramandaí-RS	-29.98	50.13
+Montalvânia-MG	-14.42	44.37
+Tapauá-AM	-5.63	63.18
+Catuji-MG	-17.3	41.52
+Ouro Branco-MG	-20.52	43.69
+Mulungu do Morro-BA	-11.97	41.64
+São José de Mipibu-RN	-6.07	35.24
+Itaporã do Tocantins-TO	-8.57	48.69
+Kaloré-PR	-23.82	51.67
+Esperança-PB	-7.03	35.86
+Cachoeira Dourada-MG	-18.52	49.5
+Anicuns-GO	-16.46	49.96
+Morros-MA	-2.86	44.04
+Mirim Doce-SC	-27.2	50.08
+Pocrane-MG	-19.62	41.64
+Quevedos-RS	-29.35	54.07
+Formosa da Serra Negra-MA	-6.44	46.19
+Mormaço-RS	-28.69	52.69
+Milhã-CE	-5.68	39.19
+Ouro Verde-SC	-26.69	52.31
+Cururupu-MA	-1.83	44.87
+Santo Estêvão-BA	-12.43	39.25
+São José de Ribamar-MA	-2.56	44.05
+Rancho Alegre D'Oeste-PR	-24.31	52.95
+Jiquiriçá-BA	-13.26	39.57
+Araricá-RS	-29.61	50.93
+Juarez Távora-PB	-7.17	35.58
+Queimadas-PB	-7.36	35.9
+Jandaia do Sul-PR	-23.6	51.64
+Jaguaribe-CE	-5.89	38.62
+Pareci Novo-RS	-29.64	51.4
+Bom Jesus-PB	-6.82	38.66
+Patu-RN	-6.11	37.64
+Recursolândia-TO	-8.73	47.24
+Papagaios-MG	-19.45	44.75
+Santana do Matos-RN	-5.96	36.66
+Nova Guataporanga-SP	-21.33	51.64
+Pilar do Sul-SP	-23.81	47.72
+Cacimba de Areia-PB	-7.13	37.16
+Crixás-GO	-14.55	49.97
+Redenção-CE	-4.23	38.73
+Guapó-GO	-16.83	49.53
+Ponte Alta do Bom Jesus-TO	-12.09	46.48
+Sério-RS	-29.38	52.27
+Água Santa-RS	-28.18	52.03
+Santana do Livramento-RS	-30.89	55.53
+Itapiranga-SC	-27.17	53.71
+Itapemirim-ES	-21.01	40.83
+Arealva-SP	-22.03	48.91
+Primavera do Leste-MT	-15.56	54.3
+Caetanos-BA	-14.34	40.91
+São Francisco de Paula-MG	-20.71	44.99
+Quaraí-RS	-30.39	56.45
+Palma-MG	-21.38	42.31
+Triunfo-PB	-6.58	38.6
+Platina-SP	-22.64	50.2
+Marmeleiro-PR	-26.15	53.03
+Coronel Freitas-SC	-26.91	52.7
+Orindiúva-SP	-20.18	49.35
+São Francisco-SE	-10.33	36.89
+Riachão-PB	-6.54	35.63
+Itatuba-PB	-7.38	35.63
+Águia Branca-ES	-18.98	40.74
+Ventania-PR	-24.25	50.24
+Petrolina-PE	-9.4	40.5
+Panamá-GO	-18.18	49.35
+Picuí-PB	-6.51	36.35
+Bodocó-PE	-7.78	39.94
+Monte Aprazível-SP	-20.77	49.71
+Lucianópolis-SP	-22.43	49.52
+Caruaru-PE	-8.28	35.98
+Miraselva-PR	-22.97	51.48
+Sapezal-MT	-12.99	58.76
+Brunópolis-SC	-27.31	50.87
+Abaíra-BA	-13.25	41.66
+Espírito Santo do Turvo-SP	-22.69	49.43
+Uraí-PR	-23.2	50.8
+Nortelândia-MT	-14.45	56.8
+Terra de Areia-RS	-29.59	50.07
+Três Corações-MG	-21.7	45.25
+Cunha-SP	-23.07	44.96
+Mirador-PR	-23.26	52.78
+Ribeirão Bonito-SP	-22.07	48.18
+Varzedo-BA	-12.97	39.39
+Canto do Buriti-PI	-8.11	42.94
+Pinheiros-ES	-18.37	40.21
+Silveirânia-MG	-21.16	43.22
+Cássia dos Coqueiros-SP	-21.28	47.17
+Santo Antônio do Jardim-SP	-22.19	46.75
+Gracho Cardoso-SE	-10.23	37.2
+Japonvar-MG	-15.99	44.27
+Sítio Novo-MA	-5.88	46.7
+Ulianópolis-PA	-3.74	47.49
+Gilbués-PI	-9.83	45.34
+Icaraíma-PR	-23.4	53.61
+Simões Filho-BA	-12.78	38.4
+Piancó-PB	-7.2	37.93
+Japira-PR	-23.81	50.14
+Tumiritinga-MG	-18.98	41.65
+Três Barras-SC	-26.11	50.32
+Bom Jardim de Minas-MG	-21.95	44.19
+Lebon Régis-SC	-26.93	50.7
+Inajá-PE	-8.9	37.82
+Arujá-SP	-23.4	46.32
+Chapada do Norte-MG	-17.09	42.54
+Novo Horizonte do Sul-MS	-22.67	53.86
+Campinas do Sul-RS	-27.72	52.63
+Jaci-SP	-20.88	49.57
+Almino Afonso-RN	-6.15	37.77
+Álvaro de Carvalho-SP	-22.09	49.72
+Teixeira Soares-PR	-25.37	50.46
+João Pinheiro-MG	-17.74	46.17
+Miraí-MG	-21.2	42.61
+Cuitegi-PB	-6.89	35.52
+Paulista-PB	-6.59	37.62
+Saudades-SC	-26.92	53
+Três Passos-RS	-27.46	53.93
+Itirapina-SP	-22.25	47.82
+Monteiro Lobato-SP	-22.96	45.84
+Dourados-MS	-22.22	54.81
+Brejinho de Nazaré-TO	-11	48.57
+Conceição do Almeida-BA	-12.78	39.17
+Ourizona-PR	-23.41	52.2
+Itajá-RN	-5.64	36.87
+Ribeirão Grande-SP	-24.1	48.37
+Fervedouro-MG	-20.73	42.28
+Milagres-CE	-7.31	38.95
+Santa Salete-SP	-20.24	50.69
+Caiapônia-GO	-16.96	51.81
+Caetés-PE	-8.77	36.62
+São Paulo das Missões-RS	-28.02	54.94
+Paial-SC	-27.25	52.5
+Nova Iguaçu de Goiás-GO	-14.29	49.39
+Amaralina-GO	-13.93	49.3
+Aracaju-SE	-10.91	37.07
+Vicência-PE	-7.66	35.33
+Cumari-GO	-18.26	48.15
+Itororó-BA	-15.12	40.07
+Itajubá-MG	-22.43	45.45
+São José da Bela Vista-SP	-20.59	47.64
+Mossoró-RN	-5.19	37.34
+Campina da Lagoa-PR	-24.59	52.8
+Santa Terezinha de Goiás-GO	-14.44	49.71
+Horizontina-RS	-27.63	54.31
+Piedade-SP	-23.71	47.43
+Pedra Branca-CE	-5.45	39.72
+Porto União-SC	-26.24	51.08
+Campos Novos-SC	-27.4	51.23
+Timbaúba dos Batistas-RN	-6.47	37.27
+Desterro-PB	-7.29	37.09
+Buriti-MA	-3.94	42.93
+Bertolínia-PI	-7.64	43.95
+Cidade Ocidental-GO	-16.08	47.93
+Tremembé-SP	-22.96	45.55
+Malta-PB	-6.9	37.52
+Gavião Peixoto-SP	-21.84	48.49
+São Vicente de Minas-MG	-21.71	44.44
+Curitibanos-SC	-27.28	50.58
+Treze de Maio-SC	-28.56	49.15
+Capim Branco-MG	-19.55	44.12
+Tanhaçu-BA	-14.02	41.25
+Pintadas-BA	-11.81	39.91
+Pinhal Grande-RS	-29.35	53.31
+Grossos-RN	-4.98	37.15
+São Manuel-SP	-22.73	48.57
+Engenheiro Navarro-MG	-17.28	43.95
+São João-PE	-8.88	36.37
+Várzea-RN	-6.35	35.38
+Mongaguá-SP	-24.09	46.62
+Itapiratins-TO	-8.38	48.11
+Milton Brandão-PI	-4.68	41.42
+Catarina-CE	-6.13	39.88
+Santo Antônio do Aracanguá-SP	-20.94	50.5
+Caraúbas do Piauí-PI	-3.48	41.84
+Pracinha-SP	-21.85	51.09
+Novo Oriente de Minas-MG	-17.42	41.22
+Muricilândia-TO	-7.15	48.61
+São Luís do Quitunde-AL	-9.32	35.56
+São Luís de Montes Belos-GO	-16.53	50.37
+São Sebastião do Caí-RS	-29.59	51.38
+Itapiranga-AM	-2.75	58.02
+Borba-AM	-4.39	59.59
+Aparecida de Goiânia-GO	-16.82	49.24
+Itapitanga-BA	-14.42	39.57
+Ourinhos-SP	-22.98	49.87
+Sebastião Leal-PI	-7.57	44.06
+Capelinha-MG	-17.69	42.52
+Palmeirina-PE	-9	36.33
+João Costa-PI	-8.51	42.41
+Itarantim-BA	-15.66	40.07
+Catolândia-BA	-12.32	44.86
+Acaraú-CE	-2.89	40.12
+Nova Redenção-BA	-12.82	41.07
+Morungaba-SP	-22.88	46.79
+Icapuí-CE	-4.71	37.36
+Baía da Traição-PB	-6.69	34.94
+Ipaporanga-CE	-4.9	40.76
+Abelardo Luz-SC	-26.56	52.33
+Santo Antônio do Descoberto-GO	-15.94	48.26
+Floreal-SP	-20.68	50.15
+Presidente Bernardes-MG	-20.77	43.19
+Sossêgo-PB	-6.77	36.25
+Feira Nova-PE	-7.95	35.39
+Santo Augusto-RS	-27.85	53.78
+Brasnorte-MT	-12.16	57.98
+Cristalina-GO	-16.77	47.61
+Monte Alegre de Minas-MG	-18.87	48.88
+Vila Nova do Piauí-PI	-7.14	40.94
+Lagoa dos Patos-MG	-16.98	44.58
+Santa Rita do Sapucaí-MG	-22.25	45.7
+Porto Franco-MA	-6.34	47.4
+Boa Vista do Ramos-AM	-2.97	57.59
+Muniz Ferreira-BA	-13	39.11
+Campo Formoso-BA	-10.51	40.32
+Congonhas-MG	-20.5	43.86
+Bataguassu-MS	-21.71	52.42
+Porto Mauá-RS	-27.58	54.67
+Itacarambi-MG	-15.1	44.09
+São Vicente do Sul-RS	-29.69	54.68
+Siriri-SE	-10.6	37.11
+Mâncio Lima-AC	-7.61	72.9
+Itapoá-SC	-26.12	48.62
+Laranjal-MG	-21.37	42.48
+Correntes-PE	-9.13	36.33
+Taguatinga-TO	-12.4	46.44
+Hulha Negra-RS	-31.4	53.87
+Rio Bananal-ES	-19.27	40.33
+Luminárias-MG	-21.51	44.9
+Arraias-TO	-12.93	46.94
+Serrania-MG	-21.55	46.04
+Mascote-BA	-15.56	39.3
+Duas Barras-RJ	-22.05	42.52
+Gravatá-PE	-8.2	35.56
+Cachoeiras de Macacu-RJ	-22.46	42.65
+Pirassununga-SP	-22	47.43
+Bom Lugar-MA	-4.22	45.04
+Pedrão-BA	-12.15	38.65
+Igarapé do Meio-MA	-3.66	45.23
+Itambé do Mato Dentro-MG	-19.41	43.32
+Jesuítas-PR	-24.39	53.39
+Santa Cruz-PB	-6.53	38.06
+Urubici-SC	-28.02	49.59
+Prainha-PA	-1.8	53.48
+Guiricema-MG	-21.01	42.72
+Apiacás-MT	-9.54	57.45
+Ibirubá-RS	-28.63	53.09
+Algodão de Jandaíra-PB	-6.91	36.01
+Rubim-MG	-16.37	40.54
+Maquiné-RS	-29.68	50.21
+Itanhomi-MG	-19.17	41.87
+Boa Vista da Aparecida-PR	-25.44	53.41
+Guaíba-RS	-30.11	51.33
+Tapiratiba-SP	-21.47	46.75
+Tombos-MG	-20.9	42.02
+Pedrinhas Paulista-SP	-22.82	50.79
+São José do Egito-PE	-7.48	37.27
+Tiradentes do Sul-RS	-27.4	54.08
+Pedro Velho-RN	-6.44	35.22
+Campos de Júlio-MT	-13.9	59.15
+Delfim Moreira-MG	-22.51	45.28
+Craíbas-AL	-9.62	36.77
+Cerrito-RS	-31.86	52.81
+Cedral-MA	-2	44.54
+São Tomás de Aquino-MG	-20.78	47.1
+Vilhena-RO	-12.74	60.15
+Luislândia-MG	-16.12	44.59
+Jericó-PB	-6.55	37.81
+Rio das Flores-RJ	-22.17	43.59
+Areia-PB	-6.96	35.69
+João Pessoa-PB	-7.12	34.86
+Gouveia-MG	-18.45	43.74
+Santa Luz-PI	-8.95	44.13
+Alagoa-MG	-22.17	44.64
+Pompéia-SP	-22.11	50.17
+Tucuruí-PA	-3.77	49.67
+Itaitinga-CE	-3.97	38.53
+São Raimundo Nonato-PI	-9.02	42.7
+Cumaru-PE	-8.01	35.7
+São Sebastião do Maranhão-MG	-18.08	42.57
+Congo-PB	-7.8	36.66
+São Luis do Piauí-PI	-6.83	41.32
+Brusque-SC	-27.1	48.92
+São José do Barreiro-SP	-22.65	44.58
+São Mateus do Sul-PR	-25.87	50.38
+Otacílio Costa-SC	-27.48	50.12
+Santo Antônio do Leverger-MT	-15.87	56.08
+Lamim-MG	-20.79	43.47
+São João d'Aliança-GO	-14.71	47.52
+Taguaí-SP	-23.45	49.41
+Milagres do Maranhão-MA	-3.58	42.61
+Extremoz-RN	-5.71	35.31
+Abreulândia-TO	-9.62	49.15
+Joca Marques-PI	-3.48	42.43
+Carauari-AM	-4.88	66.9
+Riozinho-RS	-29.64	50.45
+Natércia-MG	-22.12	45.51
+Canarana-MT	-13.55	52.27
+Marabá Paulista-SP	-22.11	51.96
+Paranaíba-MS	-19.68	51.19
+Edealina-GO	-17.42	49.66
+Moita Bonita-SE	-10.58	37.34
+Aquidauana-MS	-20.47	55.79
+Alto Alegre do Maranhão-MA	-4.21	44.45
+Araioses-MA	-2.89	41.9
+Ibiaí-MG	-16.86	44.91
+Campos Verdes-GO	-14.26	49.66
+Nova Independência-SP	-21.1	51.49
+Cantagalo-PR	-25.37	52.13
+Diamante-PB	-7.43	38.26
+Euclides da Cunha-BA	-10.51	39.02
+Lagoa do Itaenga-PE	-7.94	35.29
+Itaguari-GO	-15.92	49.6
+Itumirim-MG	-21.32	44.87
+Barão de Grajaú-MA	-6.76	43.02
+Bandeirante-SC	-26.77	53.64
+Governador Lomanto Júnior-BA	-14.81	39.47
+Olho D'Água do Piauí-PI	-5.84	42.58
+Vigia-PA	-0.86	48.14
+Arara-PB	-6.83	35.76
+Mafra-SC	-26.11	49.81
+Brejões-BA	-13.1	39.8
+Sete de Setembro-RS	-28.13	54.46
+Santa Tereza de Goiás-GO	-13.71	49.02
+Abel Figueiredo-PA	-4.95	48.39
+Murici dos Portelas-PI	-3.32	42.09
+Piquerobi-SP	-21.87	51.73
+Lavras da Mangabeira-CE	-6.75	38.96
+Chapecó-SC	-27.1	52.62
+Elesbão Veloso-PI	-6.2	42.14
+Feira Grande-AL	-9.9	36.68
+Cassilândia-MS	-19.11	51.73
+Mercês-MG	-21.19	43.34
+Santa Bárbara do Tugúrio-MG	-21.25	43.56
+Simplício Mendes-PI	-7.85	41.91
+Vargem-SP	-22.89	46.41
+Cortês-PE	-8.47	35.54
+Presidente Kennedy-ES	-21.1	41.05
+Lagoa de Dentro-PB	-6.67	35.38
+Santana do Jacaré-MG	-20.9	45.13
+Esperantina-TO	-5.34	48.51
+Ilha Grande-PI	-2.86	41.82
+Ingaí-MG	-21.4	44.92
+Iporã do Oeste-SC	-26.99	53.54
+Itambé-BA	-15.25	40.62
+Caldas Novas-GO	-17.74	48.63
+Boituva-SP	-23.28	47.67
+Lavrinhas-SP	-22.57	44.9
+Guidoval-MG	-21.15	42.8
+Caparaó-MG	-20.52	41.9
+Rancho Alegre-PR	-23.07	50.91
+Santo Antônio de Pádua-RJ	-21.54	42.18
+Açailândia-MA	-4.95	47.5
+Piranhas-GO	-16.43	51.82
+Sanharó-PE	-8.36	36.57
+Dirceu Arcoverde-PI	-9.34	42.43
+Angatuba-SP	-23.49	48.41
+Colares-PA	-0.94	48.28
+Mutuípe-BA	-13.23	39.5
+Planaltino-BA	-13.26	40.37
+São Francisco-SP	-20.36	50.7
+Vila Nova dos Martírios-MA	-4.99	47.99
+Pompéu-MG	-19.22	44.94
+Coroados-SP	-21.35	50.28
+Três Palmeiras-RS	-27.61	52.84
+São José do Hortêncio-RS	-29.53	51.25
+Vera-MT	-12.31	55.32
+São Félix do Araguaia-MT	-11.62	50.67
+Itapura-SP	-20.65	51.51
+Cariús-CE	-6.54	39.5
+Lajinha-MG	-20.15	41.62
+Altaneira-CE	-7	39.74
+Ipueira-RN	-6.81	37.2
+Santa Clara d'Oeste-SP	-20.09	50.93
+Pacajus-CE	-4.17	38.46
+Hidrolândia-GO	-16.96	49.23
+Chácara-MG	-21.67	43.22
+Naviraí-MS	-23.07	54.19
+Linhares-ES	-19.39	40.07
+Contendas do Sincorá-BA	-13.76	41.04
+Estância-SE	-11.27	37.44
+Ponte Nova-MG	-20.42	42.91
+Santa Rosa do Tocantins-TO	-11.45	48.12
+Conquista-MG	-19.94	47.54
+Brasília de Minas-MG	-16.21	44.43
+Mira Estrela-SP	-19.98	50.14
+Comendador Gomes-MG	-19.7	49.08
+Minas Novas-MG	-17.22	42.59
+Cocal-PI	-3.47	41.56
+Nova Soure-BA	-11.23	38.48
+São Sebastião do Rio Verde-MG	-22.22	44.98
+Divisa Nova-MG	-21.51	46.2
+Guarulhos-SP	-23.46	46.53
+Goiandira-GO	-18.13	48.09
+Bonfim-MG	-20.33	44.24
+Mendonça-SP	-21.17	49.58
+São Pedro dos Ferros-MG	-20.17	42.52
+Itabela-BA	-16.58	39.55
+Tracuateua-PA	-1.08	46.9
+Paraibuna-SP	-23.39	45.66
+Tuparetama-PE	-7.6	37.31
+Borrazópolis-PR	-23.94	51.59
+Santa Cruz do Sul-RS	-29.72	52.43
+Paripueira-AL	-9.47	35.55
+Domingos Martins-ES	-20.36	40.66
+Estrela Velha-RS	-29.18	53.16
+Canela-RS	-29.37	50.82
+Santópolis do Aguapeí-SP	-21.64	50.5
+Bacabal-MA	-4.29	44.79
+Santa Brígida-BA	-9.74	38.13
+Arapongas-PR	-23.42	51.42
+Jeriquara-SP	-20.31	47.59
+Nova América da Colina-PR	-23.33	50.72
+São Brás-AL	-10.13	36.9
+Brasópolis-MG	-22.47	45.61
+São Rafael-RN	-5.8	36.92
+Palestina-SP	-20.39	49.43
+Itabaianinha-SE	-11.27	37.79
+Santo Antônio de Goiás-GO	-16.48	49.31
+Três Fronteiras-SP	-20.24	50.89
+Jaciara-MT	-15.97	54.97
+São João da Paraúna-GO	-16.81	50.41
+Campo do Tenente-PR	-25.98	49.68
+Águas Formosas-MG	-17.08	40.94
+Itamarati-AM	-6.43	68.25
+Cunhataí-SC	-26.97	53.09
+Espigão D'Oeste-RO	-11.52	61.01
+Pedreiras-MA	-4.57	44.59
+Oeiras do Pará-PA	-2	49.85
+Araraquara-SP	-21.79	48.18
+Jundiaí do Sul-PR	-23.44	50.25
+Vespasiano-MG	-19.69	43.92
+Corbélia-PR	-24.8	53.31
+Balneário Gaivota-SC	-29.16	49.58
+Veredinha-MG	-17.4	42.74
+Mairiporã-SP	-23.32	46.59
+São João do Tigre-PB	-8.08	36.85
+São Simão-GO	-18.99	50.54
+Jaramataia-AL	-9.66	37
+Uberaba-MG	-19.75	47.93
+Pedro Régis-PB	-6.63	35.3
+Tuntum-MA	-5.26	44.65
+Itarana-ES	-19.87	40.88
+Pinhão-PR	-25.7	51.66
+Joinville-SC	-26.3	48.85
+Gararu-SE	-9.97	37.08
+Ibituruna-MG	-21.15	44.75
+Aquiraz-CE	-3.9	38.39
+Tunas-RS	-29.1	52.96
+Umbaúba-SE	-11.38	37.66
+Quedas do Iguaçu-PR	-25.45	52.91
+Lagoa do Piauí-PI	-5.42	42.64
+Ponta de Pedras-PA	-1.39	48.87
+Mãe do Rio-PA	-2.05	47.55
+São José do Xingu-MT	-10.8	52.74
+Santa Adélia-SP	-21.24	48.8
+Capela de Santana-RS	-29.7	51.32
+Santa Inês-PR	-22.64	51.9
+Entre Folhas-MG	-19.63	42.23
+Ibirité-MG	-20.02	44.06
+São Carlos do Ivaí-PR	-23.32	52.48
+Raul Soares-MG	-20.1	42.45
+Centenário do Sul-PR	-22.82	51.6
+Cravolândia-BA	-13.36	39.82
+Amparo-PB	-7.57	37.06
+Monções-SP	-20.85	50.09
+Piraquara-PR	-25.44	49.06
+Baturité-CE	-4.33	38.88
+Mata Roma-MA	-3.63	43.11
+Pitangui-MG	-19.68	44.89
+Limeira do Oeste-MG	-19.55	50.58
+Ewbank da Câmara-MG	-21.55	43.51
+São Luís do Curu-CE	-3.67	39.24
+São Luís-MA	-2.53	44.3
+Monte do Carmo-TO	-10.76	48.11
+Marajá do Sena-MA	-4.6	45.58
+Conde-PB	-7.26	34.91
+Dois Vizinhos-PR	-25.73	53.06
+Aragarças-GO	-15.9	52.25
+Tijucas do Sul-PR	-25.93	49.2
+Viana-MA	-3.22	45
+Santana do Seridó-RN	-6.77	36.73
+Rio do Oeste-SC	-27.19	49.8
+São Jorge do Ivaí-PR	-23.43	52.29
+Paranatinga-MT	-14.43	54.05
+Sede Nova-RS	-27.63	53.95
+Hidrolândia-CE	-4.41	40.44
+Alagoinha-PE	-8.47	36.78
+Iraí de Minas-MG	-18.98	47.46
+Caarapó-MS	-22.63	54.82
+Boqueirão do Piauí-PI	-4.49	42.07
+Putinga-RS	-29	52.15
+Caracol-MS	-22.01	57.02
+Oliveira de Fátima-TO	-10.71	48.91
+Atalaia do Norte-AM	-4.37	70.19
+Dom Macedo Costa-BA	-12.91	39.19
+Igaraçu do Tietê-SP	-22.51	48.56
+Lajeado-RS	-29.47	51.96
+Japi-RN	-6.47	35.95
+Diamante do Sul-PR	-25.04	52.68
+Tanque d'Arca-AL	-9.53	36.43
+Candelária-RS	-29.67	52.79
+Francisco Dumont-MG	-17.32	44.23
+Presidente Epitácio-SP	-21.76	52.12
+Jacupiranga-SP	-24.69	48
+Mimoso do Sul-ES	-21.06	41.37
+Macaubal-SP	-20.81	49.96
+Gentil-RS	-28.43	52.04
+Visconde do Rio Branco-MG	-21.01	42.84
+Paraná-RN	-6.49	38.31
+Alagoa Nova-PB	-7.07	35.76
+Curuá-PA	-1.89	55.12
+Colônia Leopoldina-AL	-8.91	35.73
+Santa Rita do Passa Quatro-SP	-21.71	47.48
+Formosa do Rio Preto-BA	-11.05	45.19
+Castelândia-GO	-18.09	50.22
+Solidão-PE	-7.6	37.65
+Bom Retiro do Sul-RS	-29.61	51.94
+Várzea-PB	-6.77	36.99
+Paulínia-SP	-22.76	47.15
+Brejo Grande do Araguaia-PA	-5.7	48.41
+Paulistânia-SP	-22.58	49.4
+Melgaço-PA	-1.8	50.71
+Areado-MG	-21.36	46.15
+Bernardo Sayão-TO	-7.87	48.89
+Casinhas-PE	-7.74	35.72
+Paulo de Faria-SP	-20.03	49.38
+Rondonópolis-MT	-16.47	54.64
+Boquim-SE	-11.15	37.62
+Firmino Alves-BA	-14.99	39.92
+Gonzaga-MG	-18.82	42.48
+Travesseiro-RS	-29.29	52.06
+Senador Sá-CE	-3.35	40.46
+Jataizinho-PR	-23.25	50.98
+Jacobina-BA	-11.18	40.52
+Douradina-PR	-23.38	53.29
+Pilõezinhos-PB	-6.86	35.52
+Cabeceiras do Piauí-PI	-4.48	42.31
+Fortaleza de Minas-MG	-20.85	46.72
+Diogo de Vasconcelos-MG	-20.49	43.2
+São Bernardino-SC	-26.47	52.96
+Corinto-MG	-18.38	44.46
+São Pedro do Paraná-PR	-22.82	53.22
+Pancas-ES	-19.23	40.85
+Ibiapina-CE	-3.92	40.89
+Tarumirim-MG	-19.28	42.01
+São Sebastião do Rio Preto-MG	-19.29	43.17
+Guariba-SP	-21.36	48.23
+Araçariguama-SP	-23.44	47.06
+Lagoa Grande-PE	-9	40.27
+São Bento do Sul-SC	-26.25	49.38
+Alumínio-SP	-23.54	47.26
+Governador Dix-Sept Rosado-RN	-5.46	37.52
+Alvorada do Gurguéia-PI	-8.42	43.78
+Ichu-BA	-11.75	39.19
+Arataca-BA	-15.26	39.41
+Santo Ângelo-RS	-28.3	54.26
+Matões-MA	-5.52	43.2
+Santa Maria de Jetibá-ES	-20.04	40.75
+Presidente Figueiredo-AM	-2.03	60.03
+São Francisco de Paula-RS	-29.45	50.58
+Rio Pomba-MG	-21.27	43.18
+Tangará-SC	-27.1	51.25
+Felipe Guerra-RN	-5.6	37.69
+Antonina-PR	-25.43	48.71
+Rio dos Índios-RS	-27.3	52.84
+Alterosa-MG	-21.25	46.14
+Teixeira de Freitas-BA	-17.54	39.74
+Toledo-PR	-24.71	53.74
+Santa Izabel do Oeste-PR	-25.82	53.48
+Espumoso-RS	-28.72	52.85
+São Bonifácio-SC	-27.9	48.93
+Jequié-BA	-13.86	40.08
+São Miguel do Fidalgo-PI	-7.59	42.37
+Condeúba-BA	-14.9	41.97
+Ivatuba-PR	-23.62	52.22
+Ipupiara-BA	-11.82	42.61
+Itatinga-SP	-23.1	48.62
+Cristino Castro-PI	-8.82	44.22
+Candeias-BA	-12.67	38.55
+Avelino Lopes-PI	-10.14	43.95
+Jaguaquara-BA	-13.53	39.97
+Sebastião Laranjeiras-BA	-14.57	42.94
+Reserva do Cabaçal-MT	-15.08	58.47
+Bertioga-SP	-23.85	46.14
+Envira-AM	-7.43	70.02
+São Miguel do Anta-MG	-20.71	42.72
+Deodápolis-MS	-22.28	54.17
+Natal-RN	-5.8	35.21
+Cambuí-MG	-22.61	46.06
+São Jorge do Patrocínio-PR	-23.76	53.88
+Santa Mônica-PR	-23.11	53.11
+Rondinha-RS	-27.83	52.91
+Itambé-PR	-23.66	51.99
+Porto Real do Colégio-AL	-10.19	36.84
+Caravelas-BA	-17.73	39.27
+Cana Verde-MG	-21.02	45.18
+Inhapi-AL	-9.22	37.75
+Rochedo-MS	-19.95	54.89
+Passa-Vinte-MG	-22.21	44.23
+Paes Landim-PI	-7.78	42.26
+Rochedo de Minas-MG	-21.63	43.02
+Romaria-MG	-18.88	47.59
+Rio Bonito do Iguaçu-PR	-25.49	52.53
+Valente-BA	-11.41	39.46
+Bombinhas-SC	-27.13	48.53
+Moji das Cruzes-SP	-23.52	46.19
+Itatiba do Sul-RS	-27.39	52.45
+Cambira-PR	-23.58	51.58
+Braúna-SP	-21.5	50.32
+Santa Rosa da Serra-MG	-19.53	45.97
+Iraceminha-SC	-26.82	53.27
+Itaberaba-BA	-12.53	40.31
+Paraú-RN	-5.77	37.1
+Goianá-MG	-21.54	43.2
+Santa Margarida-MG	-20.38	42.25
+Buenópolis-MG	-17.87	44.18
+Santa Terezinha-SC	-26.78	50.01
+Braço do Norte-SC	-28.28	49.17
+Carmolândia-TO	-7.03	48.4
+Catende-PE	-8.67	35.72
+Quinta do Sol-PR	-23.85	52.13
+Massapê do Piauí-PI	-7.46	41.13
+Ribamar Fiquene-MA	-5.93	47.38
+Caiçara-PB	-6.62	35.47
+Baixo Guandu-ES	-19.52	41.02
+Cajapió-MA	-2.88	44.67
+Guabiruba-SC	-27.09	48.98
+Elísio Medrado-BA	-12.95	39.52
+Cláudio-MG	-20.44	44.77
+Assaí-PR	-23.37	50.84
+São Desidério-BA	-12.36	44.97
+Rio da Conceição-TO	-11.4	46.88
+Mogi Guaçu-SP	-22.37	46.94
+Tupirama-TO	-8.97	48.19
+Colinas do Sul-GO	-14.15	48.08
+Fernando Pedroza-RN	-5.7	36.53
+Paragominas-PA	-3	47.35
+Aparecida do Rio Negro-TO	-9.95	47.97
+Trindade do Sul-RS	-27.52	52.88
+Angical do Piauí-PI	-6.09	42.74
+Ituverava-SP	-20.34	47.78
+Nova Santa Rita-RS	-29.86	51.27
+Jatobá-PE	-9.18	38.27
+Ibicuitinga-CE	-4.97	38.64
+Ferreiros-PE	-7.45	35.24
+Santa Lúcia-SP	-21.69	48.08
+Campestre-AL	-8.85	35.57
+Botuverá-SC	-27.2	49.07
+Porto do Mangue-RN	-5.07	36.78
+Vitor Meireles-SC	-26.88	49.83
+Vermelho Novo-MG	-20.04	42.27
+Serrinha-BA	-11.66	39.01
+Lapão-BA	-11.38	41.83
+Centenário-RS	-27.76	52
+Jucati-PE	-8.71	36.49
+Lupionópolis-PR	-22.76	51.66
+Pedro Laurentino-PI	-8.07	42.28
+São Domingos do Sul-RS	-28.53	51.89
+Serrinha dos Pintos-RN	-6.11	37.96
+Quixabá-PB	-7.03	37.15
+Bela Vista do Paraíso-PR	-23	51.19
+Baliza-GO	-16.2	52.55
+Uruoca-CE	-3.31	40.56
+Arroio do Sal-RS	-29.55	49.89
+Marechal Cândido Rondon-PR	-24.56	54.06
+Viçosa-RN	-5.99	37.94
+Governador Archer-MA	-5.02	44.27
+Lagoinha do Piauí-PI	-5.83	42.62
+Alcinópolis-MS	-18.32	53.71
+Itaíba-PE	-8.95	37.42
+São Francisco de Itabapoana-RJ	-21.3	40.96
+Rubinéia-SP	-20.18	51
+São Gonçalo do Amarante-RN	-5.79	35.33
+Mato Rico-PR	-24.71	52.15
+Praia Grande-SP	-24.01	46.4
+São José do Jacuri-MG	-18.28	42.67
+Gouvelândia-GO	-18.64	50.07
+Bernardino Batista-PB	-6.45	38.55
+Fagundes Varela-RS	-28.88	51.7
+Santa Helena-MA	-2.23	45.3
+Piranga-MG	-20.68	43.3
+Caibaté-RS	-28.29	54.64
+Nova Esperança do Piriá-PA	-2.27	46.97
+Serra Azul-SP	-21.31	47.57
+Itapetim-PE	-7.38	37.19
+Trindade-GO	-16.65	49.49
+União da Serra-RS	-28.8	52.04
+Currais Novos-RN	-6.26	36.52
+Barreiras do Piauí-PI	-9.93	45.48
+Maravilha-SC	-26.76	53.17
+Traipu-AL	-9.97	37
+Palmeira-SC	-27.58	50.16
+Serrinha-RN	-6.28	35.5
+Barroquinha-CE	-3.02	41.14
+Piraquê-TO	-6.77	48.3
+Coaraci-BA	-14.64	39.55
+Vieirópolis-PB	-6.54	38.28
+Rafael Jambeiro-BA	-12.41	39.5
+Santa Branca-SP	-23.4	45.88
+Jardim Olinda-PR	-22.55	52.04
+Baixa Grande do Ribeiro-PI	-7.85	45.21
+Bom Jesus das Selvas-MA	-4.42	46.77
+Jataí-GO	-17.88	51.71
+Santa Rita de Ibitipoca-MG	-21.56	43.91
+Pradópolis-SP	-21.36	48.07
+Ribeirão Claro-PR	-23.19	49.76
+Nova Brasilândia D'Oeste-RO	-11.72	62.32
+Guarda-Mor-MG	-17.77	47.1
+São Domingos do Azeitão-MA	-6.81	44.64
+Passa Sete-RS	-29.45	52.96
+Lagoa Vermelha-RS	-28.21	51.53
+Bambuí-MG	-20.01	45.98
+Brejinho-RN	-6.19	35.36
+Oratórios-MG	-20.43	42.81
+Três Forquilhas-RS	-29.54	50.06
+Tabuleiro do Norte-CE	-5.25	38.13
+Barra do Rio Azul-RS	-27.41	52.41
+Araguanã-MA	-2.95	45.67
+Santa Luzia-BA	-15.43	39.33
+Espírito Santo do Dourado-MG	-22.05	45.95
+Santa Rita do Itueto-MG	-19.36	41.38
+Astorga-PR	-23.23	51.67
+Anhumas-SP	-22.3	51.39
+Upanema-RN	-5.64	37.26
+Abatiá-PR	-23.3	50.31
+Camaquã-RS	-30.85	51.81
+Jupi-PE	-8.71	36.42
+Analândia-SP	-22.13	47.66
+Theobroma-RO	-10.24	62.36
+Itambaracá-PR	-23.02	50.41
+Selvíria-MS	-20.37	51.42
+Potengi-CE	-7.09	40.03
+Umirim-CE	-3.68	39.35
+Ibiraci-MG	-20.46	47.12
+Regente Feijó-SP	-22.22	51.3
+Pontes e Lacerda-MT	-15.23	59.34
+Catingueira-PB	-7.13	37.61
+Santana da Boa Vista-RS	-30.87	53.12
+Tocantinópolis-TO	-6.33	47.42
+Buriti dos Montes-PI	-5.31	41.1
+Ibipeba-BA	-11.64	42.01
+Amparo-SP	-22.7	46.76
+Passa Tempo-MG	-20.65	44.5
+Rio Largo-AL	-9.48	35.85
+Prudentópolis-PR	-25.21	50.98
+Caiçara do Rio do Vento-RN	-5.76	36
+Cariacica-ES	-20.26	40.42
+Nova Olinda-CE	-7.09	39.68
+Alpestre-RS	-27.25	53.03
+Paço do Lumiar-MA	-2.53	44.11
+Nioaque-MS	-21.14	55.83
+Guapirama-PR	-23.52	50.04
+Guarabira-PB	-6.85	35.49
+Puxinanã-PB	-7.16	35.96
+Biritiba-Mirim-SP	-23.57	46.04
+Barra de Guabiraba-PE	-8.42	35.66
+Panelas-PE	-8.66	36.01
+Jaborá-SC	-27.18	51.73
+Água Branca-PB	-7.51	37.64
+Matelândia-PR	-25.24	54
+Óleo-SP	-22.94	49.34
+Riachão das Neves-BA	-11.75	44.91
+Santa Maria do Herval-RS	-29.5	50.99
+Soledade de Minas-MG	-22.06	45.05
+Dom Feliciano-RS	-30.7	52.11
+Arame-MA	-4.89	46.01
+Nina Rodrigues-MA	-3.47	43.91
+São José dos Ramos-PB	-7.25	35.38
+Feliz Natal-MT	-12.39	54.92
+Guaraíta-GO	-15.61	50.02
+Rio do Antônio-BA	-14.41	42.08
+Chorrochó-BA	-8.98	39.1
+Lajedinho-BA	-12.36	40.91
+Santa Teresinha-PB	-7.04	37.45
+Santa Cruz-RN	-6.23	36.02
+Itajá-GO	-19.07	51.54
+Monte Horebe-PB	-7.22	38.59
+Cantá-RR	2.61	60.6
+Cajamar-SP	-23.36	46.88
+Uruana-GO	-15.5	49.69
+Castanhal-PA	-1.29	47.93
+Fronteira-MG	-20.27	49.2
+Jandira-SP	-23.53	46.9
+Cascavel-PR	-24.96	53.46
+Matinhas-PB	-7.13	35.77
+Santo Antônio do Aventureiro-MG	-21.76	42.82
+Lagoa-PB	-6.57	37.92
+Caldazinha-GO	-16.71	49
+Nhamundá-AM	-2.19	56.71
+Gaúcha do Norte-MT	-13.24	53.08
+São Benedito do Rio Preto-MA	-3.33	43.53
+Brejo do Piauí-PI	-8.21	42.83
+Cabreúva-SP	-23.31	47.13
+Tapiraí-MG	-19.89	46.02
+Apiúna-SC	-27.04	49.39
+Cosmópolis-SP	-22.65	47.2
+São Miguel das Missões-RS	-28.56	54.55
+Witmarsum-SC	-26.93	49.8
+Perdizes-MG	-19.35	47.29
+Apucarana-PR	-23.55	51.46
+Palmares Paulista-SP	-21.08	48.8
+Lontra-MG	-15.9	44.31
+Alto Piquiri-PR	-24.03	53.44
+Mato Leitão-RS	-29.52	52.13
+Abaeté-MG	-19.16	45.45
+Iracema do Oeste-PR	-24.43	53.35
+Guarani das Missões-RS	-28.14	54.56
+Espigão Alto do Iguaçu-PR	-25.42	52.84
+Candeias-MG	-20.77	45.28
+Coreaú-CE	-3.53	40.66
+Capixaba-AC	-10.57	67.68
+Logradouro-PB	-6.62	35.4
+Pires Ferreira-CE	-4.25	40.65
+Cacaulândia-RO	-10.34	62.9
+Bom Jesus do Amparo-MG	-19.7	43.47
+Morrinhos do Sul-RS	-29.37	49.93
+Palma Sola-SC	-26.35	53.28
+Guimarânia-MG	-18.84	46.79
+Dois Riachos-AL	-9.39	37.1
+Sabáudia-PR	-23.32	51.55
+União dos Palmares-AL	-9.16	36.03
+Muaná-PA	-1.53	49.22
+Santo Antônio de Lisboa-PI	-6.98	41.23
+São Tomé-RN	-5.97	36.08
+Vale do Sol-RS	-29.6	52.68
+Ourilândia do Norte-PA	-6.75	51.08
+Itaguaru-GO	-15.76	49.63
+Irati-PR	-25.47	50.65
+João Dias-RN	-6.27	37.8
+Cantagalo-MG	-18.53	42.63
+Aparecida-SP	-22.85	45.23
+Curral Novo do Piauí-PI	-7.83	40.9
+Porto Walter-AC	-8.27	72.74
+Júlio de Castilhos-RS	-29.23	53.68
+Ituiutaba-MG	-18.97	49.47
+Guaçuí-ES	-20.78	41.68
+Bom Sucesso de Itararé-SP	-24.32	49.14
+São Domingos do Maranhão-MA	-5.58	44.39
+Imbé-RS	-29.98	50.13
+Ipaba-MG	-19.41	42.42
+Maracanã-PA	-0.6	47.58
+Ubá-MG	-21.12	42.94
+Madeiro-PI	-3.48	42.5
+Altinho-PE	-8.49	36.06
+Bocaina-SP	-22.14	48.52
+Água Doce-SC	-27	51.56
+Pirajuba-MG	-19.91	48.7
+Ibirataia-BA	-14.07	39.64
+Jussara-PR	-23.62	52.47
+Ocara-CE	-4.49	38.6
+Trabiju-SP	-22.04	48.34
+Camocim de São Félix-PE	-8.36	35.76
+Tapera-RS	-28.63	52.87
+Pitangueiras-SP	-21.01	48.22
+Louveira-SP	-23.09	46.95
+Conceição do Canindé-PI	-7.88	41.6
+Pacoti-CE	-4.22	38.92
+Santana de Parnaíba-SP	-23.44	46.92
+São Geraldo do Baixio-MG	-18.9	41.36
+Santa Isabel do Ivaí-PR	-23	53.2
+Mozarlândia-GO	-14.74	50.57
+Matias Olímpio-PI	-3.72	42.56
+Pinhalão-PR	-23.79	50.06
+Santo Antônio do Monte-MG	-20.09	45.29
+Buriti Bravo-MA	-5.84	43.83
+Vargem Grande do Rio Pardo-MG	-15.4	42.31
+Almas-TO	-11.57	47.17
+Cajazeiras-PB	-6.89	38.56
+Maratá-RS	-29.55	51.55
+Jaguaripe-BA	-13.11	38.9
+Sapucaí-Mirim-MG	-22.75	45.74
+Bocaiúva do Sul-PR	-25.21	49.12
+Antônio Martins-RN	-6.21	37.91
+Afonso Bezerra-RN	-5.5	36.51
+Jaguaraçu-MG	-19.65	42.75
+São João do Arraial-PI	-3.82	42.45
+Indaial-SC	-26.9	49.23
+Rio de Janeiro-RJ	-22.9	43.21
+Bossoroca-RS	-28.73	54.9
+Santa Vitória-MG	-18.84	50.12
+Marituba-PA	-1.36	48.34
+Angelândia-MG	-17.6	42.16
+Itinga do Maranhão-MA	-4.45	47.53
+Miracema-RJ	-21.41	42.2
+Sorocaba-SP	-23.5	47.46
+Terenos-MS	-20.44	54.86
+Canindé-CE	-4.36	39.31
+Ipuã-SP	-20.44	48.01
+Barbacena-MG	-21.23	43.77
+Guaratinga-BA	-16.58	39.78
+Enéas Marques-PR	-25.94	53.16
+Cerejeiras-RO	-13.19	60.81
+Votuporanga-SP	-20.42	49.97
+Tabocas do Brejo Velho-BA	-12.71	44.01
+Fronteiras-PI	-7.09	40.62
+Praia Norte-TO	-5.39	47.81
+Borda da Mata-MG	-22.27	46.17
+Campo Redondo-RN	-6.24	36.18
+Goianinha-RN	-6.26	35.21
+Dom Inocêncio-PI	-9	41.97
+União da Vitória-PR	-26.23	51.09
+Mara Rosa-GO	-14.02	49.18
+Itaperuçu-PR	-25.22	49.35
+Rio Verde de Mato Grosso-MS	-18.92	54.84
+Redenção da Serra-SP	-23.27	45.54
+Rio Grande do Piauí-PI	-7.78	43.14
+Água Limpa-GO	-18.07	48.76
+Nicolau Vergueiro-RS	-28.54	52.46
+Rio Piracicaba-MG	-19.93	43.17
+Jaboticabal-SP	-21.25	48.32
+Franciscópolis-MG	-17.96	42.01
+Loanda-PR	-22.92	53.14
+Angelim-PE	-8.89	36.29
+Paraíso do Tocantins-TO	-10.18	48.87
+São Julião-PI	-7.08	40.83
+Nova Aurora-GO	-18.06	48.25
+Borá-SP	-22.27	50.53
+Carrancas-MG	-21.49	44.64
+Assis-SP	-22.66	50.41
+Iguaba Grande-RJ	-22.84	42.23
+Estrela do Norte-SP	-22.49	51.66
+Jardim-MS	-21.48	56.14
+Monte Santo do Tocantins-TO	-10	49
+Boa Vista do Gurupi-MA	-1.79	46.3
+Jaçanã-RN	-6.43	36.21
+Lajes-RN	-5.7	36.24
+Ouricuri-PE	-7.88	40.08
+Bonito de Santa Fé-PB	-7.31	38.52
+Itapirapuã Paulista-SP	-24.57	49.17
+Boa Ventura-PB	-7.41	38.22
+São José-SC	-27.62	48.63
+Unistalda-RS	-29.05	55.15
+Venha-Ver-RN	-6.33	38.48
+Santo Antônio do Caiuá-PR	-22.73	52.34
+Bom Jesus-RS	-28.67	50.42
+Cristalândia-TO	-10.6	49.19
+Riachão do Jacuípe-BA	-11.81	39.39
+Parapuã-SP	-21.77	50.77
+Pedra Grande-RN	-5.15	35.88
+Fortuna de Minas-MG	-19.56	44.45
+Amaporã-PR	-23.1	52.79
+Maracaju-MS	-21.61	55.17
+Gurjão-PB	-7.25	36.49
+Igarapé-Miri-PA	-1.98	48.96
+Oeiras-PI	-7.03	42.13
+Planura-MG	-20.14	48.7
+Francisco Morato-SP	-23.28	46.75
+Cacoal-RO	-11.44	61.45
+Perolândia-GO	-17.53	52.06
+Santana do Araguaia-PA	-9.3	50.1
+São Bento do Trairí-RN	-6.34	36.09
+Tapejara-PR	-23.73	52.87
+Vianópolis-GO	-16.74	48.52
+Alto Bela Vista-SC	-27.46	51.88
+Salto do Céu-MT	-15.13	58.13
+Boa Esperança-ES	-18.54	40.3
+Bom Jesus do Galho-MG	-19.83	42.32
+Porto dos Gaúchos-MT	-11.54	57.41
+Curral de Cima-PB	-6.72	35.27
+Salvador-BA	-12.97	38.51
+Caetanópolis-MG	-19.3	44.42
+Areiópolis-SP	-22.67	48.67
+Cajazeiras do Piauí-PI	-6.77	42.39
+José da Penha-RN	-6.32	38.28
+São Bento do Una-PE	-8.52	36.44
+Augusto Severo-RN	-5.86	37.31
+Taquari-RS	-29.8	51.86
+Nossa Senhora das Dores-SE	-10.49	37.19
+Chã Preta-AL	-9.26	36.3
+Salto Veloso-SC	-26.91	51.41
+Maraial-PE	-8.78	35.81
+Lagoinha-SP	-23.09	45.19
+Caridade do Piauí-PI	-7.73	40.99
+São José de Espinharas-PB	-6.85	37.33
+São João do Sul-SC	-29.22	49.81
+Macaúbas-BA	-13.02	42.7
+Assis Chateaubriand-PR	-24.42	53.52
+Anamã-AM	-3.58	61.4
+José Raydan-MG	-18.22	42.5
+Inhapim-MG	-19.55	42.12
+Castro-PR	-24.79	50.01
+Camapuã-MS	-19.53	54.04
+São José do Ouro-RS	-27.77	51.59
+Luz-MG	-19.8	45.69
+Igaporã-BA	-13.77	42.71
+Três Lagoas-MS	-20.75	51.68
+Abreu e Lima-PE	-7.91	34.9
+Cubati-PB	-6.87	36.38
+Salgado de São Félix-PB	-7.36	35.44
+Comodoro-MT	-13.66	59.79
+Campo Grande-MS	-20.44	54.65
+Paulo Frontin-PR	-26.04	50.84
+Estreito-MA	-6.56	47.45
+Serafina Corrêa-RS	-28.71	51.94
+Pirenópolis-GO	-15.85	48.96
+São José dos Pinhais-PR	-25.53	49.21
+Carira-SE	-10.36	37.7
+Coronel Sapucaia-MS	-23.27	55.53
+Nossa Senhora de Nazaré-PI	-4.63	42.17
+Colinas do Tocantins-TO	-8.06	48.48
+Mar Vermelho-AL	-9.45	36.39
+Cuparaque-MG	-18.97	41.1
+Bom Jesus de Goiás-GO	-18.21	49.74
+Jupiá-SC	-26.4	52.73
+Nova Itaberaba-SC	-26.94	52.81
+Jumirim-SP	-23.09	47.78
+Água Branca-PI	-5.89	42.64
+Buritizal-SP	-20.19	47.71
+Rio dos Bois-TO	-9.35	48.54
+São Gabriel da Palha-ES	-19.02	40.54
+Serra de São Bento-RN	-6.42	35.7
+Novo Tiradentes-RS	-27.56	53.18
+Senador José Bento-MG	-22.16	46.18
+Luzinópolis-TO	-6.18	47.86
+Itacajá-TO	-8.39	47.77
+Frecheirinha-CE	-3.76	40.82
+Simão Pereira-MG	-21.96	43.31
+Júlio Mesquita-SP	-22.01	49.79
+Matina-BA	-13.91	42.85
+Canaã-MG	-20.69	42.62
+Guararema-SP	-23.42	46.03
+São Domingos do Prata-MG	-19.87	42.97
+Bonfim do Piauí-PI	-9.17	42.87
+Santana do Riacho-MG	-19.17	43.71
+Afogados da Ingazeira-PE	-7.75	37.64
+Registro-SP	-24.49	47.84
+Ponto Chique-MG	-16.63	45.07
+Barracão-RS	-27.67	51.46
+Álvares Machado-SP	-22.08	51.47
+Guapiaçu-SP	-20.8	49.22
+Araguaçu-TO	-12.93	49.83
+Luís Antônio-SP	-21.56	47.7
+Sousa-PB	-6.76	38.23
+Mirangaba-BA	-10.95	40.58
+Portelândia-GO	-17.35	52.68
+Ribeirão do Sul-SP	-22.78	49.93
+Fundão-ES	-19.93	40.41
+Centralina-MG	-18.58	49.2
+Primavera de Rondônia-RO	-11.82	61.32
+Saquarema-RJ	-22.92	42.51
+Caraúbas-PB	-7.73	36.49
+Anajatuba-MA	-3.26	44.62
+Rio Negro-MS	-19.45	54.99
+Pauini-AM	-7.71	66.98
+Bela Vista do Toldo-SC	-26.27	50.46
+Capitão-RS	-29.27	51.99
+Ipanema-MG	-19.8	41.71
+Novo Horizonte-SC	-26.44	52.83
+Terra Nova-PE	-8.23	39.38
+Campanário-MG	-18.24	41.75
+Jaíba-MG	-15.34	43.67
+Mercedes-PR	-24.45	54.16
+Frei Inocêncio-MG	-18.57	41.91
+São José do Mantimento-MG	-20.01	41.74
+Estrela de Alagoas-AL	-9.39	36.76
+Alto Garças-MT	-16.94	53.53
+Santa Cecília-PB	-7.74	35.88
+Encruzilhada-BA	-15.53	40.91
+Crato-CE	-7.23	39.41
+São Domingos-SE	-10.79	37.57
+Gurupá-PA	-1.41	51.64
+São Luís do Paraitinga-SP	-23.22	45.31
+Ipameri-GO	-17.72	48.16
+Moema-MG	-19.84	45.41
+Ijuí-RS	-28.39	53.91
+Caraá-RS	-29.79	50.44
+Anajás-PA	-0.99	49.94
+Marco-CE	-3.12	40.15
+Terra Rica-PR	-22.71	52.62
+Jaru-RO	-10.44	62.47
+Araguapaz-GO	-15.09	50.63
+Governador Eugênio Barros-MA	-5.32	44.25
+Potim-SP	-22.84	45.25
+Itaboraí-RJ	-22.74	42.86
+Faxinal-PR	-24	51.32
+Verdejante-PE	-7.93	38.97
+Tambaú-SP	-21.7	47.27
+Cianorte-PR	-23.66	52.61
+Dias d'Ávila-BA	-12.61	38.3
+Cotriguaçu-MT	-9.96	58.41
+Lagoa do Carro-PE	-7.84	35.32
+Passagem-RN	-6.28	35.38
+Borborema-SP	-21.62	49.07
+Nova Europa-SP	-21.78	48.56
+Bauru-SP	-22.31	49.06
+Ouro Preto-MG	-20.29	43.51
+Criciúma-SC	-28.68	49.37
+Bayeux-PB	-7.13	34.93
+Saboeiro-CE	-6.54	39.91
+Sapopema-PR	-23.91	50.58
+Prata-MG	-19.31	48.92
+Floraí-PR	-23.32	52.3
+Araputanga-MT	-15.47	58.35
+Areia Branca-SE	-10.76	37.32
+Buriti dos Lopes-PI	-3.18	41.87
+Telha-SE	-10.21	36.88
+Roncador-PR	-24.6	52.28
+Coribe-BA	-13.83	44.45
+Parnaíba-PI	-2.9	41.78
+Cerro Largo-RS	-28.15	54.74
+General Salgado-SP	-20.65	50.36
+Ariranha do Ivaí-PR	-24.39	51.59
+Taipu-RN	-5.62	35.6
+Mucuri-BA	-18.09	39.55
+Divino de São Lourenço-ES	-20.62	41.69
+Orós-CE	-6.24	38.91
+Dois Lajeados-RS	-28.98	51.84
+Novorizonte-MG	-16.02	42.41
+Ipueiras-CE	-4.54	40.72
+Rondon-PR	-23.41	52.76
+Lastro-PB	-6.52	38.18
+Farias Brito-CE	-6.93	39.57
+Piraí do Norte-BA	-13.76	39.38
+Jacinto-MG	-16.14	40.29
+Itiquira-MT	-17.21	54.15
+Filadélfia-TO	-7.34	47.49
+Damião-PB	-6.6	35.94
+Buritirama-BA	-10.71	43.63
+Doutor Ulysses-PR	-24.57	49.42
+Cristais-MG	-20.88	45.52
+Novo Mundo-MT	-9.95	55.2
+Eliseu Martins-PI	-8.1	43.66
+Morada Nova de Minas-MG	-18.6	45.36
+Brejo-MA	-3.68	42.75
+Cordeiros-BA	-15.04	41.93
+Lima Campos-MA	-4.52	44.47
+Canguçu-RS	-31.4	52.68
+Caratinga-MG	-19.79	42.14
+Santo Antônio de Jesus-BA	-12.97	39.26
+Uruará-PA	-3.72	53.74
+Nova Alvorada do Sul-MS	-21.47	54.38
+Jaguapitã-PR	-23.11	51.53
+Cabrália Paulista-SP	-22.46	49.34
+Patrocínio-MG	-18.94	46.99
+Cunha Porã-SC	-26.89	53.17
+Palminópolis-GO	-16.8	50.16
+Campina do Simão-PR	-25.08	51.83
+Conceição do Mato Dentro-MG	-19.04	43.43
+Marques de Souza-RS	-29.33	52.09
+Paraíba do Sul-RJ	-22.16	43.29
+Palmital-PR	-24.89	52.2
+Brochier-RS	-29.55	51.59
+Altamira do Maranhão-MA	-4.06	45.5
+Conceição das Pedras-MG	-22.16	45.45
+Jenipapo de Minas-MG	-17.08	42.26
+Tamboril do Piauí-PI	-8.4	42.91
+Rio Azul-PR	-25.73	50.8
+Pinheiro Machado-RS	-31.58	53.38
+Areias-SP	-22.58	44.7
+Timbó Grande-SC	-26.62	50.67
+João Ramalho-SP	-22.25	50.77
+Altamira do Paraná-PR	-24.8	52.71
+Iguatemi-MS	-23.68	54.56
+Campo Azul-MG	-16.5	44.81
+Miguel Pereira-RJ	-22.45	43.47
+Santa Maria da Serra-SP	-22.57	48.16
+Capinzal-SC	-27.34	51.61
+São José dos Basílios-MA	-5.05	44.58
+Santa Maria Madalena-RJ	-21.96	42.01
+Viradouro-SP	-20.87	48.3
+Itaquitinga-PE	-7.67	35.1
+Bonito-BA	-11.97	41.27
+Flórida Paulista-SP	-21.61	51.17
+Sul Brasil-SC	-26.74	52.96
+Major Sales-RN	-6.41	38.32
+Tabatinga-SP	-21.72	48.69
+Lajeado Grande-SC	-26.86	52.57
+Saúde-BA	-10.94	40.42
+Cambé-PR	-23.28	51.28
+Estância Velha-RS	-29.65	51.17
+Guarani de Goiás-GO	-13.94	46.48
+Piçarras-SC	-26.76	48.67
+Governador Mangabeira-BA	-12.6	39.04
+Irati-SC	-26.66	52.89
+Junqueirópolis-SP	-21.51	51.43
+Frei Paulo-SE	-10.55	37.53
+Lábrea-AM	-7.26	64.8
+São João da Canabrava-PI	-6.82	41.34
+Nova Ramada-RS	-28.06	53.7
+Jandaíra-BA	-11.56	37.78
+Jaboticaba-RS	-27.63	53.28
+Santa Cruz-PE	-8.24	40.33
+Aiuaba-CE	-6.57	40.12
+Ninheira-MG	-15.32	41.75
+São José do Rio Claro-MT	-13.45	56.72
+Serra Negra-SP	-22.61	46.7
+Campo de Santana-PB	-6.49	35.64
+Dueré-TO	-11.34	49.27
+Marzagão-GO	-17.98	48.64
+Alto Boa Vista-MT	-11.67	51.39
+Uruçuí-PI	-7.23	44.56
+Ressaquinha-MG	-21.06	43.76
+Santa Cruz da Conceição-SP	-22.14	47.45
+Seberi-RS	-27.48	53.4
+Ibaretama-CE	-4.8	38.75
+Santa Cruz do Piauí-PI	-7.19	41.77
+Pirapora do Bom Jesus-SP	-23.4	47
+Cachoeira-BA	-12.62	38.96
+São Valério da Natividade-TO	-11.98	48.23
+Costa Marques-RO	-12.45	64.23
+Soure-PA	-0.72	48.52
+Conceição do Araguaia-PA	-8.26	49.26
+Joaíma-MG	-16.65	41.03
+Ibicaré-SC	-27.09	51.37
+Iacri-SP	-21.86	50.69
+Lontras-SC	-27.17	49.54
+Limoeiro de Anadia-AL	-9.74	36.5
+Santo Antônio do Pinhal-SP	-22.83	45.66
+Anchieta-SC	-26.53	53.33
+Periquito-MG	-19.16	42.23
+Mampituba-RS	-29.21	49.93
+Maxaranguape-RN	-5.52	35.26
+Rosário do Sul-RS	-30.26	54.91
+Alto Parnaíba-MA	-9.11	45.93
+Santo Amaro do Maranhão-MA	-2.5	43.25
+São José da Tapera-AL	-9.56	37.38
+São José dos Cordeiros-PB	-7.39	36.81
+General Maynard-SE	-10.69	36.98
+Monte Belo do Sul-RS	-29.16	51.63
+Alambari-SP	-23.55	47.9
+Sapé-PB	-7.1	35.23
+Navegantes-SC	-26.9	48.65
+Potirendaba-SP	-21.04	49.38
+Vazante-MG	-17.99	46.91
+Campo Limpo Paulista-SP	-23.21	46.78
+Professor Jamil-GO	-17.25	49.24
+Caraí-MG	-17.19	41.69
+Cafelândia-SP	-21.8	49.61
+Nova Laranjeiras-PR	-25.31	52.54
+Sete Lagoas-MG	-19.47	44.25
+Grão Mogol-MG	-16.56	42.89
+Tucunduva-RS	-27.66	54.44
+Dom Pedro-MA	-5.03	44.44
+Balneário Barra do Sul-SC	-26.46	48.61
+Campos Sales-CE	-7.07	40.38
+Itamaraju-BA	-17.04	39.53
+Candiota-RS	-31.56	53.67
+Maringá-PR	-23.43	51.94
+Figueirópolis-TO	-12.13	49.17
+Massaranduba-SC	-26.61	49.01
+Itaguatins-TO	-5.77	47.48
+Santo Antônio da Alegria-SP	-21.09	47.15
+Chapada dos Guimarães-MT	-15.46	55.75
+União do Oeste-SC	-26.76	52.86
+Pesqueira-PE	-8.36	36.7
+Entre Rios do Oeste-PR	-24.7	54.23
+Itapororoca-PB	-6.83	35.25
+Engenheiro Coelho-SP	-22.49	47.22
+Doutor Ricardo-RS	-29.09	51.99
+Sucupira do Norte-MA	-6.48	44.19
+Bom Jesus do Tocantins-PA	-5.05	48.61
+Carnaubal-CE	-4.17	40.94
+Esmeraldas-MG	-19.76	44.31
+Teixeirópolis-RO	-10.92	62.25
+Barão de Cotegipe-RS	-27.62	52.38
+Paraúna-GO	-16.95	50.45
+Andaraí-BA	-12.81	41.33
+Pouso Novo-RS	-29.17	52.21
+Serra Negra do Norte-RN	-6.67	37.4
+Descoberto-MG	-21.46	42.97
+Antas-BA	-10.4	38.33
+Ibaté-SP	-21.95	48
+Piripiri-PI	-4.27	41.78
+Capoeiras-PE	-8.73	36.63
+Taquaritinga do Norte-PE	-7.9	36.04
+Canelinha-SC	-27.27	48.77
+Presidente Venceslau-SP	-21.88	51.84
+Palmeiras-BA	-12.53	41.56
+Itaiçaba-CE	-4.67	37.82
+Tapejara-RS	-28.07	52.01
+Madre de Deus de Minas-MG	-21.48	44.33
+São Pedro-RN	-5.9	35.63
+Arandu-SP	-23.13	49.05
+Castelo-ES	-20.6	41.18
+Lajeado Novo-MA	-6.19	47.04
+Itarumã-GO	-18.77	51.35
+Queluz-SP	-22.54	44.77
+Itapetinga-BA	-15.25	40.25
+Alto Alegre-RS	-28.77	52.99
+Florianópolis-SC	-27.6	48.55
+Carrasco Bonito-TO	-5.32	48.03
+Santa Tereza-RS	-29.17	51.74
+Palmeirais-PI	-5.98	43.06
+Mutum-MG	-19.8	41.44
+Poá-SP	-23.53	46.34
+Anápolis-GO	-16.33	48.95
+Ibimirim-PE	-8.54	37.69
+Urupá-RO	-11.14	62.36
+Erval Grande-RS	-27.39	52.57
+Pedra Preta-MT	-16.62	54.47
+Alexandria-RN	-6.41	38.02
+Guararapes-SP	-21.26	50.64
+Alvarenga-MG	-19.42	41.73
+Nova Canaã-BA	-14.79	40.14
+Rodelas-BA	-8.85	38.77
+Cabeceira Grande-MG	-16.03	47.09
+Brumadinho-MG	-20.14	44.2
+Bandeira-MG	-15.88	40.56
+Barreiras-BA	-12.15	44.99
+Cambará-PR	-23.05	50.07
+Borebi-SP	-22.57	48.97
+Salgado-SE	-11.03	37.48
+Paranã-TO	-12.62	47.88
+Arabutã-SC	-27.16	52.14
+Inaciolândia-GO	-18.49	49.99
+Presidente Juscelino-RN	-6.11	35.71
+Barra Velha-SC	-26.63	48.68
+Nova Iguaçu-RJ	-22.76	43.45
+Alto Alegre-RR	2.9	61.5
+Pedro II-PI	-4.42	41.46
+Rolante-RS	-29.65	50.58
+Lagoa Real-BA	-14.03	42.14
+Abaré-BA	-8.72	39.11
+Formosa do Sul-SC	-26.65	52.79
+Ribeirão dos Índios-SP	-21.98	51.65
+Capinópolis-MG	-18.68	49.57
+Assunção do Piauí-PI	-5.87	41.04
+Cipotânea-MG	-20.91	43.37
+Mundo Novo-MS	-23.94	54.27
+Parisi-SP	-20.3	50.01
+Maravilhas-MG	-19.52	44.68
+Petrolina de Goiás-GO	-16.1	49.34
+Não-Me-Toque-RS	-28.46	52.82
+Cabaceiras-PB	-7.49	36.29
+Paracatu-MG	-17.22	46.87
+Laranjeiras do Sul-PR	-25.41	52.42
+Marliéria-MG	-19.71	42.73
+Maricá-RJ	-22.92	42.82
+Morada Nova-CE	-5.11	38.37
+Mirante do Paranapanema-SP	-22.29	51.91
+Goiânia-GO	-16.68	49.25
+Garruchos-RS	-28.18	55.64
+Altamira-PA	-3.2	52.21
+Alto Alegre do Pindaré-MA	-3.69	45.9
+Seara-SC	-27.15	52.31
+Dois Irmãos do Buriti-MS	-20.68	55.3
+Nova Boa Vista-RS	-27.99	52.98
+Concórdia-SC	-27.23	52.03
+Terra Alta-PA	-1.04	47.91
+Engenho Velho-RS	-27.71	52.91
+Camaçari-BA	-12.7	38.32
+Tururu-CE	-3.58	39.44
+Caxambu-MG	-21.98	44.93
+Iguape-SP	-24.71	47.56
+Ouro Verde de Minas-MG	-18.07	41.27
+Itaquara-BA	-13.45	39.94
+Juranda-PR	-24.42	52.84
+Caraíbas-BA	-14.73	41.26
+Flórida-PR	-23.09	51.95
+Porto de Moz-PA	-1.75	52.24
+Santa Bárbara do Monte Verde-MG	-21.96	43.7
+Jaraguá do Sul-SC	-26.49	49.07
+Mambaí-GO	-14.49	46.11
+Rialma-GO	-15.32	49.58
+Barra Longa-MG	-20.28	43.04
+Jatobá-MA	-5.82	44.22
+Parecis-RO	-12.2	61.6
+Guatambú-SC	-27.13	52.79
+Indiana-SP	-22.17	51.25
+Araguaiana-MT	-15.73	51.83
+Barro-CE	-7.18	38.78
+Corumbataí-SP	-22.22	47.63
+Pimenteiras do Oeste-RO	-13.48	61.05
+Escada-PE	-8.36	35.22
+Divisa Alegre-MG	-15.73	41.35
+Nhandeara-SP	-20.69	50.04
+Japaraíba-MG	-20.14	45.5
+Porangatu-GO	-13.44	49.15
+Antônio Dias-MG	-19.65	42.87
+São João do Pau d'Alho-SP	-21.27	51.67
+Fartura do Piauí-PI	-9.01	42.69
+Córrego do Bom Jesus-MG	-22.63	46.02
+Marapoama-SP	-21.26	49.13
+Pedra Bela-SP	-22.79	46.44
+Sulina-PR	-25.7	52.72
+Vargem-SC	-27.49	50.98
+Monteiro-PB	-7.89	37.12
+Macatuba-SP	-22.5	48.71
+Parati-RJ	-23.22	44.71
+Chiador-MG	-22	43.06
+Guarantã do Norte-MT	-9.79	54.91
+Catu-BA	-12.35	38.38
+David Canabarro-RS	-28.39	51.85
+Taquaruçu do Sul-RS	-27.4	53.47
+Caranaíba-MG	-20.88	43.74
+Pinhal-RS	-27.51	53.22
+Itariri-SP	-24.29	47.17
+Pajeú do Piauí-PI	-7.86	42.82
+Palotina-PR	-24.28	53.84
+Nossa Senhora das Graças-PR	-22.91	51.79
+São Miguel da Baixa Grande-PI	-5.86	42.19
+Nova Friburgo-RJ	-22.28	42.53
+Olho d'Água das Flores-AL	-9.54	37.29
+Marília-SP	-22.21	49.95
+Barbalha-CE	-7.31	39.3
+Campestre da Serra-RS	-28.79	51.09
+Cachoeira dos Índios-PB	-6.93	38.67
+Barra D'Alcântara-PI	-6.52	42.11
+Teresina-PI	-5.09	42.8
+Água Doce do Maranhão-MA	-2.84	42.11
+Conselheiro Pena-MG	-19.17	41.47
+Corumbaíba-GO	-18.14	48.56
+Carlópolis-PR	-23.43	49.72
+Mantena-MG	-18.78	40.98
+São Tomé-PR	-23.54	52.59
+Delfinópolis-MG	-20.34	46.85
+Ananás-TO	-6.37	48.07
+Benedito Leite-MA	-7.22	44.56
+Aragoiânia-GO	-16.91	49.45
+Itobi-SP	-21.74	46.98
+Floresta do Araguaia-PA	-7.55	49.71
+Arvorezinha-RS	-28.87	52.18
+Morro do Chapéu do Piauí-PI	-3.74	42.31
+Teresina de Goiás-GO	-13.78	47.26
+Urussanga-SC	-28.52	49.32
+São Salvador do Tocantins-TO	-12.74	48.24
+Olho d'Água Grande-AL	-10.06	36.82
+Rinópolis-SP	-21.73	50.72
+Coronel Domingos Soares-PR	-26.23	52.03
+Cedro do Abaeté-MG	-19.15	45.71
+Lavandeira-TO	-12.79	46.51
+Nova Russas-CE	-4.71	40.56
+Areia de Baraúnas-PB	-7.12	36.94
+Formoso-GO	-13.65	48.88
+Casserengue-PB	-6.75	35.72
+Califórnia-PR	-23.65	51.36
+Descanso-SC	-26.83	53.5
+Santa Luzia do Pará-PA	-1.52	46.9
+Pacaraima-RR	4.43	61.15
+Indianópolis-PR	-23.48	52.7
+Xangri-lá-RS	-29.8	50.04
+Lacerdópolis-SC	-27.26	51.56
+Jussari-BA	-15.19	39.5
+Orocó-PE	-8.55	39.46
+Itararé-SP	-24.11	49.33
+Igaci-AL	-9.54	36.63
+Viadutos-RS	-27.57	52.02
+Laranjal-PR	-24.89	52.47
+Andrelândia-MG	-21.74	44.31
+Bezerros-PE	-8.23	35.8
+Alagoinhas-BA	-12.14	38.42
+Cajueiro da Praia-PI	-2.93	41.34
+Leopoldo de Bulhões-GO	-16.62	48.74
+Guzolândia-SP	-20.65	50.66
+Grupiara-MG	-18.49	47.72
+Santa Helena-PR	-24.86	54.33
+São José do Sabugi-PB	-6.78	36.8
+Serra Grande-PB	-7.22	38.37
+Barra de São Francisco-ES	-18.76	40.89
+Flora Rica-SP	-21.68	51.38
+Porto Lucena-RS	-27.86	55.02
+Bandeirantes-PR	-23.11	50.37
+Santa Tereza do Oeste-PR	-25.05	53.63
+Coité do Nóia-AL	-9.63	36.58
+Magé-RJ	-22.65	43.04
+Ibititá-BA	-11.55	41.98
+Nova Roma-GO	-13.74	46.88
+Maravilha-AL	-9.24	37.35
+Fazenda Nova-GO	-16.18	50.78
+Ipumirim-SC	-27.08	52.14
+Santa Bárbara de Goiás-GO	-16.57	49.69
+Machacalis-MG	-17.08	40.72
+Francisco Santos-PI	-6.99	41.14
+Ibitirama-ES	-20.54	41.67
+Bugre-MG	-19.43	42.24
+Monte Sião-MG	-22.43	46.57
+Santo Antônio do Içá-AM	-3.1	67.94
+Tartarugalzinho-AP	1.51	50.91
+Bela Vista do Piauí-PI	-7.99	41.87
+Patis-MG	-16.08	44.08
+Vale do Paraíso-RO	-10.45	62.13
+Salvaterra-PA	-0.75	48.52
+Lagoão-RS	-29.24	52.8
+Três Coroas-RS	-29.52	50.78
+Campo Alegre-AL	-9.78	36.35
+Capela Nova-MG	-20.92	43.62
+São Pedro da Aldeia-RJ	-22.84	42.1
+Irapuru-SP	-21.57	51.35
+São João Batista-SC	-27.28	48.85
+Armação dos Búzios-RJ	-22.75	41.88
+São João do Soter-MA	-5.11	43.81
+São Romão-MG	-16.37	45.07
+Araponga-MG	-20.67	42.52
+São Sebastião da Vargem Alegre-MG	-21.07	42.64
+Barreira-CE	-4.29	38.64
+Seridó-PB	-6.93	36.4
+Pedreira-SP	-22.74	46.9
+Nova América-GO	-15.02	49.9
+Anagé-BA	-14.61	41.14
+Riachuelo-SE	-10.73	37.19
+Belo Oriente-MG	-19.22	42.48
+Ipecaetá-BA	-12.3	39.31
+Itabuna-BA	-14.79	39.28
+Piraju-SP	-23.19	49.38
+Morrinhos-GO	-17.73	49.1
+Conceição do Tocantins-TO	-12.22	47.3
+Barra do Garças-MT	-15.89	52.26
+Primeiro de Maio-PR	-22.85	51.03
+Restinga Seca-RS	-29.81	53.38
+Lagoa Santa-MG	-19.63	43.89
+Boca do Acre-AM	-8.75	67.4
+Caiabu-SP	-22.01	51.24
+Iguaraçu-PR	-23.2	51.83
+São Paulo de Olivença-AM	-3.38	68.87
+Guaporema-PR	-23.34	52.78
+Curral Velho-PB	-7.58	38.2
+Tucumã-PA	-6.75	51.16
+Alto Alegre-SP	-21.58	50.16
+Caçapava-SP	-23.1	45.71
+Jacaraci-BA	-14.85	42.43
+Reginópolis-SP	-21.89	49.23
+Itupeva-SP	-23.15	47.06
+Monte Azul Paulista-SP	-20.91	48.64
+Alfredo Wagner-SC	-27.7	49.33
+Curiúva-PR	-24.03	50.46
+Biritinga-BA	-11.62	38.8
+Urupema-SC	-27.95	49.87
+Harmonia-RS	-29.55	51.43
+São Vicente-RN	-6.22	36.68
+Massaranduba-PB	-7.2	35.79
+Meruoca-CE	-3.54	40.46
+Ruy Barbosa-RN	-5.88	35.93
+Passo de Torres-SC	-29.34	49.72
+Socorro do Piauí-PI	-7.87	42.49
+Coremas-PB	-7.01	37.95
+Remanso-BA	-9.62	42.08
+Serra do Salitre-MG	-19.11	46.69
+Vila Flor-RN	-6.31	35.08
+Jacuípe-AL	-8.84	35.46
+Pacajá-PA	-3.84	50.64
+Iturama-MG	-19.73	50.2
+Orizona-GO	-17.03	48.3
+Nova Belém-MG	-18.48	41.02
+Selbach-RS	-28.63	52.95
+Ariranha-SP	-21.19	48.79
+Araguaína-TO	-7.19	48.21
+São José do Divino-PI	-3.81	41.83
+Mata Grande-AL	-9.12	37.73
+Pentecoste-CE	-3.79	39.27
+Caxambu do Sul-SC	-27.16	52.88
+Ipeúna-SP	-22.44	47.72
+Alegre-ES	-20.76	41.53
+Canabrava do Norte-MT	-11.05	51.83
+Aurora-CE	-6.94	38.97
+Barra Funda-RS	-27.92	53.04
+Sobrália-MG	-19.23	42.1
+Davinópolis-GO	-18.15	47.56
+Santo Amaro das Brotas-SE	-10.79	37.05
+Montes Altos-MA	-5.83	47.07
+Porteiras-CE	-7.53	39.12
+Antônio Olinto-PR	-25.99	50.2
+Maurilândia do Tocantins-TO	-5.95	47.51
+Choró-CE	-4.84	39.14
+Mauriti-CE	-7.39	38.77
+Américo de Campos-SP	-20.3	49.73
+Panorama-SP	-21.36	51.86
+Pereira Barreto-SP	-20.64	51.11
+Lucrécia-RN	-6.12	37.82
+Januário Cicco-RN	-6.16	35.6
+Maués-AM	-3.38	57.72
+Canavieira-PI	-7.69	43.72
+Sebastião Barros-PI	-10.82	44.83
+Bocaiúva-MG	-17.11	43.82
+Uruçuca-BA	-14.59	39.28
+Turvo-SC	-28.93	49.68
+Barra do Choça-BA	-14.88	40.58
+Miraíma-CE	-3.57	39.97
+Paraguaçu Paulista-SP	-22.41	50.58
+Magda-SP	-20.64	50.23
+Itacambira-MG	-17.06	43.31
+Botuporã-BA	-13.38	42.52
+Tianguá-CE	-3.73	40.99
+Rio Preto-MG	-22.09	43.83
+Paula Freitas-PR	-26.21	50.94
+Cerro Branco-RS	-29.65	52.93
+Jutaí-AM	-2.75	66.77
+Alto Taquari-MT	-17.83	53.28
+Baía Formosa-RN	-6.37	35.01
+Aguiarnópolis-TO	-6.56	47.47
+Cataguases-MG	-21.39	42.7
+Campos Belos-GO	-13.04	46.77
+Sanclerlândia-GO	-16.2	50.31
+Tutóia-MA	-2.76	42.27
+Poço Branco-RN	-5.62	35.66
+Tobias Barreto-SE	-11.18	38
+Águas Frias-SC	-26.88	52.86
+Santo Amaro-BA	-12.55	38.71
+Canápolis-MG	-18.73	49.2
+Miguelópolis-SP	-20.18	48.03
+Luciára-MT	-11.22	50.67
+Novo Machado-RS	-27.57	54.51
+Porciúncula-RJ	-20.96	42.04
+Guareí-SP	-23.37	48.18
+Alagoa Grande-PB	-7.16	35.63
+Juscimeira-MT	-16.05	54.88
+São Jorge d'Oeste-PR	-25.71	52.92
+Irauçuba-CE	-3.75	39.78
+Rio Crespo-RO	-9.71	62.9
+Ribeira-SP	-24.66	49.01
+Imperatriz-MA	-5.53	47.49
+São José do Rio Preto-SP	-20.82	49.38
+Ascurra-SC	-26.96	49.38
+Pedro Gomes-MS	-18.1	54.55
+Tunápolis-SC	-26.97	53.64
+Afrânio-PE	-8.52	41.01
+Palmares-PE	-8.68	35.59
+São Domingos-BA	-11.47	39.53
+Juruá-AM	-3.48	66.07
+Ilópolis-RS	-28.93	52.12
+Bernardo do Mearim-MA	-4.58	44.76
+Marmelópolis-MG	-22.45	45.17
+Paranapuã-SP	-21.77	50.77
+São Francisco do Sul-SC	-26.24	48.64
+Chorozinho-CE	-4.3	38.5
+Vargem Grande do Sul-SP	-21.83	46.89
+Porto Murtinho-MS	-21.7	57.88
+Votorantim-SP	-23.55	47.44
+Lins-SP	-21.68	49.74
+Estrela-RS	-29.5	51.97
+São Fidélis-RJ	-21.65	41.75
+Sinop-MT	-11.86	55.5
+São Geraldo-MG	-20.92	42.83
+Groaíras-CE	-3.91	40.38
+Barra Mansa-RJ	-22.54	44.17
+Marataízes-ES	-21.04	40.82
+Ampére-PR	-25.92	53.47
+Dourado-SP	-22.1	48.32
+Junco do Maranhão-MA	-1.84	46.09
+São Francisco do Piauí-PI	-7.25	42.54
+Maranguape-CE	-3.89	38.69
+Natividade-TO	-11.71	47.72
+Acari-RN	-6.44	36.64
+Alagoinha-PB	-6.95	35.55
+Iracemápolis-SP	-22.58	47.52
+Aurelino Leal-BA	-14.32	39.33
+Rio Vermelho-MG	-18.29	43.01
+Equador-RN	-6.95	36.72
+Marechal Deodoro-AL	-9.71	35.9
+Lindolfo Collor-RS	-29.6	51.21
+Planalto-PR	-25.72	53.77
+Argirita-MG	-21.61	42.84
+Jaqueira-PE	-8.73	35.79
+Paranaiguara-GO	-18.92	50.65
+Treviso-SC	-28.52	49.46
+Várzea Branca-PI	-9.24	42.96
+Miracatu-SP	-24.28	47.46
+Rio das Ostras-RJ	-22.53	41.95
+Feira Nova do Maranhão-MA	-6.96	46.69
+Patos do Piauí-PI	-7.67	41.24
+Urucânia-MG	-20.35	42.74
+Itapé-BA	-14.9	39.42
+Timbiras-MA	-4.26	43.94
+Rio do Pires-BA	-13.13	42.29
+Presidente Jânio Quadros-BA	-14.69	41.68
+Cuiabá-MT	-15.6	56.1
+São Leopoldo-RS	-29.76	51.15
+Ermo-SC	-28.98	49.64
+Turvo-PR	-25.04	51.53
+Eirunepé-AM	-6.66	69.87
+Sonora-MS	-17.58	54.76
+Itaqui-RS	-29.13	56.55
+Lunardelli-PR	-24.08	51.74
+Cantagalo-RJ	-21.98	42.37
+Tomazina-PR	-23.78	49.95
+Charqueadas-RS	-29.95	51.63
+Amargosa-BA	-13.03	39.6
+Condado-PB	-6.91	37.6
+Ibicaraí-BA	-14.87	39.59
+Lagoa do Barro do Piauí-PI	-8.48	41.53
+São João da Barra-RJ	-21.64	41.05
+Correntina-BA	-13.34	44.64
+Cruz do Espírito Santo-PB	-7.14	35.09
+Quatiguá-PR	-23.57	49.91
+Esperantinópolis-MA	-4.87	44.71
+São Domingos do Norte-ES	-19.14	40.62
+Santa Rosa de Lima-SE	-10.65	37.19
+Parauapebas-PA	-6.07	49.9
+Wanderlândia-TO	-6.85	47.96
+Martinópolis-SP	-22.15	51.17
+Vargem Alegre-MG	-19.61	42.3
+Ipiaú-BA	-14.14	39.73
+Passagem-PB	-7.14	37.05
+Espírito Santo-RN	-6.33	35.31
+Lagoa Seca-PB	-7.17	35.85
+Águas de Lindóia-SP	-22.48	46.63
+Porto Firme-MG	-20.67	43.08
+Serra Preta-BA	-12.16	39.33
+Serranópolis do Iguaçu-PR	-25.38	54.05
+Gonçalves-MG	-22.66	45.86
+Sabará-MG	-19.89	43.81
+Gonçalves Dias-MA	-5.15	44.3
+São Sebastião do Uatumã-AM	-2.57	57.87
+Ji-Paraná-RO	-10.89	61.95
+Vicente Dutra-RS	-27.16	53.41
+Lajeado do Bugre-RS	-27.69	53.18
+São Domingos de Pombal-PB	-6.81	37.94
+Iporanga-SP	-24.59	48.59
+Taquaraçu de Minas-MG	-19.67	43.69
+Pirambu-SE	-10.74	36.86
+São Miguel do Araguaia-GO	-13.28	50.16
+Erechim-RS	-27.63	52.27
+Zabelê-PB	-8.08	37.1
+Queimada Nova-PI	-8.58	41.42
+Mariluz-PR	-24	53.15
+Caseiros-RS	-28.27	51.69
+Nazaré da Mata-PE	-7.74	35.23
+Boa Vista do Tupim-BA	-12.66	40.61
+São João do Paraíso-MG	-15.31	42.01
+Duque de Caxias-RJ	-22.79	43.31
+Ibipitanga-BA	-12.88	42.49
+Varre-Sai-RJ	-20.93	41.87
+Rio dos Cedros-SC	-26.74	49.27
+Iaçu-BA	-12.77	40.21
+Anhanguera-GO	-18.34	48.22
+Piraúba-MG	-21.28	43.03
+Rio Grande da Serra-SP	-23.74	46.4
+Pocinhos-PB	-7.08	36.06
+Ananindeua-PA	-1.37	48.37
+Emas-PB	-7.11	37.72
+Ceará-Mirim-RN	-5.63	35.43
+Dom Eliseu-PA	-4.29	47.51
+Paulo Jacinto-AL	-9.37	36.37
+Roseira-SP	-22.9	45.31
+Coronel Barros-RS	-28.38	54.07
+Tenente Laurentino Cruz-RN	-6.15	36.72
+Itajobi-SP	-21.32	49.05
+Cafelândia-PR	-24.62	53.32
+Aramina-SP	-20.09	47.79
+Porto Alegre do Piauí-PI	-6.97	44.18
+Vila Pavão-ES	-18.62	40.61
+Sorriso-MT	-12.55	55.71
+Feijó-AC	-8.16	70.35
+Verdelândia-MG	-15.59	43.6
+Paranaíta-MT	-9.66	56.48
+Cardoso-SP	-20.08	49.91
+Alcantil-PB	-7.74	36.06
+Peabiru-PR	-23.91	52.34
+Pimenteiras-PI	-6.25	41.42
+Nossa Senhora Aparecida-SE	-10.44	37.49
+Maracanaú-CE	-3.88	38.63
+Inhangapi-PA	-1.43	47.92
+Bom Jardim de Goiás-GO	-16.21	52.17
+Hidrolina-GO	-14.72	49.47
+Conchal-SP	-22.33	47.17
+Cerro Corá-RN	-6.05	36.35
+Araguari-MG	-18.65	48.19
+Itaocara-RJ	-21.67	42.08
+Porto Belo-SC	-27.16	48.55
+Antônio Gonçalves-BA	-10.57	40.28
+Maurilândia-GO	-17.97	50.34
+Ivorá-RS	-29.52	53.58
+Guatapará-SP	-21.5	48.04
+Funilândia-MG	-19.37	44.06
+Várzea Grande-PI	-6.54	42.25
+Matupá-MT	-10.06	54.93
+Quipapá-PE	-8.83	36.01
+Esperança do Sul-RS	-27.36	53.99
+Carinhanha-BA	-14.3	43.77
+Jaguariúna-SP	-22.71	46.99
+São Félix de Minas-MG	-18.59	41.49
+Três Barras do Paraná-PR	-25.42	53.18
+São Felipe-BA	-12.85	39.09
+Uchoa-SP	-20.95	49.17
+Nova Olinda-PB	-7.48	38.04
+Pacatuba-SE	-10.45	36.65
+Itapecerica da Serra-SP	-23.72	46.85
+Aurilândia-GO	-16.68	50.46
+São José de Ubá-RJ	-21.36	41.94
+Capistrano-CE	-4.47	38.9
+Juína-MT	-11.38	58.74
+Ilha Solteira-SP	-20.43	51.34
+Massapê-CE	-3.52	40.34
+Munhoz-MG	-22.61	46.36
+Inhacorá-RS	-27.88	54.02
+Coxilha-RS	-28.13	52.3
+Teresópolis-RJ	-22.41	42.97
+Piedade de Ponte Nova-MG	-20.25	42.73
+Porto Rico do Maranhão-MA	-1.89	44.61
+Antonina do Norte-CE	-6.78	39.99
+São Vendelino-RS	-29.37	51.38
+Antônio Prado de Minas-MG	-21.02	42.11
+Goianira-GO	-16.5	49.43
+Osvaldo Cruz-SP	-21.8	50.88
+Guaíra-SP	-20.32	48.31
+Baraúna-RN	-5.08	37.62
+Banzaê-BA	-10.58	38.61
+Itapeva-MG	-22.77	46.22
+Datas-MG	-18.45	43.66
+Jaguaretama-CE	-5.61	38.77
+São José dos Campos-SP	-23.18	45.89
+Claraval-MG	-20.4	47.27
+Indianópolis-MG	-19.04	47.92
+Meleiro-SC	-28.83	49.64
+Alhandra-PB	-7.44	34.91
+Governador Newton Bello-MA	-3.43	45.68
+São Francisco do Conde-BA	-12.63	38.68
+Confins-MG	-19.63	43.98
+São Carlos-SC	-27.08	53
+Minduri-MG	-21.68	44.6
+Santa Rosa de Lima-SC	-28.04	49.13
+Manaíra-PB	-7.71	38.15
+Venâncio Aires-RS	-29.61	52.19
+Jaboti-PR	-23.74	50.08
+Mundo Novo-BA	-11.86	40.47
+Simão Dias-SE	-10.74	37.81
+Santa Cruz da Esperança-SP	-21.29	47.43
+Iranduba-AM	-3.28	60.19
+Vale Verde-RS	-29.79	52.18
+Jacaraú-PB	-6.61	35.29
+Pastos Bons-MA	-6.6	44.08
+Passabém-MG	-19.35	43.14
+Maria Helena-PR	-23.62	53.21
+Junqueiro-AL	-9.93	36.48
+Ituberá-BA	-13.73	39.15
+Barra de São Miguel-PB	-7.75	36.32
+São João da Serra-PI	-5.51	41.9
+Santa Inês-MA	-3.67	45.38
+Propriá-SE	-10.21	36.84
+Embu-SP	-23.65	46.85
+Bom Retiro-SC	-27.8	49.49
+São Sebastião da Boa Vista-PA	-1.72	49.54
+São Fernando-RN	-6.38	37.18
+Jenipapo dos Vieiras-MA	-5.37	45.64
+Cordilheira Alta-SC	-26.98	52.6
+Lambari-MG	-21.98	45.35
+Rosário do Catete-SE	-10.7	37.03
+Vidal Ramos-SC	-27.39	49.36
+Cedro-PE	-7.72	39.24
+Frutal-MG	-20.02	48.94
+Sooretama-ES	-19.2	40.1
+Porto Seguro-BA	-16.45	39.06
+São Martinho-RS	-27.71	53.97
+Americana-SP	-22.74	47.33
+Sítio d'Abadia-GO	-14.81	46.25
+São José do Divino-MG	-18.48	41.39
+Canhotinho-PE	-8.88	36.19
+Luís Gomes-RN	-6.41	38.39
+Areia Branca-RN	-4.96	37.14
+Paulicéia-SP	-21.32	51.83
+Varginha-MG	-21.55	45.43
+Nova Bassano-RS	-28.72	51.7
+Serra Alta-SC	-26.73	53.04
+Ararendá-CE	-4.75	40.83
+São Braz do Piauí-PI	-9.22	43.01
+Maçambara-RS	-29.14	56.07
+Monteirópolis-AL	-9.6	37.25
+Campo Alegre do Fidalgo-PI	-8.38	41.84
+Moju-PA	-1.88	48.77
+Marilena-PR	-22.74	53.04
+Mostardas-RS	-31.11	50.92
+Lidianópolis-PR	-24.11	51.65
+Barra dos Coqueiros-SE	-10.91	37.04
+Santa Fé do Sul-SP	-20.21	50.93
+Tupiratins-TO	-8.39	48.12
+Monte Alegre de Sergipe-SE	-10.03	37.56
+Gavião-BA	-11.47	39.78
+Careiro-AM	-3.77	60.37
+Santa Luzia-MA	-3.96	45.66
+Guaiúba-CE	-4.04	38.64
+Amarante do Maranhão-MA	-5.57	46.74
+Aliança-PE	-7.6	35.23
+Alfredo Marcondes-SP	-21.96	51.41
+São Domingos do Capim-PA	-1.67	47.77
+Jussiape-BA	-13.52	41.59
+Balsas-MA	-7.53	46.04
+Manga-MG	-14.76	43.93
+Barreirinhas-MA	-2.75	42.83
+Cajati-SP	-24.74	48.12
+Missal-PR	-25.09	54.25
+Tabira-PE	-7.59	37.54
+Garça-SP	-22.21	49.66
+Figueira-PR	-23.85	50.4
+Guarará-MG	-21.73	43.04
+Ipiaçu-MG	-18.69	49.94
+Mata-RS	-29.57	54.46
+Cedral-SP	-20.9	49.27
+Lagoa dos Três Cantos-RS	-28.57	52.86
+Campo Belo do Sul-SC	-27.9	50.76
+Araxá-MG	-19.59	46.94
+Couto de Magalhães de Minas-MG	-18.07	43.47
+Cristinápolis-SE	-11.48	37.76
+Redenção do Gurguéia-PI	-9.49	44.59
+Arinos-MG	-15.92	46.11
+Palestina de Goiás-GO	-16.73	51.53
+Murici-AL	-9.31	35.94
+Aimorés-MG	-19.5	41.06
+Gabriel Monteiro-SP	-21.53	50.55
+Aripuanã-MT	-10.17	59.46
+Machados-PE	-7.68	35.52
+São Valentim do Sul-RS	-29.05	51.77
+Aracatu-BA	-14.43	41.46
+Rio Tinto-PB	-6.8	35.08
+Feira de Santana-BA	-12.27	38.97
+Ipueiras-TO	-11.24	48.46
+Satuba-AL	-9.56	35.82
+Poranga-CE	-4.74	40.93
+Jandaíra-RN	-5.36	36.13
+Cotegipe-BA	-12.03	44.26
+Flores do Piauí-PI	-7.79	42.93
+Herval d'Oeste-SC	-27.19	51.49
+Cabo Verde-MG	-21.47	46.4
+Esteio-RS	-29.86	51.18
+Ervália-MG	-20.84	42.66
+Santa Rita de Minas-MG	-19.87	42.13
+Quatipuru-PA	-0.9	47.01
+Guaraci-PR	-22.97	51.65
+Moreno-PE	-8.12	35.09
+Senador Amaral-MG	-22.59	46.18
+Jequitinhonha-MG	-16.43	41
+Trajano de Morais-RJ	-22.06	42.07
+São Miguel Arcanjo-SP	-23.88	48
+Pindaré-Mirim-MA	-3.61	45.34
+Porto Alegre do Norte-MT	-10.88	51.63
+Dracena-SP	-21.48	51.53
+Sabino-SP	-21.46	49.58
+Quebrangulo-AL	-9.32	36.47
+Cruzília-MG	-21.84	44.81
+Placas-PA	-3.87	54.22
+Caseara-TO	-9.28	49.96
+Sales Oliveira-SP	-20.77	47.84
+Monsenhor Gil-PI	-5.56	42.61
+Maripá de Minas-MG	-21.7	42.96
+Pio IX-PI	-6.84	40.58
+Panambi-RS	-28.29	53.5
+São José da Vitória-BA	-15.08	39.34
+Graça Aranha-MA	-5.41	44.33
+Rio Branco do Sul-PR	-25.19	49.31
+Vera Cruz-BA	-12.96	38.61
+Ibirajuba-PE	-8.58	36.18
+Tanabi-SP	-20.63	49.65
+Itacurubi-RS	-28.8	55.24
+Blumenau-SC	-26.92	49.07
+São João da Baliza-RR	0.95	59.91
+São José do Campestre-RN	-6.32	35.71
+Dilermando de Aguiar-RS	-29.71	54.21
+Alfredo Chaves-ES	-20.64	40.75
+Estrela do Indaiá-MG	-19.52	45.79
+Bom Sucesso-PB	-6.45	37.93
+Paramoti-CE	-4.1	39.24
+Santa Cruz de Monte Castelo-PR	-22.95	53.3
+Timbé do Sul-SC	-28.83	49.85
+Rio Bom-PR	-23.76	51.41
+Dobrada-SP	-21.52	48.39
+Santana do Paraíso-MG	-19.36	42.57
+Chuvisca-RS	-30.76	51.98
+Candói-PR	-25.57	52.06
+Dores do Indaiá-MG	-19.46	45.6
+Pacujá-CE	-3.99	40.7
+Monte Alegre-PA	-2.01	54.07
+Aratuípe-BA	-13.08	39
+Camocim-CE	-2.9	40.84
+Itabirito-MG	-20.25	43.8
+Turiaçu-MA	-1.66	45.37
+Parnamirim-RN	-5.92	35.26
+Pouso Redondo-SC	-27.26	49.93
+Surubim-PE	-7.83	35.75
+Renascença-PR	-26.16	52.97
+São João dos Patos-MA	-6.5	43.7
+Amélia Rodrigues-BA	-12.39	38.76
+Gramado-RS	-29.38	50.87
+Carpina-PE	-7.85	35.25
+Pedra Lavrada-PB	-6.76	36.47
+São Borja-RS	-28.66	56
+Jambeiro-SP	-23.25	45.69
+Maiquinique-BA	-15.62	40.27
+Dom Aquino-MT	-15.81	54.92
+Planalto Alegre-SC	-27.07	52.87
+Sertãozinho-PB	-6.75	35.44
+Croatá-CE	-4.4	40.91
+Além Paraíba-MG	-21.89	42.7
+Ibiraiaras-RS	-28.37	51.64
+Palmitos-SC	-27.07	53.16
+Olindina-BA	-11.37	38.33
+Nova Ubiratã-MT	-12.99	55.25
+Leópolis-PR	-23.08	50.75
+Pindoretama-CE	-4.03	38.31
+Novo Brasil-GO	-16.03	50.71
+Vila Nova do Sul-RS	-30.34	53.88
+Roca Sales-RS	-29.28	51.87
+Santo Hipólito-MG	-18.3	44.22
+Concórdia do Pará-PA	-2	47.95
+Engenheiro Beltrão-PR	-23.8	52.27
+Timbaúba-PE	-7.51	35.32
+Jurema-PE	-8.72	36.14
+Laje-BA	-13.18	39.43
+Taperoá-BA	-13.54	39.1
+Colômbia-SP	-20.18	48.69
+Grajaú-MA	-5.82	46.14
+Lourdes-SP	-20.97	50.22
+Maruim-SE	-10.74	37.08
+Guarujá do Sul-SC	-26.39	53.53
+Formosa do Oeste-PR	-24.29	53.31
+Tapiramutá-BA	-11.85	40.79
+Congonhas do Norte-MG	-18.81	43.68
+Jacuí-MG	-21.02	46.74
+Augustinópolis-TO	-5.47	47.89
+Ibitinga-SP	-21.76	48.83
+Carmésia-MG	-19.09	43.14
+Constantina-RS	-27.73	52.99
+Macaparana-PE	-7.55	35.45
+Curral de Dentro-MG	-15.94	41.84
+Igrejinha-RS	-29.57	50.79
+Novo Acordo-TO	-9.96	47.68
+Vila Valério-ES	-19	40.39
+Aracati-CE	-4.56	37.77
+Barra Bonita-SC	-26.65	53.44
+Jurema-PI	-9.23	43.13
+Nova Canaã Paulista-SP	-20.39	50.95
+Serra Azul de Minas-MG	-18.36	43.17
+Ibiaçá-RS	-28.06	51.85
+Adamantina-SP	-21.69	51.07
+Santa Luzia D'Oeste-RO	-11.91	61.78
+Senador José Porfírio-PA	-2.59	51.95
+Pau D'Arco-TO	-7.54	49.37
+Gaurama-RS	-27.58	52.09
+Central de Minas-MG	-18.76	41.31
+Buriti de Goiás-GO	-16.18	50.43
+Barbosa Ferraz-PR	-24.03	52.01
+Novo Lino-AL	-8.91	35.65
+Almirante Tamandaré-PR	-25.32	49.31
+Amparo do Serra-MG	-20.51	42.8
+Recreio-MG	-21.53	42.47
+Porteirão-GO	-17.82	50.16
+Soledade-PB	-7.06	36.36
+Carnaíba-PE	-7.81	37.79
+Tuparendi-RS	-27.76	54.48
+Corumbiara-RO	-12.96	60.89
+Jordão-AC	-9.43	71.88
+São João da Lagoa-MG	-16.85	44.35
+Tucano-BA	-10.96	38.79
+Cabixi-RO	-13.5	60.55
+Manicoré-AM	-5.81	61.3
+Santa Bárbara-MG	-19.96	43.42
+Cândido de Abreu-PR	-24.57	51.33
+Osasco-SP	-23.53	46.79
+Itutinga-MG	-21.3	44.66
+Vitória da Conquista-BA	-14.87	40.84
+Coronel João Pessoa-RN	-6.26	38.44
+Nova Marilândia-MT	-14.36	56.97
+Muitos Capões-RS	-28.31	51.18
+Luisburgo-MG	-20.44	42.1
+Cristalândia do Piauí-PI	-10.65	45.19
+Jardim-CE	-7.58	39.3
+Piquet Carneiro-CE	-5.8	39.42
+Belém de São Francisco-PE	-8.75	38.97
+Rosário do Ivaí-PR	-24.28	51.27
+Wenceslau Guimarães-BA	-13.69	39.48
+Miranorte-TO	-9.53	48.59
+Marcação-PB	-6.77	35.01
+Vargem Bonita-SC	-27.01	51.74
+Dom Joaquim-MG	-18.97	43.26
+Paquetá-PI	-7.1	41.7
+Afonso Cláudio-ES	-20.07	41.12
+Igarapé-MG	-20.07	44.3
+Toritama-PE	-8.01	36.06
+Monsenhor Tabosa-CE	-4.79	40.06
+Campos Altos-MG	-19.7	46.17
+Nova Bandeirantes-MT	-9.85	57.81
+Cuité-PB	-6.48	36.15
+Itápolis-SP	-21.6	48.81
+Jóia-RS	-28.65	54.12
+Jacaré dos Homens-AL	-9.64	37.2
+Riachuelo-RN	-5.82	35.83
+Araruna-PR	-23.93	52.5
+Chopinzinho-PR	-25.86	52.52
+Laje do Muriaé-RJ	-21.21	42.12
+Chapada da Natividade-TO	-11.62	47.75
+Guadalupe-PI	-6.79	43.57
+São Sebastião do Anta-MG	-19.5	41.98
+Itaituba-PA	-4.28	55.98
+Bias Fortes-MG	-21.61	43.76
+Indaiatuba-SP	-23.09	47.22
+Triunfo Potiguar-RN	-5.87	37.19
+Pedro Canário-ES	-18.03	40.15
+Alcântara-MA	-2.41	44.41
+Bom Jardim-MA	-4.74	44.35
+Capinzal do Norte-MA	-4.73	44.33
+Lagoa do Sítio-PI	-6.51	41.58
+Monte Belo-MG	-21.33	46.37
+Ibiúna-SP	-23.66	47.22
+Mateiros-TO	-10.55	46.42
+Onça de Pitangui-MG	-19.73	44.81
+Frei Martinho-PB	-6.4	36.46
+Carbonita-MG	-17.53	43.02
+Nova Trento-SC	-27.29	48.93
+Peçanha-MG	-18.55	42.56
+Dores do Rio Preto-ES	-20.69	41.85
+Pirajuí-SP	-22	49.46
+Primavera-PE	-8.33	35.35
+Gurinhém-PB	-7.12	35.42
+Doutor Pedrinho-SC	-26.71	49.48
+Água Doce do Norte-ES	-18.55	40.98
+Encantado-RS	-29.24	51.87
+Ouro Branco-AL	-9.17	37.36
+Cândido Sales-BA	-15.51	41.24
+Porecatu-PR	-22.76	51.38
+Terra Nova-BA	-12.39	38.63
+São Gonçalo-RJ	-22.83	43.05
+São José do Belmonte-PE	-7.86	38.76
+Santana do Mundaú-AL	-9.17	36.22
+Novais-SP	-20.99	48.92
+Capitão de Campos-PI	-4.46	41.94
+Marcolândia-PI	-7.44	40.66
+Monte Negro-RO	-10.29	63.33
+Santa Isabel do Rio Negro-AM	-0.41	65.02
+Palmeirante-TO	-7.86	47.93
+Lauro de Freitas-BA	-12.89	38.33
+Antônio João-MS	-22.19	55.95
+Arneiroz-CE	-6.32	40.16
+Itaóca-SP	-24.64	48.84
+Prado-BA	-17.34	39.22
+Itaquiraí-MS	-23.47	54.19
+Cruzeiro da Fortaleza-MG	-18.95	46.67
+Ubaitaba-BA	-14.31	39.32
+Caatiba-BA	-14.98	40.41
+Recife-PE	-8.05	34.88
+Capitão Poço-PA	-1.75	47.06
+Mateus Leme-MG	-19.99	44.43
+Delmiro Gouveia-AL	-9.39	38
+São Sebastião da Grama-SP	-21.71	46.82
+Itaguaçu-ES	-19.8	40.86
+Laguna-SC	-28.48	48.78
+Fernandópolis-SP	-20.28	50.25
+Guajará-Mirim-RO	-10.78	65.34
+Tejuçuoca-CE	-3.99	39.58
+Ipixuna-AM	-7.05	71.69
+Pedro do Rosário-MA	-2.97	45.35
+Bandeira do Sul-MG	-21.73	46.39
+Boa Esperança do Iguaçu-PR	-25.64	53.21
+Agudos-SP	-22.47	48.99
+Ipaussu-SP	-23.06	49.63
+Tarabai-SP	-22.3	51.56
+Cidreira-RS	-30.18	50.21
+Santo Antônio da Platina-PR	-23.3	50.08
+Várzea Alegre-CE	-6.79	39.3
+Novo Oriente-CE	-5.53	40.77
+Jordânia-MG	-15.9	40.18
+São José de Caiana-PB	-7.25	38.3
+Pedra do Anta-MG	-20.6	42.71
+Caldeirão Grande do Piauí-PI	-7.33	40.64
+Matias Barbosa-MG	-21.87	43.32
+Santo Antônio do Amparo-MG	-20.95	44.92
+Ponte Serrada-SC	-26.87	52.02
+Tapiraí-SP	-23.96	47.51
+Clevelândia-PR	-26.4	52.47
+Pai Pedro-MG	-15.52	43.07
+Cumaru do Norte-PA	-7.83	50.77
+São Gonçalo do Pará-MG	-19.98	44.86
+Varzelândia-MG	-15.7	44.03
+Vinhedo-SP	-23.03	46.98
+Ribeira do Piauí-PI	-7.69	42.71
+Capitólio-MG	-20.62	46.05
+Fernandes Tourinho-MG	-19.15	42.08
+Joaquim Távora-PR	-23.5	49.9
+Pilar-AL	-9.6	35.96
+Itagimirim-BA	-16.09	39.61
+Rubelita-MG	-16.41	42.26
+Machadinho D'Oeste-RO	-9.44	61.98
+Lagoa Salgada-RN	-6.12	35.48
+Pindobaçu-BA	-10.74	40.36
+Anadia-AL	-9.68	36.3
+Pinhalzinho-SC	-26.85	52.99
+Alecrim-RS	-27.66	54.76
+Içara-SC	-28.71	49.3
+Gramado Xavier-RS	-29.27	52.58
+Tarumã-SP	-22.75	50.58
+Goiana-PE	-7.56	35
+Carapebus-RJ	-22.19	41.66
+Pratânia-SP	-22.81	48.67
+Pereiras-SP	-23.08	47.98
+Querência-MT	-12.6	52.2
+Satubinha-MA	-3.85	45.27
+Cáceres-MT	-16.07	57.68
+Boqueirão do Leão-RS	-29.3	52.43
+Torrinha-SP	-22.43	48.17
+Vila Bela da Santíssima Trindade-MT	-15.01	59.95
+Janiópolis-PR	-24.14	52.78
+São João do Oeste-SC	-27.1	53.59
+Bom Jesus da Lapa-BA	-13.26	43.42
+Paim Filho-RS	-27.71	51.76
+Salmourão-SP	-21.62	50.86
+Santa Cruz Cabrália-BA	-16.28	39.02
+Acopiara-CE	-6.1	39.45
+Jacarezinho-PR	-23.16	49.97
+Lagoa Alegre-PI	-4.52	42.62
+Resende-RJ	-22.47	44.45
+Doresópolis-MG	-20.29	45.9
+Entre-Ijuís-RS	-28.36	54.27
+São João Evangelista-MG	-18.55	42.76
+Linha Nova-RS	-29.47	51.2
+Medianeira-PR	-25.3	54.09
+Macedônia-SP	-20.15	50.19
+Dois Irmãos do Tocantins-TO	-9.26	49.06
+Setubinha-MG	-17.73	42.27
+Itapetininga-SP	-23.59	48.05
+Casca-RS	-28.56	51.98
+Paracuru-CE	-3.41	39.03
+Riacho das Almas-PE	-8.13	35.86
+Itaju do Colônia-BA	-15.14	39.72
+Santo Antônio da Barra-GO	-17.56	50.63
+Alto Santo-CE	-5.52	38.27
+Heliópolis-BA	-10.68	38.29
+Monte Alegre de Goiás-GO	-13.26	46.9
+Paiva-MG	-21.29	43.42
+Jati-CE	-7.69	39.02
+Córrego do Ouro-GO	-16.29	50.55
+Bagre-PA	-1.9	50.16
+Dom Pedrito-RS	-30.98	54.67
+Terezinha-PE	-9.06	36.62
+São Bento do Sapucaí-SP	-22.69	45.73
+São Sebastião do Umbuzeiro-PB	-8.15	37.01
+Tabaporã-MT	-11.23	56.81
+Rio de Contas-BA	-13.58	41.81
+Licínio de Almeida-BA	-14.68	42.51
+Patrocínio do Muriaé-MG	-21.15	42.21
+Mauá da Serra-PR	-23.9	51.23
+Cravinhos-SP	-21.34	47.73
+Macambira-SE	-10.67	37.54
+Jari-RS	-29.29	54.22
+Caaporã-PB	-7.52	34.91
+Extrema-MG	-22.85	46.32
+Jaguarari-BA	-10.26	40.2
+Conselheiro Mairinck-PR	-23.63	50.17
+São João do Sabugi-RN	-6.72	37.2
+Reduto-MG	-20.22	41.98
+Alpercata-MG	-18.97	41.97
+Novo Barreiro-RS	-27.91	53.11
+Boa Nova-BA	-14.36	40.21
+Ituporanga-SC	-27.41	49.6
+Alto Paraíso de Goiás-GO	-14.13	47.51
+Xaxim-SC	-26.96	52.53
+Cordislândia-MG	-21.79	45.7
+Jaú-SP	-22.3	48.56
+Caturaí-GO	-16.45	49.49
+Morro da Garça-MG	-18.55	44.6
+Jequitibá-MG	-19.24	44.03
+Santa Fé-PR	-23.04	51.81
+Senador Georgino Avelino-RN	-6.16	35.12
+Chapada Gaúcha-MG	-15.31	45.62
+Sapucaia-PA	-6.95	49.68
+Silveira Martins-RS	-29.64	53.59
+Granjeiro-CE	-6.89	39.22
+Camanducaia-MG	-22.76	46.14
+Colorado-PR	-22.84	51.97
+Guaraciama-MG	-17.01	43.67
+Corrente-PI	-10.44	45.16
+Santa Maria do Tocantins-TO	-8.8	47.79
+Chapadão do Lageado-SC	-27.59	49.55
+Felisburgo-MG	-16.64	40.76
+Nova Esperança-PR	-23.18	52.2
+São Miguel do Oeste-SC	-26.73	53.52
+São João do Caiuá-PR	-22.85	52.34
+Buritizeiro-MG	-17.35	44.96
+Itacuruba-PE	-8.73	38.68
+Imbaú-PR	-24.45	50.76
+Porteirinha-MG	-15.74	43.03
+Santa Rita do Tocantins-TO	-10.86	48.91
+Abaetetuba-PA	-1.72	48.88
+Aguaí-SP	-22.06	46.98
+Carmo de Minas-MG	-22.12	45.13
+Mata de São João-BA	-12.53	38.3
+Xambioá-TO	-6.41	48.54
+Coqueiros do Sul-RS	-28.12	52.78
+Coqueiral-MG	-21.19	45.44
+Farol-PR	-24.1	52.62
+Presidente Getúlio-SC	-27.05	49.62
+Ladainha-MG	-17.63	41.74
+Tenente Ananias-RN	-6.47	38.18
+Alto Rio Novo-ES	-19.06	41.02
+São Caetano do Sul-SP	-23.62	46.55
+Santana do Garambéu-MG	-21.6	44.1
+Manari-PE	-8.96	37.63
+Marilândia-ES	-19.41	40.54
+Liberdade-MG	-22.03	44.32
+Rincão-SP	-21.59	48.07
+São Lourenço da Mata-PE	-8	35.02
+Cabo Frio-RJ	-22.88	42.02
+São Sebastião de Lagoa de Roça-PB	-7.12	35.87
+Brotas de Macaúbas-BA	-12	42.63
+Jaboatão dos Guararapes-PE	-8.11	35.01
+Terra Roxa-SP	-20.79	48.33
+Lagoa da Prata-MG	-20.02	45.54
+Dom Basílio-BA	-13.76	41.77
+Monte Formoso-MG	-16.87	41.26
+Lupércio-SP	-22.42	49.82
+Populina-SP	-19.93	50.54
+Mombaça-CE	-5.74	39.63
+Estrela do Norte-GO	-13.87	49.07
+São Roque-SP	-23.53	47.14
+Buerarema-BA	-14.96	39.3
+Padre Paraíso-MG	-17.07	41.48
+Angra dos Reis-RJ	-23.01	44.32
+Erebango-RS	-27.86	52.3
+Santa Maria da Boa Vista-PE	-8.81	39.83
+Rifaina-SP	-20.08	47.42
+Reserva do Iguaçu-PR	-25.84	52.03
+Campos Gerais-MG	-21.24	45.76
+Forquilha-CE	-3.8	40.26
+Mendes Pimentel-MG	-18.66	41.4
+Monte Carmelo-MG	-18.72	47.5
+Coronel João Sá-BA	-10.28	37.93
+Vicentinópolis-GO	-17.74	49.81
+Xique-Xique-BA	-10.82	42.73
+Quixabeira-BA	-11.41	40.13
+Córrego Fundo-MG	-20.45	45.56
+Cumbe-SE	-10.36	37.18
+Joanópolis-SP	-22.93	46.28
+Estiva Gerbi-SP	-22.27	46.94
+Pantano Grande-RS	-30.19	52.37
+Rafard-SP	-23.01	47.53
+Marcionílio Souza-BA	-13	40.53
+Pinheirinho do Vale-RS	-27.21	53.61
+Jussara-GO	-15.87	50.87
+Ipanguaçu-RN	-5.5	36.86
+Major Isidoro-AL	-9.53	36.99
+Santa Rita do Novo Destino-GO	-15.14	49.12
+Carmo do Rio Verde-GO	-15.35	49.71
+Campina das Missões-RS	-27.99	54.84
+Altinópolis-SP	-21.03	47.37
+Capitão Andrade-MG	-19.07	41.86
+São Sepé-RS	-30.16	53.57
+Tabaí-RS	-29.64	51.68
+Seringueiras-RO	-11.8	63.03
+Aratuba-CE	-4.42	39.05
+São Joaquim da Barra-SP	-20.58	47.85
+Seritinga-MG	-21.91	44.52
+Pescador-MG	-18.36	41.6
+Coivaras-PI	-5.09	42.2
+Pintópolis-MG	-16.06	45.16
+Godoy Moreira-PR	-24.18	51.92
+Irecê-BA	-11.3	41.86
+São João do Jaguaribe-CE	-5.27	38.27
+Nova Lima-MG	-19.99	43.85
+Nova Cruz-RN	-6.48	35.43
+Ribeirão do Largo-BA	-15.46	40.74
+Ouro Verde de Goiás-GO	-16.22	49.19
+Laranjal Paulista-SP	-23.05	47.84
+Coronel José Dias-PI	-8.82	42.51
+Campo Alegre de Goiás-GO	-17.63	47.78
+Palmeiras de Goiás-GO	-16.81	49.93
+Conceição da Aparecida-MG	-21.09	46.2
+São Luiz Gonzaga-RS	-28.41	54.96
+Lagoa da Canoa-AL	-9.83	36.74
+Ponte Alta do Tocantins-TO	-10.74	47.54
+Conceição do Lago-Açu-MA	-3.83	44.89
+Nilo Peçanha-BA	-13.6	39.11
+Tailândia-PA	-2.95	48.95
+Conceição dos Ouros-MG	-22.41	45.8
+Ouro Velho-PB	-7.62	37.15
+Nossa Senhora de Lourdes-SE	-10.08	37.06
+Gravatal-SC	-28.33	49.04
+Santo Inácio do Piauí-PI	-7.43	41.91
+Santana do Cariri-CE	-7.19	39.74
+Jandaia-GO	-17.05	50.15
+Esmeralda-RS	-28.05	51.19
+Primavera-PA	-0.94	47.12
+Cesário Lange-SP	-23.23	47.95
+Piên-PR	-26.1	49.43
+Boa Hora-PI	-4.41	42.09
+Pontão-RS	-28.06	52.68
+São Francisco do Glória-MG	-20.79	42.27
+Mesópolis-SP	-19.97	50.64
+Umbuzeiro-PB	-7.7	35.66
+Maribondo-AL	-9.58	36.31
+Volta Grande-MG	-21.77	42.54
+Ibirama-SC	-27.06	49.52
+Piquete-SP	-22.61	45.18
+Jateí-MS	-22.48	54.3
+Gurinhatã-MG	-19.21	49.79
+Vale do Anari-RO	-9.86	62.19
+Bela Vista-MS	-22.11	56.52
+Pacatuba-CE	-3.98	38.62
+São Carlos-SP	-22.02	47.89
+Guairaçá-PR	-22.93	52.69
+Serra do Mel-RN	-5.17	37.03
+Girau do Ponciano-AL	-9.88	36.83
+Matrinchã-GO	-15.44	50.75
+Simonésia-MG	-20.12	42
+Muquém de São Francisco-BA	-12.2	43.83
+Japorã-MS	-23.89	54.4
+Porto Rico-PR	-22.77	53.27
+Pitanga-PR	-24.76	51.76
+Riachão do Poço-PB	-7.15	35.26
+Governador Valadares-MG	-18.85	41.95
+Santo Expedito-SP	-21.85	51.39
+Juripiranga-PB	-7.37	35.24
+Casa Grande-MG	-20.79	43.93
+Francisco Macedo-PI	-7.33	40.79
+Bonfinópolis de Minas-MG	-16.57	45.99
+Paratinga-BA	-12.69	43.18
+Vitorino-PR	-26.28	52.78
+Comercinho-MG	-16.3	41.79
+Araquari-SC	-26.37	48.72
+Viseu-PA	-1.2	46.14
+Coronel Murta-MG	-16.62	42.18
+Morro Grande-SC	-28.8	49.72
+Capivari do Sul-RS	-30.15	50.51
+Alexânia-GO	-16.08	48.51
+Taiaçu-SP	-21.14	48.51
+Mimoso de Goiás-GO	-15.06	48.16
+Matinhos-PR	-25.82	48.54
+Colinas-MA	-6.03	44.25
+Diamantino-MT	-14.41	56.45
+Barreirinha-AM	-2.79	57.07
+Olivença-AL	-9.52	37.19
+Itajaí-SC	-26.91	48.66
+Ibicuí-BA	-14.84	39.99
+Pitimbu-PB	-7.47	34.81
+Santa Clara do Sul-RS	-29.47	52.09
+Peritiba-SC	-27.37	51.9
+Fernando Falcão-MA	-6.15	44.89
+Curaçá-BA	-8.99	39.91
+Montes Claros de Goiás-GO	-16.01	51.4
+Itaporã-MS	-22.08	54.79
+Aliança do Tocantins-TO	-11.31	48.94
+Salvador das Missões-RS	-28.13	54.84
+Ipatinga-MG	-19.47	42.54
+Rodeio-SC	-26.92	49.37
+Porto Calvo-AL	-9.05	35.4
+Armazém-SC	-28.26	49.02
+Itagibá-BA	-14.28	39.84
+Atalanta-SC	-27.42	49.78
+Lagoa Grande-MG	-17.84	46.51
+São Pedro do Iguaçu-PR	-24.94	53.86
+Dionísio-MG	-19.84	42.78
+Santa Albertina-SP	-20.03	50.73
+Ouro Preto do Oeste-RO	-10.75	62.22
+Muçum-RS	-29.16	51.87
+Matipó-MG	-20.28	42.34
+Ribas do Rio Pardo-MS	-20.44	53.76
+Pranchita-PR	-26.02	53.74
+Una-BA	-15.29	39.08
+São Joaquim do Monte-PE	-8.43	35.8
+Carlos Barbosa-RS	-29.3	51.5
+Zortéa-SC	-27.45	51.56
+Sairé-PE	-8.33	35.71
+Água Preta-PE	-8.71	35.53
+Belém do Piauí-PI	-7.38	40.97
+Maceió-AL	-9.67	35.74
+Paraibano-MA	-6.43	43.98
+Braganey-PR	-24.82	53.12
+Trizidela do Vale-MA	-4.57	44.62
+Almadina-BA	-14.71	39.64
+Goioxim-PR	-25.19	51.99
+Monte Carlo-SC	-27.22	50.98
+São Francisco de Assis-RS	-29.55	55.13
+Acajutiba-BA	-11.66	38.02
+Dormentes-PE	-8.45	40.77
+São Vicente-SP	-23.96	46.39
+Ribeirópolis-SE	-10.54	37.42
+Sarapuí-SP	-23.64	47.82
+Bituruna-PR	-26.16	51.55
+Córrego Danta-MG	-19.82	45.9
+Lobato-PR	-23.01	51.95
+Lagoa do Tocantins-TO	-10.38	47.55
+Ministro Andreazza-RO	-11.07	61.52
+Fonte Boa-AM	-2.51	66.09
+Avelinópolis-GO	-16.47	49.76
+Ibateguara-AL	-8.97	35.94
+Angelina-SC	-27.57	48.99
+Cardeal da Silva-BA	-11.94	37.95
+Herveiras-RS	-29.41	52.65
+Teotônio Vilela-AL	-9.91	36.35
+São José da Coroa Grande-PE	-8.9	35.15
+Almenara-MG	-16.18	40.69
+Cacimba de Dentro-PB	-6.64	35.79
+Cordeiro-RJ	-22.03	42.36
+Souto Soares-BA	-12.09	41.64
+Nova Itarana-BA	-13.03	40.07
+Irineópolis-SC	-26.24	50.8
+Nazaré Paulista-SP	-23.18	46.4
+Monte Santo-BA	-10.44	39.33
+Juazeiro-BA	-9.41	40.5
+Treze Tílias-SC	-27	51.41
+Viana-ES	-20.39	40.5
+Lucélia-SP	-21.72	51.02
+Guapiara-SP	-24.19	48.53
+Arroio do Tigre-RS	-29.33	53.09
+Barrolândia-TO	-9.84	48.73
+Glorinha-RS	-29.88	50.78
+Brasileira-PI	-4.13	41.78
+Guaraciaba-MG	-20.57	43.01
+Santa Maria do Oeste-PR	-24.94	51.86
+Coelho Neto-MA	-4.26	43.01
+Iuiú-BA	-14.41	43.55
+Taió-SC	-27.12	50
+Branquinha-AL	-9.25	36.02
+Irituia-PA	-1.77	47.44
+Pedras Grandes-SC	-28.44	49.19
+Barra do Ouro-TO	-7.69	47.68
+Jacundá-PA	-4.45	49.12
+Dona Inês-PB	-6.6	35.29
+Madre de Deus-BA	-12.74	38.62
+Ubaí-MG	-16.29	44.78
+Independência-CE	-5.4	40.31
+Jaguaruana-CE	-4.83	37.78
+Motuca-SP	-21.51	48.15
+Araripe-CE	-7.21	40.05
+Cruzeiro do Sul-PR	-22.96	52.16
+Pejuçara-RS	-28.42	53.66
+Humaitá-RS	-27.56	53.97
+Buritama-SP	-21.07	50.15
+Olhos-d'Água-MG	-17.4	43.57
+Marapanim-PA	-0.72	47.7
+Balsa Nova-PR	-25.58	49.64
+Birigui-SP	-21.29	50.34
+Novo Aripuanã-AM	-5.12	60.38
+Varjota-CE	-4.19	40.48
+Quiterianópolis-CE	-5.84	40.7
+Monjolos-MG	-18.33	44.12
+Augusto Pestana-RS	-28.52	53.99
+Itapebi-BA	-15.95	39.53
+Gameleiras-MG	-15.08	43.12
+Aroazes-PI	-6.12	41.79
+Ibirapuitã-RS	-28.62	52.51
+Salgado Filho-PR	-26.17	53.36
+Itueta-MG	-19.39	41.17
+Assis Brasil-AC	-10.94	69.57
+Botelhos-MG	-21.63	46.4
+Sobradinho-RS	-29.42	53.03
+Santaluz-BA	-11.26	39.37
+Minaçu-GO	-13.53	48.22
+Arcoverde-PE	-8.42	37.05
+Bento Fernandes-RN	-5.69	35.82
+Colatina-ES	-19.54	40.63
+Barreiros-PE	-8.82	35.19
+Silvanópolis-TO	-11.15	48.17
+Vargem Grande Paulista-SP	-23.6	47.03
+Relvado-RS	-29.11	52.07
+Monte Alegre-RN	-6.07	35.33
+Paineiras-MG	-18.91	45.53
+Luís Domingues-MA	-1.27	45.87
+São Domingos-GO	-13.4	46.32
+Nordestina-BA	-10.82	39.43
+Pureza-RN	-5.47	35.56
+Mariana Pimentel-RS	-30.35	51.58
+Cachoeira Grande-MA	-2.93	44.06
+Chaval-CE	-3.03	41.24
+Derrubadas-RS	-27.26	53.86
+Casa Nova-BA	-9.16	40.97
+Pequi-MG	-19.63	44.66
+Coronel Bicaco-RS	-27.72	53.7
+Campinápolis-MT	-14.52	52.89
+São Sebastião do Tocantins-TO	-5.26	48.2
+Dois Irmãos-RS	-29.58	51.09
+Planaltina-GO	-15.45	47.61
+Guaramiranga-CE	-4.26	38.93
+Araruama-RJ	-22.87	42.34
+Presidente Kennedy-TO	-8.54	48.51
+Rodeiro-MG	-21.2	42.87
+Medina-MG	-16.22	41.48
+Governador Edison Lobão-MA	-5.75	47.36
+Paranatama-PE	-8.92	36.66
+Lagoa Grande do Maranhão-MA	-4.81	45.33
+Malhada de Pedras-BA	-14.39	41.88
+Marilândia do Sul-PR	-23.74	51.31
+São João do Oriente-MG	-19.34	42.16
+Currais-PI	-9.01	44.41
+Jaguaribara-CE	-5.66	38.62
+São José do Inhacorá-RS	-27.72	54.13
+Tamandaré-PE	-8.76	35.1
+Catanduvas-SC	-27.07	51.66
+Carlos Chagas-MG	-17.7	40.77
+Presidente Médici-MA	-2.39	45.82
+Angélica-MS	-22.15	53.77
+Neópolis-SE	-10.32	36.58
+Crateús-CE	-5.18	40.68
+Benevides-PA	-1.36	48.24
+Quissamã-RJ	-22.11	41.47
+Leme-SP	-22.19	47.39
+Contagem-MG	-19.93	44.05
+Indaiabira-MG	-15.49	42.2
+Sabinópolis-MG	-18.67	43.08
+Caxias-MA	-4.86	43.36
+Lima Duarte-MG	-21.84	43.79
+Andradas-MG	-22.07	46.57
+Buriti do Tocantins-TO	-5.32	48.23
+Chã de Alegria-PE	-8	35.21
+Valparaíso de Goiás-GO	-16.07	47.98
+Boracéia-SP	-22.19	48.78
+Valença-RJ	-22.25	43.7
+Iepê-SP	-22.66	51.08
+Coração de Jesus-MG	-16.69	44.37
+Malhada-BA	-14.34	43.77
+Saltinho-SP	-22.85	47.68
+Cutias-AP	0.99	50.8
+Nazário-GO	-16.58	49.88
+Olho-d'Água do Borges-RN	-5.96	37.71
+Fagundes-PB	-7.36	35.78
+Pugmil-TO	-10.42	48.89
+Feira da Mata-BA	-14.21	44.28
+Inimutaba-MG	-18.73	44.36
+Quintana-SP	-22.07	50.31
+Santa Teresinha-BA	-12.77	39.52
+Barra-BA	-11.09	43.14
+Turuçu-RS	-31.42	52.18
+Uniflor-PR	-23.09	52.16
+Poções-BA	-14.53	40.37
+Glória D'Oeste-MT	-15.77	58.22
+Marcos Parente-PI	-7.12	43.89
+Pedro Leopoldo-MG	-19.62	44.04
+Magalhães de Almeida-MA	-3.4	42.2
+Itaeté-BA	-12.99	40.97
+Esperantina-PI	-3.9	42.23
+Descalvado-SP	-21.9	47.62
+Antônio Prado-RS	-28.86	51.28
+Mairipotaba-GO	-17.3	49.49
+Cananéia-SP	-25.01	47.93
+Materlândia-MG	-18.47	43.06
+Faro-PA	-2.17	56.75
+Colina-SP	-20.71	48.54
+São Caitano-PE	-8.33	36.14
+Pilar de Goiás-GO	-14.76	49.58
+Aurora do Tocantins-TO	-12.71	46.41
+Pedrinópolis-MG	-19.23	47.46
+Acorizal-MT	-15.2	56.37
+Piúma-ES	-20.84	40.72
+Piranguçu-MG	-22.53	45.5
+Vila Alta-PR	-23.51	53.73
+Mari-PB	-7.06	35.32
+Pedra do Indaiá-MG	-20.26	45.21
+Plácido de Castro-AC	-10.34	67.19
+Limoeiro do Ajuru-PA	-1.9	49.38
+Caiçara-RS	-27.27	53.43
+Araçatuba-SP	-21.21	50.43
+Ererê-CE	-6.03	38.35
+Figueirópolis D'Oeste-MT	-15.45	58.74
+Água Comprida-MG	-20.06	48.11
+Palmitinho-RS	-27.36	53.56
+Salto do Lontra-PR	-25.78	53.31
+Natuba-PB	-7.64	35.55
+Abaiara-CE	-7.36	39.05
+Boa Vista do Sul-RS	-29.35	51.68
+Desterro do Melo-MG	-21.15	43.52
+Breves-PA	-1.68	50.48
+Jequitaí-MG	-17.24	44.45
+Itauçu-GO	-16.2	49.61
+Ribeirãozinho-MT	-16.49	52.69
+Icaraí de Minas-MG	-16.22	44.91
+Campestre de Goiás-GO	-16.76	49.69
+Santa Quitéria-CE	-4.33	40.16
+Pindaí-BA	-14.49	42.69
+Carmópolis-SE	-10.65	36.99
+São João da Fronteira-PI	-3.96	41.26
+Manoel Urbano-AC	-8.84	69.26
+Barros Cassal-RS	-29.09	52.58
+Itapuranga-GO	-15.56	49.95
+Santana de Pirapama-MG	-19.01	44.04
+Cuité de Mamanguape-PB	-6.91	35.25
+Touros-RN	-5.2	35.46
+Nossa Senhora da Glória-SE	-10.22	37.42
+Mortugaba-BA	-15.02	42.37
+Cristal do Sul-RS	-27.45	53.25
+Poço das Antas-RS	-29.45	51.67
+Barroso-MG	-21.19	43.98
+Palhano-CE	-4.75	37.96
+São José de Piranhas-PB	-7.12	38.5
+Sumidouro-RJ	-22.05	42.67
+Bela Vista de Goiás-GO	-16.97	48.95
+Campo Grande do Piauí-PI	-7.13	41.04
+Piau-MG	-21.51	43.32
+Pedra Dourada-MG	-20.83	42.15
+Campina Verde-MG	-19.54	49.49
+Barro Duro-PI	-5.82	42.51
+Pereiro-CE	-6.04	38.46
+Itacaré-BA	-14.28	39
+Assunção-PB	-7.07	36.73
+Lençóis Paulista-SP	-22.6	48.8
+Pinheiro-MA	-2.52	45.08
+Rodrigues Alves-AC	-7.74	72.64
+Pindamonhangaba-SP	-22.92	45.46
+Guaraniaçu-PR	-25.1	52.88
+Nova Erechim-SC	-26.9	52.91
+Taquara-RS	-29.65	50.78
+Berizal-MG	-15.61	41.75
+Colinas-RS	-29.39	51.87
+Lagamar-MG	-18.18	46.81
+Mário Campos-MG	-20.06	44.19
+Esplanada-BA	-11.8	37.95
+Uruaçu-GO	-14.52	49.14
+Tauá-CE	-6	40.29
+Itaúna do Sul-PR	-22.73	52.89
+Presidente Prudente-SP	-22.13	51.39
+Ivinhema-MS	-22.3	53.82
+Crucilândia-MG	-20.38	44.34
+Pindorama do Tocantins-TO	-11.14	47.58
+Dois Córregos-SP	-22.37	48.38
+Itaipé-MG	-17.4	41.67
+Montividiu do Norte-GO	-13.11	48.61
+Agronômica-SC	-27.27	49.71
+Fronteira dos Vales-MG	-16.89	40.92
+São João do Piauí-PI	-8.36	42.25
+Senador Salgado Filho-RS	-28.03	54.54
+Riachão do Dantas-SE	-11.07	37.73
+Paverama-RS	-29.55	51.73
+Conceição da Barra de Minas-MG	-21.13	44.47
+Camacan-BA	-15.42	39.5
+Jales-SP	-20.27	50.55
+Mairi-BA	-11.71	40.15
+Três Ranchos-GO	-18.35	47.78
+Poço Dantas-PB	-6.4	38.47
+Olivedos-PB	-6.99	36.24
+Alegrete-RS	-29.78	55.79
+Santarém-PA	-2.44	54.71
+Montanha-ES	-18.13	40.36
+Garanhuns-PE	-8.89	36.49
+Bragança Paulista-SP	-22.95	46.54
+São José do Cerrito-SC	-27.66	50.58
+Aracitaba-MG	-21.34	43.38
+Campos Borges-RS	-28.89	53
+Ilha das Flores-SE	-10.44	36.54
+Caldeirão Grande-BA	-11.02	40.3
+Ibitiúra de Minas-MG	-22.06	46.44
+Ribeirão Branco-SP	-24.22	48.77
+Nepomuceno-MG	-21.24	45.24
+Lagoa de Pedras-RN	-6.15	35.44
+Sagrada Família-RS	-27.71	53.14
+Aparecida d'Oeste-SP	-20.45	50.88
+Miguel Calmon-BA	-11.43	40.6
+Anitápolis-SC	-27.9	49.13
+Érico Cardoso-BA	-13.42	42.14
+Rio do Fogo-RN	-5.27	35.38
+Nazaré do Piauí-PI	-6.97	42.67
+Florestal-MG	-19.89	44.43
+Charrua-RS	-27.95	52.02
+São Martinho-SC	-28.16	48.98
+Bom Conselho-PE	-9.17	36.68
+Santanópolis-BA	-12.02	38.87
+Feliz Deserto-AL	-10.29	36.31
+Santo Antônio do Palma-RS	-28.5	52.02
+Arantina-MG	-21.91	44.26
+São Lourenço do Sul-RS	-31.37	51.98
+Sirinhaém-PE	-8.59	35.12
+Umuarama-PR	-23.77	53.33
+Cachoeira de Minas-MG	-22.36	45.78
+Guamiranga-PR	-25.19	50.8
+Piacatu-SP	-21.59	50.6
+Nova Guarita-MT	-10.31	55.41
+Água Fria de Goiás-GO	-14.99	47.78
+Carmo do Cajuru-MG	-20.18	44.77
+Capivari de Baixo-SC	-28.44	48.96
+Japoatã-SE	-10.35	36.8
+Rio do Sul-SC	-27.21	49.64
+Alto Paraguai-MT	-14.51	56.48
+Itabaiana-PB	-7.33	35.33
+Bento Gonçalves-RS	-29.17	51.52
+Toropi-RS	-29.48	54.23
+Sananduva-RS	-27.95	51.81
+Sena Madureira-AC	-9.07	68.66
+São Miguel do Passa Quatro-GO	-17.06	48.66
+Goianésia-GO	-15.32	49.12
+Santiago do Sul-SC	-26.64	52.68
+Nova Rosalândia-TO	-10.57	48.91
+Porto Grande-AP	0.71	51.41
+Caxias do Sul-RS	-29.17	51.18
+Garopaba-SC	-28.02	48.61
+Araguatins-TO	-5.65	48.12
+Riversul-SP	-23.83	49.43
+Vargeão-SC	-26.86	52.16
+Rio Pardo-RS	-29.99	52.38
+Faina-GO	-15.45	50.36
+Ceres-GO	-15.31	49.6
+Fruta de Leite-MG	-16.13	42.53
+Portalegre-RN	-6.02	37.99
+Montezuma-MG	-15.17	42.5
+Tarrafas-CE	-6.68	39.76
+Novo São Joaquim-MT	-14.91	53.02
+José de Freitas-PI	-4.76	42.58
+Santa Bárbara-BA	-11.96	38.98
+Divinópolis do Tocantins-TO	-9.8	49.21
+Penaforte-CE	-7.83	39.08
+Bom Jesus da Penha-MG	-21.02	46.52
+Cerqueira César-SP	-23.04	49.17
+América Dourada-BA	-11.46	41.44
+Santana do São Francisco-SE	-10.29	36.61
+Chavantes-SP	-23.04	49.71
+São Gotardo-MG	-19.31	46.05
+Porto Acre-AC	-9.59	67.53
+Candeal-BA	-11.81	39.12
+Pinheiro Preto-SC	-27.05	51.23
+Paranavaí-PR	-23.07	52.47
+Candeias do Jamari-RO	-8.81	63.7
+Japurá-PR	-23.47	52.55
+Anta Gorda-RS	-28.97	52
+Santana da Vargem-MG	-21.25	45.51
+Boninal-BA	-12.7	41.83
+Brejinho-PE	-7.35	37.29
+Iguatu-PR	-24.64	53.13
+Seropédica-RJ	-22.74	43.71
+São Benedito-CE	-4.05	40.87
+Fontoura Xavier-RS	-28.98	52.35
+Presidente Olegário-MG	-18.42	46.42
+Novo Horizonte do Oeste-RO	-11.7	61.99
+Maracaçumé-MA	-2.04	45.96
+Ituaçu-BA	-13.81	41.3
+Riolândia-SP	-19.98	49.68
+Curitiba-PR	-25.43	49.27
+Alegrete do Piauí-PI	-7.24	40.86
+Palmital-SP	-22.79	50.22
+Belmonte-BA	-15.86	38.88
+Bofete-SP	-23.1	48.26
+Wagner-BA	-12.29	41.17
+Mondaí-SC	-27.1	53.4
+Cândido Godói-RS	-27.95	54.75
+Areial-PB	-7.06	35.93
+Itaguajé-PR	-22.62	51.97
+Schroeder-SC	-26.41	49.07
+João Câmara-RN	-5.54	35.82
+Presidente Alves-SP	-22.1	49.44
+Mamonas-MG	-15.05	42.95
+Nova Colinas-MA	-7.12	46.26
+Arapoema-TO	-7.66	49.06
+Carmo do Paranaíba-MG	-19	46.32
+Três Pontas-MG	-21.37	45.51
+Adustina-BA	-10.53	38.1
+Campina do Monte Alegre-SP	-23.59	48.48
+Peixe-Boi-PA	-1.19	47.31
+Poloni-SP	-20.79	49.82
+Nova Lacerda-MT	-14.48	59.61
+Abadia de Goiás-GO	-16.76	49.44
+Itaperuna-RJ	-21.2	41.89
+Nova Esperança do Sudoeste-PR	-25.91	53.26
+Gandu-BA	-13.74	39.49
+Ouro Verde-SP	-21.49	51.7
+Ecoporanga-ES	-18.37	40.83
+Adelândia-GO	-16.42	50.17
+Axixá-MA	-2.84	44.05
+Serra dos Aimorés-MG	-17.78	40.25
+Varjão-GO	-17.05	49.63
+Crisópolis-BA	-11.51	38.15
+Sátiro Dias-BA	-11.6	38.6
+Biquinhas-MG	-18.78	45.5
+Itamaracá-PE	-7.75	34.83
+Umari-CE	-6.65	38.7
+Livramento de Nossa Senhora-BA	-13.64	41.84
+Araruna-PB	-6.56	35.74
+Rondon do Pará-PA	-4.78	48.07
+Aiquara-BA	-14.13	39.89
+Tupanciretã-RS	-29.08	53.84
+Euclides da Cunha Paulista-SP	-22.56	52.59
+Palmeiras do Tocantins-TO	-6.61	47.55
+Lizarda-TO	-9.59	46.67
+Flores da Cunha-RS	-29.03	51.18
+Passa e Fica-RN	-6.44	35.64
+Meridiano-SP	-20.36	50.17
+Oliveira-MG	-20.7	44.83
+Santo Antônio do Paraíso-PR	-23.49	50.65
+São Paulo do Potengi-RN	-5.9	35.76
+Tabuleiro-MG	-21.36	43.25
+Brás Pires-MG	-20.92	43.24
+São Valério do Sul-RS	-27.79	53.94
+Santa Cruz da Baixa Verde-PE	-7.82	38.15
+Macuco-RJ	-21.98	42.25
+Divino das Laranjeiras-MG	-18.78	41.48
+Zacarias-SP	-21.05	50.05
+Novo Oriente do Piauí-PI	-6.45	41.94
+Tupã-SP	-21.93	50.51
+São Sebastião-SP	-23.76	45.41
+Casa Branca-SP	-21.77	47.09
+São José dos Ausentes-RS	-28.75	50.07
+Santa Rosa do Sul-SC	-29.14	49.7
+Liberato Salzano-RS	-27.6	53.07
+Piratininga-SP	-22.41	49.13
+Taquaritinga-SP	-21.41	48.5
+Olinda-PE	-8.01	34.86
+Nobres-MT	-14.72	56.33
+Nova Candelária-RS	-27.61	54.11
+Bom Princípio-RS	-29.49	51.35
+Fazenda Vilanova-RS	-29.59	51.83
+Jucuruçu-BA	-16.84	40.16
+Guabiju-RS	-28.54	51.69
+Aurora do Pará-PA	-2.13	47.56
+São Martinho da Serra-RS	-29.54	53.85
+Santa Luzia do Paruá-MA	-2.5	45.78
+Campo Florido-MG	-19.76	48.57
+Cerquilho-SP	-23.17	47.74
+Ibicoara-BA	-13.41	41.28
+Curuçá-PA	-0.73	47.85
+Tabapuã-SP	-20.96	49.03
+Terezópolis de Goiás-GO	-16.39	49.08
+Tamarana-PR	-23.72	51.1
+Parambu-CE	-6.21	40.69
+Grão Pará-SC	-28.19	49.21
+Paraisópolis-MG	-22.55	45.78
+Marumbi-PR	-23.71	51.64
+Vista Alegre do Alto-SP	-21.17	48.63
+Uarini-AM	-2.99	65.11
+Curralinho-PA	-1.81	49.8
+Presidente Juscelino-MG	-18.64	44.06
+Cerro Azul-PR	-24.82	49.26
+Itaparica-BA	-12.89	38.68
+Itapuã do Oeste-RO	-9.2	63.18
+Santa Helena-SC	-26.94	53.62
+Cândido Mendes-MA	-1.45	45.72
+Aloândia-GO	-17.73	49.48
+Gado Bravo-PB	-7.58	35.79
+Capela-SE	-10.5	37.05
+Piracicaba-SP	-22.73	47.65
+Raposa-MA	-2.42	44.1
+São Bento do Norte-RN	-5.07	36.04
+São João do Triunfo-PR	-25.68	50.3
+Guanambi-BA	-14.22	42.78
+Cromínia-GO	-17.29	49.38
+Marcelino Vieira-RN	-6.29	38.17
+Marechal Floriano-ES	-20.41	40.68
+Juruena-MT	-10.32	58.36
+Mato Grosso-PB	-6.53	37.73
+Catanduvas-PR	-25.2	53.16
+Aiuruoca-MG	-21.98	44.6
+São Pedro do Sul-RS	-29.62	54.18
+Tibagi-PR	-24.51	50.41
+Quatro Pontes-PR	-24.58	53.98
+Saudade do Iguaçu-PR	-25.69	52.62
+Água Azul do Norte-PA	-6.79	50.47
+Fernando Prestes-SP	-21.26	48.69
+Lagoa da Confusão-TO	-10.79	49.62
+Macau-RN	-5.12	36.63
+Livramento-PB	-7.37	36.95
+Tupanci do Sul-RS	-27.93	51.54
+Novo Cruzeiro-MG	-17.47	41.88
+Promissão-SP	-21.54	49.86
+Alvinópolis-MG	-20.11	43.05
+Nova Santa Rosa-PR	-24.47	53.95
+Avanhandava-SP	-21.46	49.95
+Unaí-MG	-16.36	46.91
+Amaral Ferrador-RS	-30.88	52.26
+Itiruçu-BA	-13.53	40.15
+Nova Luzitânia-SP	-20.86	50.26
+Piedade de Caratinga-MG	-19.76	42.08
+Arraial-PI	-6.65	42.53
+Pendências-RN	-5.26	36.72
+Clementina-SP	-21.56	50.45
+Boquira-BA	-12.82	42.73
+Ibertioga-MG	-21.43	43.96
+Santa Rita de Jacutinga-MG	-22.15	44.1
+Getúlio Vargas-RS	-27.89	52.23
+Santarém-PB	-6.49	38.48
+Mariápolis-SP	-21.8	51.18
+Lindóia do Sul-SC	-27.05	52.07
+Fênix-PR	-23.92	51.98
+Santa Filomena do Maranhão-MA	-5.5	44.56
+Nova Campina-SP	-24.12	48.9
+Lavras do Sul-RS	-30.81	53.9
+Pirapemas-MA	-3.73	44.22
+Rio Verde-GO	-17.8	50.93
+Bom Progresso-RS	-27.54	53.87
+Teofilândia-BA	-11.49	39
+Serra Branca-PB	-7.48	36.67
+Salinópolis-PA	-0.61	47.36
+Bocaina-PI	-6.94	41.32
+Coxixola-PB	-7.63	36.61
+São Bernardo-MA	-3.36	42.42
+Bebedouro-SP	-20.95	48.48
+Isaías Coelho-PI	-7.74	41.68
+Ortigueira-PR	-24.21	50.95
+São Domingos do Araguaia-PA	-5.54	48.73
+Boa Vista-RR	2.82	60.67
+Águas da Prata-SP	-21.94	46.72
+Prados-MG	-21.06	44.08
+Ibiara-PB	-7.5	38.4
+União Paulista-SP	-20.89	49.9
+Piracanjuba-GO	-17.3	49.02
+Itaubal-AP	0.71	50.8
+Fátima-BA	-10.6	38.22
+Lago dos Rodrigues-MA	-4.5	44.9
+Óbidos-PA	-1.92	55.52
+Erval Velho-SC	-27.28	51.44
+Juazeiro do Piauí-PI	-5.17	41.7
+Presidente Castelo Branco-PR	-23.28	52.15
+Pedro de Toledo-SP	-24.27	47.23
+Santa Maria do Pará-PA	-1.35	47.58
+Sarutaiá-SP	-23.27	49.48
+Cachoeira de Pajeú-MG	-15.97	41.5
+Pedra Preta-RN	-5.58	36.1
+Santa Helena de Minas-MG	-16.98	40.69
+Sento Sé-BA	-9.75	41.89
+Morro Redondo-RS	-31.59	52.63
+Vargem Bonita-MG	-20.33	46.37
+Vila Velha-ES	-20.33	40.29
+Monte Castelo-SC	-26.46	50.23
+Mucurici-ES	-18.09	40.52
+Inhambupe-BA	-11.78	38.35
+Brejo dos Santos-PB	-6.38	37.82
+Campo Alegre-SC	-26.19	49.27
+Serra da Saudade-MG	-19.44	45.8
+Jundiá-AL	-8.93	35.57
+Cantanhede-MA	-3.63	44.38
+Capim-PB	-6.92	35.17
+Córrego Novo-MG	-19.83	42.4
+Sombrio-SC	-29.11	49.62
+Santa Cruz de Goiás-GO	-17.32	48.48
+Betim-MG	-19.97	44.2
+São Gonçalo do Rio Preto-MG	-18	43.39
+Mãe d'Água-PB	-7.26	37.43
+Quirinópolis-GO	-18.45	50.45
+Senador Modestino Gonçalves-MG	-17.95	43.23
+Queluzito-MG	-20.74	43.88
+Urutaí-GO	-17.46	48.2
+Tacaimbó-PE	-8.32	36.29
+Morretes-PR	-25.48	48.83
+Salgadinho-PE	-7.94	35.63
+Buritis-MG	-15.62	46.42
+Rio do Prado-MG	-16.61	40.57
+Orleans-SC	-28.36	49.29
+Coroatá-MA	-4.13	44.12
+Alenquer-PA	-1.94	54.74
+Vitorino Freire-MA	-4.29	45.25
+São José das Palmeiras-PR	-24.84	54.06
+Damolândia-GO	-16.25	49.37
+Talismã-TO	-12.8	49.09
+Salto de Pirapora-SP	-23.65	47.57
+São Paulo-SP	-23.55	46.64
+Nossa Senhora dos Remédios-PI	-3.98	42.62
+Sertanópolis-PR	-23.06	51.04
+José Gonçalves de Minas-MG	-16.91	42.6
+Paulistas-MG	-18.43	42.87
+Bela Cruz-CE	-3.05	40.17
+Iretama-PR	-24.42	52.11
+Águas Vermelhas-MG	-15.75	41.46
+Juruti-PA	-2.15	56.09
+Catiguá-SP	-21.05	49.06
+Joanésia-MG	-19.17	42.68
+Matias Cardoso-MG	-14.85	43.92
+Nova Veneza-GO	-16.37	49.32
+São João do Araguaia-PA	-5.36	48.79
+José Bonifácio-SP	-21.05	49.69
+Apodi-RN	-5.66	37.8
+Batalha-PI	-4.03	42.08
+Santa Cruz das Palmeiras-SP	-21.83	47.25
+São Nicolau-RS	-28.18	55.27
+Quijingue-BA	-10.75	39.21
+Carnaubeira da Penha-PE	-8.32	38.74
+Britânia-GO	-15.24	51.16
+Santa Efigênia de Minas-MG	-18.83	42.45
+Holambra-SP	-22.63	47.06
+Araçuaí-MG	-16.85	42.07
+Capanema-PA	-1.2	47.18
+Balbinos-SP	-21.9	49.36
+Jaguaruna-SC	-28.62	49.03
+Santo Antônio do Planalto-RS	-28.4	52.69
+Pato Branco-PR	-26.23	52.67
+Cairu-BA	-13.49	39.04
+Carvalhos-MG	-22	44.46
+Paranhos-MS	-23.89	55.43
+Bonito-MS	-21.12	56.48
+Palmelo-GO	-17.32	48.42
+Senador Firmino-MG	-20.91	43.1
+Ouro Verde do Oeste-PR	-24.77	53.9
+Tupaciguara-MG	-18.59	48.71
+Japurá-AM	-1.83	66.6
+Piedade dos Gerais-MG	-20.47	44.23
+Dom Pedro de Alcântara-RS	-29.37	49.85
+Saltinho-SC	-26.61	53.06
+São Thomé das Letras-MG	-21.72	44.99
+Lutécia-SP	-22.34	50.39
+Itapeva-SP	-23.98	48.88
+Jardim do Mulato-PI	-6.1	42.63
+Riacho da Cruz-RN	-5.94	37.95
+Espinosa-MG	-14.93	42.82
+Mairinque-SP	-23.55	47.18
+Monte Azul-MG	-15.16	42.87
+Beberibe-CE	-4.18	38.13
+Cícero Dantas-BA	-10.6	38.38
+Itaipulândia-PR	-25.14	54.3
+Ubarana-SP	-21.17	49.72
+Ponto dos Volantes-MG	-16.75	41.5
+Angicos-RN	-5.67	36.6
+Nova Aliança-SP	-21.02	49.5
+Uirapuru-GO	-14.29	49.92
+Catalão-GO	-18.17	47.95
+Valença-BA	-13.37	39.07
+Valentim Gentil-SP	-20.42	50.09
+Afonso Cunha-MA	-4.13	43.32
+Rio Espera-MG	-20.86	43.47
+Palmas de Monte Alto-BA	-14.27	43.16
+Santo Inácio-PR	-22.7	51.79
+Portel-PA	-1.94	50.82
+Castro Alves-BA	-12.77	39.43
+Coqueiro Seco-AL	-9.64	35.8
+Amaturá-AM	-3.36	68.2
+Formigueiro-RS	-30	53.5
+Perdões-MG	-21.09	45.09
+Timburi-SP	-23.21	49.61
+Guaraci-SP	-20.5	48.94
+Sapucaia-RJ	-22	42.91
+São José do Piauí-PI	-6.87	41.48
+Paraíso do Norte-PR	-23.28	52.6
+Itapaci-GO	-14.95	49.55
+Presidente Dutra-MA	-5.29	44.49
+Pirapetinga-MG	-21.66	42.35
+Palmeirópolis-TO	-13.04	48.4
+Santa Helena-PB	-6.72	38.64
+Brejão-PE	-9.03	36.57
+Jucás-CE	-6.53	39.53
+Belford Roxo-RJ	-22.76	43.4
+Jeremoabo-BA	-10.07	38.48
+Nilópolis-RJ	-22.81	43.41
+Quixaba-PE	-7.72	37.85
+Veríssimo-MG	-19.66	48.31
+Nova Mutum-MT	-13.83	56.08
+Monsenhor Paulo-MG	-21.76	45.54
+Maria da Fé-MG	-22.31	45.38
+Rio Branco do Ivaí-PR	-24.32	51.31
+São Joaquim de Bicas-MG	-20.05	44.27
+Cruzeiro do Sul-AC	-7.63	72.67
+Ipiguá-SP	-20.66	49.39
+Doverlândia-GO	-16.72	52.32
+Cruz Machado-PR	-26.02	51.35
+Iporá-GO	-16.44	51.12
+Várzea Nova-BA	-11.26	40.94
+Mulungu-CE	-4.31	39
+Silveiras-SP	-22.66	44.85
+Itaiópolis-SC	-26.34	49.91
+Jacobina do Piauí-PI	-7.94	41.21
+Santa Bárbara d'Oeste-SP	-22.75	47.41
+Careaçu-MG	-22.04	45.7
+Crixás do Tocantins-TO	-11.1	48.92
+Aroeiras-PB	-7.55	35.71
+Guaxupé-MG	-21.31	46.71
+Torres-RS	-29.34	49.73
+Iapu-MG	-19.44	42.22
+Manoel Emídio-PI	-8.01	43.87
+São Félix de Balsas-MA	-7.08	44.81
+Herval-RS	-32.02	53.4
+São Gabriel do Oeste-MS	-19.4	54.57
+Mossâmedes-GO	-16.13	50.22
+Colíder-MT	-10.82	55.45
+Caapiranga-AM	-3.33	61.21
+Sengés-PR	-24.11	49.46
+Urucará-AM	-2.54	57.76
+Botucatu-SP	-22.89	48.45
+Ouroeste-SP	-20	50.37
+Cônego Marinho-MG	-15.29	44.42
+Riacho de Santana-RN	-6.26	38.32
+Nova Timboteua-PA	-1.21	47.39
+Santa Tereza do Tocantins-TO	-10.28	47.81
+Pedra Branca do Amaparí-AP	0.78	51.94
+Luzilândia-PI	-3.46	42.37
+Vera Cruz-RN	-6.04	35.43
+Cristianópolis-GO	-17.2	48.71
+Biguaçu-SC	-27.49	48.66
+Cariré-CE	-3.95	40.47
+Mathias Lobato-MG	-18.56	41.91
+Presidente Vargas-MA	-3.41	44.02
+Nova Iorque-MA	-6.73	44.04
+Porangaba-SP	-23.18	48.13
+Itamarati de Minas-MG	-21.42	42.82
+Varjão de Minas-MG	-18.38	46.03
+Pomerode-SC	-26.74	49.18
+Santa Rita do Pardo-MS	-21.3	52.83
+Arcos-MG	-20.28	45.54
+Itapissuma-PE	-7.78	34.89
+Pingo-d'Água-MG	-19.73	42.41
+Porto Alegre do Tocantins-TO	-11.61	47.05
+Porto Vera Cruz-RS	-27.74	54.9
+Aparecida do Rio Doce-GO	-18.3	51.15
+Riachinho-MG	-16.23	45.99
+Itamarandiba-MG	-17.86	42.86
+Praia Grande-SC	-29.2	49.95
+São Raimundo das Mangabeiras-MA	-7.02	45.48
+Afuá-PA	-0.16	50.39
+Altair-SP	-20.52	49.06
+Dom Cavati-MG	-19.37	42.11
+Arês-RN	-6.19	35.16
+Forquilhinha-SC	-28.75	49.47
+Querência do Norte-PR	-23.08	53.48
+Teixeira-PB	-7.22	37.25
+Martins Soares-MG	-20.26	41.88
+Central do Maranhão-MA	-2.2	44.83
+Tomé-Açu-PA	-2.42	48.15
+Álvares Florence-SP	-20.32	49.91
+Embaúba-SP	-20.98	48.84
+Palmares do Sul-RS	-30.26	50.51
+Caçu-GO	-18.56	51.13
+Barra do Ribeiro-RS	-30.29	51.3
+Monte Castelo-SP	-21.3	51.57
+Chã Grande-PE	-8.24	35.46
+Echaporã-SP	-22.43	50.2
+Caconde-SP	-21.53	46.64
+Primeira Cruz-MA	-2.51	43.44
+Maximiliano de Almeida-RS	-27.63	51.8
+Sapiranga-RS	-29.64	51.01
+Prado Ferreira-PR	-23.04	51.44
+São Bento do Tocantins-TO	-6.02	47.9
+Axixá do Tocantins-TO	-5.62	47.79
+Goianorte-TO	-8.78	48.93
+Santa Terezinha-MT	-10.47	50.5
+Sampaio-TO	-5.35	47.87
+Pariconha-AL	-9.25	38
+Oiapoque-AP	3.84	51.84
+São Jerônimo-RS	-29.96	51.72
+Santa Cruz do Escalvado-MG	-20.24	42.81
+Parnaguá-PI	-10.23	44.64
+Ataléia-MG	-18.04	41.11
+Leandro Ferreira-MG	-19.72	45.03
+Camboriú-SC	-27.03	48.65
+Itapema-SC	-27.09	48.61
+Pavussu-PI	-7.97	43.22
+Videira-SC	-27.01	51.15
+Penedo-AL	-10.29	36.59
+Santa Luzia do Itanhy-SE	-11.35	37.45
+Mataraca-PB	-6.6	35.05
+Formosa-GO	-15.54	47.33
+Virgínia-MG	-22.33	45.09
+Pimenta-MG	-20.48	45.8
+Florestópolis-PR	-22.86	51.39
+Arceburgo-MG	-21.36	46.94
+Laranjal do Jari-AP	-1.12	52
+Bom Jardim da Serra-SC	-28.34	49.62
+Cajuri-MG	-20.79	42.8
+Itacoatiara-AM	-3.14	58.44
+Corumbá de Goiás-GO	-15.92	48.81
+Estiva-MG	-22.46	46.02
+Tocantins-MG	-21.18	43.02
+Santo Antônio do Tauá-PA	-1.15	48.13
+Francisco Dantas-RN	-6.08	38.12
+Muribeca-SE	-10.43	36.96
+Monte Alegre do Piauí-PI	-9.75	45.3
+Galvão-SC	-26.45	52.69
+Palmeira-PR	-25.43	50.01
+Sarzedo-MG	-20.04	44.14
+Urbano Santos-MA	-3.21	43.4
+Pirapozinho-SP	-22.28	51.5
+Buriticupu-MA	-4.35	46.4
+Poço das Trincheiras-AL	-9.31	37.29
+São Valentim-RS	-27.56	52.52
+Moji-Mirim-SP	-22.43	46.96
+Anguera-BA	-12.15	39.25
+Marema-SC	-26.8	52.63
+Santa Cecília do Pavão-PR	-23.52	50.78
+Nova Aurora-PR	-24.53	53.26
+Alto Horizonte-GO	-14.2	49.34
+Santa Rosa do Purus-AC	-9.43	70.49
+Zé Doca-MA	-3.27	45.66
+Tuiuti-SP	-22.82	46.69
+Sertãozinho-SP	-21.14	47.99
+Monte Mor-SP	-22.95	47.32
+Jacutinga-RS	-27.73	52.53
+Jarinu-SP	-23.1	46.73
+Nazaré-TO	-6.37	47.58
+Santa Maria do Salto-MG	-16.25	40.15
+Luzerna-SC	-27.13	51.47
+Brejo Grande-SE	-10.43	36.47
+Santa Maria do Suaçuí-MG	-18.19	42.41
+Bom Despacho-MG	-19.74	45.25
+Guimarães-MA	-2.13	44.6
+Nova Castilho-SP	-20.76	50.34
+Nova Prata-RS	-28.78	51.61
+Cidelândia-MA	-5.17	47.78
+Santa Cruz do Capibaribe-PE	-7.96	36.2
+Olho d'Água das Cunhãs-MA	-4.11	45.14
+Planaltina do Paraná-PR	-23.01	52.91
+Nova Palma-RS	-29.47	53.47
+Machado-MG	-21.67	45.92
+Ibirá-SP	-21.08	49.24
+Paulistana-PI	-8.14	41.15
+Pinhão-SE	-10.57	37.72
+Costa Rica-MS	-18.54	53.13
+Amapá do Maranhão-MA	-1.57	45.93
+Grandes Rios-PR	-24.15	51.51
+Ourém-PA	-1.55	47.11
+Barra do Rocha-BA	-14.21	39.6
+Campo Alegre de Lourdes-BA	-9.52	43.01
+Rorainópolis-RR	0.95	60.42
+Jacinto Machado-SC	-29	49.76
+Pedro Afonso-TO	-8.97	48.17
+Fartura-SP	-23.39	49.51
+Saloá-PE	-8.98	36.69
+São João do Pacuí-MG	-16.54	44.52
+Centro do Guilherme-MA	-2.37	46
+Barra da Estiva-BA	-13.63	41.33
+Corupá-SC	-26.43	49.24
+Moreira Sales-PR	-24.06	53.01
+Alegria-RS	-27.83	54.06
+Capitão Enéas-MG	-16.32	43.71
+Cabrobó-PE	-8.51	39.31
+São Domingos das Dores-MG	-19.53	42.01
+Araçoiaba-PE	-7.79	35.09
+Laranja da Terra-ES	-19.9	41.06
+Amajari-RR	3.65	61.37
+São Gonçalo do Sapucaí-MG	-21.89	45.6
+São Vicente Ferrer-PE	-7.59	35.49
+Pouso Alegre-MG	-22.23	45.94
+Faxinal do Soturno-RS	-29.57	53.44
+Manoel Ribas-PR	-24.52	51.67
+Natividade-RJ	-21.04	41.97
+Santa Filomena-PE	-8.16	40.62
+Ijaci-MG	-21.17	44.93
+Pombal-PB	-6.77	37.8
+Rio Paranaíba-MG	-19.19	46.25
+Sacramento-MG	-19.87	47.44
+Piranhas-AL	-9.62	37.76
+Alto Araguaia-MT	-17.31	53.22
+Ivaté-PR	-23.41	53.37
+Araranguá-SC	-28.93	49.49
+Mundo Novo-GO	-13.78	50.28
+Monte Alegre dos Campos-RS	-28.68	50.78
+Dom Viçoso-MG	-22.25	45.16
+Inhuma-PI	-6.67	41.71
+Monte Alto-SP	-21.26	48.5
+São Felipe D'Oeste-RO	-11.9	61.5
+Jaboticatubas-MG	-19.51	43.75
+Alto Caparaó-MG	-20.43	41.87
+Abdon Batista-SC	-27.61	51.02
+Monte das Gameleiras-RN	-6.44	35.78
+Itanhaém-SP	-24.18	46.79
+Montauri-RS	-28.65	52.07
+Pinhais-PR	-25.44	49.19
+Victor Graeff-RS	-28.56	52.75
+Barra do Bugres-MT	-15.07	57.18
+Anísio de Abreu-PI	-9.19	43.05
+Herculândia-SP	-22	50.39
+Rancho Queimado-SC	-27.67	49.02
+São Pedro do Suaçuí-MG	-18.37	42.6
+Iacanga-SP	-21.89	49.02
+São João do Paraíso-MA	-6.46	47.06
+Planalto da Serra-MT	-10.44	55.28
+Presidente Kubitschek-MG	-18.61	43.56
+Urandi-BA	-14.77	42.66
+José Boiteux-SC	-26.96	49.63
+Jesuânia-MG	-22	45.29
+Ilicínea-MG	-20.94	45.83
+Humaitá-AM	-7.51	63.02
+Turilândia-MA	-2.2	45.34
+Santa Juliana-MG	-19.31	47.53
+Saldanha Marinho-RS	-28.39	53.09
+Pouso Alto-MG	-22.19	44.97
+Pé de Serra-BA	-11.83	39.61
+Pedra Mole-SE	-10.62	37.69
+Santa Maria das Barreiras-PA	-8.87	49.71
+Tuneiras do Oeste-PR	-23.87	52.88
+Silves-AM	-2.84	58.21
+Pedra Azul-MG	-16.01	41.3
+Rosário da Limeira-MG	-20.98	42.51
+Santa Fé do Araguaia-TO	-7.16	48.7
+Iguaí-BA	-14.76	40.09
+Ponta Porã-MS	-22.54	55.73
+Nova Tebas-PR	-24.44	51.95
+Guajará-AM	-7.55	72.58
+Montanhas-RN	-6.49	35.29
+Urânia-SP	-20.25	50.64
+Ubatã-BA	-14.21	39.52
+Campinas-SP	-22.91	47.06
+Ribeirão-PE	-8.51	35.38
+Nova Viçosa-BA	-17.89	39.37
+Rio Grande-RS	-32.03	52.1
+Novo Santo Antônio-PI	-5.29	41.93
+Alvinlândia-SP	-22.44	49.76
+Nova Venécia-ES	-18.71	40.4
+Ipiranga do Sul-RS	-27.94	52.43
+Campo Belo-MG	-20.9	45.28
+Pau dos Ferros-RN	-6.11	38.2
+Jerônimo Monteiro-ES	-20.79	41.4
+Nova Olinda-TO	-7.63	48.42
+São João do Itaperiú-SC	-26.62	48.77
+Brejetuba-ES	-20.15	41.29
+Brasilândia de Minas-MG	-17.01	46.01
+Getulina-SP	-21.8	49.93
+Conceição do Coité-BA	-11.56	39.28
+Mandaguaçu-PR	-23.35	52.1
+Estação-RS	-27.91	52.26
+Itapuí-SP	-22.23	48.72
+Mariópolis-PR	-26.35	52.56
+Cachoeirinha-RS	-29.95	51.09
+Santa Isabel-GO	-15.3	49.43
+Lajedo do Tabocal-BA	-13.48	40.22
+Americano do Brasil-GO	-16.25	49.98
+Santa Maria do Cambucá-PE	-7.83	35.88
+Áurea-RS	-27.7	52.05
+Iconha-ES	-20.79	40.81
+Sidrolândia-MS	-20.93	54.96
+Águas de Santa Bárbara-SP	-22.88	49.24
+Nonoai-RS	-27.36	52.77
+Tapes-RS	-30.67	51.4
+Santa Rita d'Oeste-SP	-20.14	50.83
+Água Boa-MG	-18	42.39
+São Caetano de Odivelas-PA	-0.75	48.02
+Fernão-SP	-22.36	49.52
+Eldorado-SP	-24.52	48.11
+Teutônia-RS	-29.45	51.81
+Florânia-RN	-6.13	36.82
+Guaporé-RS	-28.85	51.89
+Iguatama-MG	-20.17	45.71
+Condor-RS	-28.21	53.49
+Ângulo-PR	-23.19	51.92
+Capivari-SP	-23	47.51
+Nova Santa Rita-PI	-8.09	42.05
+Marau-RS	-28.45	52.2
+São Jorge-RS	-28.5	51.7
+Belo Jardim-PE	-8.34	36.42
+Trombas-GO	-13.51	48.74
+Nova Maringá-MT	-13.03	57.07
+Pratápolis-MG	-20.74	46.86
+Barão de Monte Alto-MG	-21.25	42.24
+Bodoquena-MS	-20.54	56.72
+Santa Isabel do Pará-PA	-1.3	48.16
+Arraial do Cabo-RJ	-22.97	42.03
+Calmon-SC	-26.6	51.1
+Senador La Rocque-MA	-5.44	47.29
+Contenda-PR	-25.68	49.53
+Mirinzal-MA	-2.07	44.78
+Conchas-SP	-23.02	48.01
+Mato Verde-MG	-15.4	42.87
+Brejo Alegre-SP	-21.17	50.19
+Mogeiro-PB	-7.3	35.48
+Tremedal-BA	-14.98	41.41
+Ponte Alta do Norte-SC	-27.16	50.46
+Brodowski-SP	-20.99	47.66
+Missão Velha-CE	-7.25	39.14
+Espírito Santo do Pinhal-SP	-22.12	46.68
+Guajeru-BA	-14.55	41.94
+Corumbá-MS	-19.01	57.65
+Santo Antônio do Grama-MG	-20.31	42.61
+São Miguel das Matas-BA	-13.05	39.46
+Altos-PI	-5.04	42.46
+Cristália-MG	-16.8	42.86
+Saubara-BA	-12.74	38.77
+Riacho Frio-PI	-10.13	44.95
+Siqueira Campos-PR	-23.69	49.83
+Nova Porteirinha-MG	-15.8	43.3
+Manhuaçu-MG	-20.26	42.03
+Santa Rita do Araguaia-GO	-17.33	53.21
+Itaporanga-PB	-7.3	38.15
+Júlio Borges-PI	-10.32	44.24
+Itaberaí-GO	-16.02	49.81
+Patrocínio Paulista-SP	-20.64	47.28
+Pilões-PB	-6.7	35.62
+Tapira-PR	-23.32	53.07
+Palmópolis-MG	-16.74	40.42
+Alto Paraná-PR	-23.13	52.32
+Açu-RN	-5.58	36.91
+Arroio dos Ratos-RS	-30.08	51.73
+Sentinela do Sul-RS	-30.61	51.58
+Flores de Goiás-GO	-14.45	47.05
+Alcobaça-BA	-17.52	39.2
+Ipiranga do Piauí-PI	-6.83	41.74
+São Sebastião da Bela Vista-MG	-22.16	45.75
+Piumhi-MG	-20.47	45.96
+Queimadas-BA	-10.98	39.63
+Bandeirantes do Tocantins-TO	-7.76	48.58
+Corumbataí do Sul-PR	-24.1	52.12
+Baependi-MG	-21.96	44.89
+Santa Cruz de Salinas-MG	-16.1	41.75
+Belém-AL	-9.57	36.49
+Juruaia-MG	-21.25	46.58
+Lago do Junco-MA	-4.4	44.92
+Apuarema-BA	-13.86	39.74
+São Lourenço da Serra-SP	-23.85	46.94
+Santa Terezinha do Progresso-SC	-26.62	53.2
+Santo Antônio do Rio Abaixo-MG	-19.23	43.25
+União-PI	-4.59	42.86
+Ribeirão Corrente-SP	-20.46	47.59
+Tacuru-MS	-23.63	55.02
+João Lisboa-MA	-5.45	47.4
+Ipu-CE	-4.32	40.71
+Guia Lopes da Laguna-MS	-21.46	56.11
+Cedro-CE	-6.61	39.06
+Belmiro Braga-MG	-21.95	43.42
+Serra do Navio-AP	0.9	52
+Porto Barreiro-PR	-25.55	52.41
+Glória de Dourados-MS	-22.42	54.23
+Barras-PI	-4.24	42.29
+Darcinópolis-TO	-6.71	47.76
+Matozinhos-MG	-19.56	44.08
+Ourolândia-BA	-10.97	41.08
+Entre Rios-SC	-26.72	52.56
+Leoberto Leal-SC	-27.51	49.29
+Independência-RS	-27.83	54.19
+Bálsamo-SP	-20.74	49.58
+Ibiquera-BA	-12.65	40.93
+Cachoeira Alta-GO	-18.76	50.94
+Ariquemes-RO	-9.91	63.04
+São Francisco-PB	-6.62	38.09
+Guarinos-GO	-14.73	49.7
+Caetité-BA	-14.07	42.48
+Santa Rosa-RS	-27.87	54.48
+Riacho dos Cavalos-PB	-6.44	37.65
+Paranapanema-SP	-23.39	48.72
+Caririaçu-CE	-7.04	39.28
+São José de Princesa-PB	-7.74	38.09
+Guaraí-TO	-8.83	48.51
+Chapadão do Céu-GO	-18.41	52.55
+Codó-MA	-4.46	43.89
+Mineiros do Tietê-SP	-22.41	48.45
+Marizópolis-PB	-6.84	38.35
+São Sebastião do Paraíso-MG	-20.92	46.99
+Itaberá-SP	-23.86	49.14
+Marinópolis-SP	-20.44	50.82
+São Gabriel da Cachoeira-AM	-0.13	67.09
+Apiacá-ES	-21.15	41.57
+Boca da Mata-AL	-9.64	36.22
+Ilha Comprida-SP	-24.74	47.54
+Cruz das Almas-BA	-12.67	39.1
+Tibau-RN	-4.84	37.25
+Romelândia-SC	-26.68	53.31
+Quadra-SP	-23.3	48.05
+Petrolândia-PE	-8.98	38.22
+Caçapava do Sul-RS	-30.51	53.49
+Anhembi-SP	-22.79	48.13
+Brasiléia-AC	-11.02	68.75
+São Marcos-RS	-28.97	51.07
+Paranacity-PR	-22.93	52.15
+Gurupi-TO	-11.73	49.07
+Santa Maria de Itabira-MG	-19.45	43.11
+Ibiracatu-MG	-15.66	44.16
+Conde-BA	-11.81	37.61
+Medicilândia-PA	-3.45	52.89
+Taparuba-MG	-19.76	41.62
+Mallet-PR	-25.88	50.82
+Santa Mariana-PR	-23.15	50.52
+Cupira-PE	-8.62	35.95
+Batatais-SP	-20.89	47.59
+Laurentino-SC	-27.22	49.73
+Brejo do Cruz-PB	-6.35	37.5
+Guaimbê-SP	-21.91	49.9
+Itapecuru Mirim-MA	-3.39	44.36
+Martinópole-CE	-3.23	40.7
+Miraguaí-RS	-27.49	53.69
+Almeirim-PA	-1.52	52.58
+Pau D'Arco-PA	-7.83	50.04
+Vanini-RS	-28.48	51.85
+Carmo da Mata-MG	-20.56	44.87
+Itaguaí-RJ	-22.85	43.78
+Canapi-AL	-9.12	37.6
+Imbé de Minas-MG	-19.6	41.97
+São Miguel dos Milagres-AL	-9.27	35.37
+São Raimundo do Doca Bezerra-MA	-5.1	45.08
+Poço de José de Moura-PB	-6.58	38.51
+Conceição de Macabu-RJ	-22.09	41.87
+Fernandes Pinheiro-PR	-25.41	50.55
+Marquinho-PR	-25.11	52.25
+Vera Mendes-PI	-7.6	41.48
+Codajás-AM	-3.84	62.06
+Tiros-MG	-19	45.96
+Barra de São Miguel-AL	-9.84	35.91
+Tietê-SP	-23.1	47.71
+Bacurituba-MA	-2.71	44.74
+São Francisco de Goiás-GO	-15.93	49.26
+Nerópolis-GO	-16.41	49.22
+Batayporã-MS	-22.3	53.27
+Guanhães-MG	-18.78	42.93
+Senador Pompeu-CE	-5.59	39.37
+Juru-PB	-7.54	37.82
+Cachoeira do Sul-RS	-30.04	52.89
+Delta-MG	-19.98	47.77
+Inúbia Paulista-SP	-21.77	50.96
+Dores de Guanhães-MG	-19.06	42.93
+Nova Olímpia-PR	-23.47	53.09
+Bernardino de Campos-SP	-23.01	49.47
+Itapejara d'Oeste-PR	-25.97	52.82
+Simões-PI	-7.6	40.82
+Rafael Godeiro-RN	-6.08	37.72
+Macapá-AP	0.04	51.07
+Novo Horizonte-BA	-12.81	42.17
+Dona Eusébia-MG	-21.32	42.81
+Paula Cândido-MG	-20.87	42.98
+Flor da Serra do Sul-PR	-26.26	53.3
+Itapiúna-CE	-4.56	38.92
+Nossa Senhora do Socorro-SE	-10.86	37.13
+Mandaguari-PR	-23.55	51.67
+Retirolândia-BA	-11.49	39.43
+Serra do Ramalho-BA	-13.56	43.6
+Novo Hamburgo-RS	-29.68	51.13
+Rio Sono-TO	-9.34	47.9
+Taboleiro Grande-RN	-5.93	38.05
+Chapada de Areia-TO	-10.14	49.14
+Mirandópolis-SP	-21.13	51.1
+Dário Meira-BA	-14.44	39.91
+Boqueirão-PB	-7.48	36.14
+Cabeceiras-GO	-15.8	46.93
+Barra do Guarita-RS	-27.19	53.71
+Santo Antônio-RN	-6.31	35.48
+Trairi-CE	-3.28	39.27
+Picada Café-RS	-29.44	51.14
+Iaciara-GO	-14.1	46.63
+Vitória do Jari-AP	-0.92	52.41
+Malacacheta-MG	-17.84	42.08
+Dona Emma-SC	-26.98	49.73
+Ouro-SC	-27.34	51.62
+Pedro Alexandre-BA	-10.01	37.89
+Santa Bárbara do Pará-PA	-1.22	48.29
+Serrita-PE	-7.93	39.3
+Nantes-SP	-22.62	51.24
+Marilac-MG	-18.51	42.08
+Araguanã-TO	-6.58	48.64
+Irará-BA	-12.05	38.77
+Cocal do Sul-SC	-28.6	49.33
+Orizânia-MG	-20.51	42.21
+Anita Garibaldi-SC	-27.69	51.13
+Fortaleza dos Valos-RS	-28.8	53.22
+Cruzália-SP	-22.74	50.79
+Penha-SC	-26.77	48.65
+Nova Roma do Sul-RS	-28.99	51.41
+Mamborê-PR	-24.32	52.53
+Japeri-RJ	-22.64	43.65
+Coronel Martins-SC	-26.51	52.67
+Caraúbas-RN	-5.79	37.56
+Lajes Pintadas-RN	-6.15	36.12
+Dom Expedito Lopes-PI	-6.96	41.64
+Arenópolis-GO	-16.39	51.56
+Goianápolis-GO	-16.51	49.02
+Ernestina-RS	-28.5	52.57
+Caridade-CE	-4.23	39.19
+Teixeiras-MG	-20.65	42.86
+São José da Lapa-MG	-19.71	43.62
+Timon-MA	-5.09	42.84
+Araçaí-MG	-19.2	44.25
+Maracajá-SC	-28.85	49.45
+Itabirinha de Mantena-MG	-18.57	41.23
+Uibaí-BA	-11.34	42.13
+Cruzeta-RN	-6.41	36.79
+Sebastianópolis do Sul-SP	-20.66	49.92
+Mirante da Serra-RO	-11.03	62.68
+Sertão-RS	-27.98	52.26
+Monsenhor Hipólito-PI	-7	41.03
+Mauá-SP	-23.67	46.46
+Barra do Quaraí-RS	-30.21	57.55
+Humberto de Campos-MA	-2.6	43.46
+Severínia-SP	-20.81	48.8
+Paulo Ramos-MA	-4.44	45.24
+Celso Ramos-SC	-27.63	51.34
+Campo Magro-PR	-25.37	49.45
+Rio Doce-MG	-20.24	42.9
+Claro dos Poções-MG	-17.08	44.21
+Lages-SC	-27.82	50.33
+Lambari D'Oeste-MT	-15.32	58
+Buri-SP	-23.8	48.59
+Curralinhos-PI	-5.58	42.78
+Fazenda Rio Grande-PR	-25.66	49.31
+Vitória das Missões-RS	-28.35	54.5
+Oscar Bressane-SP	-22.32	50.28
+Américo Brasiliense-SP	-21.72	48.1
+Trombudo Central-SC	-27.3	49.79
+Barra de Santa Rosa-PB	-6.72	36.06
+Itabaiana-SE	-10.69	37.43
+São Pedro de Alcântara-SC	-27.57	48.81
+Barbosa-SP	-21.27	49.95
+Colônia do Gurguéia-PI	-8.18	43.79
+Riachão-MA	-7.36	46.62
+Imaculada-PB	-7.39	37.51
+Cajueiro-AL	-9.4	36.15
+Canarana-BA	-11.68	41.77
+Floresta Azul-BA	-14.86	39.66
+Viçosa do Ceará-CE	-3.56	41.09
+Santana do Ipanema-AL	-9.38	37.25
+Porto da Folha-SE	-9.92	37.28
+Apuiarés-CE	-3.95	39.43
+Tapira-MG	-19.92	46.82
+Horizonte-CE	-4.09	38.65
+Santo Anastácio-SP	-21.84	51.61
+Sales-SP	-21.34	49.49
+Taquarivaí-SP	-23.92	48.69
+Ipuiúna-MG	-22.1	46.19
+Igarapé Grande-MA	-4.57	44.83
+Ibirapitanga-BA	-14.16	39.37
+Confresa-MT	-10.64	51.57
+Tavares-PB	-7.64	37.88
+Inajá-PR	-22.75	52.2
+Rosana-SP	-22.58	53.06
+Governador Jorge Teixeira-RO	-10.53	62.64
+Joaquim Pires-PI	-3.51	42.2
+Laguna Carapã-MS	-22.55	55.15
+Cristina-MG	-22.21	45.26
+Santa Fé de Goiás-GO	-15.77	51.11
+São Pedro-SP	-22.55	47.91
+São Miguel do Guaporé-RO	-11.69	62.71
+Planalto-BA	-14.67	40.47
+Francisco Beltrão-PR	-26.08	53.06
+Coxim-MS	-18.51	54.76
+Itaara-RS	-29.61	53.76
+Laranjeiras-SE	-10.81	37.17
+Serra da Raiz-PB	-6.69	35.44
+Dores de Campos-MG	-21.11	44.02
+Sarandi-PR	-23.44	51.87
+São João da Ponte-MG	-15.93	44.01
+Campo do Meio-MG	-21.11	45.83
+Alta Floresta D'Oeste-RO	-11.97	61.95
+Resende Costa-MG	-20.92	44.24
+Cachoeira da Prata-MG	-19.52	44.45
+Nova Araçá-RS	-28.66	51.75
+Alagoinha do Piauí-PI	-7.01	40.94
+Salvador do Sul-RS	-29.44	51.51
+Tarauacá-AC	-8.16	70.77
+Mirador-MA	-6.37	44.36
+Regeneração-PI	-6.24	42.69
+Barra do Turvo-SP	-24.76	48.5
+Água Fria-BA	-11.87	38.77
+São Félix do Piauí-PI	-5.93	42.11
+Tonantins-AM	-2.87	67.8
+Silva Jardim-RJ	-22.65	42.39
+Tavares-RS	-31.29	51.09
+Mantenópolis-ES	-18.86	41.12
+Baldim-MG	-19.29	43.96
+Cordeirópolis-SP	-22.48	47.46
+Redenção-PA	-8.03	50.03
+Agudos do Sul-PR	-25.99	49.34
+Denise-MT	-14.74	57.05
+Diadema-SP	-23.69	46.62
+Poção de Pedras-MA	-4.67	44.85
+Macururé-BA	-9.17	39.06
+Honório Serpa-PR	-26.14	52.39
+Quixeramobim-CE	-5.2	39.29
+Cornélio Procópio-PR	-23.18	50.65
+Apiaí-SP	-24.51	48.84
+São Gonçalo do Amarante-CE	-3.61	38.97
+Iraquara-BA	-12.25	41.62
+São João da Varjota-PI	-6.41	41.86
+Babaçulândia-TO	-7.2	47.76
+Portão-RS	-29.7	51.24
+Lamarão-BA	-11.78	38.9
+Triunfo-PE	-7.84	38.1
+Martinho Campos-MG	-19.33	45.24
+Vista Alegre do Prata-RS	-28.81	51.79
+Terra Santa-PA	-2.1	56.49
+Francisco Alves-PR	-24.07	53.85
+Dianópolis-TO	-11.63	46.82
+Luiz Alves-SC	-26.72	48.93
+Rancharia-SP	-22.23	50.89
+Carmo do Rio Claro-MG	-20.97	46.12
+São José da Barra-MG	-20.72	46.31
+Mirassol d'Oeste-MT	-15.68	58.1
+Várzea da Roça-BA	-11.61	40.14
+Siderópolis-SC	-28.6	49.42
+Astolfo Dutra-MG	-21.32	42.86
+Palmas-PR	-26.48	51.99
+São João das Missões-MG	-14.88	44.09
+Ibiraçu-ES	-19.83	40.37
+Iomerê-SC	-27	51.24
+Nova Floresta-PB	-6.46	36.2
+Cândido Mota-SP	-22.75	50.39
+Terra Roxa-PR	-24.16	54.1
+Calumbi-PE	-7.94	38.15
+Pequizeiro-TO	-8.59	48.93
+São Francisco do Guaporé-RO	-12.05	63.57
+Ielmo Marinho-RN	-5.82	35.55
+Rosário Oeste-MT	-14.84	56.43
+Andirá-PR	-23.05	50.23
+Barueri-SP	-23.51	46.88
+Irupi-ES	-20.35	41.64
+Rio Novo do Sul-ES	-20.86	40.94
+Estrela do Sul-MG	-18.75	47.69
+Camutanga-PE	-7.41	35.27
+Pontal do Paraná-PR	-25.67	48.51
+Icatu-MA	-2.78	44.07
+Pirpirituba-PB	-6.78	35.5
+Coroaci-MG	-18.62	42.29
+Ivoti-RS	-29.59	51.16
+São Pedro do Piauí-PI	-5.93	42.72
+Mucajaí-RR	2.43	60.9
+Monte Santo de Minas-MG	-21.19	46.98
+Jacutinga-MG	-22.29	46.61
+Lagoa dos Gatos-PE	-8.66	35.9
+São José do Jacuípe-BA	-11.5	40.02
+Paripiranga-BA	-10.69	37.86
+Coronel Vivida-PR	-25.98	52.57
+Davinópolis-MA	-5.56	47.43
+Nova Londrina-PR	-22.77	52.99
+General Sampaio-CE	-4.05	39.45
+Senhor do Bonfim-BA	-10.46	40.19
+Mangueirinha-PR	-25.94	52.18
+Carandaí-MG	-20.95	43.81
+Paraguaçu-MG	-21.55	45.74
+Bodó-RN	-5.99	36.41
+Cidade Gaúcha-PR	-23.38	52.94
+Ibiam-SC	-27.18	51.24
+Serrana-SP	-21.21	47.6
+Torre de Pedra-SP	-23.24	48.19
+Princesa Isabel-PB	-7.74	37.99
+São Francisco do Maranhão-MA	-6.25	42.86
+Tesouro-MT	-16.08	53.55
+Potiretama-CE	-5.72	38.16
+Parnamirim-PE	-8.09	39.58
+Antônio Carlos-MG	-21.32	43.75
+Teófilo Otoni-MG	-17.86	41.51
+Várzea Grande-MT	-15.65	56.13
+Santo Cristo-RS	-27.82	54.66
+Vista Serrana-PB	-6.74	37.57
+Jaguari-RS	-29.5	54.69
+Araguacema-TO	-8.8	49.56
+Mazagão-AP	-0.12	51.29
+Serra-ES	-20.13	40.31
+Camargo-RS	-28.59	52.2
+Acrelândia-AC	-9.83	66.88
+Alto Feliz-RS	-29.39	51.31
+Marcelândia-MT	-11.09	54.45
+Piritiba-BA	-11.73	40.56
+Vassouras-RJ	-22.4	43.66
+Itapagé-CE	-3.69	39.59
+Campo Novo de Rondônia-RO	-10.6	63.61
+Piedade do Rio Grande-MG	-21.47	44.2
+Ponte Branca-MT	-16.76	52.83
+Ilhota-SC	-26.9	48.83
+Taquarussu-MS	-22.49	53.35
+Bento de Abreu-SP	-21.27	50.81
+Ipiranga-PR	-25.02	50.58
+Londrina-PR	-23.31	51.16
+Canudos-BA	-9.9	39.03
+Santana dos Montes-MG	-20.79	43.69
+Floresta-PE	-8.6	38.57
+Coronel Fabriciano-MG	-19.52	42.63
+Nova Ibiá-BA	-13.81	39.63
+Santana do Itararé-PR	-23.76	49.63
+Chaves-PA	-0.16	49.99
+Cambuci-RJ	-21.58	41.91
+Buritirana-MA	-5.59	47.02
+Pindorama-SP	-21.19	48.91
+Rosário-MA	-2.93	44.24
+Araújos-MG	-19.95	45.17
+Cássia-MG	-20.58	46.92
+Cezarina-GO	-16.97	49.78
+Taquaral-SP	-21.07	48.41
+Itaju-SP	-21.98	48.8
+São José do Norte-RS	-32.01	52.04
+Campo Bonito-PR	-25.03	52.99
+São José do Peixe-PI	-7.49	42.56
+Araças-BA	-12.21	38.2
+São Bentinho-PB	-6.9	37.73
+Geminiano-PI	-7.16	41.36
+São Pedro do Ivaí-PR	-23.87	51.86
+Juatuba-MG	-19.95	44.34
+São Gonçalo do Abaeté-MG	-18.34	45.83
+São Francisco de Sales-MG	-19.86	49.77
+Ipirá-BA	-12.16	39.74
+Itapevi-SP	-23.55	46.93
+Cachoeira de Goiás-GO	-16.67	50.65
+Acarapé-CE	-4.22	38.71
+Garrafão do Norte-PA	-1.93	47.05
+São José do Calçado-ES	-21.03	41.65
+Serranópolis de Minas-MG	-15.83	42.87
+Igarassu-PE	-7.83	34.91
+Limoeiro do Norte-CE	-5.15	38.1
+Lassance-MG	-17.89	44.58
+Vargem Alta-ES	-20.67	41.01
+Sucupira-TO	-11.99	48.97
+Sardoá-MG	-18.78	42.37
+São Miguel-RN	-6.21	38.5
+Santa Cruz dos Milagres-PI	-5.8	41.96
+Tanque do Piauí-PI	-6.6	42.28
+Presidente Médici-RO	-11.18	61.9
+Milagres-BA	-12.87	39.86
+Flores-PE	-7.87	37.97
+Adrianópolis-PR	-24.66	48.99
+São José do Cedro-SC	-26.45	53.49
+Pedro Osório-RS	-31.86	52.82
+Itaí-SP	-23.42	49.09
+Careiro da Várzea-AM	-3.2	59.81
+Manhumirim-MG	-20.36	41.96
+Passagem Franca-MA	-6.18	43.78
+Oriximiná-PA	-1.77	55.87
+Carmo-RJ	-21.93	42.61
+Itanagra-BA	-12.26	38.04
+Morro Cabeça no Tempo-PI	-9.73	43.9
+Prata do Piauí-PI	-5.67	42.21
+Guaratinguetá-SP	-22.82	45.19
+Mucugê-BA	-13.01	41.37
+Cotiporã-RS	-28.99	51.7
+São Roberto-MA	-5.02	44.99
+Porto Feliz-SP	-23.21	47.52
+Dolcinópolis-SP	-20.12	50.51
+Ibitiara-BA	-12.65	42.22
+Peritoró-MA	-4.38	44.33
+Muliterno-RS	-28.33	51.77
+Lajedão-BA	-17.61	40.34
+Vieiras-MG	-20.87	42.24
+Santo Afonso-MT	-14.5	57
+Pracuúba-AP	1.74	50.79
+Pedranópolis-SP	-20.25	50.11
+Sucupira do Riachão-MA	-6.41	43.55
+Borborema-PB	-6.8	35.58
+Santa Terezinha-PE	-7.38	37.48
+São Manoel do Paraná-PR	-23.4	52.64
+Torixoréu-MT	-16.2	52.56
+Mineiros-GO	-17.57	52.55
+Itamonte-MG	-22.28	44.87
+Santa Cruz da Vitória-BA	-14.96	39.81
+Capanema-PR	-25.67	53.81
+Sagres-SP	-21.88	50.96
+Carangola-MG	-20.73	42.03
+Rolândia-PR	-23.31	51.37
+Boa Esperança-PR	-24.24	52.79
+Imbituva-PR	-25.23	50.6
+Três Arroios-RS	-27.5	52.15
+Cachoeirinha-TO	-6.12	47.92
+Carmópolis de Minas-MG	-20.54	44.64
+Guará-SP	-20.43	47.82
+Ipuaçu-SC	-26.63	52.46
+Salinas-MG	-16.17	42.29
+Muniz Freire-ES	-20.46	41.41
+Dois Irmãos das Missões-RS	-27.66	53.53
+Quixadá-CE	-4.97	39.02
+Franca-SP	-20.54	47.4
+Guaranésia-MG	-21.3	46.8
+Juquitiba-SP	-23.93	47.07
+Xanxerê-SC	-26.88	52.4
+Salesópolis-SP	-23.53	45.85
+Artur Nogueira-SP	-22.57	47.17
+Itambacuri-MG	-18.03	41.69
+Vila Boa-GO	-15.04	47.06
+Major Vieira-SC	-26.37	50.33
+Pires do Rio-GO	-17.3	48.28
+Ocauçu-SP	-22.44	49.92
+Belém-PA	-1.46	48.5
+Ronda Alta-RS	-27.77	52.8
+Cansanção-BA	-10.67	39.5
+Porto de Pedras-AL	-9.16	35.3
+Entre Rios de Minas-MG	-20.67	44.07
+Guaíra-PR	-24.08	54.26
+Cristal-RS	-31	52.05
+Orobó-PE	-7.75	35.6
+Senador Guiomard-AC	-10.15	67.74
+Morro da Fumaça-SC	-28.65	49.21
+Ivolândia-GO	-16.6	50.79
+São Miguel do Iguaçu-PR	-25.35	54.24
+Redentora-RS	-27.66	53.64
+Gaspar-SC	-26.93	48.96
+Ramilândia-PR	-25.12	54.03
+Suzanápolis-SP	-20.5	51.02
+Cafeara-PR	-22.79	51.72
+Augusto Corrêa-PA	-1.02	46.64
+Icó-CE	-6.4	38.86
+Montenegro-RS	-29.69	51.46
+Condado-PE	-7.59	35.11
+São João da Urtiga-RS	-27.82	51.83
+General Carneiro-MT	-15.71	52.76
+Morrinhos-CE	-3.23	40.13
+Ibotirama-BA	-12.19	43.22
+Batalha-AL	-9.68	37.12
+Douradina-MS	-22.04	54.61
+Arvoredo-SC	-27.07	52.46
+Nova Monte verde-MT	-9.98	57.53
+Matão-SP	-21.6	48.37
+Lavínia-SP	-21.17	51.04
+Capão Alto-SC	-27.94	50.51
+Cipó-BA	-11.1	38.51
+Venturosa-PE	-8.57	36.87
+Agudo-RS	-29.65	53.24
+Autazes-AM	-3.58	59.13
+Aracruz-ES	-19.82	40.27
+Catas Altas da Noruega-MG	-20.69	43.5
+Maranhãozinho-MA	-2.31	45.84
+Aporé-GO	-18.97	51.93
+Poxoréo-MT	-15.84	54.39
+Açucena-MG	-19.07	42.55
+Inhaúma-MG	-19.49	44.39
+Jardim Alegre-PR	-24.18	51.69
+Iati-PE	-9.05	36.85
+Ibiassucê-BA	-14.26	42.26
+Santa Isabel-SP	-23.32	46.22
+Vale Real-RS	-29.4	51.25
+Amaraji-PE	-8.38	35.45
+São João do Manteninha-MG	-18.72	41.16
+Água Clara-MS	-20.45	52.88
+Caldas Brandão-PB	-7.1	35.33
+Sumaré-SP	-22.82	47.27
+Indiaroba-SE	-11.52	37.51
+Pimenta Bueno-RO	-11.67	61.19
+Apicum-Açu-MA	-1.46	45.1
+Presidente Bernardes-SP	-22.01	51.55
+Espera Feliz-MG	-20.65	41.91
+Tubarão-SC	-28.47	49.01
+João Monlevade-MG	-19.81	43.17
+Poço Verde-SE	-10.71	38.18
+Patos de Minas-MG	-18.58	46.52
+Felixlândia-MG	-18.76	44.9
+Matriz de Camaragibe-AL	-9.15	35.53
+Santa Cruz do Arari-PA	-0.66	49.18
+Santarém Novo-PA	-0.93	47.4
+Parintins-AM	-2.63	56.74
+Rio das Pedras-SP	-22.84	47.61
+Urucurituba-AM	-3.13	58.16
+Santo Antônio de Posse-SP	-22.61	46.92
+Francisco Ayres-PI	-6.62	42.69
+Umburanas-BA	-10.73	41.33
+Giruá-RS	-28.03	54.35
+Muqui-ES	-20.95	41.35
+São Benedito do Sul-PE	-8.81	35.95
+Nazaré-BA	-13.04	39.01
+Nova União-RO	-10.9	62.56
+Fortaleza dos Nogueiras-MA	-6.96	46.18
+Venda Nova do Imigrante-ES	-20.34	41.13
+Quatá-SP	-22.25	50.7
+Bonfinópolis-GO	-16.62	48.96
+Santo Expedito do Sul-RS	-27.91	51.64
+Inocência-MS	-19.73	51.93
+Campo do Brito-SE	-10.73	37.49
+Taiobeiras-MG	-15.81	42.23
+Itá-SC	-27.29	52.32
+Poté-MG	-17.81	41.79
+Volta Redonda-RJ	-22.52	44.1
+Nova Ponte-MG	-19.15	47.67
+Magalhães Barata-PA	-0.79	47.6
+Sobral-CE	-3.69	40.35
+Catanduva-SP	-21.14	48.97
+Divino-MG	-20.61	42.15
+Taperoá-PB	-7.21	36.83
+Indiara-GO	-17.14	49.99
+Vera Cruz do Oeste-PR	-25.06	53.88
+Ferreira Gomes-AP	0.86	51.18
+Beruri-AM	-3.9	61.37
+Peri Mirim-MA	-2.58	44.85
+Senador Canedo-GO	-16.71	49.09
+São Mamede-PB	-6.93	37.1
+Pontal-SP	-21.02	48.04
+São Gonçalo do Gurguéia-PI	-10.03	45.3
+Estrela Dalva-MG	-21.74	42.46
+São Cristovão do Sul-SC	-27.27	50.44
+Duque Bacelar-MA	-4.16	42.94
+Capela do Alto Alegre-BA	-11.67	39.84
+Presidente Tancredo Neves-BA	-13.45	39.42
+Aragominas-TO	-7.16	48.53
+Lagarto-SE	-10.92	37.65
+Santa Vitória do Palmar-RS	-33.52	53.37
+Imigrante-RS	-29.36	51.78
+Angico-TO	-6.39	47.86
+Benjamin Constant-AM	-4.38	70.03
+Lucas do Rio Verde-MT	-13.05	55.91
+Sítio Novo do Tocantins-TO	-5.6	47.64
+Tomar do Geru-SE	-11.37	37.84
+Caculé-BA	-14.5	42.22
+Cambuquira-MG	-21.85	45.3
+Arenápolis-MT	-14.45	56.85
+Cafarnaum-BA	-11.69	41.47
+Hugo Napoleão-PI	-5.99	42.56
+Novo Horizonte-SP	-21.47	49.22
+Pau Brasil-BA	-15.46	39.65
+Salto-SP	-23.2	47.29
+Glória-BA	-9.34	38.25
+Nova Módica-MG	-18.44	41.5
+Sem-Peixe-MG	-20.11	42.84
+Domingos Mourão-PI	-4.25	41.27
+Taboão da Serra-SP	-23.63	46.79
+General Câmara-RS	-29.91	51.76
+Viçosa-MG	-20.75	42.88
+Messias-AL	-9.38	35.84
+Jundiaí-SP	-23.19	46.88
+Anapurus-MA	-3.67	43.12
+Cordisburgo-MG	-19.13	44.32
+Manacapuru-AM	-3.3	60.62
+Morpará-BA	-11.56	43.28
+Sertânia-PE	-8.07	37.26
+Osório-RS	-29.89	50.27
+Nacip Raydan-MG	-18.46	42.25
+Juazeirinho-PB	-7.07	36.58
+Ipubi-PE	-7.65	40.15
+Bananal-SP	-22.68	44.32
+Juti-MS	-22.86	54.6
+Aracoiaba-CE	-4.37	38.81
+Pequeri-MG	-21.83	43.12
+Terra Nova do Norte-MT	-10.52	55.23
+São João do Rio do Peixe-PB	-6.73	38.45
+Araçagi-PB	-6.85	35.38
+Alfenas-MG	-21.43	45.95
+Guaraciaba-SC	-26.6	53.52
+Barão de Melgaço-MT	-16.19	55.97
+Arapeí-SP	-22.67	44.45
+Pratinha-MG	-19.75	46.38
+Itanhém-BA	-17.17	40.33
+Itanhandu-MG	-22.3	44.93
+Aramari-BA	-12.08	38.5
+Malhada dos Bois-SE	-10.35	36.92
+Mansidão-BA	-10.72	44.03
+Lagoa Dourada-MG	-20.91	44.08
+Conceição de Ipanema-MG	-19.93	41.69
+Tangará da Serra-MT	-14.62	57.49
+Jardinópolis-SC	-26.72	52.86
+Santa Inês-BA	-13.29	39.82
+São Francisco-MG	-15.95	44.86
+Hortolândia-SP	-22.86	47.22
+Botumirim-MG	-16.87	43.01
+São Lourenço do Oeste-SC	-26.36	52.85
+Divina Pastora-SE	-10.69	37.15
+Sobradinho-BA	-9.46	40.82
+Flexeiras-AL	-9.2	35.78
+Catunda-CE	-4.65	40.2
+Ipaumirim-CE	-6.79	38.72
+Brejolândia-BA	-12.48	43.97
+Sobrado-PB	-7.15	35.24
+Pinhalzinho-SP	-22.78	46.59
+Tamboril-CE	-4.83	40.32
+Diorama-GO	-16.23	51.26
+Cajuru-SP	-21.28	47.3
+Epitaciolândia-AC	-11.03	68.74
+Paraíso-SP	-21.02	48.77
+Tocos do Moji-MG	-22.37	46.1
+Carutapera-MA	-1.2	46.02
+Novo Alegre-TO	-12.93	46.57
+Belo Horizonte-MG	-19.92	43.94
+Aricanduva-MG	-17.87	42.56
+Ingazeira-PE	-7.68	37.46
+Vicentina-MS	-22.41	54.44
+Santo Antônio do Itambé-MG	-18.47	43.31
+Água Boa-MT	-14.05	52.16
+Miracema do Tocantins-TO	-9.57	48.39
+Quartel Geral-MG	-19.27	45.56
+Realeza-PR	-25.77	53.53
+Itatiaia-RJ	-22.5	44.56
+Catuti-MG	-15.36	42.96
+Brotas-SP	-22.28	48.13
+Frei Lagonegro-MG	-18.17	42.77
+São João de Iracema-SP	-20.51	50.35
+Capitão Gervásio Oliveira-PI	-8.49	41.82
+Benedito Novo-SC	-26.78	49.36
+Major Gercino-SC	-27.42	48.95
+Olaria-MG	-21.86	43.94
+Demerval Lobão-PI	-5.36	42.68
+Jussara-BA	-11.05	41.97
+Itaúna-MG	-20.08	44.58
+Messias Targino-RN	-6.08	37.51
+Águas de Chapecó-SC	-27.07	52.99
+Divisópolis-MG	-15.73	41
+Itaipava do Grajaú-MA	-5.14	45.79
+Umarizal-RN	-5.99	37.81
+Porto Esperidião-MT	-15.85	58.46
+Turvânia-GO	-16.61	50.13
+Salto do Jacuí-RS	-29.09	53.21
+Abadia dos Dourados-MG	-18.49	47.4
+Barão de Cocais-MG	-19.95	43.49
+São Mateus do Maranhão-MA	-4.04	44.48
+Buritinópolis-GO	-14.46	46.44
+Parelhas-RN	-6.69	36.66
+Aruanã-GO	-14.92	51.08
+Conceição do Pará-MG	-19.75	44.9
+Santa Inês-PB	-7.62	38.55
+Heitoraí-GO	-15.72	49.83
+Petrópolis-RJ	-22.51	43.18
+Wenceslau Braz-MG	-22.53	45.36
+Centenário-TO	-8.95	47.34
+Buenos Aires-PE	-7.73	35.33
+Peruíbe-SP	-24.32	47
+Orlândia-SP	-20.72	47.89
+Ponte Alta-SC	-27.48	50.38
+Ferraz de Vasconcelos-SP	-23.54	46.37
+Senador Elói de Souza-RN	-6.04	35.69
+Bequimão-MA	-2.45	44.78
+Maturéia-PB	-7.27	37.35
+Francisco Sá-MG	-16.48	43.49
+Rio Acima-MG	-20.09	43.79
+Guaramirim-SC	-26.47	49
+Estrela d'Oeste-SP	-20.29	50.4
+Glória do Goitá-PE	-8	35.29
+São Gabriel-RS	-30.34	54.32
+São Miguel do Guamá-PA	-1.63	47.48
+Paiçandu-PR	-23.46	52.05
+Juquiá-SP	-24.32	47.63
+Itaueira-PI	-7.6	43.03
+Passagem Franca do Piauí-PI	-5.86	42.44
+Arroio Trinta-SC	-26.93	51.34
+Cosmorama-SP	-20.48	49.78
+Aporá-BA	-11.66	38.08
+Porto Estrela-MT	-15.32	57.23
+Campo Largo-PR	-25.46	49.53
+Igaracy-PB	-7.18	38.15
+Douradoquara-MG	-18.43	47.61
+São José da Safira-MG	-18.32	42.14
+Morro do Chapéu-BA	-11.55	41.16
+Pedras de Maria da Cruz-MG	-15.61	44.39
+Limeira-SP	-22.56	47.4
+Itapira-SP	-22.44	46.82
+Baião-PA	-2.79	49.67
+Presidente Nereu-SC	-27.28	49.39
+Balneário Arroio do Silva-SC	-28.98	49.41
+Bom Jesus do Tocantins-TO	-8.97	48.17
+Campina Grande do Sul-PR	-25.31	49.06
+Igarapé-Açu-PA	-1.13	47.62
+Aparecida-PB	-6.78	38.09
+São João Nepomuceno-MG	-21.54	43.01
+Resplendor-MG	-19.33	41.26
+São Pedro do Turvo-SP	-22.75	49.74
+Trairão-PA	-4.57	55.94
+Crissiumal-RS	-27.5	54.1
+Pérola d'Oeste-PR	-25.82	53.74
+Ponto Novo-BA	-10.86	40.13
+Jaguariaíva-PR	-24.25	49.71
+Ametista do Sul-RS	-27.36	53.18
+Indiaporã-SP	-19.98	50.29
+Macaé-RJ	-22.37	41.79
+Bom Jardim-RJ	-22.15	42.42
+Natividade da Serra-SP	-23.38	45.44
+Francinópolis-PI	-6.4	42.26
+Piracema-MG	-20.51	44.48
+Lucena-PB	-6.9	34.87
+Passa Quatro-MG	-22.39	44.97
+Barro Alto-GO	-14.97	48.92
+Palmeira do Piauí-PI	-8.73	44.24
+Feira Nova-SE	-10.26	37.31
+Duartina-SP	-22.41	49.4
+Campo Largo do Piauí-PI	-3.81	42.63
+Pitangueiras-PR	-23.23	51.59
+Ciríaco-RS	-28.34	51.88
+Santa Filomena-PI	-9.11	45.92
+Ouro Branco-RN	-6.7	36.95
+Machadinho-RS	-27.57	51.67
+Mamanguape-PB	-6.84	35.13
+Queiroz-SP	-21.8	50.24
+Farroupilha-RS	-29.23	51.35
+Chiapetta-RS	-27.92	53.94
+Carnaúba dos Dantas-RN	-6.56	36.6
+Gentio do Ouro-BA	-11.43	42.5
+São Geraldo do Araguaia-PA	-6.4	48.56
+Cujubim-RO	-9.36	62.59
+Campo Verde-MT	-15.55	55.17
+Carambeí-PR	-24.92	50.1
+Desterro de Entre Rios-MG	-20.66	44.33
+Jardim de Piranhas-RN	-6.38	37.35
+São Francisco de Assis do Piauí-PI	-8.24	41.69
+Campestre do Maranhão-MA	-6.17	47.36
+Piripá-BA	-14.94	41.72
+São João de Pirabas-PA	-0.77	47.18
+Alto Paraíso-RO	-9.71	63.32
+Simolândia-GO	-14.47	46.48
+Divinópolis de Goiás-GO	-13.3	46.39
+Santa Quitéria do Maranhão-MA	-3.52	42.55
+Santa Luzia-MG	-19.77	43.85
+Nova Bréscia-RS	-29.21	52.03
+Galinhos-RN	-5.09	36.28
+Pedralva-MG	-22.24	45.47
+Acaiaca-MG	-20.36	43.14
+Beneditinos-PI	-5.46	42.36
+Vila Maria-RS	-28.53	52.15
+Pinheiral-RJ	-22.51	44
+Lafaiete Coutinho-BA	-13.66	40.21
+Joaquim Gomes-AL	-9.13	35.75
+Pombos-PE	-8.14	35.4
+Dirce Reis-SP	-20.47	50.61
+Maragogi-AL	-9.01	35.22
+Tanguá-RJ	-22.73	42.71
+Tupanatinga-PE	-8.75	37.34
+Ibirapuã-BA	-17.69	40.11
+Prata-PB	-7.69	37.08
+Atalaia-AL	-9.5	36.02
+Campos do Jordão-SP	-22.74	45.59
+Pedro Avelino-RN	-5.52	36.39
+Cruzeiro do Oeste-PR	-23.79	53.07
+São José da Varginha-MG	-19.71	44.56
+São Vicente Ferrer-MA	-2.89	44.88
+Piaçabuçu-AL	-10.41	36.43
+Doutor Severiano-RN	-6.09	38.37
+Imbituba-SC	-28.24	48.67
+Correia Pinto-SC	-27.58	50.36
+Vitória do Mearim-MA	-3.46	44.87
+Bela Vista de Minas-MG	-19.83	43.09
+Bujari-AC	-9.83	67.95
+Uiramutã-RR	4.6	60.17
+Painel-SC	-27.93	50.11
+Jaquirana-RS	-28.88	50.36
+Sertaneja-PR	-23.04	50.84
+Joaçaba-SC	-27.18	51.5
+Belo Vale-MG	-20.41	44.02
+São Gonçalo do Piauí-PI	-5.99	42.7
+Turmalina-SP	-20.05	50.48
+Aguanil-MG	-20.94	45.39
+Peixoto de Azevedo-MT	-10.22	54.98
+Valparaíso-SP	-21.23	50.87
+Cametá-PA	-2.24	49.5
+Atalaia-PR	-23.15	52.05
+Riachão do Bacamarte-PB	-7.25	35.66
+Barracão-PR	-26.25	53.63
+Caroebe-RR	0.88	59.7
+Jerumenha-PI	-7.09	43.51
+Veranópolis-RS	-28.94	51.55
+Tabatinga-AM	-4.25	69.94
+Sapucaia do Sul-RS	-29.82	51.15
+Murutinga do Sul-SP	-20.99	51.28
+Jacareí-SP	-23.31	45.97
+Bastos-SP	-21.92	50.73
+Piratuba-SC	-27.42	51.77
+São João Batista do Glória-MG	-20.64	46.51
+Timóteo-MG	-19.58	42.64
+Erval Seco-RS	-27.55	53.5
+Igaratinga-MG	-19.96	44.71
+Campina Grande-PB	-7.23	35.88
+Araripina-PE	-7.58	40.5
+Amambaí-MS	-23.1	55.23
+Itaporanga-SP	-23.71	49.49
+Macajuba-BA	-12.14	40.36
+Rio Branco-AC	-9.97	67.81
+Salete-SC	-26.98	50
+São Sebastião da Amoreira-PR	-23.47	50.76
+Paranapoema-PR	-22.63	52.1
+Bom Jesus dos Perdões-SP	-23.14	46.47
+Pilar-PB	-7.27	35.26
+São Sebastião-AL	-9.93	36.55
+Braúnas-MG	-19.06	42.72
+Picos-PI	-7.08	41.47
+Braga-RS	-27.61	53.74
+Coronel Ezequiel-RN	-6.38	36.21
+Porto Xavier-RS	-27.91	55.14
+Pérola-PR	-23.8	53.68
+Jaupaci-GO	-16.18	50.95
+Mata Verde-MG	-15.69	40.74
+Ribeirão Cascalheira-MT	-12.94	51.82
+Benjamin Constant do Sul-RS	-27.51	52.6
+São Félix do Coribe-BA	-13.4	44.19
+Carrapateira-PB	-7.04	38.34
+Ribeirão Preto-SP	-21.18	47.81
+São João do Ivaí-PR	-23.98	51.82
+Barrinha-SP	-21.19	48.16
+Mirabela-MG	-16.26	44.16
+Santana-AP	-0.06	51.18
+Antônio Carlos-SC	-27.52	48.77
+Barra de Santana-PB	-7.52	36
+Caiuá-SP	-21.83	52
+Fama-MG	-21.41	45.83
+São Roque do Canaã-ES	-19.74	40.66
+Pirapó-RS	-28.04	55.2
+Juvenília-MG	-14.26	44.16
+Sete Quedas-MS	-23.97	55.04
+Anaurilândia-MS	-22.19	52.72
+Nova Resende-MG	-21.13	46.42
+Nova Canaã do Norte-MT	-10.56	55.95
+Porto Alegre-RS	-30.03	51.23
+Padre Marcos-PI	-7.36	40.9
+Lagoa d'Anta-RN	-6.39	35.6
+Montadas-PB	-7.14	35.91
+Santa Gertrudes-SP	-22.46	47.53
+Santo Antônio do Retiro-MG	-15.34	42.62
+Triunfo-RS	-29.94	51.72
+Miguel Alves-PI	-4.17	42.9
+Goiás-GO	-15.93	50.14
+São Pedro da Serra-RS	-29.42	51.51
+Santa Maria-RS	-29.68	53.81
+Coronel Macedo-SP	-23.63	49.31
+Juarina-TO	-8.12	49.06
+São Miguel dos Campos-AL	-9.78	36.09
+Nuporanga-SP	-20.73	47.73
+Iramaia-BA	-13.29	40.95
+Godofredo Viana-MA	-1.4	45.78
+Exu-PE	-7.51	39.72
+Tacaratu-PE	-9.11	38.15
+Ibarama-RS	-29.42	53.13
+Formoso-MG	-14.95	46.23
+São José do Povo-MT	-16.47	54.25
+Firminópolis-GO	-16.58	50.31
+Mocajuba-PA	-2.58	49.51
+Três Rios-RJ	-22.12	43.21
+Araçoiaba da Serra-SP	-23.51	47.61
+Betânia do Piauí-PI	-8.15	40.8
+Lauro Muller-SC	-28.39	49.4
+Governador Celso Ramos-SC	-27.31	48.56
+Apuí-AM	-7.2	59.89
+Frei Miguelinho-PE	-7.94	35.91
+Vitória de Santo Antão-PE	-8.12	35.29
+Águas Mornas-SC	-27.69	48.82
+Guaraçaí-SP	-21.03	51.21
+Granito-PE	-7.72	39.61
+Tangará-RN	-6.2	35.8
+Canindé de São Francisco-SE	-9.66	37.79
+Itamari-BA	-13.78	39.68
+Nossa Senhora do Livramento-MT	-15.78	56.35
+Glaucilândia-MG	-16.85	43.7
+Solânea-PB	-6.76	35.54
+Passo Fundo-RS	-28.26	52.41
+Itatiaiuçu-MG	-20.2	44.42
+Campinas do Piauí-PI	-7.66	41.88
+Jardim de Angicos-RN	-5.65	35.97
+Brejo Santo-CE	-7.49	38.99
+Fortaleza-CE	-3.72	38.54
+Cajari-MA	-3.32	45.01
+Alvarães-AM	-3.22	64.8
+Brasilândia do Tocantins-TO	-8.39	48.48
+Icém-SP	-20.34	49.2
+Curvelo-MG	-18.76	44.43
+Garibaldi-RS	-29.26	51.53
+Iguaraci-PE	-7.84	37.52
+Porto Nacional-TO	-10.71	48.42
+São Luís Gonzaga do Maranhão-MA	-4.39	44.65
+Castelo do Piauí-PI	-5.32	41.55
+Cabaceiras do Paraguaçu-BA	-12.54	39.19
+Tupi Paulista-SP	-21.38	51.57
+Itaobim-MG	-16.56	41.5
+Belém-PB	-6.69	35.53
+Ladário-MS	-19	57.6
+Vila Propício-GO	-15.46	48.89
+Conselheiro Lafaiete-MG	-20.66	43.79
+Elisiário-SP	-21.17	49.11
+Manoel Vitorino-BA	-14.15	40.24
+Urupês-SP	-21.2	49.29
+Tefé-AM	-3.35	64.71
+Novo Jardim-TO	-11.82	46.63
+Chalé-MG	-20.04	41.69
+Bicas-MG	-21.73	43.06
+São José das Missões-RS	-27.78	53.12
+Tupandi-RS	-29.48	51.42
+Severiano Melo-RN	-5.78	37.96
+Santana de Cataguases-MG	-21.29	42.56
+Santa Rosa do Piauí-PI	-6.8	42.29
+Itatiba-SP	-23.01	46.84
+Solonópole-CE	-5.73	39.01
+Entre Rios-BA	-11.94	38.08
+Sambaíba-MA	-7.14	45.35
+Cristópolis-BA	-12.23	44.42
+Fátima do Sul-MS	-22.37	54.51
+Olho d'Água-PB	-7.23	37.75
+Bannach-PA	-7.35	50.4
+Aspásia-SP	-20.16	50.73
+Palmeira d'Oeste-SP	-20.42	50.76
+São Domingos-SC	-26.56	52.53
+Antônio Almeida-PI	-7.22	44.2
+Pato Bragado-PR	-24.63	54.22
+Rurópolis-PA	-4.1	54.91
+João Neiva-ES	-19.76	40.39
+Guapé-MG	-20.76	45.92
+Arari-MA	-3.45	44.78
+Irapuã-SP	-21.28	49.41
+Boa Vista do Buricá-RS	-27.67	54.11
+Parazinho-RN	-5.22	35.84
+Pará de Minas-MG	-19.86	44.61
+São João Batista-MA	-2.96	44.81
+Macarani-BA	-15.57	40.42
+Campo Maior-PI	-4.83	42.17
+Amorinópolis-GO	-16.62	51.09
+Rubiácea-SP	-21.3	50.73
+Dom Silvério-MG	-20.16	42.97
+Balneário Pinhal-RS	-30.25	50.23
+Canitar-SP	-23.01	49.78
+Salto da Divisa-MG	-16	39.95
+Duas Estradas-PB	-6.69	35.42
+Ribeirão Pires-SP	-23.71	46.41
+Santa Cruz do Rio Pardo-SP	-22.9	49.63
+Senhora de Oliveira-MG	-20.79	43.34
+São Pedro da União-MG	-21.13	46.62
+Mutunópolis-GO	-13.73	49.28
+Pains-MG	-20.37	45.66
+Maetinga-BA	-14.66	41.49
+São Francisco do Oeste-RN	-5.98	38.15
+Elias Fausto-SP	-23.04	47.37
+Raposos-MG	-19.97	43.8
+Abre Campo-MG	-20.3	42.48
+Munhoz de Melo-PR	-23.15	51.77
+Neves Paulista-SP	-20.85	49.63
+Caxingó-PI	-3.42	41.9
+Pirangi-SP	-21.09	48.66
+Minador do Negrão-AL	-9.31	36.86
+Buíque-PE	-8.62	37.16
+Auriflama-SP	-20.69	50.55
+Juazeiro do Norte-CE	-7.21	39.32
+Consolação-MG	-22.55	45.92
+Nova Alvorada-RS	-28.68	52.17
+Rio do Campo-SC	-26.95	50.14
+Turmalina-MG	-17.29	42.73
+Várzea do Poço-BA	-11.53	40.32
+Madalena-CE	-4.86	39.58
+Sericita-MG	-20.47	42.48
+Taquarituba-SP	-23.53	49.24
+Itagi-BA	-14.16	40.01
+Presidente Dutra-BA	-11.3	41.99
+São Miguel da Boa Vista-SC	-26.69	53.25
+Bandeirantes-MS	-19.92	54.36
+Jardinópolis-SP	-21.02	47.76
+Santana da Ponte Pensa-SP	-20.25	50.8
+Junco do Seridó-PB	-7	36.71
+Miranda do Norte-MA	-3.57	44.58
+Eldorado-MS	-23.79	54.28
+Medeiros Neto-BA	-17.37	40.22
+Aral Moreira-MS	-22.93	55.64
+Ipê-RS	-28.82	51.28
+Guamaré-RN	-5.11	36.32
+Itaú-RN	-5.84	37.99
+Turvelândia-GO	-17.85	50.3
+Carazinho-RS	-28.28	52.79
+Santa Maria-RN	-5.84	35.7
+Marialva-PR	-23.49	51.79
+Acauã-PI	-8.22	41.08
+Tenório-PB	-6.94	36.63
+Janduís-RN	-6.02	37.41
+Dores do Turvo-MG	-20.98	43.19
+Queimados-RJ	-22.72	43.56
+Capitão Leônidas Marques-PR	-25.48	53.61
+Dionísio Cerqueira-SC	-26.26	53.64
+São Lourenço-MG	-22.12	45.05
+Lajeado-TO	-9.75	48.36
+Piranguinho-MG	-22.4	45.53
+Sangão-SC	-28.64	49.13
+Natalândia-MG	-16.5	46.49
+Colméia-TO	-8.73	48.76
+Barra do Jacaré-PR	-23.12	50.18
+Bom Jesus do Oeste-SC	-26.69	53.1
+São José do Brejo do Cruz-PB	-6.21	37.35
+Cacique Doble-RS	-27.77	51.66
+Bocaina de Minas-MG	-22.17	44.39
+Novo Airão-AM	-2.62	60.94
+Itinga-MG	-16.61	41.77
+Padre Bernardo-GO	-15.16	48.28
+Nova Cantu-PR	-24.67	52.57
+Lagoa do Ouro-PE	-9.13	36.46
+Santa Maria da Vitória-BA	-13.39	44.19
+Poço Fundo-MG	-21.78	45.97
+Tanquinho-BA	-11.98	39.1
+Caucaia-CE	-3.74	38.65
+Tupãssi-PR	-24.59	53.51
+Brejo da Madre de Deus-PE	-8.15	36.37
+Itabi-SE	-10.13	37.1
+Valinhos-SP	-22.97	47
+Caiana-MG	-20.7	41.93
+Luiziana-PR	-24.29	52.28
+Capão da Canoa-RS	-29.75	50.01
+Cotia-SP	-23.6	46.92
+Vargem Grande-MA	-3.54	43.92
+Itamogi-MG	-21.08	47.05
+Aldeias Altas-MA	-4.63	43.47
+Telêmaco Borba-PR	-24.32	50.62
+Pedregulho-SP	-20.26	47.48
+Arapiraca-AL	-9.75	36.66
+Luziânia-GO	-16.25	47.95
+Cambará do Sul-RS	-29.05	50.14
+Tunas do Paraná-PR	-24.97	49.09
+São Francisco do Pará-PA	-1.17	47.8
+Pederneiras-SP	-22.35	48.78
+Brasilândia-MS	-21.26	52.04
+Guarani-MG	-21.35	43.05
+Graça-CE	-4.05	40.75
+Itaúba-MT	-11.06	55.28
+Itaguaçu da Bahia-BA	-11.01	42.4
+Santana do Acaraú-CE	-3.46	40.21
+Tenente Portela-RS	-27.37	53.76
+Janaúba-MG	-15.8	43.31
+Floriano-PI	-6.77	43.02
+Garuva-SC	-26.03	48.86
+Caturama-BA	-13.33	42.29
+Matões do Norte-MA	-3.63	44.56
+Inconfidentes-MG	-22.32	46.33
+Cabedelo-PB	-6.98	34.83
+Bragança-PA	-1.05	46.77
+Itumbiara-GO	-18.42	49.22
+Rafael Fernandes-RN	-6.19	38.23
+Diamante do Norte-PR	-22.66	52.86
+General Carneiro-PR	-26.43	51.32
+Malhador-SE	-10.66	37.3
+Arroio Grande-RS	-32.24	53.09
+Paulista-PE	-7.94	34.87
+Mirassolândia-SP	-20.62	49.46
+Carolina-MA	-7.33	47.47
+Bagé-RS	-31.33	54.11
+Caicó-RN	-6.46	37.1
+Rio Manso-MG	-20.27	44.31
+Novo Repartimento-PA	-4.33	49.8
+João Alfredo-PE	-7.86	35.59
+Sumé-PB	-7.67	36.88
+Taubaté-SP	-23.03	45.56
+Divinolândia de Minas-MG	-18.8	42.61
+Silvânia-GO	-16.66	48.61
+Cristais Paulista-SP	-20.4	47.42
+Butiá-RS	-30.12	51.96
+Pontal do Araguaia-MT	-15.85	52.01
+Alpinópolis-MG	-20.86	46.39
+Belágua-MA	-3.16	43.51
+Belmonte-SC	-26.84	53.58
+Macaíba-RN	-5.86	35.35
+Sandolândia-TO	-12.54	49.93
+Santos-SP	-23.96	46.33
+Canoinhas-SC	-26.18	50.39
+Jijoca de Jericoacoara-CE	-2.9	40.45
+Três Marias-MG	-18.21	45.24
+Ouvidor-GO	-18.23	47.84
+Floriano Peixoto-RS	-27.86	52.08
+Rebouças-PR	-25.62	50.69
+Rio Brilhante-MS	-21.8	54.55
+Morro Agudo-SP	-20.73	48.06
+Itabira-MG	-19.62	43.23
+Virmond-PR	-25.38	52.2
+Heliodora-MG	-22.07	45.54
+Corguinho-MS	-19.83	54.83
+Porto Vitória-PR	-26.16	51.23
+Uauá-BA	-9.84	39.48
+Sud Mennucci-SP	-20.69	50.92
+Senhora do Porto-MG	-18.89	43.08
+Santa Rita de Cássia-BA	-11.01	44.52
+Itapagipe-MG	-19.91	49.38
+Pão de Açúcar-AL	-9.75	37.44
+Xavantina-SC	-27.07	52.34
+Vitória do Xingu-PA	-2.88	52.01
+Lagoa de São Francisco-PI	-4.39	41.6
+Senhora dos Remédios-MG	-21.03	43.58
+São Sebastião do Passé-BA	-12.51	38.5
+Goiatuba-GO	-18.01	49.35
+Sandovalina-SP	-22.46	51.76
+Rio Preto da Eva-AM	-2.7	59.7
+Itapuca-RS	-28.78	52.17
+Paranaguá-PR	-25.52	48.51
+Barão do Triunfo-RS	-30.39	51.73
+Rio Maria-PA	-7.31	50.05
+Aparecida do Taboado-MS	-20.09	51.09
+Ubiretama-RS	-28.05	54.68
+Ouro Fino-MG	-22.28	46.37
+Durandé-MG	-20.2	41.8
+Cascavel-CE	-4.13	38.24
+Tibau do Sul-RN	-6.19	35.09
+Jauru-MT	-15.34	58.87
+Inácio Martins-PR	-25.57	51.08
+Olho d'Água do Casado-AL	-9.5	37.83
+Goiatins-TO	-7.71	47.31
+Elói Mendes-MG	-21.61	45.57
+Normandia-RR	3.88	59.62
+Capela do Alto-SP	-23.47	47.73
+Assaré-CE	-6.87	39.88
+Bela Vista do Maranhão-MA	-3.73	45.31
+Montividiu-GO	-17.44	51.17
+Arapuá-MG	-19.03	46.16
+Rio das Antas-SC	-26.9	51.07
+Tatuí-SP	-23.36	47.86
+Frutuoso Gomes-RN	-6.16	37.84
+Rianápolis-GO	-15.45	49.51
+Mucambo-CE	-3.91	40.75
+Baixio-CE	-6.73	38.72
+Ilhéus-BA	-14.79	39.05
+Timbó-SC	-26.82	49.27
+Braço do Trombudo-SC	-27.36	49.89
+Conceição das Alagoas-MG	-19.91	48.39
+Ajuricaba-RS	-28.24	53.77
+Passira-PE	-8	35.58
+Arambaré-RS	-30.92	51.5
+Barra do Piraí-RJ	-22.47	43.83
+Abadiânia-GO	-16.2	48.71
+São Cristóvão-SE	-11.01	37.21
+Cajobi-SP	-20.88	48.81
+Cocalzinho de Goiás-GO	-15.79	48.78
+Capim Grosso-BA	-11.38	40.01
+São João del Rei-MG	-21.14	44.26
+Juramento-MG	-16.85	43.59
+São José do Herval-RS	-29.04	52.3
+Santo Antônio dos Lopes-MA	-4.87	44.37
+Mariano Moro-RS	-27.35	52.15
+Damianópolis-GO	-14.56	46.18
+Ilhabela-SP	-23.78	45.36
+Cocalinho-MT	-14.4	51
+Wenceslau Braz-PR	-23.87	49.8
+Encanto-RN	-6.11	38.31
+São Tiago-MG	-20.91	44.51
+Parari-PB	-7.32	36.66
+Alvorada do Sul-PR	-22.78	51.23
+Guaiçara-SP	-21.62	49.8
+São Luíz do Norte-GO	-14.86	49.33
+Santa Ernestina-SP	-21.46	48.39
+Moraújo-CE	-3.47	40.68
+Barretos-SP	-20.56	48.57
+São Luiz-RR	1.01	60.02
+Maragogipe-BA	-12.78	38.92
+Bariri-SP	-22.07	48.74
+Bujaru-PA	-1.52	48.04
+Roteiro-AL	-9.83	35.98
+Araci-BA	-11.33	38.97
+Ubaíra-BA	-13.27	39.66
+Alvorada de Minas-MG	-18.74	43.37
+Joviânia-GO	-17.81	49.61
+Olímpia-SP	-20.74	48.91
+Turvolândia-MG	-21.88	45.79
+Mendes-RJ	-22.53	43.73
+Ponte Preta-RS	-27.65	52.49
+Franco da Rocha-SP	-23.32	46.73
+Sinimbu-RS	-29.54	52.52
+Niquelândia-GO	-14.47	48.46
+Andorinha-BA	-10.34	39.84
+Colônia do Piauí-PI	-7.23	42.18
+Foz do Jordão-PR	-25.64	52.1
+Imbuia-SC	-27.49	49.42
+Nova Petrópolis-RS	-29.38	51.11
+Chapada-RS	-28.06	53.07
+Paulo Lopes-SC	-27.96	48.68
+Xinguara-PA	-7.1	49.95
+Sigefredo Pacheco-PI	-4.91	41.73
+Rio Formoso-PE	-8.66	35.16
+Três Cachoeiras-RS	-29.46	49.92
+Tigrinhos-SC	-26.69	53.16
+Coração de Maria-BA	-12.23	38.75
+Pedras de Fogo-PB	-7.4	35.12
+André da Rocha-RS	-28.63	51.57
+São José do Seridó-RN	-6.45	36.88
+Socorro-SP	-22.59	46.53
+Guaratuba-PR	-25.88	48.57
+São Miguel do Aleixo-SE	-10.39	37.38
+Prudente de Morais-MG	-19.48	44.16
+São Bernardo do Campo-SP	-23.69	46.57
+Passos-MG	-20.72	46.61
+Uru-SP	-21.78	49.28
+Riachinho-TO	-6.44	48.14
+Leme do Prado-MG	-17.08	42.69
+Santa Bárbara do Leste-MG	-19.98	42.14
+Palestina-AL	-9.67	37.33
+Sertão Santana-RS	-30.46	51.6
+Joaquim Nabuco-PE	-8.62	35.53
+Três de Maio-RS	-27.77	54.24
+Arroio do Meio-RS	-29.4	51.95
+Wall Ferraz-PI	-7.23	41.91
+Glicério-SP	-21.38	50.21
+Vertente do Lério-PE	-7.77	35.85
+São Félix do Tocantins-TO	-10.17	46.66
+Caçador-SC	-26.78	51.02
+São José da Laje-AL	-9.01	36.06
+Valença do Piauí-PI	-6.41	41.75
+Água Branca-AL	-9.26	37.94
+Santa Rosa de Viterbo-SP	-21.47	47.36
+Gameleira-PE	-8.58	35.39
+Cachoeira do Arari-PA	-1.01	48.96
+Barcelos-AM	-0.97	62.92
+Buriti Alegre-GO	-18.14	49.04
+Anahy-PR	-24.72	53.08

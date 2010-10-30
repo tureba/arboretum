@@ -1,0 +1,1 @@
+Put documentation images here. Try to use png (Portable Network Graphics) files.

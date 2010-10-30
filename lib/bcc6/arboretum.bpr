@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="..\arboretum.lib"/>
+    <OBJFILES value="..\..\src\stUtil.obj ..\..\src\stCompress.obj 
+      ..\..\src\stDiskPageManager.obj ..\..\src\stMemoryPageManager.obj 
+      ..\..\src\stPage.obj ..\..\src\stPlainDiskPageManager.obj 
+      ..\..\src\stResult.obj ..\..\src\stSlimNode.obj 
+      ..\..\src\stTreeInformation.obj ..\..\src\CStorage.obj 
+      ..\..\src\stDBMNode.obj ..\..\src\stMNode.obj ..\..\src\stDummyNode.obj 
+      ..\..\src\stVPNode.obj ..\..\src\stGHNode.obj ..\..\src\stDFNode.obj 
+      ..\..\src\stListPriorityQueue.obj"/>
+    <RESFILES value=""/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value=""/>
+    <PACKAGES value=""/>
+    <PATHCPP value=".;..\..\src"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <LINKER value="TLib"/>
+    <USERDEFINES value="_DEBUG;__stDEBUG__"/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT"/>
+    <MAINSOURCE value="arboretum.bpf"/>
+    <INCLUDEPATH value="..\..\src;..\..\include;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="..\..\src;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <LISTFILE value=""/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I..\..\src -I..\..\include -I$(BCB)\include -I$(BCB)\include\vcl 
+      -src_suffix cpp -D_DEBUG -D__stDEBUG__ -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value=""/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="$(OBJFILES)"/>
+    <ALLLIB value=""/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="arboretum.bpf" FORMNAME="" UNITNAME="arboretum" CONTAINERID="BPF" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\CStorage.cpp" FORMNAME="" UNITNAME="CStorage.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\stCompress.cpp" FORMNAME="" UNITNAME="stCompress.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\stDiskPageManager.cpp" FORMNAME="" UNITNAME="stDiskPageManager.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\stDummyNode.cpp" FORMNAME="" UNITNAME="stDummyNode.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\stListPriorityQueue.cpp" FORMNAME="" UNITNAME="stListPriorityQueue.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\stMemoryPageManager.cpp" FORMNAME="" UNITNAME="stMemoryPageManager.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\stPage.cpp" FORMNAME="" UNITNAME="stPage.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\stPlainDiskPageManager.cpp" FORMNAME="" UNITNAME="stPlainDiskPageManager.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\stResult.cpp" FORMNAME="" UNITNAME="stResult.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\stSlimNode.cpp" FORMNAME="" UNITNAME="stSlimNode.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\stTreeInformation.cpp" FORMNAME="" UNITNAME="stTreeInformation.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\stUtil.cpp" FORMNAME="" UNITNAME="stUtil.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\stPartitionNode.cpp" FORMNAME="" UNITNAME="stPartitionNode" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\src\stDBMNode.cpp" FORMNAME="" UNITNAME="stDBMNode" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1046
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=3
+Item0=..\..\include;$(BCB)\include;$(BCB)\include\vcl
+Item1=..\..\src;$(BCB)\include;$(BCB)\include\vcl;..\..\include
+Item2=..\..\src;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=2
+Item0=$(BCB)\lib\obj;$(BCB)\lib
+Item1=..\..\src;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=2
+Item0=_DEBUG;__stDEBUG__
+Item1=_DEBUG
+
+[HistoryLists\hlFinalOutputDir]
+Count=1
+Item0=..\
+
+[HistoryLists\hIBPIOutputDir]
+Count=2
+Item0=..
+Item1=..\
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

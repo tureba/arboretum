@@ -1,0 +1,194 @@
+Error: source sample is not a readable file or directory... skipping.
+D:/cvs/arboretum-r1/include/arboretum/doxygen.dxg:147: Warning: Unsupported html tag <address> found
+D:/cvs/arboretum-r1/include/arboretum/doxygen.dxg:147: Warning: Unsupported html tag </address> found
+D:/cvs/arboretum-r1/include/arboretum/stBasicObjects.h:261: Warning: argument `datasize' of command @param is not found in the argument list of stBasicArrayObject< DataType, TagType >::Unserialize(const  stByte *data, stSize dataSize)
+D:/cvs/arboretum-r1/include/arboretum/stBasicObjects.h:261: Warning: The following parameters of stBasicArrayObject< DataType, TagType >::Unserialize(const  stByte *data, stSize dataSize) are not documented:
+  parameter dataSize
+
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:199: Warning: argument `obj1' of command @param is not found in the argument list of stBasicEuclideanMetricEvaluator< ObjectType >::GetDistance(ObjectType *o1, ObjectType *o2)
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:199: Warning: argument `obj2' of command @param is not found in the argument list of stBasicEuclideanMetricEvaluator< ObjectType >::GetDistance(ObjectType *o1, ObjectType *o2)
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:199: Warning: The following parameters of stBasicEuclideanMetricEvaluator< ObjectType >::GetDistance(ObjectType *o1, ObjectType *o2) are not documented:
+  parameter o1
+  parameter o2
+
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:207: Warning: argument `obj1' of command @param is not found in the argument list of stBasicEuclideanMetricEvaluator< ObjectType >::GetDistance2(ObjectType *o1, ObjectType *o2)
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:207: Warning: argument `obj2' of command @param is not found in the argument list of stBasicEuclideanMetricEvaluator< ObjectType >::GetDistance2(ObjectType *o1, ObjectType *o2)
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:207: Warning: The following parameters of stBasicEuclideanMetricEvaluator< ObjectType >::GetDistance2(ObjectType *o1, ObjectType *o2) are not documented:
+  parameter o1
+  parameter o2
+
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:485: Warning: argument `obj1' of command @param is not found in the argument list of stBasicLEditMetricEvaluator< ObjectType, DataType >::GetDistance(ObjectType *o1, ObjectType *o2)
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:485: Warning: argument `obj2' of command @param is not found in the argument list of stBasicLEditMetricEvaluator< ObjectType, DataType >::GetDistance(ObjectType *o1, ObjectType *o2)
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:485: Warning: The following parameters of stBasicLEditMetricEvaluator< ObjectType, DataType >::GetDistance(ObjectType *o1, ObjectType *o2) are not documented:
+  parameter o1
+  parameter o2
+
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:495: Warning: argument `obj1' of command @param is not found in the argument list of stBasicLEditMetricEvaluator< ObjectType, DataType >::GetDistance2(ObjectType *o1, ObjectType *o2)
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:495: Warning: argument `obj2' of command @param is not found in the argument list of stBasicLEditMetricEvaluator< ObjectType, DataType >::GetDistance2(ObjectType *o1, ObjectType *o2)
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:495: Warning: The following parameters of stBasicLEditMetricEvaluator< ObjectType, DataType >::GetDistance2(ObjectType *o1, ObjectType *o2) are not documented:
+  parameter o1
+  parameter o2
+
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:136: Warning: argument `obj1' of command @param is not found in the argument list of stBasicLInfinityMetricEvaluator< ObjectType >::GetDistance(ObjectType *o1, ObjectType *o2)
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:136: Warning: argument `obj2' of command @param is not found in the argument list of stBasicLInfinityMetricEvaluator< ObjectType >::GetDistance(ObjectType *o1, ObjectType *o2)
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:136: Warning: The following parameters of stBasicLInfinityMetricEvaluator< ObjectType >::GetDistance(ObjectType *o1, ObjectType *o2) are not documented:
+  parameter o1
+  parameter o2
+
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:158: Warning: argument `obj1' of command @param is not found in the argument list of stBasicLInfinityMetricEvaluator< ObjectType >::GetDistance2(ObjectType *o1, ObjectType *o2)
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:158: Warning: argument `obj2' of command @param is not found in the argument list of stBasicLInfinityMetricEvaluator< ObjectType >::GetDistance2(ObjectType *o1, ObjectType *o2)
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:158: Warning: The following parameters of stBasicLInfinityMetricEvaluator< ObjectType >::GetDistance2(ObjectType *o1, ObjectType *o2) are not documented:
+  parameter o1
+  parameter o2
+
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:420: Warning: argument `obj1' of command @param is not found in the argument list of stBasicLp2MetricEvaluator< ObjectType >::GetDistance(ObjectType *o1, ObjectType *o2)
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:420: Warning: argument `obj2' of command @param is not found in the argument list of stBasicLp2MetricEvaluator< ObjectType >::GetDistance(ObjectType *o1, ObjectType *o2)
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:420: Warning: The following parameters of stBasicLp2MetricEvaluator< ObjectType >::GetDistance(ObjectType *o1, ObjectType *o2) are not documented:
+  parameter o1
+  parameter o2
+
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:440: Warning: argument `obj1' of command @param is not found in the argument list of stBasicLp2MetricEvaluator< ObjectType >::GetDistance2(ObjectType *o1, ObjectType *o2)
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:440: Warning: argument `obj2' of command @param is not found in the argument list of stBasicLp2MetricEvaluator< ObjectType >::GetDistance2(ObjectType *o1, ObjectType *o2)
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:440: Warning: The following parameters of stBasicLp2MetricEvaluator< ObjectType >::GetDistance2(ObjectType *o1, ObjectType *o2) are not documented:
+  parameter o1
+  parameter o2
+
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:330: Warning: argument `obj1' of command @param is not found in the argument list of stBasicLpMetricEvaluator< ObjectType, P >::GetDistance(ObjectType *o1, ObjectType *o2)
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:330: Warning: argument `obj2' of command @param is not found in the argument list of stBasicLpMetricEvaluator< ObjectType, P >::GetDistance(ObjectType *o1, ObjectType *o2)
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:330: Warning: The following parameters of stBasicLpMetricEvaluator< ObjectType, P >::GetDistance(ObjectType *o1, ObjectType *o2) are not documented:
+  parameter o1
+  parameter o2
+
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:350: Warning: argument `obj1' of command @param is not found in the argument list of stBasicLpMetricEvaluator< ObjectType, P >::GetDistance2(ObjectType *o1, ObjectType *o2)
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:350: Warning: argument `obj2' of command @param is not found in the argument list of stBasicLpMetricEvaluator< ObjectType, P >::GetDistance2(ObjectType *o1, ObjectType *o2)
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:350: Warning: The following parameters of stBasicLpMetricEvaluator< ObjectType, P >::GetDistance2(ObjectType *o1, ObjectType *o2) are not documented:
+  parameter o1
+  parameter o2
+
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:257: Warning: argument `obj1' of command @param is not found in the argument list of stBasicManhatanMetricEvaluator< ObjectType >::GetDistance(ObjectType *o1, ObjectType *o2)
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:257: Warning: argument `obj2' of command @param is not found in the argument list of stBasicManhatanMetricEvaluator< ObjectType >::GetDistance(ObjectType *o1, ObjectType *o2)
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:257: Warning: The following parameters of stBasicManhatanMetricEvaluator< ObjectType >::GetDistance(ObjectType *o1, ObjectType *o2) are not documented:
+  parameter o1
+  parameter o2
+
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:277: Warning: argument `obj1' of command @param is not found in the argument list of stBasicManhatanMetricEvaluator< ObjectType >::GetDistance2(ObjectType *o1, ObjectType *o2)
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:277: Warning: argument `obj2' of command @param is not found in the argument list of stBasicManhatanMetricEvaluator< ObjectType >::GetDistance2(ObjectType *o1, ObjectType *o2)
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:277: Warning: The following parameters of stBasicManhatanMetricEvaluator< ObjectType >::GetDistance2(ObjectType *o1, ObjectType *o2) are not documented:
+  parameter o1
+  parameter o2
+
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:96: Warning: argument `obj1' of command @param is not found in the argument list of stBasicMetricEvaluator< ObjectType >::GetDistance(ObjectType *o1, ObjectType *o2)
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:96: Warning: argument `obj2' of command @param is not found in the argument list of stBasicMetricEvaluator< ObjectType >::GetDistance(ObjectType *o1, ObjectType *o2)
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:96: Warning: The following parameters of stBasicMetricEvaluator< ObjectType >::GetDistance(ObjectType *o1, ObjectType *o2) are not documented:
+  parameter o1
+  parameter o2
+
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:101: Warning: argument `obj1' of command @param is not found in the argument list of stBasicMetricEvaluator< ObjectType >::GetDistance2(ObjectType *o1, ObjectType *o2)
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:101: Warning: argument `obj2' of command @param is not found in the argument list of stBasicMetricEvaluator< ObjectType >::GetDistance2(ObjectType *o1, ObjectType *o2)
+D:/cvs/arboretum-r1/include/arboretum/stBasicMetricEvaluators.h:101: Warning: The following parameters of stBasicMetricEvaluator< ObjectType >::GetDistance2(ObjectType *o1, ObjectType *o2) are not documented:
+  parameter o1
+  parameter o2
+
+D:/cvs/arboretum-r1/include/arboretum/stBasicObjects.h:558: Warning: argument `datasize' of command @param is not found in the argument list of stBasicStringObject< DataType, TagType >::Unserialize(const  stByte *data, stSize dataSize)
+D:/cvs/arboretum-r1/include/arboretum/stBasicObjects.h:558: Warning: The following parameters of stBasicStringObject< DataType, TagType >::Unserialize(const  stByte *data, stSize dataSize) are not documented:
+  parameter dataSize
+
+D:/cvs/arboretum-r1/include/arboretum/stUtil.h:571: Warning: Found unknown command `\waning'
+D:/cvs/arboretum-r1/include/arboretum/stFastMapper.h:436: Warning: argument `The' of command @param is not found in the argument list of stFastMapper< ObjectType, EvaluatorType >::SetPivot(int idx, const  ObjectType *obj, const  double *map)
+D:/cvs/arboretum-r1/include/arboretum/stFastMapper.h:436: Warning: The following parameters of stFastMapper< ObjectType, EvaluatorType >::SetPivot(int idx, const  ObjectType *obj, const  double *map) are not documented:
+  parameter obj
+
+D:/cvs/arboretum-r1/include/arboretum/stGenericPriorityQueue.h:135: Warning: argument `distance' of command @param is not found in the argument list of stGenericEntry< ObjectType >::SetDistanceQuery(stDistance distanceQuery)
+D:/cvs/arboretum-r1/include/arboretum/stGenericPriorityQueue.h:135: Warning: The following parameters of stGenericEntry< ObjectType >::SetDistanceQuery(stDistance distanceQuery) are not documented:
+  parameter distanceQuery
+
+D:/cvs/arboretum-r1/include/arboretum/stGenericPriorityQueue.h:151: Warning: argument `distance' of command @param is not found in the argument list of stGenericEntry< ObjectType >::SetDistanceRep(stDistance distanceRep)
+D:/cvs/arboretum-r1/include/arboretum/stGenericPriorityQueue.h:151: Warning: The following parameters of stGenericEntry< ObjectType >::SetDistanceRep(stDistance distanceRep) are not documented:
+  parameter distanceRep
+
+D:/cvs/arboretum-r1/include/arboretum/stGenericPriorityQueue.h:169: Warning: argument `distance' of command @param is not found in the argument list of stGenericEntry< ObjectType >::SetDistanceRepQuery(stDistance distanceRepQuery)
+D:/cvs/arboretum-r1/include/arboretum/stGenericPriorityQueue.h:169: Warning: The following parameters of stGenericEntry< ObjectType >::SetDistanceRepQuery(stDistance distanceRepQuery) are not documented:
+  parameter distanceRepQuery
+
+D:/cvs/arboretum-r1/include/arboretum/stUtil.h:117: Warning: argument `col' of command @param is not found in the argument list of stGenericMatrix< Type >::stGenericMatrix(int cols, int rows)
+D:/cvs/arboretum-r1/include/arboretum/stUtil.h:117: Warning: argument `row' of command @param is not found in the argument list of stGenericMatrix< Type >::stGenericMatrix(int cols, int rows)
+D:/cvs/arboretum-r1/include/arboretum/stUtil.h:117: Warning: The following parameters of stGenericMatrix< Type >::stGenericMatrix(int cols, int rows) are not documented:
+  parameter cols
+  parameter rows
+
+D:/cvs/arboretum-r1/include/arboretum/stUtil.h:141: Warning: argument `col' of command @param is not found in the argument list of stGenericMatrix< Type >::SetSize(int cols, int rows)
+D:/cvs/arboretum-r1/include/arboretum/stUtil.h:141: Warning: argument `row' of command @param is not found in the argument list of stGenericMatrix< Type >::SetSize(int cols, int rows)
+D:/cvs/arboretum-r1/include/arboretum/stUtil.h:141: Warning: The following parameters of stGenericMatrix< Type >::SetSize(int cols, int rows) are not documented:
+  parameter cols
+  parameter rows
+
+D:/cvs/arboretum-r1/include/arboretum/stUtil.h:237: Warning: argument `col' of command @param is not found in the argument list of stHugeGenericMatrix< Type >::stHugeGenericMatrix(int cols, int rows)
+D:/cvs/arboretum-r1/include/arboretum/stUtil.h:237: Warning: argument `row' of command @param is not found in the argument list of stHugeGenericMatrix< Type >::stHugeGenericMatrix(int cols, int rows)
+D:/cvs/arboretum-r1/include/arboretum/stUtil.h:237: Warning: The following parameters of stHugeGenericMatrix< Type >::stHugeGenericMatrix(int cols, int rows) are not documented:
+  parameter cols
+  parameter rows
+
+D:/cvs/arboretum-r1/include/arboretum/stUtil.h:253: Warning: argument `col' of command @param is not found in the argument list of stHugeGenericMatrix< Type >::SetSize(int cols, int rows)
+D:/cvs/arboretum-r1/include/arboretum/stUtil.h:253: Warning: argument `row' of command @param is not found in the argument list of stHugeGenericMatrix< Type >::SetSize(int cols, int rows)
+D:/cvs/arboretum-r1/include/arboretum/stUtil.h:253: Warning: The following parameters of stHugeGenericMatrix< Type >::SetSize(int cols, int rows) are not documented:
+  parameter cols
+  parameter rows
+
+D:/cvs/arboretum-r1/include/arboretum/stInputQuery.h:268: Warning: argument `distance' of command @param is not found in the argument list of stInputQuery< ObjectType, EvaluatorType >::AddPair(tObject *object, stDistance radius)
+D:/cvs/arboretum-r1/include/arboretum/stInputQuery.h:268: Warning: The following parameters of stInputQuery< ObjectType, EvaluatorType >::AddPair(tObject *object, stDistance radius) are not documented:
+  parameter radius
+
+D:/cvs/arboretum-r1/include/arboretum/stListPriorityQueue.h:203: Warning: argument `w' of command @param is not found in the argument list of stListPriorityQueue::Add(stPageID pageID, stDistance distance, stDistance radius)
+D:/cvs/arboretum-r1/include/arboretum/stListPriorityQueue.h:203: Warning: argument `dist' of command @param is not found in the argument list of stListPriorityQueue::Add(stPageID pageID, stDistance distance, stDistance radius)
+D:/cvs/arboretum-r1/include/arboretum/stListPriorityQueue.h:203: Warning: The following parameters of stListPriorityQueue::Add(stPageID pageID, stDistance distance, stDistance radius) are not documented:
+  parameter distance
+  parameter radius
+
+D:/cvs/arboretum-r1/include/arboretum/stMAMView.h:484: Warning: argument `serial' of command @param is not found in the argument list of stMAMViewExtractor< ObjectType, EvaluatorType >::GetSerial()
+D:/cvs/arboretum-r1/include/arboretum/stResult.h:459: Warning: argument `r1' of command @param is not found in the argument list of stResult< ObjectType >::Intersection(stResult *result1, stResult *result2)
+D:/cvs/arboretum-r1/include/arboretum/stResult.h:459: Warning: argument `r2' of command @param is not found in the argument list of stResult< ObjectType >::Intersection(stResult *result1, stResult *result2)
+D:/cvs/arboretum-r1/include/arboretum/stResult.h:459: Warning: The following parameters of stResult< ObjectType >::Intersection(stResult *result1, stResult *result2) are not documented:
+  parameter result1
+  parameter result2
+
+D:/cvs/arboretum-r1/include/arboretum/stResult.h:466: Warning: argument `r1' of command @param is not found in the argument list of stResult< ObjectType >::Union(stResult *result1, stResult *result2)
+D:/cvs/arboretum-r1/include/arboretum/stResult.h:466: Warning: argument `r2' of command @param is not found in the argument list of stResult< ObjectType >::Union(stResult *result1, stResult *result2)
+D:/cvs/arboretum-r1/include/arboretum/stResult.h:466: Warning: The following parameters of stResult< ObjectType >::Union(stResult *result1, stResult *result2) are not documented:
+  parameter result1
+  parameter result2
+
+D:/cvs/arboretum-r1/include/arboretum/stSlimTree.h:278: Warning: The following parameters of stSlimLogicNode< ObjectType, EvaluatorType >::Distribute(stSlimIndexNode *node0, ObjectType *&rep0, stSlimIndexNode *node1, ObjectType *&rep1, EvaluatorType *metricEvaluator) are not documented:
+  parameter rep1
+
+D:/cvs/arboretum-r1/include/arboretum/stSlimTree.h:836: Warning: argument `obj' of command @param is not found in the argument list of stSlimTree< ObjectType, EvaluatorType >::Add(ObjectType *newObj)
+D:/cvs/arboretum-r1/include/arboretum/stSlimTree.h:836: Warning: The following parameters of stSlimTree< ObjectType, EvaluatorType >::Add(ObjectType *newObj) are not documented:
+  parameter newObj
+
+D:/cvs/arboretum-r1/include/arboretum/stSlimTree.h:1158: Warning: The following parameters of stSlimTree< ObjectType, EvaluatorType >::EstimateNearestQuery(ObjectType *sample, double fractalDimension, long nroObjects, stDistance radiusTree, int k, bool tie=false) are not documented:
+  parameter nroObjects
+  parameter radiusTree
+
+D:/cvs/arboretum-r1/include/arboretum/stSlimTree.h:1131: Warning: argument `The' of command @param is not found in the argument list of stSlimTree< ObjectType, EvaluatorType >::IncrementalNearestQuery(ObjectType *sample, int k, tResult *result, tGenericPriorityQueue *globalQueue)
+D:/cvs/arboretum-r1/include/arboretum/stSlimTree.h:1131: Warning: The following parameters of stSlimTree< ObjectType, EvaluatorType >::IncrementalNearestQuery(ObjectType *sample, int k, tResult *result, tGenericPriorityQueue *globalQueue) are not documented:
+  parameter result
+
+D:/cvs/arboretum-r1/include/arboretum/stSlimTree.h:1109: Warning: argument `The' of command @param is not found in the argument list of stSlimTree< ObjectType, EvaluatorType >::IncrementalNearestQuery(ObjectType *sample, int k, tResult *result, tPGenericHeap *globalQueue)
+D:/cvs/arboretum-r1/include/arboretum/stSlimTree.h:1109: Warning: The following parameters of stSlimTree< ObjectType, EvaluatorType >::IncrementalNearestQuery(ObjectType *sample, int k, tResult *result, tPGenericHeap *globalQueue) are not documented:
+  parameter result
+
+D:/cvs/arboretum-r1/include/arboretum/stSlimTree.h:1087: Warning: argument `The' of command @param is not found in the argument list of stSlimTree< ObjectType, EvaluatorType >::InitializeIncrementalNearestQuery(ObjectType *sample, int k, tResult *result, tGenericPriorityQueue *globalQueue)
+D:/cvs/arboretum-r1/include/arboretum/stSlimTree.h:1087: Warning: The following parameters of stSlimTree< ObjectType, EvaluatorType >::InitializeIncrementalNearestQuery(ObjectType *sample, int k, tResult *result, tGenericPriorityQueue *globalQueue) are not documented:
+  parameter result
+
+D:/cvs/arboretum-r1/include/arboretum/stSlimTree.h:1065: Warning: argument `The' of command @param is not found in the argument list of stSlimTree< ObjectType, EvaluatorType >::InitializeIncrementalNearestQuery(ObjectType *sample, int k, tResult *result, tPGenericHeap *globalQueue)
+D:/cvs/arboretum-r1/include/arboretum/stSlimTree.h:1065: Warning: The following parameters of stSlimTree< ObjectType, EvaluatorType >::InitializeIncrementalNearestQuery(ObjectType *sample, int k, tResult *result, tPGenericHeap *globalQueue) are not documented:
+  parameter result
+
+D:/cvs/arboretum-r1/include/arboretum/stSlimTree.h:1174: Warning: The following parameters of stSlimTree< ObjectType, EvaluatorType >::LocalEstimateNearestQuery(ObjectType *sample, double fractalDimension, long nroObjects, stDistance radiusTree, int k, bool tie=false) are not documented:
+  parameter nroObjects
+  parameter radiusTree
+
+D:/cvs/arboretum-r1/include/arboretum/stSlimTree.h:1299: Warning: argument `dir' of command @param is not found in the argument list of stSlimTree< ObjectType, EvaluatorType >::MAMViewInit()
+D:/cvs/arboretum-r1/include/arboretum/stTreeInformation.h:170: Warning: The following parameters of stTreeInformation::stTreeInformation(int height, int objectCount) are not documented:
+  parameter objectCount
+
