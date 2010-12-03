@@ -5,6 +5,11 @@
 # Revisor: Arthur Nascimento <tureba@gmail.com>
 #
 CXXFLAGS+=-pipe -fPIC
+distro = $(shell awk -F '=' '/ID=/{ print $$2 }' /etc/*-release)
+ifeq ($(distro), Ubuntu)
+$(warning ATTENTION: Ubuntu has known problems compiling with Stack-Smashing Protector (ProPolice) - disabling it for now.)
+CXXFLAGS+=-fno-stack-protector
+endif
 prefix?=/usr
 lib_dest?=$(prefix)/lib
 include_dest?=$(prefix)/include
