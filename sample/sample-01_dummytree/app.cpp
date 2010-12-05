@@ -61,7 +61,7 @@ void TApp::Done(){
 }//end TApp::Done
 
 //------------------------------------------------------------------------------
-void TApp::LoadTree(char * fileName){
+void TApp::LoadTree(const char * fileName){
    ifstream in(fileName);
    char cityName[200];
    double dLat, dLong;
@@ -94,7 +94,7 @@ void TApp::LoadTree(char * fileName){
 }//end TApp::LoadTree
 
 //------------------------------------------------------------------------------
-void TApp::LoadVectorFromFile(char * fileName){
+void TApp::LoadVectorFromFile(const char * fileName){
    ifstream in(fileName);
    char cityName[200];
    int cont;

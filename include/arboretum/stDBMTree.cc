@@ -58,7 +58,6 @@
  * ====================================================================
  *                                            http://gbdi.icmc.usp.br/
  */
- /**
 /**
 * @file
 *
@@ -73,6 +72,8 @@
 * @author Marcos Rodrigues Vieira (mrvieira@icmc.usp.br)
 */
 // Copyright (c) 2003 GBDI-ICMC-USP
+
+#include <algorithm>
 
 //==============================================================================
 // Class stDBMLogicNode

@@ -18,4 +18,6 @@ OBJS=$(subst .cpp,.o,$(SRC))
 
 sample1: $(OBJS)
 	$(CC) $(CFLAGS) $(OBJS) -o sample1 $(INCLUDE) $(LIBPATH) $(LIBS)
-	
+
+clean:
+	-rm sample1 *.o

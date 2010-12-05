@@ -69,6 +69,8 @@
 */
 // Copyright (c) 2004 GBDI-ICMC-USP
 
+#include <algorithm>
+
 //------------------------------------------------------------------------------
 template <class ObjectType, class EvaluatorType>
 stVPTree<ObjectType, EvaluatorType>::stVPTree(stPageManager * pageman):

@@ -107,12 +107,12 @@ class TApp{
       /**
       * Loads the tree from file with a set of cities.
       */
-      void LoadTree(char * fileName);
+      void LoadTree(const char * fileName);
 
       /**
       * Loads the vector for queries.
       */
-      void LoadVectorFromFile(char * fileName);
+      void LoadVectorFromFile(const char * fileName);
 
       /**
       * Performs the queries and outputs its results.

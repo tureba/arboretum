@@ -19,3 +19,6 @@ OBJS=$(subst .cpp,.o,$(SRC))
 
 Cities: $(OBJS)
 	$(CC) $(CFLAGS) $(OBJS) -o Cities $(INCLUDE) $(LIBPATH) $(LIBS)
+
+clean:
+	-rm Cities *.o

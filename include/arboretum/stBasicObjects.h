@@ -77,6 +77,8 @@
 #include <arboretum/stException.h>
 #include <arboretum/stObject.h>
 
+#include <cstring>
+
 //==============================================================================
 //  class stBasicArrayObject
 //------------------------------------------------------------------------------
