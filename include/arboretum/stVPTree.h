@@ -75,7 +75,7 @@
 #ifndef __STVPTREE_H
 #define __STVPTREE_H
 
-#include <math.h>
+#include <cmath>
 #include <arboretum/stCommon.h>
 #include <arboretum/stMetricTree.h>
 #include <arboretum/stVPNode.h>

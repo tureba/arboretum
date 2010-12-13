@@ -89,9 +89,9 @@
 // this is used to set GR Vector
 #define STFOCUS 3
 
-#include <string.h>
-#include <math.h>
-#include <values.h>
+#include <cstring>
+#include <cmath>
+#include <climits>
 #include <algorithm>
 
 template <class ObjectType, class EvaluatorType>

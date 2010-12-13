@@ -76,8 +76,8 @@
 
 #include <arboretum/stException.h>
 #include <arboretum/stTypes.h>
-#include <string.h>
-#include <stdio.h>
+#include <cstring>
+#include <cstdio>
 
 using namespace std;
 

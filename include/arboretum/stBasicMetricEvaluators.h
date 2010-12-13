@@ -79,7 +79,7 @@
 #include <arboretum/stTypes.h>
 #include <arboretum/stUtil.h>
 #include <arboretum/stUserLayerUtil.h>
-#include <stdlib.h>
+#include <cstdlib>
 
 
 //==============================================================================

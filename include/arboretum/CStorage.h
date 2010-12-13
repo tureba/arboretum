@@ -83,11 +83,11 @@
 #define CSTORAGEH
 
 // Common headers
-#include <string.h>
+#include <cstring>
 #include <fcntl.h>
 #include <sys/stat.h>
-#include <stdio.h>
-#include <assert.h>
+#include <cstdio>
+#include <cassert>
 
 #include <arboretum/stCommon.h>
 #include <arboretum/stCommonIO.h>
@@ -98,7 +98,7 @@
 //---- Constant definitions ----
 #define CSTORAGE_MAX_FNAME_LENGTH 256
 #define CSTORAGE_STATISTICS
-#define CSTORAGE_STATISTICS_MAXVALUE (MAXLONG - 100)
+#define CSTORAGE_STATISTICS_MAXVALUE (LONG_MAX - 100)
 
 //==============================================================================
 // Class CStorage definitions.

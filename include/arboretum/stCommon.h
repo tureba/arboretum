@@ -76,11 +76,11 @@
 #define __STCOMMON_H
 
 // All compilers
-#include <stdlib.h>
+#include <cstdlib>
 
 // GNU GCC
 #ifdef __GNUG__
-   #include <string.h> // malloc & cia
+   #include <cstring> // malloc & cia
 
    // This is an useful function extracted from Windows C Runtime library.
    #define random(x) ((int)((((double)rand()) / ((double)RAND_MAX)) * (x)))
@@ -111,7 +111,7 @@
 		   #define MINLDOUBLE  3.362103143112094E-4917L
 		#else
 			// Other gccs
-		   #include <values.h>
+		   #include <climits>
 		#endif
 	#endif //__MINGW32_VERSION
 #endif //__GNUG__

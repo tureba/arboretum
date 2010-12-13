@@ -63,7 +63,7 @@
 
 #include <arboretum/stTypes.h>
 #include <arboretum/stCommon.h>
-#include <math.h>
+#include <cmath>
 
 //----------------------------------------------------------------------------
 // class template stGenericEntry

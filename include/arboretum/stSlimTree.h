@@ -88,9 +88,9 @@
 // this is used to set the increment size of the dynamic queue
 #define INCREMENTVALUEQUEUE 200
 
-//#include <string.h>
-//#include <math.h>
-//#include <values.h>
+//#include <cstring>
+//#include <cmath>
+//#include <climits>
 //#include <algorithm>
 #include <arboretum/stMAMView.h> // Visualization support
 

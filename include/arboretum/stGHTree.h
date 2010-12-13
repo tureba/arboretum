@@ -74,7 +74,7 @@
 #ifndef __STGHTREE_H
 #define __STGHTREE_H
 
-#include <math.h>
+#include <cmath>
 #include <arboretum/stCommon.h>
 #include <arboretum/stTypes.h>
 #include <arboretum/stMetricTree.h>

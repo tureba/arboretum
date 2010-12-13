@@ -74,7 +74,7 @@
 #ifndef __STTREEINFORMATION_H
 #define __STTREEINFORMATION_H
 
-#include <math.h>
+#include <cmath>
 #include <arboretum/stCommon.h>
 #include <arboretum/stTypes.h>
 
