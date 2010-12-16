@@ -61,23 +61,24 @@
 /**
 * @file
 *
-* This file defines the class stMTree.
+* This file defines the class stDFTree.
 *
 * @version 1.0
-* $Revision: 1.7 $
-* $Date: 2005/03/13 19:32:48 $
-* $Author: marcos $
+* $Revision: 1.9 $
+* $Date: 2005/03/08 19:43:09 $
 * @author Marcos Rodrigues Vieira (mrvieira@icmc.usp.br)
-*/
-// Copyright (c) 2004 GBDI-ICMC-USP
+* @author Joselene Marques (joselene@icmc.usp.br)
 
-#ifndef __STMTREE_H
-#define __STMTREE_H
+*/
+// Copyright (c) 2003 GBDI-ICMC-USP
+
+#ifndef __STDFTREE_H
+#define __STDFTREE_H
 
 #include <arboretum/stUtil.h>
 #include <arboretum/stTypes.h>
 #include <arboretum/stMetricTree.h>
-#include <arboretum/stMNode.h>
+#include <arboretum/stDFNode.h>
 #include <arboretum/stPageManager.h>
 #include <arboretum/stGenericPriorityQueue.h>
 
@@ -85,18 +86,22 @@
 #define STARTVALUEQUEUE 200
 // this is used to set the increment size of the dynamic queue
 #define INCREMENTVALUEQUEUE 200
+// this is used to set GR Vector
+#define STFOCUS 3
 
 #include <cstring>
 #include <cmath>
 #include <climits>
 #include <algorithm>
 
+template <class ObjectType, class EvaluatorType>
+class stDFGlobalRep;
 
 //=============================================================================
-// Class template stMLogicNode
+// Class template stDFLogicNode
 //-----------------------------------------------------------------------------
 /**
-* Thic class template represents a MTree logic node entry. It is used to
+* Thic class template represents a DFTree logic node entry. It is used to
 * hold an index node or a leaf node in a memory form which allows better way to
 * manipulate entries. It also implements means to distribute its contents
 * between 2 nodes.
@@ -109,26 +114,36 @@
 * It means that the object instance will be destroyed by the destructor of this class.
 *
 * @version 1.0
+* $Date: 2005/03/08 19:43:09 $
 * @author Marcos Rodrigues Vieira (mrvieira@icmc.usp.br)
+* @author Joselene Marques (joselene@icmc.usp.br)
 * @todo Documentation review.
-* @ingroup slim
+* @todo More tests!
+* @ingroup DF
 */
 template <class ObjectType, class EvaluatorType>
-class stMLogicNode{
+class stDFLogicNode{
+
    public:
+
+      /**
+      * This type implements the GR.
+      */
+      typedef stDFGlobalRep <ObjectType, EvaluatorType> tGR;
+
       /**
       * Creates a new instance of this node with no objects.
       *
       * @param maxOccupation The maximum number of entries.
       */
-      stMLogicNode(int maxOccupation);
+      stDFLogicNode(stCount maxOccupation);
 
       /**
       * Disposes this instance and releases all related resources. All instances of
       * object added to this node will also be deleted unless it is not owned by
       * this node (see method BuyObject()).
       */
-      ~stMLogicNode();
+      ~stDFLogicNode();
 
       /**
       * Adds an object to this node. This method will claim the ownership
@@ -140,10 +155,10 @@ class stMLogicNode{
       * @return The entry id or -1 for error.
       */
       int AddEntry(ObjectType * obj){
-
          Entries[Count].Object = obj;
          Entries[Count].Mine = true;
-         Count ++;
+         Entries[Count].FieldDistance  = new stDistance[STFOCUS];
+         Count++;
          return Count - 1;
       }//end AddEntry
 
@@ -161,7 +176,7 @@ class stMLogicNode{
       /**
       * Returns the number of entries in this node.
       */
-      int GetNumberOfEntries(){
+      stCount GetNumberOfEntries(){
          return Count;
       }//end GetNumberOfEntries
 
@@ -170,7 +185,7 @@ class stMLogicNode{
       *
       * @param idx The object index.
       */
-      ObjectType * GetObject(int idx){
+      ObjectType * GetObject(stCount idx){
          return Entries[idx].Object;
       }//end GetObject
 
@@ -179,7 +194,7 @@ class stMLogicNode{
       *
       * @param idx The object index.
       */
-      ObjectType * operator [](int idx){
+      ObjectType * operator [](stCount idx){
          return Entries[idx].Object;
       }//end operator []
 
@@ -188,9 +203,19 @@ class stMLogicNode{
       *
       * @param idx The object index.
       */
-      stPageID GetPageID(int idx){
+      stPageID GetPageID(stCount idx){
          return Entries[idx].PageID;
       }//end GetPageID
+
+      /**
+      * Returns the number of entries in the sub-tree of a given entry.
+      * Only index nodes will use this field.
+      *
+      * @param idx The object index.
+      */
+      stSize GetNEntries(stCount idx){
+         return Entries[idx].NEntries;
+      }//end GetNEntries
 
       /**
       * Returns the radius of the sub-tree of a given entry. Only index nodes
@@ -198,7 +223,7 @@ class stMLogicNode{
       *
       * @param idx The object index.
       */
-      stDistance GetRadius(int idx){
+      stDistance GetRadius(stCount idx){
          return Entries[idx].Radius;
       }//end GetRadius
 
@@ -207,35 +232,40 @@ class stMLogicNode{
       *
       * @param idx The object index.
       * @param pageID The pageID.
+      * @param nEntries The number of entries in the sub-tree.
       * @param radius The radius of the sub-tree.
+      * @param FieldDistance The distance from object to GR
       */
-      void SetEntry(int idx, stPageID pageID, stDistance radius){
+      void SetEntry(stCount idx, stPageID pageID, stSize nEntries,
+                    stDistance radius, stDistance * fieldDistance){
          Entries[idx].PageID = pageID;
+         Entries[idx].NEntries = nEntries;
          Entries[idx].Radius = radius;
+         memcpy(Entries[idx].FieldDistance, fieldDistance, 3 * sizeof(stDistance));
       }//end GetPageID
 
       /**
       * Adds all objects of an index node. It will also set the node type to
-      * stMNode::INDEX.
+      * stDFNode::INDEX.
       *
       * @param node The node.
       */
-      void AddIndexNode(stMIndexNode * node);
+      void AddIndexNode(stDFIndexNode * node);
 
       /**
       * Adds all objects of a leaf node. It will also set the node type to
-      * stMNode::LEAF.
+      * stDFNode::LEAF.
       *
       * @param node The node.
       */
-      void AddLeafNode(stMLeafNode * node);
+      void AddLeafNode(stDFLeafNode * node);
 
       /**
       * Returns the id of the representative object.
       *
       * @param id The representative ID. It may be 0 or 1.
       */
-      int GetRepresentativeIndex(int idx){
+      stCount GetRepresentativeIndex(stCount idx){
          return RepIndex[idx];
       }//end GetRepresentativeIndex
 
@@ -244,7 +274,7 @@ class stMLogicNode{
       *
       * @param id The representative ID. It may be 0 or 1.
       */
-      ObjectType * GetRepresentative(int idx){
+      ObjectType * GetRepresentative(stCount idx){
         return Entries[RepIndex[idx]].Object;
       }//end GetRepresentative
 
@@ -255,7 +285,7 @@ class stMLogicNode{
       * @param rep0 Index of representative 0.
       * @param rep1 Index of representative 1.
       */
-      void SetRepresentative(int rep0, int rep1){
+      void SetRepresentative(stCount rep0, stCount rep1){
          RepIndex[0] = rep0;
          RepIndex[1] = rep1;
       }//end SetRepresentative
@@ -270,11 +300,12 @@ class stMLogicNode{
       * @param rep0 Representative of node 1.
       * @param metricEvaluator The metric evaluator to be used to compute
       * distances.
+      * @param GR Used to know when find GR
       * @return The number of computed distances.
       */
-      int Distribute(stMIndexNode * node0, ObjectType * & rep0,
-            stMIndexNode * node1, ObjectType * & rep1,
-            EvaluatorType * metricEvaluator){
+      int Distribute(stDFIndexNode * node0, ObjectType * & rep0,
+            stDFIndexNode * node1, ObjectType * & rep1,
+            EvaluatorType * metricEvaluator, tGR * GR){
          int result;
 
          // Distribute...
@@ -297,11 +328,12 @@ class stMLogicNode{
       * @param rep1 Representative of node 1.
       * @param metricEvaluator The metric evaluator to be used to compute
       * distances.
+      * @param GR Used to know when find GR
       * @return The number of computed distances.
       */
-      int Distribute(stMLeafNode * node0, ObjectType * & rep0,
-            stMLeafNode * node1, ObjectType * & rep1,
-            EvaluatorType * metricEvaluator){
+      int Distribute(stDFLeafNode * node0, ObjectType * & rep0,
+            stDFLeafNode * node1, ObjectType * & rep1,
+            EvaluatorType * metricEvaluator, tGR * GR){
          int result;
 
          // Distribute...
@@ -326,7 +358,7 @@ class stMLogicNode{
       * @warning Since it is just a test fnction, it will not inialize the
       * fields of the entries.
       */
-      int TestDistribution(stMIndexNode * node0, stMIndexNode * node1,
+      int TestDistribution(stDFIndexNode * node0, stDFIndexNode * node1,
             EvaluatorType * metricEvaluator);
 
       /**
@@ -339,14 +371,14 @@ class stMLogicNode{
       * distances.
       * @return The number of computed distances.
       */
-      int TestDistribution(stMLeafNode * node0, stMLeafNode * node1,
+      int TestDistribution(stDFLeafNode * node0, stDFLeafNode * node1,
             EvaluatorType * metricEvaluator);
 
       /**
       * Set minimum occupation. This must be the minimum number of objects
       * in a page. This value must be at least 1.
       */
-      void SetMinOccupation(int min){
+      void SetMinOccupation(stCount min){
          MinOccupation = min;
          // At least the nodes must store 2 objects.
          if ((MinOccupation > (MaxEntries/2)) || (MinOccupation == 0)){
@@ -355,8 +387,8 @@ class stMLogicNode{
       }//end SetMinOccupation
 
       /**
-      * Returns the node type. It may assume the values stMNode::INDEX or
-      * stMNode::LEAF.
+      * Returns the node type. It may assume the values stDFNode::INDEX or
+      * stDFNode::LEAF.
       */
       stNodeType GetNodeType(){
          return NodeType;
@@ -375,7 +407,7 @@ class stMLogicNode{
       * @param idx Object index.
       * @return True if the object is a representative or false otherwise.
       */
-      bool IsRepresentative(int idx){
+      bool IsRepresentative(stCount idx){
          return ((idx == RepIndex[0]) || (idx == RepIndex[1]));
       }//end IsRepresentative
 
@@ -390,16 +422,49 @@ class stMLogicNode{
       * @param idx The object index.
       * @return The pointer to the object.
       */
-      ObjectType * BuyObject(int idx){
+      ObjectType * BuyObject(stCount idx){
          Entries[idx].Mine = false;
          return Entries[idx].Object;
       }//end BuyObject
 
-   private:
       /**
-      * This type represents a slim tree logic node entry.
+      * Returns the GR of a given entry.
+      *
+      * @param idx The object index.
+      * @return The vector with the GR
       */
-      struct stMLogicEntry{
+      stDistance * GetFieldDistance(stCount idx){
+         return Entries[idx].FieldDistance;
+      }//end GetFieldDistance
+
+      /**
+      * Sets the Focus Distance.
+      *
+      * @param idx The object index.
+      * @param iGlobalRep The GlobalRep index.
+      * @param FieldDistance The distance to GlobalRep index.
+      */
+      void SetFocusDistance(stCount idx, stCount iGlobalRep, stDistance iFieldDistance){
+         Entries[idx].FieldDistance[iGlobalRep] = iFieldDistance;
+      }//end SetFocusDistance
+
+      /**
+      * Set GR of a given entry.
+      *
+      * @param idx The object index.
+      * @param FieldDistance The GR Vector
+      */
+      void SetFieldDistance(stCount idx, stDistance * fieldDistance){
+         memcpy(Entries[idx].FieldDistance, fieldDistance, 3 * sizeof(stDistance));
+      }//end SetFieldDistance
+
+   private:
+
+      /**
+      * This type represents a DF tree logic node entry.
+      */
+      struct stDFLogicEntry{
+
          /**
          * Object.
          */
@@ -409,6 +474,11 @@ class stMLogicNode{
          * ID of the page.
          */
          stPageID PageID;
+
+         /**
+         * Number of entries in the sub-tree.
+         */
+         stCount NEntries;
 
          /**
          * Radius of the sub-tree.
@@ -426,35 +496,40 @@ class stMLogicNode{
          stDistance Distance[2];
 
          /**
+         * Distances between object and GR.
+         */
+         stDistance * FieldDistance;
+
+         /**
          * Node Map.
          */
          bool Mapped;
       };
 
       /**
-      * Minimum occupation.
-      */
-      int MinOccupation;
-
-      /**
       * Entries.
       */
-      struct stMLogicEntry * Entries;
+      struct stDFLogicEntry * Entries;
+
+      /**
+      * Minimum occupation.
+      */
+      stCount MinOccupation;
 
       /**
       * Maximum number of entries.
       */
-      int MaxEntries;
+      stCount MaxEntries;
 
       /**
       * Current number of entries.
       */
-      int Count;
+      stCount Count;
 
       /**
       * This vector holds the id of the representative objects.
       */
-      int RepIndex[2];
+      stCount RepIndex[2];
 
       /**
       * Type of this node.
@@ -468,15 +543,215 @@ class stMLogicNode{
       * @param metricEvaluator The metric evaluator to be used.
       */
       int UpdateDistances(EvaluatorType * metricEvaluator);
-};//end stMLogicNode
 
+};//end stDFLogicNode
+
+//=============================================================================
+// Class template stDFMSTSpliter
+//-----------------------------------------------------------------------------
+/**
+* This class template implements the DFTree MST split algorithm.
+*
+* @version 1.0
+* $Date: 2005/03/08 19:43:09 $
+* @author Marcos Rodrigues Vieira (mrvieira@icmc.usp.br)
+* @author Joselene Marques(joselene@icmc.usp.br)
+
+* @todo Documentation review.
+* @todo Tests!
+* @ingroup DF
+*/
+template <class ObjectType, class EvaluatorType>
+class stDFMSTSplitter{
+
+   public:
+
+      /**
+      * This type defines the logic node for this class.
+      */
+      typedef stDFLogicNode < ObjectType, EvaluatorType > tLogicNode;
+
+      /**
+      * This type implements the GR.
+      */
+      typedef stDFGlobalRep <ObjectType, EvaluatorType> tGR;
+
+      /**
+      * Builds a new instance of this class. It will claim the ownership of the
+      * logic node provided as input.
+      */
+      stDFMSTSplitter(tLogicNode * node);
+
+      /**
+      * Disposes all associated resources.
+      */
+      ~stDFMSTSplitter();
+
+      /**
+      * Provides access to the logic node.
+      */
+      const tLogicNode * GetLogicNode(){
+         return Node;
+      }//end GetLogicNode
+
+      /**
+      * Distributes objects between 2 index nodes.
+      *
+      */
+      int Distribute(stDFIndexNode * node0, ObjectType * & rep0,
+            stDFIndexNode * node1, ObjectType * & rep1,
+            EvaluatorType * metricEvaluator, tGR * GR);
+
+      /**
+      * Distributes objects between 2 leaf nodes.
+      */
+      int Distribute(stDFLeafNode * node0, ObjectType * & rep0,
+            stDFLeafNode * node1, ObjectType * & rep1,
+            EvaluatorType * metricEvaluator, tGR * GR);
+
+   protected:
+
+      friend stDFGlobalRep <ObjectType, EvaluatorType>;
+
+      /**
+      * This type implements the GR.
+      */
+      typedef stDFGlobalRep <ObjectType, EvaluatorType> tGR;
+
+      /**
+      * Distance matrix type.
+      */
+      typedef stGenericMatrix <stDistance> tDistanceMatrix;
+
+      /**
+      * Cluster states.
+      */
+      enum tClusterState{
+         ALIVE,
+         DEAD,
+         DEATH_SENTENCE
+      };//end tClusterState
+
+      /**
+      * Cluster information type.
+      */
+      struct tCluster{
+         /**
+         * If this cluster exists.
+         */
+         enum tClusterState State;
+
+         /**
+         * Number of objects in this cluster.
+         */
+         int Size;
+
+         /**
+         * Minimum distance to the nearest cluster.
+         */
+         stDistance MinDist;
+
+         /**
+         * The object of this cluster that defines the minimum distance.
+         */
+         int Src;
+
+         /**
+         * The object of the nearest cluster that defines the minimum distance.
+         */
+         int Dst;
+      };
+
+      /**
+      * The logic node to be used as source.
+      */
+      tLogicNode * Node;
+
+      /**
+      * The distance matrix.
+      */
+      tDistanceMatrix DMat;
+
+      /**
+      * All clusters.
+      */
+      struct tCluster * Cluster;
+
+      /**
+      * The names of the cluster of each object
+      */
+      int * ObjectCluster;
+
+      /**
+      * Total number of objects.
+      */
+      int N;
+
+      /**
+      * Name of the cluster 0.
+      */
+      int Cluster0;
+
+      /**
+      * Name of the cluster 1.
+      */
+      int Cluster1;
+
+      /**
+      * Returns the center of the object in the cluster clus.
+      * The.
+      *
+      * @param clus Cluster id.
+      */
+      int FindCenter(int clus);
+
+      /**
+      * Returns the distance of a given index.
+      *
+      * @param idi The Matrix row.
+      * @param idj The Matrix column.
+      */
+      stDistance GetMatrixDistance(int idi, int idj){
+         return DMat[idi][idj];
+      }//end GetDistance
+
+
+      /**
+      * Builds the distance matrix using the given metric evaluator.
+      *
+      * @param metricEvaluator The metric evaluator.
+      * @return The number of computed distances.
+      */
+      int BuildDistanceMatrix(EvaluatorType * metricEvaluator);
+
+      /**
+      * Performs the MST algorithm. This method will split the objects in 2
+      * clusters. The result of the processing will be found at the array
+      * Cluster.
+      *
+      * @param GR Used to find GR at first split
+      * @warning DMat must be initialized.
+      */
+      void PerformMST(tGR * GR);
+
+      /**
+      * Joins 2 clusters. This method will insert custer2 into cluster1.
+      *
+      * <P>The state of cluster2 will change to DEATH_SENTENCE.
+      *
+      * @param cluster1 Cluster 1.
+      * @param cluster2 Cluster 2.
+      */
+      void JoinClusters(int cluster1, int cluster2);
+
+};//end stDFMSTSplitter
 
 
 //=============================================================================
-// Class template stMTree
+// Class template stDFTree
 //-----------------------------------------------------------------------------
 /**
-* This class defines all behavior of the MTree.
+* This class defines all behavior of the DFTree.
 * Probably most of the atributes will be stored in the header page of the used
 * stPageManager (stDiskPageManager or stMemoryPageManager).
 *
@@ -485,23 +760,28 @@ class stMLogicNode{
 * <P> Main modifications from original code are intent to turn it an object oriented
 * compliant code.
 *
+* $Date: 2005/03/08 19:43:09 $
 * @author Marcos Rodrigues Vieira (mrvieira@icmc.usp.br)
+* @author Joselene Marques(joselene@icmc.usp.br)
+
 * @todo More documentation.
+* @todo Finish the implementation.
 * @version 1.0
-* @ingroup slim
+* @ingroup DF
 */
 template <class ObjectType, class EvaluatorType>
-class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
+class stDFTree: public stMetricTree< ObjectType, EvaluatorType>{
+
    public:
 
       /**
-      * This structure defines the MTree header structure. This type was left
+      * This structure defines the DFTree header structure. This type was left
       * public to allow the creation of debug tools.
       */
-      typedef struct tMHeader{
+      typedef struct tDFHeader{
          /**
          * Magic number. This is a short string that must contains the magic
-         * string "M__3". It may be used to validate the file (this feature
+         * string "DF-3". It may be used to validate the file (this feature
          * is not implemented yet).
          */
          char Magic[4];
@@ -512,19 +792,24 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
          int SplitMethod;
 
          /**
-         * Split strategy method (balanced or unbalanced).
-         */
-         int ChooseSplitStrategyMethod;
-
-         /**
          * Choose method
          */
          int ChooseMethod;
 
          /**
-         * The root of the M-tree
+         * Correct method.
+         */
+         int CorrectMethod;
+
+         /**
+         * The root of the DF-tree.
          */
          stPageID Root;
+
+         /**
+         * The root of the global representative list.
+         */
+         stPageID RootGlobalRep;
 
          /**
          * Minimum percentage of objects in a node.
@@ -550,151 +835,83 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
          * Total number of nodes.
          */
          stSize NodeCount;
-      }stMHeader;
+      } stDFHeader;
 
       /**
-      * These constants are used to define the choose subtree method.
+      * These constants are used to define the choose sub tree method.
       */
-      enum tTBFunction{
+      enum tChooseMethod{
+         /**
+         * Choose the first of the qualifying nodes.
+         */
+         cmBIASED,
+         /**
+         * Randomly choose one of the qualifying nodes.
+         */
+         cmRANDOM,
+         /**
+         * Choose the node that has the minimum distance from the
+         * new object and the representative (center) of the node.
+         */
+         cmMINDIST,
 
          /**
-         * Minimum radius increment.
+         * Choose the node that has the minimum occupancy among the
+         * qualifying ones. This is the default method due to its better
+         * performance.
          */
-         MIN_R_INCR,
-
+         cmMINOCCUPANCY,
          /**
-         * Minimum overlap.
+         * Unknown.
+         * @todo Discover what this method do.
          */
-         MIN_OVERLAP,
-
-         /**
-         * ???
-         */
-         MIXED
-      };//end tTBFunction;
+         cmMINGDIST
+      };//end tChooseMethod
 
       /**
-      * Promotion method. Specifies the algorithm used to promote objects in
-      * the parent node.
+      * These constants are used to define the correction method.
       */
-      enum tPPFunction{
+      enum tCorrectMethod {
          /**
-         * Random promotion.
+         * No correction.
          */
-         RANDOM,
-
+         crmOFF,
          /**
-         * Confirmed promotion. Variable PROMOTE_VOTE_FUNCTION
-         * is then used to choose between confirmed policies.
+         * Use Fat Factor.
          */
-         CONFIRMED,
-
-         /**
-         * Maximum upper bound on distances policy.
-         * The two objects having the maximum distance from the parent
-         * object are chosen.
-         */
-         MAX_UB_DIST,
-
-         /**
-         * Minimum maximum radius policy.
-         */
-         MIN_RAD,
-
-         /**
-         * Minimum overlap policy.
-         */
-         MIN_OVERLAPS,
-
-         /**
-         * Sampling promotion. Variable NUM_CANDIDADTES specifies
-         * the number of samples.
-         */
-         SAMPLING,
-      };//end tPPFunction;
+         crmFATFACTOR
+      };//end tCorrectMethod
 
       /**
-      * Confirmed promotion method. Specifies the algorithm used to promote
-      * one object as one of the two parents, the other being the parent object
-      * of the split node. Is is used only if PROMOTE_PART_FUNCTION=CONFIRMED.
+      * These constants are used to define the split method.
+      * @todo Update documentation of each constant.
       */
-      enum tPVFunction{
+      enum tSplitMethod {
+         /**
+         * This method peeks 2 random objects as the representatives and
+         * distribute the other objects around them.
+         *
+         * <p>This is the fastest split method but the result is undetermined.
+         */
+         smRANDOM,
 
          /**
-         * Random confirmed promotion.
+         * The optimal split method. This algorithm tries all possible
+         * distribution configurations and select the optimal distribution as
+         * the final result.
+         *
+         * <p>This is the default method for the M-Tree.
+         *
+         * @warning This method is very slow.
          */
-         RANDOMV,
+         smMINMAX,
 
          /**
-         * Sampling confirmed promotion. Variable NUM_CANDIDATES specifies the
-         * numer of samples.
+         * Split method based on the Minimal Spanning Tree algorithm.
+         * This is the DF-Tree default split method.
          */
-         SAMPLINGV,
-
-         /**
-         * Maximum lower bound on distances promotion. The object farthest
-         * from the parent object is chosen.
-         */
-         MAX_LB_DIST,
-
-         /**
-         * Minimum radius confirmed policy, variable RADIUS_FUNCTION is then
-         * used to choose between available policies.
-         */
-         mM_RAD
-      };//end tPVFunction;
-
-      /**
-      * Minimum radius method.
-      */
-      enum tRFunction{
-
-         /**
-         * Minimum maximum lower bound on radius policy.
-         */
-         LB,
-
-         /**
-         * Minimum maximum average bound on radius policy.
-         */
-         AVG,
-
-         /**
-         * Minimum maximum upper bound on radius policy.
-         */
-         UB
-      };//end tRFunction;
-
-      /**
-      * Split function. This specifies the way objects in the overfull
-      * node are to be divided between the two new nodes.
-      *
-      * Both the BAL_G_HYPERPL and the BALANCED methods obtain perfectly
-      * balanced nodes, whereas with the G_HYPERPL strategy the user can tune the
-      * node utilization by modifying the value of the MIN_UTIL variable. We
-      * suggest to use the G_HYPERPL strategy, since a balanced split tends to
-      * produce high covering radii, and this negatively affects index performance
-      * during the search. Having unbalanced nodes "only" increases the size of
-      * the tree (number of nodes), but most of the nodes will be pruned when
-      * searching the M-tree.
-      */
-      enum tSFunction{
-
-         /**
-         * The generalize hyperplane partition strategy.
-         */
-         G_HYPERPL,
-
-         /**
-         * The balanced hyperplane partition strategy.
-         */
-         BAL_G_HYPERPL,
-
-         /**
-         * The balanced strategy.
-         */
-         BALANCED
-      };//end tSFunction;
+         smSPANNINGTREE
+      };//end tSplitMethod
 
       /**
       * This is the class that abstracs an result set.
@@ -702,20 +919,31 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
       typedef stResult <ObjectType> tResult;
 
       /**
-      * Creates a new metric tree using a given page manager. This instance will
-      * not claim the ownership of the given page manager. It means that the
-      * application must dispose the page manager when it is no loger necessary.
-      *
-      * @param pageman The bage manager to be used by this metric tree.
+      * This type implements the GR.
       */
-      stMTree(stPageManager * pageman);
+      typedef stDFGlobalRep <ObjectType, EvaluatorType> tGR;
+
+      /**
+      * Creates a new metric tree using a given page manager. This instance
+      * will not claim the ownership of the given page manager. It means
+      * that the application must dispose the page manager when it is no
+      * loger necessary.
+      *
+      * @param pageman The page manager to be used by this metric tree.
+      */
+      stDFTree(stPageManager * pageman, stCount nFocus, stDistance pThreshold);
 
       /**
       * Dispose all used resources, ie, it is the destructor method.
       *
-      * @see stMTree()
+      * @see stDFTree()
       */
-      virtual ~stMTree();
+      virtual ~stDFTree(){
+         // Flus header page.
+         FlushHeader();
+         // Free it.
+         delete GR;
+      }//end ~stDFTree()
 
       /**
       * This method adds an object to the metric tree.
@@ -734,7 +962,7 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
       /**
       * Returns the number of objetcs of this tree.
       */
-      virtual long GetNumberOfObjects(){
+      virtual stCount GetNumberOfObjects(){
          return Header->ObjectCount;
       }//end GetNumberOfObjects
 
@@ -775,16 +1003,6 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
          return Header->NodeCount;
       }//end GetNodeCount
 
-      /**
-      * Returns the limit distance between 2 objects in the tree. That is
-      * \f$ \forall a,b \in D, d(a,b) \le GetDistanceLimit()\f$. In other
-      * words, there is no distance greater than this.
-      *
-      * <P> This value may be the greatest distance between objects but may
-      * return greater values due to implementation optmizations.
-      */
-      stDistance GetDistanceLimit();
-
       // Tree Configuration
       /**
       * Sets the tree split method.
@@ -792,9 +1010,9 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
       * @param method Method name.
       * @see tSplitMethod
       */
-      void SetSplitMethod(enum tPPFunction method){
+      void SetSplitMethod(enum tSplitMethod method){
          Header->SplitMethod = method;
-         this->HeaderUpdate = true;
+         HeaderUpdate = true;
       }//end SetSplitMethod
 
       /**
@@ -810,28 +1028,10 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
       * @param method Choose method name.
       * @see tChooseMethod
       */
-      void SetChooseMethod(enum tTBFunction method){
+      void SetChooseMethod(enum tChooseMethod method){
          Header->ChooseMethod = method;
-         this->HeaderUpdate = true;
+         HeaderUpdate = true;
       }//end SetChooseMethod
-
-      /**
-      * Returns the current split method.
-      */
-      int GetSplitStrategyMethod(){
-         return Header->ChooseSplitStrategyMethod;
-      }//end GetSplitStrategyMethod
-
-      /**
-      * Sets the Choose Method name.
-      *
-      * @param method Choose method name.
-      * @see tChooseMethod
-      */
-      void SetSplitStrategyMethod(enum tSFunction method){
-         Header->ChooseSplitStrategyMethod = method;
-         this->HeaderUpdate = true;
-      }//end SetSplitStrategyMethod
 
       /**
       * Returns the Choose Method name.
@@ -841,15 +1041,15 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
       }//end GetChooseMethod
 
       #ifdef __stDEBUG__
-      /**
-      * Get root page id.
-      *
-      * @warning This method is public only if __stDEBUG__ is defined at compile
-      * time.
-      */
-      stPageID GetRoot(){
-         return this->Header->Root;
-      }//end GetRoot
+         /**
+         * Get root page id.
+         *
+         * @warning This method is public only if __stDEBUG__ is defined at compile
+         * time.
+         */
+         stPageID GetRoot(){
+            return this->Header->Root;
+         }//end GetRoot
       #endif //__stDEBUG__
 
       /**
@@ -962,21 +1162,48 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
       typedef stGenericEntry < ObjectType > tGenericEntry;
 
       /**
-      * This type is used by the priority key.
+      * This type implements the GR.
       */
-      typedef stGenericPriorityHeap < ObjectType > tPGenericHeap;
+      typedef stDFGlobalRep <ObjectType, EvaluatorType> tGR;
+
+      /**
+      * Implements the GR part
+      */
+      tGR * GR;
+
+      /**
+      * Memory leaf node used by DF-Down.
+      */
+      typedef stDFMemLeafNode < ObjectType > tMemLeafNode;
+
+      /**
+      * Calculates the FatFactor of this tree.
+      *
+      * @warning This method will update the statistics of the tree.
+      */
+      double GetFatFactor();
 
       /**
       * @copydoc stMetricTree::GetTreeInfo()
       */
       virtual stTreeInfoResult * GetTreeInfo();
 
+      /**
+      * Force Update the GR Distances to all objects
+      */
+      void ForceUpdateAllFieldDistance();
+
    private:
 
       /**
       * This type defines the logic node for this class.
       */
-      typedef stMLogicNode < ObjectType, EvaluatorType > tLogicNode;
+      typedef stDFLogicNode < ObjectType, EvaluatorType > tLogicNode;
+
+      /**
+      * This type defines the MST splitter for this class.
+      */
+      typedef stDFMSTSplitter < ObjectType, EvaluatorType > tMSTSplitter;
 
       /**
       * This type is used by the priority key.
@@ -1025,9 +1252,19 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
          stDistance Radius;
 
          /**
+         ** Distance from the global representatives
+         **/
+         stDistance * FieldDistance;
+
+         /**
          * The ID root of the root of the subtree.
          */
          stPageID RootID;
+
+         /**
+         * Number of objects in the subtree.
+         */
+         stCount NObjects;
       };
 
       /**
@@ -1036,13 +1273,13 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
       bool HeaderUpdate;
 
       /**
-      * The MTree header. This variable points to data in the HeaderPage.
+      * The DFTree header. This variable points to data in the HeaderPage.
       */
-      stMHeader * Header;
+      stDFHeader * Header;
 
       /**
       * Pointer to the header page.
-      * The M Tree keeps this page in memory for faster access.
+      * The DF Tree keeps this page in memory for faster access.
       */
       stPage * HeaderPage;
 
@@ -1065,11 +1302,9 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
       * Updates the header in the file if required.
       */
       void WriteHeader(){
-         // Test if the header was modified.
-         if (this->HeaderUpdate){
-            // Yes, write it!
+         if (HeaderUpdate){
             myPageManager->WriteHeaderPage(HeaderPage);
-            this->HeaderUpdate = false;
+            HeaderUpdate = false;
          }//end if
       }//end WriteHeader
 
@@ -1101,15 +1336,15 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
       * This method computes an index of an entry where the insertion process
       * of record obj should continue.
       *
-      * @param slimIndexNode the indexNode to be analyzed
+      * @param DFIndexNode the indexNode to be analyzed
       * @param obj The object that will be inserted.
       * @return the minIndex the index of the choose of the subTree
       */
-      int ChooseSubTree(stMIndexNode * slimIndexNode, ObjectType * obj);
+      int ChooseSubTree(stDFIndexNode * DFIndexNode, ObjectType * obj);
 
       /**
       * Compute two elements from the page and use them for being the center
-      * of the index entries in the parent page of the MTree.
+      * of the index entries in the parent page of the DFTree.
       * This is the most simple and inexpensive method for promoting entries
       *
       * @param node The node.
@@ -1130,11 +1365,11 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
       * Case the node is a leafNode, the new radius is the new radius plus the radius
       * of the subTree that has all the objects in the all subTrees;
       *
-      * @param *node node to compute
-      * @param *newCenter the index of the new center
-      * @param *newRadius the new radius of this node
+      * @param node node to compute
+      * @param newCenter the index of the new center
+      * @param newRadius the new radius of this node
       */
-      void ReDistribute(stMNode * node, int & newCenter, stDistance & newRadius);
+      void ReDistribute(stDFNode * node, int & newCenter, stDistance & newRadius);
 
       /**
       * Checks to see it a given node ID is the current root.
@@ -1146,12 +1381,12 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
       }//end IsRoot
 
       #ifndef __stDEBUG__
-      /**
-      * Get root page id.
-      */
-      stPageID GetRoot(){
-         return this->Header->Root;
-      }//end GetRoot
+         /**
+         * Get root page id.
+         */
+         stPageID GetRoot(){
+            return this->Header->Root;
+         }//end GetRoot
       #endif // __stDEBUG__
 
       /**
@@ -1159,7 +1394,7 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
       */
       void SetRoot(stPageID root){
          Header->Root = root;
-         this->HeaderUpdate = true;
+         HeaderUpdate = true;
       }//end SetRoot
 
       /**
@@ -1167,7 +1402,7 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
       */
       void UpdateObjectCounter(int inc){
          Header->ObjectCount += inc;
-         this->HeaderUpdate = true;
+         HeaderUpdate = true;
       }//end UpdateObjectCounter
 
       /**
@@ -1197,24 +1432,33 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
       * will never be destroyed.
       * @param promo1 Information about the choosen subtree (returning value).
       * @param promo2 Infromation about the promoted subtree (returning value).
+      * @param GR Used to calculate distances to GR
       * @return The action to be taken after the returning. See enum
       * stInsertAction for more details.
       */
       int InsertRecursive(stPageID currNodeID, ObjectType * newObj,
-            ObjectType * repObj, stSubtreeInfo & promo1, stSubtreeInfo & promo2);
+            ObjectType * repObj,
+            stSubtreeInfo & promo1, stSubtreeInfo & promo2,
+            tGR * GR);
 
       /**
-      * Creates and updates the new root of the MTree.
+      * Creates and updates the new root of the DFTree.
       *
       * @param obj1 Object 1.
       * @param radius1 Radius of subtree 1.
       * @param nodeID1 ID of the root page of the sub-tree 1.
+      * @param nEntries1 Number of entries in the sub-tree 1.
+      * @param FieldDistance1 The distances to GR from Object 1
       * @param obj2 Object 2.
       * @param radius2 Radius of subtree 2.
       * @param nodeID2 ID of the root page of the sub-tree 2.
+      * @param nEntries2 Number of entries in the sub-tree 2.
+      * @param FieldDistance2 The distances to GR from Object 2
       */
       void AddNewRoot(ObjectType * obj1, stDistance radius1, stPageID nodeID1,
-                      ObjectType * obj2, stDistance radius2, stPageID nodeID2);
+               stCount nEntries1, stDistance * fieldDistance1,
+               ObjectType * obj2, stDistance radius2, stPageID nodeID2,
+               stCount nEntries2, stDistance * fieldDistance2);
 
       /**
       * This method splits a leaf node in 2. This will get 2 nodes and will
@@ -1226,14 +1470,16 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
       * @param newNode The new node.
       * @param newObj The new object to be added. This instance will be consumed
       * by this method.
+      * @param FieldDistance The distances to GR from newObj
       * @param prevRep The previous representative.
       * @param promo1 The promoted subtree. If its representative is NULL,
       * the choosen representative is equal to prevRep.
       * @param promo2 The promoted subtree. The representative of this tree will
       * never be the prevRep.
+      * @todo redo the FatFactorPromote method.
       */
-      void SplitLeaf(stMLeafNode * oldNode, stMLeafNode * newNode,
-            ObjectType * newObj, ObjectType * prevRep,
+      void SplitLeaf(stDFLeafNode * oldNode, stDFLeafNode * newNode,
+            ObjectType * newObj, stDistance * fieldDistance, ObjectType * prevRep,
             stSubtreeInfo & promo1, stSubtreeInfo & promo2);
 
       /**
@@ -1251,19 +1497,26 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
       * by this method.
       * @param newRadius1 The new object 1 radius.
       * @param newNodeID1 The new object 1 node ID.
+      * @param newNEntries1 The new object 1 number of entries.
       * @param newObj2 The new object 2 to be added or NULL.
       * @param newRadius2 The new object 2 radius if newObj2 is not NULL.
       * @param newNodeID2 The new object 2 node ID  if newObj2 is not NULL..
+      * @param newNEntries2 The new object 2 number of entries if newObj2 is
       * not NULL.
+      * @param FieldDistance1 The distances to GR from newObj1
       * @param prevRep The previous representative.
       * @param promo1 The promoted subtree. If its representative is NULL,
       * the choosen representative is equal to prevRep.
       * @param promo2 The promoted subtree. The representative of this tree will
       * never be the prevRep.
+      * @param FieldDistance2 The distances to GR from newObj2
+      * @todo redo the FatFactorPromote method.
       */
-      void SplitIndex(stMIndexNode * oldNode, stMIndexNode * newNode,
-            ObjectType * newObj1, stDistance newRadius1, stPageID newNodeID1,
-            ObjectType * newObj2, stDistance newRadius2, stPageID newNodeID2,
+      void SplitIndex(stDFIndexNode * oldNode, stDFIndexNode * newNode,
+            ObjectType * newObj1, stDistance newRadius1,
+            stPageID newNodeID1, stCount newNEntries1, stDistance * fieldDistance1,
+            ObjectType * newObj2, stDistance newRadius2,
+            stPageID newNodeID2, stCount newNEntries2, stDistance * fieldDistance2,
             ObjectType * prevRep,
             stSubtreeInfo & promo1, stSubtreeInfo & promo2);
 
@@ -1276,11 +1529,12 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
       * @param sample The sample object.
       * @param range The range of the result.
       * @param distanceRepres The distance of the representative.
+      * @param DistQueryFocus The distances vector of the sample to GR.
       * @see tResult * RangeQuery()
       */
       void RangeQuery(stPageID pageID, tResult * result,
-            ObjectType * sample, stDistance range,
-            stDistance distanceRepres);
+                      ObjectType * sample, stDistance range,
+                      stDistance distanceRepres, stDistance * DistQueryFocus);
 
       /**
       * This method will perform a K Nearest Neighbor query using a priority
@@ -1316,18 +1570,18 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
       /**
       * Updates the distances of the objects from the new representative.
       */
-      void UpdateDistances(stMIndexNode *node, ObjectType * repObj, int repObjIdx);
+      void UpdateDistances(stDFIndexNode * node, ObjectType * repObj,
+                           int repObjIdx);
 
       /**
-      * This method travels through the tree gathering information about
-      * each level.
+      * This method travels through the tree gathering information about each level.
       *
       * @param pageID Root of the subtree.
       * @param level Current level (zero for the first call).
       * @param info Tree information.
       */
       void GetTreeInfoRecursive(stPageID pageID, int level,
-            stTreeInformation * info);
+                                stTreeInformation * info);
 
       /**
       * This method travels through the tree gathering information about the
@@ -1339,11 +1593,196 @@ class stMTree: public stMetricTree< ObjectType, EvaluatorType>{
       * @param info Tree information.
       */
       void ObjectIntersectionsRecursive(stPageID pageID, ObjectType * obj,
-            int level, stTreeInformation * info);
+                                        int level, stTreeInformation * info);
 
-};//end stMTree
+};//end stDFTree
 
-// Include implementation
-#include "stMTree.cc"
+//=============================================================================
+// Class template stDFGlobalRep
+//-----------------------------------------------------------------------------
+/**
+* This class defines all behavior of the GR.
+* $Date: 2005/03/08 19:43:09 $
+* @author Marcos Rodrigues Vieira (mrvieira@icmc.usp.br)
+* @author Joselene Marques (joselene@icmc.usp.br)
+* @version 1.0
+* @ingroup DF
+*/
+template <class ObjectType, class EvaluatorType>
+class stDFGlobalRep {
 
-#endif //__STMTREE_H
+   public:
+
+      /**
+      * This type defines the logic node for this class.
+      */
+      typedef stDFLogicNode < ObjectType, EvaluatorType > tLogicNode;
+
+      /**
+      * This type defines the MST splitter for this class.
+      */
+      typedef stDFMSTSplitter < ObjectType, EvaluatorType > tMSTSplitter;
+
+      /**
+      * Number of focus.
+      */
+      stCount NumFocus;
+
+      /**
+      * This type represents a GlobalRep.
+      */
+      struct stDFGlobalRepEntry{
+         ObjectType * Object;
+         stDistance MaxDistance;
+      };//end stDFGlobalRepEntry
+
+      /**
+      * Find the GR.
+      *
+      * @param node The node used to find the best focus
+      * @param MSTSplitter Used to get the distance matrix already calculate
+      * to do the split
+      * @param Center1 Center of new subtree (cannot be focus)
+      * @param Center2 Center of new subtree (cannot be focus)
+      * @param numObject Total number of objects
+      * @warning The distance matrix need already have been calculated
+      */
+      void FindGlobalRep(tLogicNode * logicNode, tMSTSplitter * MSTSplitter,
+                         stCount center1, stCount center2, stCount numObject);
+
+      /**
+      * Builds a new instance of this class.
+      * @param nFocus Number of focus
+      * @param pThreshold Limit of uncircumbscribed object
+      * @param metricEvaluator The metric evaluator to compute distances.
+      */
+      stDFGlobalRep(stCount nFocus, stDistance pThreshold,
+                    EvaluatorType * metricEvaluator);
+
+      /*
+      * This method verify if the first Split not ocurred already
+      * @return The boolean value that define if the first Split not ocurred already
+      */
+      bool FirstSplit(){
+         return bFirstSplit;
+      };//end FirstSplit
+
+      /*
+      * This method sets that the first Split already ocurred
+      */
+      void SetFirstSplit(){
+         bFirstSplit = FALSE;
+      };//end SetFirstSplit
+
+      /**
+      * Calculate the GR Distances of a given Leaf node.
+      *
+      * @param node The node leaf.
+      * @param idx The object index.
+      * @param Object The object.
+      */
+      void SetFieldDistance(stDFLeafNode * node, stCount idx,
+                            ObjectType * object);
+
+      /**
+      * Calculate the GR Distances of a given index node.
+      *
+      * @param node The node index.
+      * @param idx The object index.
+      * @param Object The object.
+      */
+      void SetFieldDistance(stDFIndexNode * node, stCount idx,
+                            ObjectType * object);
+
+      /**
+      * Calculate the GR Distances of a given object.
+      *
+      * @param Object The object.
+      * @param FieldDistance The distances to GR from object
+      */
+      void BuildFieldDistance(ObjectType * object, stDistance * fieldDistance);
+
+      /**
+      * Defines if the subtree must be pruned by GR
+      *
+      * @param ObjGRCoord GR Distances from node
+      * @param Radius Radius node
+      * @param DistQueryFocus Distances from the query object to the GlobalRep
+      * @param QueryRadius raio da consulta
+      */
+      bool PruneByGlobalRep(stDistance * objGRCoord, stDistance radius,
+                            stDistance * distQueryFocus, stDistance queryRadius);
+
+      /**
+      * Detect when to update de GR and update the accumulated number of
+      *  new uncircumbscribed objects(Uncircumbscribed)
+      *
+      * @param pageman The page manager to be used to get pages
+      * @param RootPageID The root page to begin looking for new focus if necessary
+      * @param FieldDistance GR Distances of new object
+      */
+      void CheckUpdate(stPageManager * pageman, stPageID rootPageID,
+                       stDistance * fieldDistance);
+
+      /**
+      * Executed when the CheckUpdate triggers, add uncircumscribed objects to
+      * Candidade Set of new Focus
+      *
+      * @param pageman the page manager, used to find the pointer's page
+      * @param pageID the ID page
+      * @return CandidateSet Set of all candidates to new Focus
+      */
+      void GetCandidates(stPageManager * pageman, stPageID pageID,
+                         vector <ObjectType *> & candidateSet);
+
+      /**
+      * Executed when the CheckUpdate triggers, find new GR.
+      *
+      * @param CandidateSet Set of all candidates to new Focus
+      */
+      void UpdateGR(vector <ObjectType *> candidateSet);
+
+      /**
+      * Update the GR Distances to all objects
+      * @param pageman the page manager, used to find the pointer's page
+      * @param pageID the ID page
+      */
+      void UpdateFieldDistance(stPageManager * pageman, stPageID pageID);
+
+   private:
+
+      /**
+      * Keep the GR objects
+      */
+      stDFGlobalRepEntry GlobalRep[STFOCUS];
+
+      /**
+      * Acumulate the uncircumbscribed object
+      */
+      stDistance Uncircumbscribed;
+
+      /**
+      * Limit of uncircumbscribed object
+      */
+      stDistance Threshold;
+
+      /**
+      * if first Split already ocurred
+      */
+      bool bFirstSplit;
+
+      /**
+      * the metric Evaluator of this tree
+      */
+      EvaluatorType * myMetricEvaluator;
+
+      /**
+      * Distance matrix type.
+      */
+      typedef stGenericMatrix <stDistance> tDistanceMatrix;
+
+};//end stDFGlobalRep
+// Include implementation
+#include "stDFTree.cc"
+
+#endif //__STDFTREE_H

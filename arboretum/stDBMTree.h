@@ -1285,7 +1285,7 @@ class stDBMTree: public stMetricTree <ObjectType, EvaluatorType> {
       /**
       * Returns the number of objetcs of this tree.
       */
-      virtual long GetNumberOfObjects(){
+      virtual stCount GetNumberOfObjects(){
          return Header->ObjectCount;
       }//end GetNumberOfObjects
 

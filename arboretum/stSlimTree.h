@@ -88,10 +88,6 @@
 // this is used to set the increment size of the dynamic queue
 #define INCREMENTVALUEQUEUE 200
 
-//#include <cstring>
-//#include <cmath>
-//#include <climits>
-//#include <algorithm>
 #include <arboretum/stMAMView.h> // Visualization support
 
 //=============================================================================
@@ -885,7 +881,7 @@ class stSlimTree: public stMetricTree <ObjectType, EvaluatorType> {
       /**
       * Returns the number of objetcs of this tree.
       */
-      virtual long GetNumberOfObjects(){
+      virtual stCount GetNumberOfObjects(){
          return Header->ObjectCount;
       }//end GetNumberOfObjects
 

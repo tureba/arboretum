@@ -345,7 +345,7 @@ template <class ObjectType, class EvaluatorType>
 stResult<ObjectType> * stGHTree<ObjectType, EvaluatorType>::NearestQuery(
                      tObject * sample, stCount k, bool tie){
    tResult * result = new tResult();  // Create result
-   stDistance rangeK = MAXDOUBLE;
+   stDistance rangeK = DBL_MAX;
    // Set the information.
    result->SetQueryInfo(sample->Clone(), tResult::KNEARESTQUERY, k, -1.0, tie);
 

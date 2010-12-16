@@ -409,9 +409,9 @@ stCount stSlimLogicNode<ObjectType, EvaluatorType>::UpdateDistances(
    for (i = 0; i < Count; i++){
       if (i == RepIndex[0]){
          Entries[i].Distance[0] = 0;
-         Entries[i].Distance[1] = MAXDOUBLE;
+         Entries[i].Distance[1] = DBL_MAX;
       }else if (i == RepIndex[1]){
-         Entries[i].Distance[0] = MAXDOUBLE;
+         Entries[i].Distance[0] = DBL_MAX;
          Entries[i].Distance[1] = 0;
       }else{
          Entries[i].Distance[0] = metricEvaluator->GetDistance(
@@ -481,7 +481,7 @@ int stSlimMSTSplitter<ObjectType, EvaluatorType>::FindCenter(int clus){
    int i, j, center;
    stDistance minRadius, radius;
 
-   minRadius = MAXDOUBLE;
+   minRadius = DBL_MAX;
    for (i = 0; i < N; i++){
       if (ObjectCluster[i] == clus){
          radius = -1;
@@ -521,7 +521,7 @@ void stSlimMSTSplitter<ObjectType, EvaluatorType>::PerformMST(){
       // neighbour (connections).
       for (i = 0; i < N; i++){
          if (Cluster[i].State != DEAD){
-            Cluster[i].MinDist = MAXDOUBLE;
+            Cluster[i].MinDist = DBL_MAX;
          }//end if
       }//end for
       for (i = 0; i < N; i++){
@@ -1022,7 +1022,7 @@ int tmpl_stSlimTree::ChooseSubTree(
 
    ObjectType * objectType = new ObjectType;
    stDistance distance;
-   stDistance minDistance = MAXDOUBLE; // Largest magnitude double value
+   stDistance minDistance = DBL_MAX; // Largest magnitude double value
    // Get the total number of entries.
    numberOfEntries = slimIndexNode->GetNumberOfEntries();
    idx = 0;
@@ -1140,7 +1140,7 @@ int tmpl_stSlimTree::ChooseSubTree(
 
       case stSlimTree::cmMINOCCUPANCY :
          /* Find if there is some circle that contains obj */
-         tmpNumberOfEntries = MAXINT;
+         tmpNumberOfEntries = INT_MAX;
          // First try to find a subtree that covers the new object.
          stop = (idx >= numberOfEntries);
          while (!stop){
@@ -1605,7 +1605,7 @@ void tmpl_stSlimTree::MinMaxPromote(tLogicNode * node) {
    stPage * newPage2 = new stPage(this->myPageManager->GetMinimumPageSize());
 
    numberOfEntries = node->GetNumberOfEntries();
-   min = MAXDOUBLE;   // Largest magnitude double value
+   min = DBL_MAX;   // Largest magnitude double value
 
    // Is it an Index node?
    if (node->GetNodeType() == stSlimNode::INDEX) {
@@ -2642,7 +2642,7 @@ template <class ObjectType, class EvaluatorType>
 stResult<ObjectType> * tmpl_stSlimTree::LocalNearestQuery(
       ObjectType * sample, stCount k, bool tie){
    tResult * result = new tResult();  // Create result
-   stDistance rangeK = MAXDOUBLE;
+   stDistance rangeK = DBL_MAX;
    stPage * rootPage;
    stSlimNode * rootNode;
    ObjectType tmpObj;
@@ -2835,11 +2835,11 @@ stResult<ObjectType> * stSlimTree<ObjectType, EvaluatorType>::ListNearestQuery(
    tResult * result = new tResult();  // Create result
 
    // Set information for this query
-   result->SetQueryInfo(sample->Clone(), tResult::KNEARESTQUERY, k, MAXDOUBLE, tie);
+   result->SetQueryInfo(sample->Clone(), tResult::KNEARESTQUERY, k, DBL_MAX, tie);
 
    // Let's search
    if (this->GetRoot() != 0){
-      this->ListNearestQuery(result, sample, MAXDOUBLE, k);
+      this->ListNearestQuery(result, sample, DBL_MAX, k);
    }//end if
 
    return result;
@@ -2997,7 +2997,7 @@ stResult<ObjectType> * stSlimTree<ObjectType, EvaluatorType>::NearestQuery(
    #endif //__stMAMVIEW__
 
    // Set information for this query
-   result->SetQueryInfo(sample->Clone(), tResult::KNEARESTQUERY, k, MAXDOUBLE, tie);
+   result->SetQueryInfo(sample->Clone(), tResult::KNEARESTQUERY, k, DBL_MAX, tie);
 
    #ifdef __stMAMVIEW__
       MAMViewer->SetQueryInfo(k, 0);
@@ -3011,7 +3011,7 @@ stResult<ObjectType> * stSlimTree<ObjectType, EvaluatorType>::NearestQuery(
 
    // Let's search
    if (this->GetRoot() != 0){
-      this->NearestQuery(result, sample, MAXDOUBLE, k);
+      this->NearestQuery(result, sample, DBL_MAX, k);
    }//end if
 
    // Visualization support
@@ -3221,7 +3221,7 @@ stResult<ObjectType> * stSlimTree<ObjectType, EvaluatorType>::FarthestQuery(
    tResult * result = new tResult();  // Create result
 
    // Set information for this query
-   result->SetQueryInfo(sample->Clone(), tResult::KFARTHESTQUERY, k, MAXDOUBLE, tie);
+   result->SetQueryInfo(sample->Clone(), tResult::KFARTHESTQUERY, k, DBL_MAX, tie);
 
    // Let's search
    if (this->GetRoot() != 0){
@@ -3638,7 +3638,7 @@ void tmpl_stSlimTree::KOrRangeQuery(
    ObjectType tmpObj;
    stQueryPriorityQueueValue pqCurrValue;
    stQueryPriorityQueueValue pqTMPValue;
-   stDistance distanceK = MAXDOUBLE;
+   stDistance distanceK = DBL_MAX;
    stDistance distance;
    stDistance distanceRepres = 0;
    stCount numberOfEntries;
@@ -4145,7 +4145,7 @@ stResult<ObjectType> * stSlimTree<ObjectType, EvaluatorType>::IncrementalListNea
    tGenericPriorityQueue * globalQueue;
 
    // Set information for this query
-   result->SetQueryInfo(sample->Clone(), tResult::KNEARESTQUERY, k, MAXDOUBLE, tie);
+   result->SetQueryInfo(sample->Clone(), tResult::KNEARESTQUERY, k, DBL_MAX, tie);
 
    // Let's search
    if (this->GetRoot() != 0){
@@ -4172,7 +4172,7 @@ void stSlimTree<ObjectType, EvaluatorType>::InitializeIncrementalNearestQuery(
    stCount idx;
    stCount numberOfEntries;
 
-   result->SetQueryInfo(sample->Clone(), tResult::KNEARESTQUERY, k, MAXDOUBLE);
+   result->SetQueryInfo(sample->Clone(), tResult::KNEARESTQUERY, k, DBL_MAX);
 
    if (this->GetRoot() != 0){
       rootPage = this->myPageManager->GetPage(this->GetRoot());
@@ -4309,7 +4309,7 @@ stResult<ObjectType> * stSlimTree<ObjectType, EvaluatorType>::IncrementalNearest
    tPGenericHeap * genericHeap = NULL;
 
    // Set information for this query
-   result->SetQueryInfo(sample->Clone(), tResult::KNEARESTQUERY, k, MAXDOUBLE, tie);
+   result->SetQueryInfo(sample->Clone(), tResult::KNEARESTQUERY, k, DBL_MAX, tie);
 
    // Let's search
    if (this->GetRoot() != 0){
@@ -4336,7 +4336,7 @@ void stSlimTree<ObjectType, EvaluatorType>::InitializeIncrementalNearestQuery(
    stCount idx;
    stCount numberOfEntries;
 
-   result->SetQueryInfo(sample->Clone(), tResult::KNEARESTQUERY, k, MAXDOUBLE);
+   result->SetQueryInfo(sample->Clone(), tResult::KNEARESTQUERY, k, DBL_MAX);
 
    if (this->GetRoot() != 0){
       rootPage = this->myPageManager->GetPage(this->GetRoot());
@@ -5070,7 +5070,7 @@ void tmpl_stSlimTree::LocalSlimDown(
          if (memLeafNodes[src]->GetNumberOfEntries() > 0){
             // Look for the target...
             dst = -1;
-            minDist = MAXDOUBLE;
+            minDist = DBL_MAX;
             for (i = 0; i < nodeCount; i++){
                if (i != src){
                   if (SlimDownCanSwap(memLeafNodes[src], memLeafNodes[i],

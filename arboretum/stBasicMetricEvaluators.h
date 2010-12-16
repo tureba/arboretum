@@ -463,14 +463,10 @@ class stBasicBasicSquareChiSquaredMetricEvaluator: public stBasicMetricEvaluator
 template <class ObjectType, int P = 3>
 class stBasicLpMetricEvaluator: public stBasicMetricEvaluator < ObjectType > {
    public:
-      /**
-      * @copydoc stMetricEvaluator::GetDistance()
-      * /
+      // @copydoc stMetricEvaluator::GetDistance()
       virtual stDistance GetDistance(ObjectType * o1, ObjectType * o2);
 
-      /**
-      * @copydoc stMetricEvaluator::GetDistance2()
-      * /
+      // @copydoc stMetricEvaluator::GetDistance2()
       virtual stDistance GetDistance2(ObjectType * o1, ObjectType * o2){
          stDistance d;
 
@@ -528,11 +524,8 @@ class stBasicLp2MetricEvaluator: public stBasicMetricEvaluator < ObjectType > {
        int P;
 
    public:
-      /**
-      * This constructor allows passing the P parameter at runtime.
-      *
-      * @param p Value of P.
-      * /
+      // This constructor allows passing the P parameter at runtime.
+      // @param p Value of P.
       stBasicLp2MetricEvaluator(int p) {
          if (p > 0){
             P = p;
@@ -541,14 +534,10 @@ class stBasicLp2MetricEvaluator: public stBasicMetricEvaluator < ObjectType > {
          }//end if
       }//end stBasicLp2MetricEvaluator
 
-      /**
-      * @copydoc stMetricEvaluator::GetDistance()
-      * /
+      // @copydoc stMetricEvaluator::GetDistance()
       virtual stDistance GetDistance(ObjectType * o1, ObjectType * o2);
 
-      /**
-      * @copydoc stMetricEvaluator::GetDistance2()
-      * /
+      // @copydoc stMetricEvaluator::GetDistance2()
       virtual stDistance GetDistance2(ObjectType * o1, ObjectType * o2){
          stDistance d;
 

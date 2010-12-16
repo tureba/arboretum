@@ -137,7 +137,7 @@ class stDummyTree: public stMetricTree<ObjectType, EvaluatorType>{
       /**
       * Returns the number of objetcs of this sequencial scan.
       */
-      virtual long GetNumberOfObjects(){
+      virtual stCount GetNumberOfObjects(){
          return Header->ObjectCount;
       }//end GetNumberOfObjects
 

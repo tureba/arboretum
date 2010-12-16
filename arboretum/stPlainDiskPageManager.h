@@ -250,7 +250,7 @@ class stPlainDiskPageManager: public stPageManager{
       *
       * @param enabled State of the system cache.
       */
-      void SetSystemCache(bool enabled){
+      void SetSystemCache(bool enabled __attribute__((unused))){
          // Nothing to do.. at least for now.
       }//end SetSystemCache
 

@@ -76,7 +76,7 @@
 // Class stMLogicNode
 //------------------------------------------------------------------------------
 template <class ObjectType, class EvaluatorType>
-stMLogicNode<ObjectType, EvaluatorType>::stMLogicNode(int maxOccupation){
+stMLogicNode<ObjectType, EvaluatorType>::stMLogicNode(stCount maxOccupation){
 
    // Allocate resources
    MaxEntries = maxOccupation;
@@ -101,7 +101,7 @@ stMLogicNode<ObjectType, EvaluatorType>::stMLogicNode(int maxOccupation){
 //------------------------------------------------------------------------------
 template <class ObjectType, class EvaluatorType>
 stMLogicNode<ObjectType, EvaluatorType>::~stMLogicNode(){
-   int i;
+   stCount i;
 
    if (Entries != NULL){
       for (i = 0; i < Count; i++){
@@ -131,7 +131,7 @@ int stMLogicNode<ObjectType, EvaluatorType>::AddEntry(stSize size, const stByte 
 //------------------------------------------------------------------------------
 template <class ObjectType, class EvaluatorType>
 void stMLogicNode<ObjectType, EvaluatorType>::AddIndexNode(stMIndexNode * node){
-   int i;
+   stCount i;
    int idx;
 
    for (i = 0; i < node->GetNumberOfEntries(); i++){
@@ -146,7 +146,7 @@ void stMLogicNode<ObjectType, EvaluatorType>::AddIndexNode(stMIndexNode * node){
 //------------------------------------------------------------------------------
 template <class ObjectType, class EvaluatorType>
 void stMLogicNode<ObjectType, EvaluatorType>::AddLeafNode(stMLeafNode * node){
-   int i;
+   stCount i;
    int idx;
 
    for (i = 0; i < node->GetNumberOfEntries(); i++){
@@ -161,17 +161,16 @@ void stMLogicNode<ObjectType, EvaluatorType>::AddLeafNode(stMLeafNode * node){
 //------------------------------------------------------------------------------
 template <class ObjectType, class EvaluatorType>
 int stMLogicNode<ObjectType, EvaluatorType>::TestDistribution(
-      stMIndexNode * node0, stMIndexNode * node1,
-      EvaluatorType * metricEvaluator){
+      stMIndexNode * node0, stMIndexNode * node1){
    int dCount;
    int idx;
-   int i;
+   stCount i;
    int l0, l1;
    int currObj;
    stDistanceIndex * ind0, * ind1;
 
    // Setup Objects
-   dCount = UpdateDistances(metricEvaluator);
+   dCount = UpdateDistances();
 
    // Init Map and Sorting vector
    ind0 = new stDistanceIndex[Count];
@@ -270,17 +269,16 @@ int stMLogicNode<ObjectType, EvaluatorType>::TestDistribution(
 //------------------------------------------------------------------------------
 template <class ObjectType, class EvaluatorType>
 int stMLogicNode<ObjectType, EvaluatorType>::TestDistribution(
-      stMLeafNode * node0, stMLeafNode * node1,
-      EvaluatorType * metricEvaluator){
+      stMLeafNode * node0, stMLeafNode * node1){
    int dCount;
    int idx;
-   int i;
+   stCount i;
    int l0, l1;
    int currObj;
    stDistanceIndex *ind0, *ind1;
 
    // Setup Objects
-   dCount = UpdateDistances(metricEvaluator);
+   dCount = UpdateDistances();
 
    // Init Map and Sorting vector
    ind0 = new stDistanceIndex[Count];
@@ -366,21 +364,20 @@ int stMLogicNode<ObjectType, EvaluatorType>::TestDistribution(
 
 //------------------------------------------------------------------------------
 template <class ObjectType, class EvaluatorType>
-int stMLogicNode<ObjectType, EvaluatorType>::UpdateDistances(
-      EvaluatorType * metricEvaluator){
-   int i;
+int stMLogicNode<ObjectType, EvaluatorType>::UpdateDistances(){
+   stCount i;
 
    for (i = 0; i < Count; i++){
       if (i == RepIndex[0]){
          Entries[i].Distance[0] = 0;
-         Entries[i].Distance[1] = MAXDOUBLE;
+         Entries[i].Distance[1] = DBL_MAX;
       }else if (i == RepIndex[1]){
-         Entries[i].Distance[0] = MAXDOUBLE;
+         Entries[i].Distance[0] = DBL_MAX;
          Entries[i].Distance[1] = 0;
       }else{
-         Entries[i].Distance[0] = metricEvaluator->GetDistance(
+         Entries[i].Distance[0] = EvaluatorType::GetDistance(
                Entries[RepIndex[0]].Object, Entries[i].Object);
-         Entries[i].Distance[1] = metricEvaluator->GetDistance(
+         Entries[i].Distance[1] = EvaluatorType::GetDistance(
                Entries[RepIndex[1]].Object, Entries[i].Object);
       }//end if
    }//end for
@@ -453,11 +450,11 @@ template <class ObjectType, class EvaluatorType>
 void tmpl_stMTree::LoadHeader(){
 
    if (HeaderPage != NULL){
-      myPageManager->ReleasePage(HeaderPage);
+      this->myPageManager->ReleasePage(HeaderPage);
    }//end if
 
    // Load and set the header.
-   HeaderPage = myPageManager->GetHeaderPage();
+   HeaderPage = this->myPageManager->GetHeaderPage();
    if (HeaderPage->GetPageSize() < sizeof(stMHeader)){
       throw page_size_error("The page size is too small.");
    }//end if
@@ -474,7 +471,7 @@ void tmpl_stMTree::FlushHeader(){
       if (this->Header != NULL){
          WriteHeader();
       }//end if
-      myPageManager->ReleasePage(HeaderPage);
+      this->myPageManager->ReleasePage(HeaderPage);
    }//end if
 }//end stMTree::FlushHeader
 
@@ -519,16 +516,12 @@ template <class ObjectType, class EvaluatorType>
 int tmpl_stMTree::ChooseSubTree(
       stMIndexNode * slimIndexNode, ObjectType * obj) {
    int idx;
-   int j;
-   int * cover;
    bool stop;
-   int tmpNumberOfEntries;
    int numberOfEntries, minIndex = 0;
-   stSize sizeOfObject; // used for save the size of the current object
 
    ObjectType * objectType = new ObjectType;
    stDistance distance;
-   stDistance minDistance = MAXDOUBLE; // Largest magnitude double value
+   stDistance minDistance = DBL_MAX; // Largest magnitude double value
    // Get the total number of entries.
    numberOfEntries = slimIndexNode->GetNumberOfEntries();
    idx = 0;
@@ -543,7 +536,7 @@ int tmpl_stMTree::ChooseSubTree(
             objectType->Unserialize(slimIndexNode->GetObject(idx),
                                     slimIndexNode->GetObjectSize(idx));
             // Calculate the distance.
-            distance = this->myMetricEvaluator->GetDistance(objectType, obj);
+            distance = EvaluatorType::GetDistance(objectType, obj);
             // find the first subtree that cover the new object.
             if (distance < slimIndexNode->GetIndexEntry(idx).Radius) {
                minDistance = distance;     // the gain will be 0
@@ -563,7 +556,7 @@ int tmpl_stMTree::ChooseSubTree(
             objectType->Unserialize(slimIndexNode->GetObject(idx),
                                     slimIndexNode->GetObjectSize(idx));
             // Calculate the distance.
-            distance = this->myMetricEvaluator->GetDistance(objectType, obj);
+            distance = EvaluatorType::GetDistance(objectType, obj);
             if ((distance < slimIndexNode->GetIndexEntry(idx).Radius) && (distance < minDistance)) {
                minDistance = distance;
                minIndex = idx;
@@ -579,7 +572,7 @@ int tmpl_stMTree::ChooseSubTree(
             objectType->Unserialize(slimIndexNode->GetObject(idx),
                                     slimIndexNode->GetObjectSize(idx));
             // Calculate the distance.
-            distance = this->myMetricEvaluator->GetDistance(objectType, obj);
+            distance = EvaluatorType::GetDistance(objectType, obj);
             if (distance < minDistance) {
                minDistance = distance;
                minIndex = idx;
@@ -629,11 +622,11 @@ void tmpl_stMTree::AddNewRoot(
    // Update tree
    Header->Height++;
    SetRoot(newRoot->GetPage()->GetPageID());
-   myPageManager->WritePage(newPage);
+   this->myPageManager->WritePage(newPage);
 
    // Dispose page
    delete newRoot;
-   myPageManager->ReleasePage(newPage);
+   this->myPageManager->ReleasePage(newPage);
 }//end MTree::AddNewRoot
 
 //------------------------------------------------------------------------------
@@ -646,10 +639,9 @@ int tmpl_stMTree::InsertRecursive(
    stMNode * currNode;  // Current node
    stMIndexNode * indexNode; // Current index node.
    stMIndexNode * newIndexNode; // New index node for splits
-   stMLeafNode * leafNode; // Current leaf node.
    stMLeafNode * newLeafNode; // New leaf node.
    int insertIdx;          // Insert index.
-   int result;             // Returning value.
+   int result = NO_ACT;    // Returning value.
    stDistance dist;        // Temporary distance.
    int subtree;            // Subtree
    ObjectType * subRep;    // Subtree representative.
@@ -713,7 +705,7 @@ int tmpl_stMTree::InsertRecursive(
                   if (repObj != NULL){
                      // Distance from representative is...
                      indexNode->GetIndexEntry(insertIdx).Distance =
-                           this->myMetricEvaluator->GetDistance(
+                           EvaluatorType::GetDistance(
                            repObj, promo1.Rep);
                   }else{
                      // It is the root!
@@ -738,10 +730,10 @@ int tmpl_stMTree::InsertRecursive(
                      NULL, 0, 0, repObj, promo1, promo2);
 
                // Write nodes
-               myPageManager->WritePage(newPage);
+               this->myPageManager->WritePage(newPage);
                // Clean home.
                delete newIndexNode;
-               myPageManager->ReleasePage(newPage);
+               this->myPageManager->ReleasePage(newPage);
                result = PROMOTION; //Report split.
             }//end if
             break;
@@ -762,7 +754,7 @@ int tmpl_stMTree::InsertRecursive(
                   if (repObj != NULL){
                      // Distance from representative is...
                      indexNode->GetIndexEntry(insertIdx).Distance =
-                           this->myMetricEvaluator->GetDistance(
+                           EvaluatorType::GetDistance(
                            repObj, promo2.Rep);
                   }else{
                      // It is the root!
@@ -785,10 +777,10 @@ int tmpl_stMTree::InsertRecursive(
                         NULL, 0, 0, repObj, promo1, promo2);
 
                   // Write nodes
-                  myPageManager->WritePage(newPage);
+                  this->myPageManager->WritePage(newPage);
                   // Clean home.
                   delete newIndexNode;
-                  myPageManager->ReleasePage(newPage);
+                  this->myPageManager->ReleasePage(newPage);
                   result = PROMOTION; //Report split.
                }//end if
             }else{
@@ -823,7 +815,7 @@ int tmpl_stMTree::InsertRecursive(
                      if (repObj != NULL){
                         // Distance from representative is...
                         indexNode->GetIndexEntry(insertIdx).Distance =
-                              this->myMetricEvaluator->GetDistance(
+                              EvaluatorType::GetDistance(
                               repObj, promo1.Rep);
                      }else{
                         // It is the root!
@@ -849,14 +841,14 @@ int tmpl_stMTree::InsertRecursive(
                         // Rep. changed...
                         // Distance from representative is...
                         indexNode->GetIndexEntry(insertIdx).Distance =
-                              this->myMetricEvaluator->GetDistance(
+                              EvaluatorType::GetDistance(
                               promo1.Rep, promo2.Rep);
                      }else{
                         // No change!
                         if (repObj != NULL){
                            // Distance from representative is...
                            indexNode->GetIndexEntry(insertIdx).Distance =
-                                 this->myMetricEvaluator->GetDistance(
+                                 EvaluatorType::GetDistance(
                                  repObj, promo2.Rep);
                         }else{
                            // It is the root!
@@ -886,10 +878,10 @@ int tmpl_stMTree::InsertRecursive(
                            repObj, promo1, promo2);
 
                      // Write nodes
-                     myPageManager->WritePage(newPage);
+                     this->myPageManager->WritePage(newPage);
                      // Clean home.
                      delete newIndexNode;
-                     myPageManager->ReleasePage(newPage);
+                     this->myPageManager->ReleasePage(newPage);
                      result = PROMOTION; //Report split.
                   }//end if
                }else{
@@ -905,10 +897,10 @@ int tmpl_stMTree::InsertRecursive(
                         repObj, promo1, promo2);
 
                   // Write nodes
-                  myPageManager->WritePage(newPage);
+                  this->myPageManager->WritePage(newPage);
                   // Clean home.
                   delete newIndexNode;
-                  myPageManager->ReleasePage(newPage);
+                  this->myPageManager->ReleasePage(newPage);
                   result = PROMOTION; //Report split.
                }//end if
             }//end if
@@ -929,14 +921,14 @@ int tmpl_stMTree::InsertRecursive(
          if (repObj == NULL){
             dist = 0;
          }else{
-            dist = myMetricEvaluator->GetDistance(newObj, repObj);
+            dist = EvaluatorType::GetDistance(newObj, repObj);
          }//end if
 
          // Fill entry's fields
          leafNode->GetLeafEntry(insertIdx).Distance = dist;
 
          // Write node.
-         myPageManager->WritePage(currPage);
+         this->myPageManager->WritePage(currPage);
 
          // Returning values
          promo1.Rep = NULL;
@@ -954,19 +946,19 @@ int tmpl_stMTree::InsertRecursive(
                repObj, promo1, promo2);
 
          // Write node.
-         myPageManager->WritePage(newPage);
+         this->myPageManager->WritePage(newPage);
          // Clean home.
          delete newLeafNode;
-         myPageManager->ReleasePage(newPage);
+         this->myPageManager->ReleasePage(newPage);
          result = PROMOTION; //Report split.
       }//end if
    }//end if
 
    // Write node.
-   myPageManager->WritePage(currPage);
+   this->myPageManager->WritePage(currPage);
    // Clean home
    delete currNode;
-   myPageManager->ReleasePage(currPage);
+   this->myPageManager->ReleasePage(currPage);
    return result;
 }//end stMTree<ObjectType, EvaluatorType>::InsertRecursive
 
@@ -990,12 +982,12 @@ template <class ObjectType, class EvaluatorType>
 void tmpl_stMTree::MinMaxPromote(tLogicNode * node) {
 
    stDistance iRadius, jRadius, min;
-   stCount numberOfEntries, idx1, idx2;
-   stPage * newPage1 = new stPage(myPageManager->GetMinimumPageSize());
-   stPage * newPage2 = new stPage(myPageManager->GetMinimumPageSize());
+   stCount numberOfEntries, idx1 = 0, idx2 = 1;
+   stPage * newPage1 = new stPage(this->myPageManager->GetMinimumPageSize());
+   stPage * newPage2 = new stPage(this->myPageManager->GetMinimumPageSize());
 
    numberOfEntries = node->GetNumberOfEntries();
-   min = MAXDOUBLE;   // Largest magnitude double value
+   min = DBL_MAX;   // Largest magnitude double value
 
    // Is it a Index node?
    if (node->GetNodeType() == stMNode::INDEX) {
@@ -1007,7 +999,7 @@ void tmpl_stMTree::MinMaxPromote(tLogicNode * node) {
             node->SetRepresentative(i, j);
             indexNode1->RemoveAll();
             indexNode2->RemoveAll();
-            node->TestDistribution(indexNode1, indexNode2, myMetricEvaluator);
+            node->TestDistribution(indexNode1, indexNode2);
             iRadius = indexNode1->GetMinimumRadius();
             jRadius = indexNode2->GetMinimumRadius();
             if (iRadius < jRadius)
@@ -1030,7 +1022,7 @@ void tmpl_stMTree::MinMaxPromote(tLogicNode * node) {
             node->SetRepresentative(i, j);
             leafNode1->RemoveAll();
             leafNode2->RemoveAll();
-            node->TestDistribution(leafNode1, leafNode2, myMetricEvaluator);
+            node->TestDistribution(leafNode1, leafNode2);
             iRadius = leafNode1->GetMinimumRadius();
             jRadius = leafNode2->GetMinimumRadius();
             if (iRadius < jRadius)
@@ -1061,8 +1053,8 @@ void tmpl_stMTree::SplitLeaf(
       ObjectType * newObj, ObjectType * prevRep,
       stSubtreeInfo & promo1, stSubtreeInfo & promo2) {
    tLogicNode * logicNode;
-   ObjectType * lRep;
-   ObjectType * rRep;
+   ObjectType * lRep = NULL;
+   ObjectType * rRep = NULL;
    stCount numberOfEntries = oldNode->GetNumberOfEntries();
 
    // Create the new tLogicNode
@@ -1092,7 +1084,7 @@ void tmpl_stMTree::SplitLeaf(
 
          // Redistribute
          oldNode->RemoveAll();
-         logicNode->Distribute(oldNode, lRep, newNode, rRep, myMetricEvaluator);
+         logicNode->Distribute(oldNode, lRep, newNode, rRep);
          delete logicNode;
          break; //end stMTree::RANDOM
       case stMTree::MIN_RAD:
@@ -1100,7 +1092,7 @@ void tmpl_stMTree::SplitLeaf(
 
          // Redistribute
          oldNode->RemoveAll();
-         logicNode->Distribute(oldNode, lRep, newNode, rRep, myMetricEvaluator);
+         logicNode->Distribute(oldNode, lRep, newNode, rRep);
          delete logicNode;
          break;  //end stMTree::MIN_RAD
 
@@ -1160,8 +1152,8 @@ void tmpl_stMTree::SplitIndex(
       ObjectType * prevRep,
       stSubtreeInfo & promo1, stSubtreeInfo & promo2){
    tLogicNode * logicNode;
-   ObjectType * lRep;
-   ObjectType * rRep;
+   ObjectType * lRep = NULL;
+   ObjectType * rRep = NULL;
    stCount numberOfEntries = oldNode->GetNumberOfEntries();
 
    // Create the new tLogicNode
@@ -1203,7 +1195,7 @@ void tmpl_stMTree::SplitIndex(
 
          // Redistribute
          oldNode->RemoveAll();
-         logicNode->Distribute(oldNode, lRep, newNode, rRep, myMetricEvaluator);
+         logicNode->Distribute(oldNode, lRep, newNode, rRep);
          delete logicNode;
          break; //end stMTree::RANDOM
       case stMTree::MIN_RAD:
@@ -1211,7 +1203,7 @@ void tmpl_stMTree::SplitIndex(
 
          // Redistribute
          oldNode->RemoveAll();
-         logicNode->Distribute(oldNode, lRep, newNode, rRep, myMetricEvaluator);
+         logicNode->Distribute(oldNode, lRep, newNode, rRep);
          delete logicNode;
          break;  //end stMTree::MIN_RAD
 
@@ -1265,15 +1257,15 @@ void tmpl_stMTree::SplitIndex(
 //------------------------------------------------------------------------------
 template <class ObjectType, class EvaluatorType>
 void tmpl_stMTree::UpdateDistances(stMIndexNode *node,
-            ObjectType * repObj, int repObjIdx){
-   int i;
+            ObjectType * repObj, stCount repObjIdx){
+   stCount i;
    ObjectType * tempObj = new ObjectType();
 
    for (i=0; i < node->GetNumberOfEntries(); i++){
       if (i != repObjIdx){
          tempObj->Unserialize(node->GetObject(i), node->GetObjectSize(i));
          node->GetIndexEntry(i).Distance =
-            myMetricEvaluator->GetDistance(repObj, tempObj);
+            EvaluatorType::GetDistance(repObj, tempObj);
       }else{
          //it's the representative object
          node->GetIndexEntry(i).Distance = 0.0;
@@ -1289,7 +1281,7 @@ template <class ObjectType, class EvaluatorType>
 stDistance tmpl_stMTree::GetDistanceLimit(){
    stDistance distance = 0;
    stDistance distanceTemp = 0;
-   int i, j;
+   stCount i, j;
    ObjectType * object1 = new ObjectType();
    ObjectType * object2 = new ObjectType();
    stPage * currPage;
@@ -1315,7 +1307,7 @@ stDistance tmpl_stMTree::GetDistanceLimit(){
             //get the other object
             object2->Unserialize(indexNode->GetObject(j), indexNode->GetObjectSize(j));
             //calculate the distance of the two objects
-            distanceTemp = myMetricEvaluator->GetDistance(object1, object2);
+            distanceTemp = EvaluatorType::GetDistance(object1, object2);
             //sum the distance with the distance of the two
             distanceTemp = distanceTemp + indexNode->GetIndexEntry(i).Radius +
                                       indexNode->GetIndexEntry(j).Radius;
@@ -1370,7 +1362,7 @@ stResult<ObjectType> * tmpl_stMTree::RangeQuery(
             tmpObj.Unserialize(indexNode->GetObject(idx),
                                indexNode->GetObjectSize(idx));
             // Evaluate distance
-            distance = myMetricEvaluator->GetDistance(&tmpObj, sample);
+            distance = EvaluatorType::GetDistance(&tmpObj, sample);
             // test if this subtree qualifies.
             if (distance <= range + indexNode->GetIndexEntry(idx).Radius){
                // Yes! Analyze this subtree.
@@ -1390,7 +1382,7 @@ stResult<ObjectType> * tmpl_stMTree::RangeQuery(
             tmpObj.Unserialize(leafNode->GetObject(idx),
                                leafNode->GetObjectSize(idx));
             // Evaluate distance
-            distance = myMetricEvaluator->GetDistance(&tmpObj, sample);
+            distance = EvaluatorType::GetDistance(&tmpObj, sample);
             // is it a object that qualified?
             if (distance <= range){
                // Yes! Put it in the result set.
@@ -1401,7 +1393,7 @@ stResult<ObjectType> * tmpl_stMTree::RangeQuery(
 
       // Free it all
       delete currNode;
-      myPageManager->ReleasePage(currPage);
+      this->myPageManager->ReleasePage(currPage);
    }//end if
 
    return result;
@@ -1438,7 +1430,7 @@ void tmpl_stMTree::RangeQuery(
                // Rebuild the object
                tmpObj.Unserialize(indexNode->GetObject(idx), indexNode->GetObjectSize(idx));
                // Evaluate distance
-               distance = myMetricEvaluator->GetDistance(&tmpObj, sample);
+               distance = EvaluatorType::GetDistance(&tmpObj, sample);
                // is this a qualified subtree?
                if (distance <= range + indexNode->GetIndexEntry(idx).Radius){
                   // Yes! Analyze it!
@@ -1460,7 +1452,7 @@ void tmpl_stMTree::RangeQuery(
                // Rebuild the object
                tmpObj.Unserialize(leafNode->GetObject(idx), leafNode->GetObjectSize(idx));
                // No, it is not a representative. Evaluate distance
-               distance = myMetricEvaluator->GetDistance(&tmpObj, sample);
+               distance = EvaluatorType::GetDistance(&tmpObj, sample);
                // Is this a qualified object?
                if (distance <= range){
                   // Yes! Put it in the result set.
@@ -1472,7 +1464,7 @@ void tmpl_stMTree::RangeQuery(
 
       // Free it all
       delete currNode;
-      myPageManager->ReleasePage(currPage);
+      this->myPageManager->ReleasePage(currPage);
    }//end if
 }//end stMTree::RangeQuery
 
@@ -1483,11 +1475,11 @@ stResult<ObjectType> * stMTree<ObjectType, EvaluatorType>::NearestQuery(
    tResult * result = new tResult();  // Create result
 
    // Set information for this query
-   result->SetQueryInfo(sample->Clone(), tResult::KNEARESTQUERY, k, MAXDOUBLE, tie);
+   result->SetQueryInfo(sample->Clone(), tResult::KNEARESTQUERY, k, DBL_MAX, tie);
 
    // Let's search
    if (this->GetRoot() != 0){
-      this->NearestQuery(result, sample, MAXDOUBLE, k);
+      this->NearestQuery(result, sample, DBL_MAX, k);
    }//end if
 
    return result;
@@ -1535,7 +1527,7 @@ void stMTree<ObjectType, EvaluatorType>::NearestQuery(tResult * result,
                // Rebuild the object
                tmpObj.Unserialize(indexNode->GetObject(idx), indexNode->GetObjectSize(idx));
                // Evaluate distance
-               distance = myMetricEvaluator->GetDistance(&tmpObj, sample);
+               distance = EvaluatorType::GetDistance(&tmpObj, sample);
 
                if (distance <= rangeK + indexNode->GetIndexEntry(idx).Radius){
                   // Yes! I'm qualified! Put it in the queue.
@@ -1560,7 +1552,7 @@ void stMTree<ObjectType, EvaluatorType>::NearestQuery(tResult * result,
                // When this entry is a representative, it does not need to evaluate
                // a distance, because distanceRepres is iqual to distance.
                // Evaluate distance
-               distance = myMetricEvaluator->GetDistance(&tmpObj, sample);
+               distance = EvaluatorType::GetDistance(&tmpObj, sample);
                //test if the object qualify
                if (distance <= rangeK){
                   // Add the object.
@@ -1579,7 +1571,7 @@ void stMTree<ObjectType, EvaluatorType>::NearestQuery(tResult * result,
 
       // Free it all
       delete currNode;
-      myPageManager->ReleasePage(currPage);
+      this->myPageManager->ReleasePage(currPage);
 
       // Go to next node
       stop = false;
@@ -1664,7 +1656,7 @@ void stMTree<ObjectType, EvaluatorType>::PointQuery(
                // Rebuild the object
                tmpObj.Unserialize(indexNode->GetObject(idx), indexNode->GetObjectSize(idx));
                // Evaluate distance
-               distance = myMetricEvaluator->GetDistance(&tmpObj, sample);
+               distance = EvaluatorType::GetDistance(&tmpObj, sample);
 
                if (distance <= indexNode->GetIndexEntry(idx).Radius){
                   // Yes! I'm qualified! Put it in the queue.
@@ -1687,7 +1679,7 @@ void stMTree<ObjectType, EvaluatorType>::PointQuery(
                // When this entry is a representative, it does not need to evaluate
                // a distance, because distanceRepres is iqual to distance.
                // Evaluate distance.
-               distance = myMetricEvaluator->GetDistance(&tmpObj, sample);
+               distance = EvaluatorType::GetDistance(&tmpObj, sample);
                //test if the object qualify
                if (distance == 0){
                   // Add the object.
@@ -1701,7 +1693,7 @@ void stMTree<ObjectType, EvaluatorType>::PointQuery(
 
       // Free it all
       delete currNode;
-      myPageManager->ReleasePage(currPage);
+      this->myPageManager->ReleasePage(currPage);
 
       // Go to next node.
       if (!find){
@@ -1748,7 +1740,7 @@ stTreeInfoResult * tmpl_stMTree::GetTreeInfo(){
 
    // Optimal tree
    if (info->GetMeanObjectSize() != 0){
-      info->CalculateOptimalTreeInfo(int(myPageManager->GetMinimumPageSize() /
+      info->CalculateOptimalTreeInfo(int(this->myPageManager->GetMinimumPageSize() /
             info->GetMeanObjectSize()));
    }//end if
 
@@ -1762,7 +1754,6 @@ void tmpl_stMTree::GetTreeInfoRecursive(stPageID pageID, int level,
    stPage * currPage;
    stMNode * currNode;
    stCount i;
-   stCount lv;
    ObjectType tmp;
 
    // Let's search
@@ -1809,7 +1800,7 @@ void tmpl_stMTree::GetTreeInfoRecursive(stPageID pageID, int level,
 
       // Free it all
       delete currNode;
-      myPageManager->ReleasePage(currPage);
+      this->myPageManager->ReleasePage(currPage);
    }//end if
 }//end stMTree::GetTreeInfoRecursive
 
@@ -1837,7 +1828,7 @@ void tmpl_stMTree::ObjectIntersectionsRecursive(stPageID pageID,
          for (i = 0; i < indexNode->GetNumberOfEntries(); i++){
             tmp.Unserialize(indexNode->GetObject(i),
                 indexNode->GetObjectSize(i));
-            d = myMetricEvaluator->GetDistance(&tmp, obj);
+            d = EvaluatorType::GetDistance(&tmp, obj);
             if (d <= indexNode->GetIndexEntry(i).Radius){
                // Intersection !!!!
                info->UpdateIntersections(level);
@@ -1849,6 +1840,6 @@ void tmpl_stMTree::ObjectIntersectionsRecursive(stPageID pageID,
 
       // Free it all
       delete currNode;
-      myPageManager->ReleasePage(currPage);
+      this->myPageManager->ReleasePage(currPage);
    }//end if
 }//end stMTree::ObjectIntersectionsRecursive

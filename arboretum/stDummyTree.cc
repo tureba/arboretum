@@ -443,7 +443,7 @@ stResult<ObjectType> * stDummyTree<ObjectType, EvaluatorType>::KOrRangeQuery(
    stDummyNode * currNode;
    tResult * result;
    tObject tmp;
-   stDistance distance, dk=MAXDOUBLE;
+   stDistance distance, dk = DBL_MAX;
    stCount i;
    stPageID nextNode;
 

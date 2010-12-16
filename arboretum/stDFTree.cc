@@ -409,9 +409,9 @@ int stDFLogicNode<ObjectType, EvaluatorType>::UpdateDistances(
    for (i = 0; i < Count; i++){
       if (i == RepIndex[0]){
          Entries[i].Distance[0] = 0;
-         Entries[i].Distance[1] = MAXDOUBLE;
+         Entries[i].Distance[1] = DBL_MAX;
       }else if (i == RepIndex[1]){
-         Entries[i].Distance[0] = MAXDOUBLE;
+         Entries[i].Distance[0] = DBL_MAX;
          Entries[i].Distance[1] = 0;
       }else{
          Entries[i].Distance[0] = metricEvaluator->GetDistance(
@@ -482,7 +482,7 @@ int stDFMSTSplitter<ObjectType, EvaluatorType>::FindCenter(int clus){
    int i, j, center;
    stDistance minRadius, radius;
 
-   minRadius = MAXDOUBLE;
+   minRadius = DBL_MAX;
    for (i = 0; i < N; i++){
       if (ObjectCluster[i] == clus){
          radius = -1;
@@ -522,7 +522,7 @@ void stDFMSTSplitter<ObjectType, EvaluatorType>::PerformMST(tGR * GR){
       // neighbour (connections).
       for (i = 0; i < N; i++){
          if (Cluster[i].State != DEAD){
-            Cluster[i].MinDist = MAXDOUBLE;
+            Cluster[i].MinDist = DBL_MAX;
          }//end if
       }//end for
       for (i = 0; i < N; i++){
@@ -1002,7 +1002,7 @@ int tmpl_stDFTree::ChooseSubTree(
 
    ObjectType * objectType = new ObjectType;
    stDistance distance;
-   stDistance minDistance = MAXDOUBLE; // Largest magnitude double value
+   stDistance minDistance = DBL_MAX; // Largest magnitude double value
    // Get the total number of entries.
    numberOfEntries = DFIndexNode->GetNumberOfEntries();
    idx = 0;
@@ -1125,7 +1125,7 @@ int tmpl_stDFTree::ChooseSubTree(
 
       case stDFTree::cmMINOCCUPANCY :
          /* Find if there is some circle that contains obj */
-         tmpNumberOfEntries = MAXINT;
+         tmpNumberOfEntries = INT_MAX;
          // First try to find a subtree that covers the new object.
          stop = (idx >= numberOfEntries);
          while (!stop){
@@ -1627,7 +1627,7 @@ void tmpl_stDFTree::MinMaxPromote(tLogicNode * node) {
    stPage * newPage2 = new stPage(myPageManager->GetMinimumPageSize());
 
    numberOfEntries = node->GetNumberOfEntries();
-   min = MAXDOUBLE;   // Largest magnitude double value
+   min = DBL_MAX;   // Largest magnitude double value
 
    // Is it a Index node?
    if (node->GetNodeType() == stDFNode::INDEX) {
@@ -2140,11 +2140,11 @@ stResult<ObjectType> * stDFTree<ObjectType, EvaluatorType>::NearestQuery(
    tResult * result = new tResult();  // Create result
 
    // Set information for this query
-   result->SetQueryInfo(sample->Clone(), tResult::KNEARESTQUERY, k, MAXDOUBLE, tie);
+   result->SetQueryInfo(sample->Clone(), tResult::KNEARESTQUERY, k, DBL_MAX, tie);
 
    // Let's search
    if (this->GetRoot() != 0){
-      this->NearestQuery(result, sample, MAXDOUBLE, k);
+      this->NearestQuery(result, sample, DBL_MAX, k);
    }//end if
 
    return result;
@@ -2645,7 +2645,7 @@ void tmpl_stDFGlobalRep::FindGlobalRep(tLogicNode * logicNode,
       ValidGlobalRep[center1] = numObject + 1;
       ValidGlobalRep[center2] = numObject + 1;
 
-      error = MAXDOUBLE;
+      error = DBL_MAX;
       maxDist = -1;
       for (i = 0; i < numObject - 1; i++) {
          if (!ValidGlobalRep[i]){
@@ -2895,7 +2895,7 @@ void stDFGlobalRep<ObjectType, EvaluatorType>::UpdateGR(
    for (i = 0; i < numObject; i++){
       ValidGlobalRep[i] = 0;
    }//end for
-   error = MAXDOUBLE;
+   error = DBL_MAX;
    maxDist = -1;
    for (i = 0; i < numObject - 1; i++) {
       if (!ValidGlobalRep[i]){;

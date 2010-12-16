@@ -62,32 +62,33 @@
 /**
 * @file
 *
-* This file defines the class stVPTree.
+* This file defines the class stGHTree.
+* $Author: marcos $
 *
-* @version 1.0
-* $Date: 2005/01/14 16:54:15 $
-* @author: Ives Renê Venturini Pola (ives@icmc.usp.br)
+* @author Ives Renê Venturini Pola (ives@icmc.usp.br)
 * @author Marcos Rodrigues Vieira (mrvieira@icmc.usp.br)
 */
 // Copyright (c) 2004 GBDI-ICMC-USP
 
 
-#ifndef __STVPTREE_H
-#define __STVPTREE_H
+#ifndef __STGHTREE_H
+#define __STGHTREE_H
 
 #include <cmath>
 #include <arboretum/stCommon.h>
+#include <arboretum/stTypes.h>
 #include <arboretum/stMetricTree.h>
-#include <arboretum/stVPNode.h>
+#include <arboretum/stGHNode.h>
+
 
 /**
-* This class template implements a VP-tree. The VP-tree has the same
+* This class template implements a GH Tree. The GH Tree has the same
 * external interface and behavior of a Metric Tree.
 *
-* <P>It can perform both range and k-nearest neighbour queries, and so its
-* combinations and variations.
-*
-* This is a binary static memory metric tree
+* <P>It can perform both range and k-nearest neighbout queries but without
+* the prunning power of other structures, being linear on the wrost case.
+* Althrough it has a weak prunning power, this tree can be used for comparison
+* with others structures.
 *
 * <P>This class was developed to generate perfect answers to queries. It
 * allows the build of automated test programs for other metric trees
@@ -95,22 +96,22 @@
 *
 * @author Ives Renê Venturini Pola (ives@icmc.usp.br)
 * @author Marcos Rodrigues Vieira (mrvieira@icmc.usp.br)
-* @todo Documentation review.
+* @todo Finish the implementation (some queries).
 * @version 1.0
-* @ingroup VP
+* @ingroup GH
 */
 template <class ObjectType, class EvaluatorType>
-class stVPTree: public stMetricTree<ObjectType, EvaluatorType>{
+class stGHTree: public stMetricTree<ObjectType, EvaluatorType>{
 
    public:
 
       /**
-      * This type defines the header of the VPTree.
+      * This type defines the header of the GHTree.
       */
-      typedef struct VPTreeHeader{
+      typedef struct GHTreeHeader{
          /**
          * Magic number. This is a short string that must contains the magic
-         * string "VP-3". It may be used to validate the file (this feature
+         * string "GH-3". It may be used to validate the file (this feature
          * is not implemented yet).
          */
          char Magic[4];
@@ -134,7 +135,7 @@ class stVPTree: public stMetricTree<ObjectType, EvaluatorType>{
          * The number of the nodes
          */
          stSize NodeCount;
-      } stVPTreeHeader;
+      } stGHTreeHeader;
 
       /**
       * This is the class that abstracts the object.
@@ -152,40 +153,19 @@ class stVPTree: public stMetricTree<ObjectType, EvaluatorType>{
       typedef stResult <ObjectType> tResult;
 
       /**
-      * Creates a new instance of the VPTree.
+      * Creates a new instance of the GHTree.
       *
       * @param pageman The Page Manager to be used.
       */
-      stVPTree(stPageManager * pageman);
+      stGHTree(stPageManager * pageman);
 
       /**
       * Disposes this tree and releases all associated resources.
       */
-      virtual ~stVPTree();
-
-      /**
-      * This method adds an object to the VPTree.
-      * This method may fail it he object size exceeds the page size.
-      *
-      * @param obj The object to be added.
-      * @return True for success or false otherwise.
-      */
-      bool Add(tObject ** objects, long listSize);
-
-      /**
-      * This method implements the Add method to insert object one-by-one in
-      * the VP-Tree.
-      *
-      * @return success for the VPTree build.
-      */
-      bool Add(tObject * obj);
-
-      /**
-      * This method build the VP-tree after some Add calls.
-      *
-      * @return success for the VPTree build.
-      */
-      bool MakeVPTree();
+      virtual ~stGHTree(){
+         // Flus header page.
+         FlushHeader();
+      }//end ~stGHTree
 
       #ifdef __stDEBUG__
          /**
@@ -209,29 +189,40 @@ class stVPTree: public stMetricTree<ObjectType, EvaluatorType>{
       /**
       * Returns the number of objetcs of this tree.
       */
-      virtual long GetNumberOfObjects(){
+      virtual stCount GetNumberOfObjects(){
          return Header->ObjectCount;
       }//end GetNumberOfObjects
 
       /**
-      * This method will perform a range query. The result will be a set of
-      * pairs object/distance.
+      * This method adds an object to the GHTree.
+      * This method may fail it he object size exceeds .
+      *
+      * @param obj The object to be added.
+      * @return True for success or false otherwise.
+      */
+      virtual bool Add(tObject * obj);
+
+      /**
+      * This method will perform a range query.
+      * The result will be a set of pairs object/distance.
       *
       * @param sample The sample object.
       * @param range The range of the results.
       * @return The result or NULL if this method is not implemented.
       * @warning The instance of tResult returned must be destroied by user.
+      * @see void RangeQuery()
       */
       tResult * RangeQuery(tObject * sample, stDistance range);
 
       /**
-      * This method will perform a k nearest neighbor query.
+      * This method will perform a K-Nearest Neighbor query.
       *
       * @param sample The sample object.
-      * @param k The number of neighbours.
+      * @param k The number of neighbors.
       * @param tie The tie list. Default false.
       * @return The result or NULL if this method is not implemented.
       * @warning The instance of tResult returned must be destroied by user.
+      * @see void NearestQuery
       */
       tResult * NearestQuery(tObject * sample, stCount k, bool tie = false);
 
@@ -246,32 +237,12 @@ class stVPTree: public stMetricTree<ObjectType, EvaluatorType>{
       /**
       * The header of the "tree".
       */
-      stVPTreeHeader * Header;
+      stGHTreeHeader * Header;
 
       /**
       * If true, the header mus be written to the page manager.
       */
       bool HeaderUpdate;
-
-      /**
-      * To add object one-by-one.
-      */
-      tObject ** Objects;
-
-      /**
-      * The Used Size.
-      */
-      long Size;
-
-      /**
-      * The Maximum Capacity.
-      */
-      long Capacity;
-
-		/**
-		* Increment.
-		*/
-      long Increment;
 
       #ifndef __stDEBUG__
          /**
@@ -321,7 +292,7 @@ class stVPTree: public stMetricTree<ObjectType, EvaluatorType>{
       void FlushHeader(){
          if (HeaderPage != NULL){
             if (Header != NULL){
-               this->WriteHeader();
+               WriteHeader();
             }//end if
             this->myPageManager->ReleasePage(HeaderPage);
          }//end if
@@ -340,95 +311,40 @@ class stVPTree: public stMetricTree<ObjectType, EvaluatorType>{
       * Disposes a given page and updates the page counter.
       */
       void DisposePage(stPage * page){
-         Header->NodeCount--;
+         this->Header->NodeCount--;
          this->myPageManager->DisposePage(page);
-         HeaderUpdate = true;
+         this->HeaderUpdate = true;
       }//end DisposePage
 
       /**
-      * This method recursively build the VP-tree based on the object list
+      * This method will perform a range query.
+      * The result will be a set of pairs object/distance.
       *
-      * @return success for the VPTree build.
+      * @param pageID the page to be analyzed.
+      * @param result the result set.
+      * @param sample The sample object.
+      * @param range The range of the result.
+      * @see tResult * RangeQuery()
       */
-      stPageID MakeVPTree(tObject ** objects, stDistanceIndex * & selected,
-                          long size);
+      void RangeQuery(stPageID pageID, tResult * result,
+                      ObjectType * sample, stDistance range);
 
       /**
-      * Used by MakeVPTree, selects a vantage point from a dataset from the
-      * corner of the space.
-      */
-      long SelectVP(tObject ** objects, stDistanceIndex * selected, long size);
-
-      /**
-      *  This method calculates the median element, sorting the "sample" using
-      *  the "vantage" as vantage point (index of the object in "obj".
-      */
-      long GetMedian(tObject ** objects, stDistanceIndex * sample, long sampleSize,
-                    long vantage);
-
-      /**
-      *  Calculates the 2nd=Momento of the sample
-      */
-      stDistance GetSecondMoment(stDistanceIndex * sample, long sampleSize, long median);
-
-      /**
-      *  This method calculate the sample size given the actual size
-      */
-      long PickSampleSize(long size){
-         long sampleSize;
-
-         // Try to get 10%
-         sampleSize = (long) ceil(0.09 * (double )size);
-         if (sampleSize < 50){
-            sampleSize = 50;
-            if (size < sampleSize){
-               sampleSize = size;
-            }//end if
-         }//end if
-         if (sampleSize > 500){
-            sampleSize = 500;
-            if (size < sampleSize){
-               sampleSize = size;
-            }//end if
-         }//end if
-         return sampleSize;
-      }//end PickSampleSize
-
-      /**
-      *  Used to make a sample of the vector "selected"
-      */
-      void MakeSample(stDistanceIndex * sample, long sampleSize,
-                      stDistanceIndex * selected, long size);
-
-		/**
-		* Expands the capacity of the object vector by adding increment
-		* entries to the current capacity.
-		*/
-      void Resize();
-
-      /**
-      * Support for the RangeQuery, recursive code for searching.
+      * This method will perform a K Nearest Neighbor query.
+      *
+      * @param pageID the page to be analyzed.
+      * @param result the result set.
       * @param sample The sample object.
       * @param range The range of the results.
-      * @param result The result object to add the pairs <object, distance> found
-      * @param page The page (node) to search in.
+      * @param k The number of neighbours.
+      * @see tResult * NearestQuery
       */
-      void RangeQuery(tObject * sample, stDistance range,
-                      tResult * result, stPageID page);
+      void NearestQuery(stPageID pageID, tResult * result, ObjectType * sample,
+                        stDistance & rangeK, stCount k);
 
-      /**
-      * Support for the NearestQuery, recursive code for searching.
-      * @param sample The sample object.
-      * @param k The number of nearest neighbors to retrieve.
-      * @param result The result object to add the pairs <object, distance> found
-      * @param page The page (node) to search in.
-      */
-      void NearestQuery(tObject * sample, stCount k, tResult * result,
-                        stPageID page);
+};//end stGHTree
 
-};//end stVPTree
+#include <arboretum/stGHTree.cc>
 
-#include <arboretum/stVPTree.cc>
-
-#endif //__STVPTREE_H
+#endif //__STGHTREE_H
 

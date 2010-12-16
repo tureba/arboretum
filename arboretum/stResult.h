@@ -412,7 +412,7 @@ class stResult{
       * @param limit The desired number of results.
       * @todo Review of this explanation.
       */
-      void Cut(unsigned int limit);
+      void Cut(stCount limit);
 
       /**
       * This method will cut out undesired objects. It may be used
@@ -423,7 +423,7 @@ class stResult{
       * @param limit The desired number of results.
       * @todo Review of this explanation.
       */
-      void CutFirst(unsigned int limit);
+      void CutFirst(stCount limit);
 
       /**
       * Adds information about the query. It is used by Query methods to add

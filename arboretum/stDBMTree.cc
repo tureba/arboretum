@@ -256,9 +256,9 @@ void stDBMLogicNode<ObjectType, EvaluatorType>::TestDistribution(
    for (i = 0; i < this->Count; i++){
       if (i == idxRep0){
          distanceIndex0[i].Distance = 0.0;
-         distanceIndex1[i].Distance = MAXDOUBLE;
+         distanceIndex1[i].Distance = DBL_MAX;
       }else if (i == idxRep1){
-         distanceIndex0[i].Distance = MAXDOUBLE;
+         distanceIndex0[i].Distance = DBL_MAX;
          distanceIndex1[i].Distance = 0.0;
       }else{
          distanceIndex0[i].Distance = DMat[i][idxRep0];
@@ -746,9 +746,9 @@ void stDBMLogicNode<ObjectType, EvaluatorType>::Distribute(
    for (i = 0; i < this->Count; i++){
       if (i == idxRep0){
          distanceIndex0[i].Distance = 0.0;
-         distanceIndex1[i].Distance = MAXDOUBLE;
+         distanceIndex1[i].Distance = DBL_MAX;
       }else if (i == idxRep1){
-         distanceIndex0[i].Distance = MAXDOUBLE;
+         distanceIndex0[i].Distance = DBL_MAX;
          distanceIndex1[i].Distance = 0.0;
       }else{
          distanceIndex0[i].Distance = DMat[i][idxRep0];
@@ -1249,9 +1249,9 @@ stCount stDBMLogicNode<ObjectType, EvaluatorType>::UpdateDistances(
       // Is this entry a representative 1?
       if (i == GetRepresentativeIndex(0)){
          this->DMat[i][this->idxRep0] = 0.0;
-         this->DMat[i][this->idxRep1] = MAXDOUBLE;
+         this->DMat[i][this->idxRep1] = DBL_MAX;
       }else if (i == GetRepresentativeIndex(1)){ // Is this entry a representative 2?
-         this->DMat[i][this->idxRep0] = MAXDOUBLE;
+         this->DMat[i][this->idxRep0] = DBL_MAX;
          this->DMat[i][this->idxRep1] = 0.0;
       }else{
          // this entry is not a representative?
@@ -1360,7 +1360,7 @@ int stDBMMSTSplitter<ObjectType, EvaluatorType>::FindCenter(int clus){
    int i, j, center;
    stDistance minRadius, radius;
 
-   minRadius = MAXDOUBLE;
+   minRadius = DBL_MAX;
    for (i = 0; i < N; i++){
       if (ObjectCluster[i] == clus){
          radius = -1;
@@ -1400,7 +1400,7 @@ void stDBMMSTSplitter<ObjectType, EvaluatorType>::PerformMST(){
       // neighbour (connections).
       for (i = 0; i < N; i++){
          if (Cluster[i].State != DEAD){
-            Cluster[i].MinDist = MAXDOUBLE;
+            Cluster[i].MinDist = DBL_MAX;
          }//end if
       }//end for
       for (i = 0; i < N; i++){
@@ -1716,7 +1716,7 @@ stCount stDBMMSTSplitter<ObjectType, EvaluatorType>::Distribute(
    #endif //__stDBMHEIGHT__
 
 //??????????
-   RadiusNode0 = RadiusNode1 = MAXDOUBLE;
+   RadiusNode0 = RadiusNode1 = DBL_MAX;
    for (i = 0; i < N; i++){
       if (!Node->IsRepresentative(i)){
          if (RadiusNode0 < DMat[i][idxRep0] + Node->GetRadius(i)){
@@ -2189,7 +2189,7 @@ stCount stDBMNSplitter<ObjectType, EvaluatorType>::PerformCluster(){
       // neighbour (connections).
       for (i = 0; i < N; i++){
          if (Cluster[i].State != DEAD){
-            Cluster[i].MinDist = MAXDOUBLE;
+            Cluster[i].MinDist = DBL_MAX;
          }//end if
       }//end for
       for (i = 0; i < N; i++){
@@ -2307,7 +2307,7 @@ stCount stDBMNSplitter<ObjectType, EvaluatorType>::PerformClusterRadius(){
       // neighbour (connections).
       for (i = 0; i < N; i++){
          if (Cluster[i].State != DEAD){
-            Cluster[i].MinDist = MAXDOUBLE;
+            Cluster[i].MinDist = DBL_MAX;
          }//end if
       }//end for
       for (i = 0; i < N; i++){
@@ -2427,7 +2427,7 @@ stCount stDBMNSplitter<ObjectType, EvaluatorType>::PerformClusterMerge(){
       // neighbour (connections).
       for (i = 0; i < N; i++){
          if (Cluster[i].State != DEAD){
-            Cluster[i].MinDist = MAXDOUBLE;
+            Cluster[i].MinDist = DBL_MAX;
          }//end if
       }//end for
       for (i = 0; i < N; i++){
@@ -2489,7 +2489,7 @@ stCount stDBMNSplitter<ObjectType, EvaluatorType>::PerformClusterMerge(){
    for (i = 0; i < N; i++){
       if (Cluster[i].State == ALIVE){
          Cluster[i].Center = FindCenter(ObjectCluster[i], Cluster[i].Radius);
-         Cluster[i].MinDist = MAXDOUBLE;
+         Cluster[i].MinDist = DBL_MAX;
       }//end if
    }//end for
 
@@ -2618,7 +2618,7 @@ stCount stDBMNSplitter<ObjectType, EvaluatorType>::PerformClusterRadiusTest(){
       // neighbour (connections).
       for (i = 0; i < N; i++){
          if (Cluster[i].State != DEAD){
-            Cluster[i].MinDist = MAXDOUBLE;
+            Cluster[i].MinDist = DBL_MAX;
          }//end if
       }//end for
       for (i = 0; i < N; i++){
@@ -2856,7 +2856,7 @@ int stDBMNSplitter<ObjectType, EvaluatorType>::FindCenter(int clus,
    int i, j, center;
    stDistance radius;
 
-   minRadius = MAXDOUBLE;
+   minRadius = DBL_MAX;
    for (i = 0; i < N; i++){
       if (ObjectCluster[i] == clus){
          radius = -1;
@@ -2911,7 +2911,7 @@ stDistance stDBMNSplitter<ObjectType, EvaluatorType>::TestJoinClusters(
    }//end for
 
    // Find the minimum radius.
-   minRadius = MAXDOUBLE;
+   minRadius = DBL_MAX;
    for (i = 0; i < size; i++){
       radius = -1;
       for (j = 0; j < size; j++){
@@ -2950,7 +2950,7 @@ bool stDBMNSplitter<ObjectType, EvaluatorType>::TestIntersection(
    }//end for
 
    // Find the minimum radius.
-   minRadius = MAXDOUBLE;
+   minRadius = DBL_MAX;
    for (i = 0; i < size; i++){
       radius = -1;
       for (j = 0; j < size; j++){
@@ -4128,7 +4128,7 @@ int stDBMTree<ObjectType, EvaluatorType>::ChooseSubTree(
             stDBMNode * node, tSubtreeInfo newSubTree) {
    stCount idx, numberOfEntries;
    stDistance distance, distanceReps, radiusParent;
-   stDistance minDistance = MAXDOUBLE;
+   stDistance minDistance = DBL_MAX;
    int subTree = -1;  // if there is not a subtree that qualifies, return -1.
    ObjectType * repObj = new ObjectType();
    ObjectType * tmpObj;
@@ -4716,8 +4716,8 @@ void stDBMTree<ObjectType, EvaluatorType>::BulkLoad(ObjectType ** data, long num
 template <class ObjectType, class EvaluatorType>
 void stDBMTree<ObjectType, EvaluatorType>::MinMaxRadiusPromote(tLogicNode * node) {
    stDistance radius0, radius1;
-   stDistance minRadius = MAXDOUBLE;
-   stCount minFreeObjects = MAXINT;
+   stDistance minRadius = DBL_MAX;
+   stCount minFreeObjects = INT_MAX;
    stCount idx0, idx1;
    stCount i, j;
    stCount numberOfEntries = node->GetNumberOfEntries();
@@ -4775,8 +4775,8 @@ void stDBMTree<ObjectType, EvaluatorType>::MinMaxRadiusPromote(tLogicNode * node
 template <class ObjectType, class EvaluatorType>
 void stDBMTree<ObjectType, EvaluatorType>::MinSumRadiusPromote(tLogicNode * node) {
    stDistance radius0, radius1;
-   stDistance minSumRadius = MAXDOUBLE;
-   stCount minFreeObjects = MAXINT;
+   stDistance minSumRadius = DBL_MAX;
+   stCount minFreeObjects = INT_MAX;
    stCount idx0, idx1;
    stCount i, j;
    stCount numberOfEntries = node->GetNumberOfEntries();
@@ -4829,7 +4829,7 @@ void stDBMTree<ObjectType, EvaluatorType>::MinSumRadiusPromote(tLogicNode * node
 template <class ObjectType, class EvaluatorType>
 void stDBMTree<ObjectType, EvaluatorType>::MinMaxRadiusPromoteSlim(tLogicNode * node) {
    stDistance radius0, radius1;
-   stDistance minRadius = MAXDOUBLE;
+   stDistance minRadius = DBL_MAX;
    stCount idx0, idx1;
    stCount i, j;
    stCount numberOfEntries = node->GetNumberOfEntries();
@@ -4869,7 +4869,7 @@ void stDBMTree<ObjectType, EvaluatorType>::MinMaxRadiusPromoteSlim(tLogicNode * 
 template <class ObjectType, class EvaluatorType>
 void stDBMTree<ObjectType, EvaluatorType>::MinSumRadiusPromoteSlim(tLogicNode * node) {
    stDistance radius0, radius1;
-   stDistance minSumRadius = MAXDOUBLE;
+   stDistance minSumRadius = DBL_MAX;
    stCount idx0, idx1;
    stCount i, j;
    stCount numberOfEntries = node->GetNumberOfEntries();
@@ -4905,10 +4905,10 @@ void stDBMTree<ObjectType, EvaluatorType>::MinSumRadiusPromoteSlim(tLogicNode * 
 template <class ObjectType, class EvaluatorType>
 void stDBMTree<ObjectType, EvaluatorType>::MinFreeRadiusPromote(tLogicNode * node) {
    stDistance sumRadius;
-   stDistance minRadius = MAXDOUBLE;
+   stDistance minRadius = DBL_MAX;
    stCount idx0, idx1;
    stCount i, j;
-   stCount minFreeObjects = MAXINT;
+   stCount minFreeObjects = INT_MAX;
    stCount numberOfEntries = node->GetNumberOfEntries();
    tDBMCollection * returnCollection = new tDBMCollection(numberOfEntries);
    tDBMMemNode * node0 = new tDBMMemNode(this->myPageManager->GetMinimumPageSize());
@@ -4958,7 +4958,7 @@ template <class ObjectType, class EvaluatorType>
 void stDBMTree<ObjectType, EvaluatorType>::MinCoverPromote(tLogicNode * node){
    stDistance radius0, radius1, distanceReps;
    stDistance distance;
-   stDistance minDistance = -MAXDOUBLE;
+   stDistance minDistance = -DBL_MAX;
    stCount idx0, idx1;
    stCount i, j;
    stCount numberOfEntries = node->GetNumberOfEntries();
@@ -5065,7 +5065,7 @@ template <class ObjectType, class EvaluatorType>
 stCount stDBMTree<ObjectType, EvaluatorType>::ChooseRepresentative(stDBMNode * node){
 
    stCount idx, idxRep;
-   stDistance newRadius = MAXDOUBLE;
+   stDistance newRadius = DBL_MAX;
    ObjectType * repObj = new ObjectType();
    stCount numberOfEntries = node->GetNumberOfEntries();
 
@@ -5459,7 +5459,7 @@ stResult<ObjectType> * stDBMTree<ObjectType, EvaluatorType>::NearestQuery(
    stPage * currPage;
    stDBMNode * currNode;
    stDistance distance, distanceRepres;
-   stDistance rangeK = MAXDOUBLE;
+   stDistance rangeK = DBL_MAX;
    stCount numberOfEntries, idx;
    stCount idxRep;
    stQueryPriorityQueueValue pqCurrValue;
@@ -5471,7 +5471,7 @@ stResult<ObjectType> * stDBMTree<ObjectType, EvaluatorType>::NearestQuery(
    #endif //__stMAMVIEW__
 
    // Set information for this query
-   result->SetQueryInfo(sample->Clone(), tResult::KNEARESTQUERY, k, MAXDOUBLE, tie);
+   result->SetQueryInfo(sample->Clone(), tResult::KNEARESTQUERY, k, DBL_MAX, tie);
 
    #ifdef __stMAMVIEW__
       MAMViewer->SetQueryInfo(k, 0);
@@ -5856,7 +5856,7 @@ stResult<ObjectType> * stDBMTree<ObjectType, EvaluatorType>::NearestQueryPriorit
    stPage * currPage;
    stDBMNode * currNode;
    stDistance distance, distanceRepres;
-   stDistance rangeK = MAXDOUBLE;
+   stDistance rangeK = DBL_MAX;
    stCount numberOfEntries, idx;
    stCount numberOfFreeObjects;
    stCount idxRep;
@@ -5870,7 +5870,7 @@ stResult<ObjectType> * stDBMTree<ObjectType, EvaluatorType>::NearestQueryPriorit
    #endif //__stMAMVIEW__
 
    // Set information for this query
-   result->SetQueryInfo(sample->Clone(), tResult::KNEARESTQUERY, k, MAXDOUBLE, tie);
+   result->SetQueryInfo(sample->Clone(), tResult::KNEARESTQUERY, k, DBL_MAX, tie);
 
    #ifdef __stMAMVIEW__
       MAMViewer->SetQueryInfo(k, 0);
@@ -6485,7 +6485,7 @@ stResult<ObjectType> * stDBMTree<ObjectType, EvaluatorType>::IncrementalNearestQ
    stCount numberOfEntries;
    tPGenericHeap * queue = new tPGenericHeap(STARTVALUEQUEUE, INCREMENTVALUEQUEUE);
 
-   result->SetQueryInfo(sample->Clone(), tResult::KNEARESTQUERY, k, MAXDOUBLE);
+   result->SetQueryInfo(sample->Clone(), tResult::KNEARESTQUERY, k, DBL_MAX);
 
    if (this->GetRoot()){
       // Get node
@@ -7129,7 +7129,7 @@ bool stDBMTree<ObjectType, EvaluatorType>::Consistency(stPageID pageID,
    stDistance distance;
    ObjectType subRep, localRep, tmpObj;
    int idxRep;
-   radius = MAXDOUBLE;
+   radius = DBL_MAX;
    bool result = true;
 
    // Let's search
@@ -7546,7 +7546,7 @@ void stDBMTree<ObjectType, EvaluatorType>::LocalShrink(
          if (memNodes[src]->GetNumberOfEntries() > 0){
             // Look for the target...
             dst = -1;
-            minDist = MAXDOUBLE;
+            minDist = DBL_MAX;
             for (i = 0; i < nodeCount; i++){
                if (i != src){
                   if (this->ShrinkCanSwap(memNodes[src], memNodes[i], tmpDist)){

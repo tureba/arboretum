@@ -93,10 +93,10 @@ stResult<ObjectType>::~stResult(){
 
 //----------------------------------------------------------------------------
 template < class ObjectType >
-void stResult<ObjectType>::Cut(unsigned int limit){
+void stResult<ObjectType>::Cut(stCount limit){
    stDistance max;
    bool stop;
-   int i;
+   stCount i;
 
    // Will I do something ?
    if (GetNumOfEntries() > limit){
@@ -127,7 +127,7 @@ void stResult<ObjectType>::Cut(unsigned int limit){
 
 //----------------------------------------------------------------------------
 template < class ObjectType >
-void stResult<ObjectType>::CutFirst(unsigned int limit){
+void stResult<ObjectType>::CutFirst(stCount limit){
    stDistance min;
    bool stop;
    int idx;

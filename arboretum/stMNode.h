@@ -172,7 +172,7 @@ class stMNode{
       * @see GetObject()
       * @see GetObjectSize()
       */
-      int GetNumberOfEntries(){
+      stCount GetNumberOfEntries(){
          return this->Header->Occupation;
       }//end GetNumberOfEntries
 

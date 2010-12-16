@@ -102,17 +102,16 @@
 */
 template <class ObjectType, class EvaluatorType>
 class stMetricTree: public stMetricAccessMethod < ObjectType, EvaluatorType >{
+   protected:
+      /**
+      * The page manager used by thismetric tree.
+      */
+      stPageManager * myPageManager;
    public:
       /**
       * This is the class that abstracts the object used by this metric tree.
       */
       typedef ObjectType tObject;
-
-      /**
-      * This is the class that abstracts the metric evaluator used by this metric
-      * tree.
-      */
-      typedef EvaluatorType tMetricEvaluator;
 
       /**
       * This is the class that abstracs an result set.
@@ -132,7 +131,6 @@ class stMetricTree: public stMetricAccessMethod < ObjectType, EvaluatorType >{
 
          // Common to all Metric trees
          myPageManager = pageman;
-         this->myMetricEvaluator = new tMetricEvaluator();
          sharedMetricEvaluator = false; // Not shared
       }//end stMetricTree
 
@@ -203,7 +201,7 @@ class stMetricTree: public stMetricAccessMethod < ObjectType, EvaluatorType >{
       *
       * @return The number of objects indexed by the tree or -1 if this information is not available.
       */
-      virtual long GetNumberOfObjects(){
+      virtual stCount GetNumberOfObjects(){
          return -1;
       }//end GetNumberOfObjects
 
@@ -236,11 +234,6 @@ class stMetricTree: public stMetricAccessMethod < ObjectType, EvaluatorType >{
       virtual stTreeInfoResult * GetTreeInfo(){
          return NULL;
       }//end GetTreeInfo
-   protected:
-      /**
-      * The page manager used by thismetric tree.
-      */
-      stPageManager * myPageManager;
 
    private:
       /**

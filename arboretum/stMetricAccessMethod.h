@@ -135,7 +135,7 @@ class stMetricAccessMethod{
       * @return True for success or false otherwise.
       * @exception unsupported_method_error If this method is not supported by this tree.
       */
-      virtual bool Add(tObject * obj){
+      virtual bool Add(tObject * obj __attribute__((unused))){
          throw unsupported_method_error("Unsupported method! Contact the tree author for more details.");
       }//end Add
 
@@ -152,7 +152,7 @@ class stMetricAccessMethod{
       * @warning The instance of tResult returned must be destroied by user.
       * @exception unsupported_method_error If this method is not supported by this tree.
       */
-      virtual tResult * RangeQuery(tObject * sample, stDistance range){
+      virtual tResult * RangeQuery(tObject * sample __attribute__((unused)), stDistance range __attribute__((unused))){
          throw unsupported_method_error("Unsupported method! Contact the tree author for more details.");
       }//end RangeQuery
 
@@ -169,7 +169,7 @@ class stMetricAccessMethod{
       * @return The result or NULL if this method is not implemented.
       * @warning The instance of tResult returned must be destroied by user.
       */
-      virtual tResult * NearestQuery(tObject * sample, stCount k, bool tie = false){
+      virtual tResult * NearestQuery(tObject * sample __attribute__((unused)), stCount k __attribute__((unused)), bool tie __attribute__((unused))){
          throw unsupported_method_error("Unsupported method! Contact the tree author for more details.");
       }//end NearestQuery
 
@@ -189,7 +189,7 @@ class stMetricAccessMethod{
       * query object.
       * @warning The instance of tResult returned must be destroied by user.
       */
-      virtual tResult * PointQuery(tObject * sample){
+      virtual tResult * PointQuery(tObject * sample __attribute__((unused))){
          throw unsupported_method_error("Unsupported method! Contact the tree author for more details.");
       }//end PointQuery
 
@@ -210,8 +210,8 @@ class stMetricAccessMethod{
       * @return The result or NULL if this method is not implemented.
       * @warning The instance of tResult returned must be destroied by user.
       */
-      virtual tResult * KAndRangeQuery(tObject * sample, stDistance range,
-            stCount k, bool tie=false){
+      virtual tResult * KAndRangeQuery(tObject * sample __attribute__((unused)), stDistance range __attribute__((unused)),
+            stCount k __attribute__((unused)), bool tie __attribute__((unused))){
          throw unsupported_method_error("Unsupported method! Contact the tree author for more details.");
       }//end KAndRangeQuery
 
@@ -229,8 +229,8 @@ class stMetricAccessMethod{
       * @return The result or NULL if this method is not implemented.
       * @warning The instance of tResult returned must be destroied by user.
       */
-      virtual tResult * KOrRangeQuery(tObject * sample, stDistance range,
-            stCount k, bool tie=false){
+      virtual tResult * KOrRangeQuery(tObject * sample __attribute__((unused)), stDistance range __attribute__((unused)),
+            stCount k __attribute__((unused)), bool tie __attribute__((unused))){
          throw unsupported_method_error("Unsupported method! Contact the tree author for more details.");
       }//end KOrRangeQuery
 
@@ -249,8 +249,8 @@ class stMetricAccessMethod{
       * @warning The inRange must be less than the outRange.
       * @exception unsupported_method_error If this method is not supported by this tree.
       */
-      virtual tResult * RingQuery(tObject * sample, stDistance inRange,
-                  stDistance outRange){
+      virtual tResult * RingQuery(tObject * sample __attribute__((unused)), stDistance inRange __attribute__((unused)),
+                  stDistance outRange __attribute__((unused))){
          throw unsupported_method_error("Unsupported method! Contact the tree author for more details.");
       }//end RangeQuery
 
@@ -271,8 +271,8 @@ class stMetricAccessMethod{
       * @warning The inRange must be less than the outRange.
       * @exception unsupported_method_error If this method is not supported by this tree.
       */
-      virtual tResult * KRingQuery(tObject * sample, stDistance inRange,
-                  stDistance outRange, stCount k, bool tie=false){
+      virtual tResult * KRingQuery(tObject * sample __attribute__((unused)), stDistance inRange __attribute__((unused)),
+                  stDistance outRange __attribute__((unused)), stCount k __attribute__((unused)), bool tie __attribute__((unused))){
          throw unsupported_method_error("Unsupported method! Contact the tree author for more details.");
       }//end RangeKQuery
 
@@ -283,7 +283,7 @@ class stMetricAccessMethod{
       * @param obj The object to be deleted.
       * @return True for sucess or false otherwise.
       */
-      virtual bool Delete(tObject * obj){
+      virtual bool Delete(tObject * obj __attribute__((unused))){
          return false;
       }//end Delete
 
@@ -333,7 +333,7 @@ class stMetricAccessMethod{
       * @warning Each metric tree has its own implementation for each query hint type. DO NOT
       * USE a hint created by a tree as a parameter for
       */
-      virtual stQueryHint * CreateQueryHint(int type){
+      virtual stQueryHint * CreateQueryHint(int type __attribute((unused))){
          return NULL;
       }//end CreateQueryHint
    protected:
