@@ -73,6 +73,11 @@
 // Copyright (c) 2002 GBDI-ICMC-USP
 #include <arboretum/stUtil.h>
 
+unsigned long arboretum_random(unsigned long n)
+{
+	return (n * rand())/ (((unsigned long) RAND_MAX) + 1);
+}
+
 //------------------------------------------------------------------------------
 // struct stDistanceIndex
 //------------------------------------------------------------------------------

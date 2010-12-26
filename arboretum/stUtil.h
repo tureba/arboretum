@@ -78,6 +78,8 @@
 #include <arboretum/stTypes.h>
 #include <cstring>
 #include <cstdio>
+#include <cstdlib>
+#include <climits>
 
 using namespace std;
 
@@ -935,14 +937,22 @@ typedef struct stQueryPriorityQueueValue{
 //----------------------------------------------------------------------------
 // Random utility functions
 //----------------------------------------------------------------------------
+
 /**
-* Returns a random number between 0 and 1.
+* Returns a random number between 0 and the provided number, inclusive.
+* Use the rand() function conforming to the standards:
+* SVr4, 4.3BSD, C89, C99, POSIX.1-2001
+* We must avoid redeclaring random(), as it is a standard
+* C and POSIX function. Therefore, arboretum_random was created.
 *
-* @author Fabio Jun Takada Chino (chino@icmc.usp.br)
-* @author Marcos Rodrigues Vieira (mrvieira@icmc.usp.br)
+* @param n the maximum number in the interval [0,n].
+* @author Arthur Nascimento <tureba@gmail.com>
 * @ingroup util
 */
-#define drand() (((double)rand())/((double)RAND_MAX))
+#if (ULONG_MAX == RAND_MAX)
+#error In this implementation unsigned long is not long enough to redimensionate the random numbers.
+#endif
+unsigned long arboretum_random(unsigned long n);
 
 /**
 * Returns a random number between 2 arbitrary values. This
@@ -955,19 +965,7 @@ typedef struct stQueryPriorityQueueValue{
 * @author Marcos Rodrigues Vieira (mrvieira@icmc.usp.br)
 * @ingroup util
 */
-#define rngrand(low, hi) ((((hi) - (low)) * drand()) + (low))
-
-/**
-* Simulates a random event with a probability <b>p</b> of success. The value
-* of <b>p</b> will never be verified.
-*
-* @param p The probability of success.
-* @return True for success or false otherwise.
-* @author Fabio Jun Takada Chino (chino@icmc.usp.br)
-* @author Marcos Rodrigues Vieira (mrvieira@icmc.usp.br)
-* @ingroup util
-*/
-#define randomevent(p) (drand() <= (p))
+#define rngrand(low, hi) (low + arboretum_random(hi - low))
 
 //----------------------------------------------------------------------------
 // File manipulation constants and functions.

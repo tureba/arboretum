@@ -82,9 +82,6 @@
 #ifdef __GNUG__
    #include <cstring> // malloc & cia
 
-   // This is an useful function extracted from Windows C Runtime library.
-   #define random(x) ((int)((((double)rand()) / ((double)RAND_MAX)) * (x)))
-
    #include <climits>
    #include <cfloat>
 #endif //__GNUG__
