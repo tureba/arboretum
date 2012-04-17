@@ -177,7 +177,7 @@ class stMAMViewObjectSample{
       */
       bool MayAdd(){
          if (Size < MaxSize){
-            return randomevent(P);
+            return random() < (RAND_MAX * P);
          }else{
             // I'm full.
             return false;

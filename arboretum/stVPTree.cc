@@ -70,6 +70,7 @@
 // Copyright (c) 2004 GBDI-ICMC-USP
 
 #include <algorithm>
+#include "stVPTree.h"
 
 //------------------------------------------------------------------------------
 template <class ObjectType, class EvaluatorType>
@@ -385,7 +386,7 @@ long stVPTree<ObjectType, EvaluatorType>::GetMedian(tObject ** objects,
                                               objects[sample[i].Index]);
    }//end for
    // Sort them.
-   sort(sample, sample + sampleSize);
+   qsort(sample, sampleSize, sizeof(stDistanceIndex), stDistanceIndex_oplt);
 
    // Get the median index.
    median = sampleSize / 2;

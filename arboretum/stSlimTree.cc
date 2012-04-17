@@ -1589,7 +1589,7 @@ void tmpl_stSlimTree::RandomPromote(tLogicNode * node) {
    // generate a number between 0 to numberOfEntries-1 fo idx1
    idx1 = arboretum_random(numberOfEntries - 1);
    // while idx2 == idx1, do the random for idx2
-   while ((idx2 = arboretumrandom(numberOfEntries - 1)) == idx1)
+   while ((idx2 = arboretum_random(numberOfEntries - 1)) == idx1)
       ;
    // Choose representatives
    node->SetRepresentative(idx1, idx2);

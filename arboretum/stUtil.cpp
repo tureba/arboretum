@@ -71,11 +71,11 @@
 * @author Marcos Rodrigues Vieira (mrvieira@icmc.usp.br)
 */
 // Copyright (c) 2002 GBDI-ICMC-USP
-#include <arboretum/stUtil.h>
+#include "arboretum/stUtil.h"
 
 unsigned long arboretum_random(unsigned long n)
 {
-	return (n * rand())/ (((unsigned long) RAND_MAX) + 1);
+	return (n * rand())/(((unsigned long) RAND_MAX) + 1);
 }
 
 //------------------------------------------------------------------------------
@@ -92,3 +92,11 @@ struct stDistanceIndex & stDistanceIndex::operator = (const struct stDistanceInd
 bool operator < (const stDistanceIndex & x, const stDistanceIndex & y){
    return x.Distance < y.Distance;
 }//end operator <
+
+// This shouldn't be necessary, but in many places data is not
+// stored in proper containers, so qsort will need this instead
+// of the previous operator<
+int stDistanceIndex_oplt(const void *a, const void *b)
+{
+	return (((const stDistanceIndex *) a)->Distance) < (((const stDistanceIndex *) b)->Distance);
+}

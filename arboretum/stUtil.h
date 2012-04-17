@@ -368,6 +368,7 @@ typedef struct stDistanceIndex{
 */
 bool operator < (const stDistanceIndex & x, const stDistanceIndex & y);
 
+int stDistanceIndex_oplt(const void *, const void *);
 //----------------------------------------------------------------------------
 // template MinN
 //----------------------------------------------------------------------------
