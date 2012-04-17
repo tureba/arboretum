@@ -3,15 +3,12 @@
 # Author: Marcos Rodrigues Vieira
 # Author: Fabio Jun Takada Chino
 #
-CC=gcc
-CFLAGS=
 INCLUDEPATH=../../include
-LIBPATH=-L../../lib
+LIBPATH=-L../..
 INCLUDE=-I$(INCLUDEPATH)
 LIBS=-lstdc++ -lm -larboretum
 SRC= app.cpp Cities.cpp city.cpp
 OBJS=$(subst .cpp,.o,$(SRC))
-
 
 # Implicit Rules
 %.o: %.cpp $(HEADERS)
