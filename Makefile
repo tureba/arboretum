@@ -4,7 +4,7 @@
 # Author: Marcos Rodrigues Vieira
 # Revisor: Arthur Nascimento <tureba@gmail.com>
 #
-CXXFLAGS+=-pipe -fPIC
+CXXFLAGS+=-pipe -fPIC -I. -g
 distro = $(shell awk -F '=' '/ID=/{ print $$2 }' /etc/*-release)
 ifeq ($(distro), Ubuntu)
 $(warning ATTENTION: Ubuntu has known problems compiling with Stack-Smashing Protector (ProPolice) - disabling it for now.)
@@ -39,8 +39,12 @@ build_doc?=yes
 all: $(LIBNAME)
 
 # Implicit Rules
-%.o: %.cpp $(HEADERS)
-	-$(CXX) $(CXXFLAGS) -c $< -o $@ $(INCLUDE)
+%.o: %.cpp %.h
+	-$(CXX) $(CXXFLAGS) -c $< -o $@
+
+%.h: %.cc
+
+%.cc:
 
 # Rules
 $(LIBNAME): $(OBJS)

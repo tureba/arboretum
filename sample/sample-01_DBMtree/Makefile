@@ -3,19 +3,17 @@
 # Author: Marcos Rodrigues Vieira
 # Author: Fabio Jun Takada Chino
 #
-INCLUDEPATH=../../include
-LIBPATH=-L../..
-INCLUDE=-I$(INCLUDEPATH)
-LIBS=-lstdc++ -lm -larboretum
+CXXFLAGS += -I../.. -g
+LDFLAGS += -lstdc++ -lm -larboretum -L../..
 SRC= app.cpp Cities.cpp city.cpp
 OBJS=$(subst .cpp,.o,$(SRC))
 
-# Implicit Rules
-%.o: %.cpp $(HEADERS)
-	$(CC) $(CFLAGS) -c $< -o $@ $(INCLUDE)
+all: Cities
 
 Cities: $(OBJS)
-	$(CC) $(CFLAGS) $(OBJS) -o Cities $(INCLUDE) $(LIBPATH) $(LIBS)
+#	-$(LD) $(CXXFLAGS) $(LDFLAGS) $^ -o $@
+
+#%.o: %.cpp $(HEADERS)
 
 clean:
-	-rm Cities *.o
+	-rm -f Cities *.o
