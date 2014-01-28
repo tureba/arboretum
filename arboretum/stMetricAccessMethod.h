@@ -352,7 +352,7 @@ class stMetricAccessMethod{
       * @param eval The metric evaluator used by this MAM.
       */
       stMetricAccessMethod(EvaluatorType * eval){
-         myMetricEvaluator = eval;
+         myMetricEvaluator = new EvaluatorType();
       }//end stMetricAccessMethod
 };//end stMetricAccessMethod
 
